@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "date": "2026-10-18",
+  "previous_id": "nene_wand",
+  "id": "nene_circus_stage",
+  "display_name": "宁宁 · 马戏团礼装",
+  "previous_display_name": "nene_wand",
+  "spritesheet_sha256": "efdaa955684654f57d97767903d683b22fcbcc729651d2fe9621cfbbd9c637cb",
+  "artwork_and_animation_bytes_unchanged": true,
+  "production_originals_unchanged": true,
+  "material_index_paths_verified": true,
+  "current_manifest_loader_verified": true,
+  "installed_names_migrated": false,
+  "application_ui_verified": false,
+  "published": false
+}

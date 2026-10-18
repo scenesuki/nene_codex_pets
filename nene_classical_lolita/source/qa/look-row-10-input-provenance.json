@@ -1,0 +1,183 @@
+{
+  "job_id": "look-row-10",
+  "generation_skill": "imagegen",
+  "mode": "builtin-image_gen",
+  "actual_input_paths": [
+    "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-02.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-row-9.png"
+  ],
+  "input_roles": [
+    "ONLY edit target, keep all eight existing poses and gaze directions",
+    "canonical character support",
+    "standard contact-sheet style support",
+    "approved cardinal semantic support",
+    "ONLY authoritative source-pixel scale reference"
+  ],
+  "selected_source": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-04.png",
+  "selected_sha256": "46904229897ff9d5c77d82d6267b34cad9185926c0b82a6854691bad7d3047fd",
+  "executed_prompt_file": "D:/项目/pet_2/nene_classical_lolita/source/prompts/look-row-10-attempt-04-executed.md",
+  "transparent_background": false,
+  "background": "#FF00FF",
+  "attempts": [
+    {
+      "source_path": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-01.png",
+      "native_source": "C:/Users/tieha/.codex/generated_images/01a147e1-4668-7430-b047-473dda128c71/exec-db20ba72-f2a5-4e4d-aa1e-7af4c2cc0f1d.png",
+      "actual_input_paths": [
+        "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/look-row-10.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-row-9.png"
+      ],
+      "status": "rejected",
+      "reason": "Major wrong quadrant: final three faces turned screen-right upward; preserved unchanged."
+    },
+    {
+      "source_path": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-02.png",
+      "native_source": "C:/Users/tieha/.codex/generated_images/01a147e1-4668-7430-b047-473dda128c71/exec-cfdee0cf-3252-4268-8da6-7fb2586eb0e5.png",
+      "actual_input_paths": [
+        "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/look-row-10.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-row-9.png"
+      ],
+      "status": "rejected_geometry",
+      "targeted_correction": "Keep final three head/eye directions in screen-left upper half, continuing from left cardinal then rising without reversing toward right.",
+      "rejection_reason": "Parent fixed row9 registration crops crown: source figure373–385px vs row9 figure345–352px."
+    },
+    {
+      "source_path": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-03.png",
+      "native_source": "C:/Users/tieha/.codex/generated_images/01a147e1-4668-7430-b047-473dda128c71/exec-759609db-0095-44b0-a2aa-4231b69faa7f.png",
+      "actual_input_paths": [
+        "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/look-row-10.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-row-9.png"
+      ],
+      "executed_prompt_file": "D:/项目/pet_2/nene_classical_lolita/source/prompts/look-row-10-attempt-03-executed.md",
+      "sha256": "a37b49fd4be3f8e46d7f7e764c85af5dc6fb907093da62e680dc7be6e221990a",
+      "status": "rejected",
+      "reason": "Source size exceeded explicit350px cap and frames6/7 regressed to wrong upper-right quadrant.",
+      "measurement": {
+        "canvas": [
+          2170,
+          725
+        ],
+        "groups": 8,
+        "heights": [
+          396,
+          396,
+          393,
+          393,
+          395,
+          397,
+          397,
+          396
+        ],
+        "widths": [
+          256,
+          251,
+          249,
+          250,
+          248,
+          259,
+          258,
+          259
+        ],
+        "gutters": [
+          19,
+          19,
+          19,
+          18,
+          9,
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "attempt": "04",
+      "status": "tool_rejected_before_generation",
+      "requested_input_paths": [
+        "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-02.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/look-row-10.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-row-9.png"
+      ],
+      "actual_input_paths": [],
+      "executed_prompt_file": "D:/项目/pet_2/nene_classical_lolita/source/prompts/look-row-10-attempt-04-requested-six-inputs.md",
+      "reason": "Tool validation: referenced_image_paths must contain at most 5 paths; no generation occurred."
+    },
+    {
+      "attempt": "04",
+      "source_path": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-04.png",
+      "native_source": "C:/Users/tieha/.codex/generated_images/01a147e1-4668-7430-b047-473dda128c71/exec-74bfa2d9-3bf8-4262-ae07-71176a98708d.png",
+      "actual_input_paths": [
+        "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-02.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png",
+        "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-row-9.png"
+      ],
+      "executed_prompt_file": "D:/项目/pet_2/nene_classical_lolita/source/prompts/look-row-10-attempt-04-executed.md",
+      "sha256": "46904229897ff9d5c77d82d6267b34cad9185926c0b82a6854691bad7d3047fd",
+      "status": "candidate_pending_parent_registration_qa",
+      "measurement": {
+        "canvas": [
+          2171,
+          724
+        ],
+        "groups": 8,
+        "heights": [
+          322,
+          321,
+          323,
+          324,
+          327,
+          327,
+          326,
+          326
+        ],
+        "widths": [
+          217,
+          211,
+          212,
+          211,
+          207,
+          212,
+          215,
+          217
+        ],
+        "gutters": [
+          51,
+          54,
+          60,
+          57,
+          54,
+          54,
+          47
+        ]
+      },
+      "qa_note": "Correct left-half gaze arc retained with eight complete separated figures; scale reduction succeeded but321–327px is below requested340–348px target; parent must evaluate fixed-scale cross-row continuity."
+    }
+  ],
+  "qa_note": "Correct left-half gaze arc retained with eight complete separated figures; scale reduction succeeded but321–327px is below requested340–348px target; parent must evaluate fixed-scale cross-row continuity.",
+  "verification_limits": [
+    "Attempt04 native output visually inspected; groups/bounds measured read-only with Pillow.",
+    "No image processing or final-cell edit performed.",
+    "Source figure height misses340–348px target low; pending parent fixed-registration/cross-row-scale QA."
+  ],
+  "previous_selected_source": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-02.png",
+  "status": "candidate_pending_parent_registration_qa",
+  "omitted_reference": {
+    "path": "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/look-row-10.png",
+    "reason": "Builtin imagegen max5 referenced paths; parent authorized omitting spacing-only guide to include attempt02 edit target and all four other grounding references."
+  }
+}

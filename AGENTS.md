@@ -14,6 +14,9 @@
 
 存储结构参考 `D:\项目\pet`：每个宠物版本在仓库根目录使用独立目录 `<pet-id>/`。`pet-id` 使用简短、稳定的小写英文名称，包含可辨认的造型信息；同一造型的独立成品也使用不同 ID。
 
+- 当前命名采用 `nene_服饰风格或标志特征`，目录名与 `pet.json.id` 一致，显示名采用中文。更名或定位旧标识时查看 [PET_NAMES.md](PET_NAMES.md)；两套洛丽塔保留英文ID，展示名分别包含“花边洋伞”和“红心皇后”。
+- 更名时同步当前清单、说明、素材索引路径及加载校验；保留制作原图、实际输入、提示词、历史制作记录和脚本的原字节。原安装记录和已发布附件保留当时名称；项目更名不代表已迁移本机安装或发布新包。
+
 按实际需要创建以下子目录，不提前创建空目录：
 
 ```text
@@ -49,7 +52,7 @@ nene_codex_pets/
 - 需要借用另一套素材时，说明来源并将本套使用的副本保存在自己的目录；修改本套副本，保留原套素材。
 - 迭代优先修改当前套目录。影响其他套宠物的公共文件变更必须说明影响范围并验证相关产物。
 - 为需要保留的不同候选版本使用明确文件名；最终交付文件在 README.md 中标明，避免用含糊的“最新版”识别成品。
-- `nene_costume_2` 仅保留当前确认的成品及其有效源素材；文档、验收和后续打包统一引用该成果，不保留其他候选或过程对比。安装和分发均以当前成品及当前完整合集为准。
+- `nene_butterfly_stage` 仅保留当前确认的成品及其有效源素材；文档、验收和后续打包统一引用该成果，不保留其他候选或过程对比。安装和分发均以当前成品及当前完整合集为准。
 - 清理前记录有效原素材、当前导入文件、正式预览和已发布回执的哈希，核对引用与最终验收记录；清理后复验并同步文档。正式预览仅放在各套 `preview/`，避免重复保留相同图片或动图。
 
 ## README 排版与展示
@@ -66,7 +69,8 @@ nene_codex_pets/
 
 - 每次新 Release 同时包含仓库内所有宠物的成品资源。以根目录 `*/pet.json` 自动清点宠物，任何一套缺少必需文件都应停止打包，不能只上传本次新增或修改的宠物。
 - 从仓库根目录运行 `python scripts/build_release.py --tag vX.Y.Z`，生成 `release-assets/<tag>/nene_codex_pets-<tag>.zip`、`SHA256SUMS.txt`、`package-check.json` 和 `release-notes.md`。使用新的项目版本号；仅在用户授权清理时移除旧本地包，保留发布说明和回执。
-- 全量 ZIP 包含根 README、NOTICE，以及每套 `<pet-id>/` 的顶层 `pet.json`、`spritesheet.webp`、README、NOTICE、`validation.json`、可用的 `installed-validation.json` 和整个 `preview/`。发布素材只取当前成品与正式记录，不纳入制作缓存、候选或旧分发快照。
+- 全量 ZIP 包含根 README、NOTICE、AGENTS、PET_NAMES，以及每套 `<pet-id>/` 的顶层 `pet.json`、`spritesheet.webp`、README、NOTICE、`validation.json`、可用的 `installed-validation.json` 和整个 `preview/`。发布素材只取当前成品与正式记录，不纳入制作缓存、候选或旧分发快照。
+- 上传仓库时以各套 `source/materials-index.json` 显式提交有效原素材、原始生成图、实际输入与提示词，连同素材索引和source说明；既有已跟踪制作记录保留。未采用稿、制作缓存和更名备份仅留本地。
 - 打包后运行 `python scripts/verify_release.py release-assets/<tag>/nene_codex_pets-<tag>.zip`，确认 ZIP 的宠物 ID 集合与根目录清点结果完全一致，各资源与工作区成品逐字节一致；同时核对 SHA-256。新增宠物会自动纳入后续全量包。
 - 用户授权发布时，上传同一全量包及其 `SHA256SUMS.txt`，发布说明列出全部宠物。上传后核对附件清单与下载哈希，将回执保存到对应版本目录。不要使用归档的单宠物打包或发布脚本创建新 Release。
 - 线上已发布附件及回执保持原样；本地历史ZIP、旧分发快照和临时预览按用户授权清理，版本说明及发布回执保留。本地整理和打包不自动更新或删除线上Release。

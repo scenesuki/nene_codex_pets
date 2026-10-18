@@ -1,6 +1,6 @@
 [← 返回本套说明](../README.md) · [返回合集](../../README.md)
 
-# nene_victorian lolita · 动画预览
+# 宁宁 · 维多利亚洛丽塔 · 花边洋伞 · 预览
 
 [动画总览](animation-overview.gif) · [十六方向](look-directions.gif) · [全帧联系表](contact-sheet.png) · [方向检查图](look-directions.png)
 

@@ -1,0 +1,96 @@
+{
+  "edit_target": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-04.png",
+  "referenced_image_paths": [
+    "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-04.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-row-9.png"
+  ],
+  "input_roles": [
+    "edit_target",
+    "identity_reference",
+    "standard_animation_proportions_reference",
+    "four_cardinal_gaze_reference",
+    "sole_native_pixel_scale_authority"
+  ],
+  "num_images": 5,
+  "omitted": "Pure slot-layout guide omitted to respect the five-image input limit.",
+  "tool": "built-in image_gen",
+  "output_raw_path": "C:/Users/tieha/.codex/generated_images/01a1493c-d3f6-7f40-a341-f8b99b135694/exec-0ef16291-c14c-4402-9b16-d5d04ba040e0.png",
+  "saved_path": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-05.png",
+  "input_sha256": [
+    {
+      "path": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-10/attempt-04.png",
+      "sha256": "46904229897ff9d5c77d82d6267b34cad9185926c0b82a6854691bad7d3047fd"
+    },
+    {
+      "path": "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+      "sha256": "9513d9a6f97641e05994357cdbc52ce46b75590b36e1317e2b5e84d6a26bc8fa"
+    },
+    {
+      "path": "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+      "sha256": "53192cd4d166b23e42f47e3db61bd72fe905b8d2a5f0af1d4749c9dbe49ff46e"
+    },
+    {
+      "path": "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png",
+      "sha256": "88190c05719fb1522e251c5b3cc3ee0c7208d9c17add0abcd393f7df1a1168f7"
+    },
+    {
+      "path": "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-row-9.png",
+      "sha256": "f2b2b009d6246667f07f7c8b636a23245bc3858798b536c8273b20b1208cb753"
+    }
+  ],
+  "output_sha256": "289e7914475f79e69b53997eeb3dc5eb11ceb3408a167d953679fc6685881ab6",
+  "raw_copy_byte_identical": true,
+  "qa": {
+    "passed": false,
+    "selected_source": null,
+    "canvas": [
+      2171,
+      724
+    ],
+    "background_mask": "background when R>180 and B>180 and G<110; foreground contiguous X runs measured on unmodified raw output",
+    "widths": [
+      240,
+      234,
+      235,
+      236,
+      230,
+      236,
+      238,
+      241
+    ],
+    "heights": [
+      356,
+      355,
+      357,
+      358,
+      361,
+      360,
+      359,
+      360
+    ],
+    "bottoms": [
+      571,
+      571,
+      571,
+      571,
+      571,
+      571,
+      571,
+      572
+    ],
+    "visual_gaze_order": [
+      "down",
+      "down-left",
+      "down-left",
+      "down-left",
+      "left",
+      "up-left",
+      "up-left",
+      "up-left"
+    ],
+    "qa_note": "Single allowed edit produced exactly eight complete characters with original gaze directions, costume and held props visually retained. However enlargement overshot: native foreground heights 355–361 px all exceed hard ceiling 352 px, widths 230–241 px mostly exceed target 225–233 px, baseline moved from old y=543 to new y=571–572 rather than anchoring. Do not select or assemble this candidate. attempt-04 retained unmodified; no decoded/final/manifest changes."
+  }
+}

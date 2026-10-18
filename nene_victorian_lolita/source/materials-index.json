@@ -882,5 +882,11 @@
       ]
     }
   ],
-  "note": "Only selected original generations and their valid input references are authoritative. Original manifests retain historic paths; this index gives the preserved paths."
+  "note": "Only selected original generations and their valid input references are authoritative. Original manifests retain historic paths; this index gives the preserved paths.",
+  "name_migration": {
+    "date": "2026-10-18",
+    "previous_pet_id": "nene_victorian_lolita",
+    "display_name": "宁宁 · 维多利亚洛丽塔 · 花边洋伞",
+    "production_records_preserved": true
+  }
 }

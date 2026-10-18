@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "date": "2026-10-18",
+  "previous_id": "nene-robo",
+  "id": "nene_robo",
+  "display_name": "宁宁机器人",
+  "previous_display_name": "宁宁机器人 · 原始造型",
+  "spritesheet_sha256": "257ffd5cce157acf911c87d93385ce6325505be5a8c3c68f1b48b1a00ece54bb",
+  "artwork_and_animation_bytes_unchanged": true,
+  "production_originals_unchanged": true,
+  "material_index_paths_verified": true,
+  "current_manifest_loader_verified": true,
+  "installed_names_migrated": false,
+  "application_ui_verified": false,
+  "published": false
+}

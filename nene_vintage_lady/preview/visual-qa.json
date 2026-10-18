@@ -1,0 +1,9 @@
+{
+  "visual_qa": "pass",
+  "spritesheet_sha256": "4bede31726138a2ed8be69a9acae650401748c5a05531505bc86513d5beeccdc",
+  "record_type": "Final acceptance summary preserved during cleanup; not a new visual review",
+  "reviewed_by": "parent final acceptance after independent fullreview and fresh focusedseverity review",
+  "qa_note": "Independent fullreview passed all9 states and16 semantic directions. Initial boundaryseverity disagreement resolved as minor with exactnativequad evidence; originalfail retained. Deterministicdespill/v2validation pass.",
+  "accepted_minor_limitations": "022.5°、067.5°、112.5°纵向与135°、157.5°横向分量较细；两行交界头帽换姿较明显，复核确认身体与脚底锚点稳定，按细微限制接受。",
+  "scope": "Original ordered decoded-frame review; live GIF playback and app UI not verified."
+}

@@ -1,0 +1,44 @@
+{
+  "job_id": "look-row-9",
+  "selected_source": "D:/项目/pet_2/nene_classical_lolita/source/generated/look-row-9/attempt-02.png",
+  "executed_prompt": "D:/项目/pet_2/nene_classical_lolita/source/prompts/look-row-9-executed.md",
+  "tool": "builtin image_gen.imagegen",
+  "transparent_background": false,
+  "referenced_image_paths": [
+    "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/look-row-9.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png"
+  ],
+  "input_files": [
+    {
+      "path": "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/look-row-9.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40"
+    },
+    {
+      "path": "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+      "sha256": "9513d9a6f97641e05994357cdbc52ce46b75590b36e1317e2b5e84d6a26bc8fa"
+    },
+    {
+      "path": "D:/项目/pet_2/nene_classical_lolita/source/qa/contact-sheet.png",
+      "sha256": "53192cd4d166b23e42f47e3db61bd72fe905b8d2a5f0af1d4749c9dbe49ff46e"
+    },
+    {
+      "path": "D:/项目/pet_2/nene_classical_lolita/source/decoded/look-anchors-approved.png",
+      "sha256": "88190c05719fb1522e251c5b3cc3ee0c7208d9c17add0abcd393f7df1a1168f7"
+    }
+  ],
+  "retry_reason": "Attempt 01 had overlapping fourth and fifth pose silhouettes; one spacing-only retry used the same four original inputs.",
+  "previous_attempt_used_as_input": false,
+  "source_column_groups": 8,
+  "source_inter_group_gaps_px": [
+    38,
+    42,
+    40,
+    42,
+    43,
+    40,
+    33
+  ],
+  "visual_qa": "Eight complete separated figures with an up-to-screen-right-to-down-right gaze arc, stable body and props, and subtle near-vertical intermediate cues."
+}

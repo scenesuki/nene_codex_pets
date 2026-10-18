@@ -16,7 +16,7 @@ def verify_release(root, archive):
         expected_ids = {pet.name for pet in pets}
         actual_ids = {name.split("/")[0] for name in names if name.endswith("/pet.json")}
         assert actual_ids == expected_ids, f"Pet inventory differs: {actual_ids} != {expected_ids}"
-        expected = [root / "README.md", root / "NOTICE.md"]
+        expected = [root / name for name in ["README.md", "NOTICE.md", "AGENTS.md", "PET_NAMES.md"]]
         for pet in pets:
             expected.extend(pet / name for name in
                             ["pet.json", "spritesheet.webp", "README.md", "NOTICE.md", "validation.json"])

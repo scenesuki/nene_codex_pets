@@ -1,0 +1,9 @@
+{
+  "visual_qa": "pass",
+  "spritesheet_sha256": "ec9c83870d127f707a5223d12067c0ae062fc7ece63b782ac9e0c7e4883d2b46",
+  "record_type": "Final acceptance summary preserved during cleanup; not a new visual review",
+  "reviewed_by": "final_qa",
+  "qa_note": "Independent review inspected contact sheets, JSON reports, all nine final GIFs and every state frame decoded sequentially at native 192x208, all sixteen look frames, and representative overview frames. Character identity, uniform and reserved persona remain consistent; no conspicuous cropping, extra limbs, props, ghost effects, whole-body rotation or size pop. Running-right and jumping shared viewports remain coherent. Blind, atlas and despill validation pass.",
+  "accepted_minor_limitations": "202.5°、225°的转头差别较细微；337.5°回正稍明显，顺序复核未见明显跳动。",
+  "scope": "Original ordered decoded-frame review; live GIF playback and app UI not verified."
+}

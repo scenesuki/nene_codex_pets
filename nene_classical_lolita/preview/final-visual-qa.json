@@ -1,0 +1,178 @@
+{
+  "visual_qa": "pass",
+  "reviewer": "/root/classical_final_qa",
+  "major_issues": [],
+  "minor_limitations": [
+    "022.5°上看明确，向右分量较弱；独立盲审多数亦判水平分量模糊，记录warning。",
+    "135°与157.5°的右向分量较弱，未观察到反向或错误象限。",
+    "112.5→135及157.5→180头部变化略集中，未见明显整体缩放或人物回转。",
+    "左右移动有伸腿与收腿交替，深色连袜及遮挡使左右腿身份逐帧辨认较难。",
+    "小跳、挥手和表情较克制；未执行实际播放器实时播放或Codex应用内验收。"
+  ],
+  "scope": "只读查看最终contact、原生方向图和canonical；在内存从最终图集提取检查九状态全部有效帧、neutral及注视跨行接缝；读取格式、去色边、连续性、标准动作和独立盲审报告。检查十个正式GIF尺寸、帧数、时长和循环元数据。未生成或修改文件，未查看应用UI或实时播放动画。",
+  "standard_rows": [
+    {
+      "state": "idle",
+      "status": "pass",
+      "evidence": "正面站姿、紫眼及眨眼过程清楚，首尾相近；配饰和neutral尺寸稳定。"
+    },
+    {
+      "state": "running-right",
+      "status": "pass",
+      "evidence": "面朝右、头发向左拖曳；八帧伸收腿交替，双靴连接完整，首尾可衔接。"
+    },
+    {
+      "state": "running-left",
+      "status": "pass",
+      "evidence": "面朝左、头发向右拖曳；八帧伸收腿交替，无道具缺失、断肢或明显扭曲。"
+    },
+    {
+      "state": "waving",
+      "status": "pass",
+      "evidence": "持牌手中间抬至脸侧后返回，玫瑰稳定，脚落地。"
+    },
+    {
+      "state": "jumping",
+      "status": "pass",
+      "evidence": "落地、收腿抬起、落地的小跳，中央离地更明显，皇冠双靴完整、首尾相符。"
+    },
+    {
+      "state": "failed",
+      "status": "pass",
+      "evidence": "头眼下垂闭眼后恢复，失落可读，头身道具保持一致。"
+    },
+    {
+      "state": "waiting",
+      "status": "pass",
+      "evidence": "轻歪头和身体倾斜后回正，眼睛参与，脚与配饰稳定。"
+    },
+    {
+      "state": "running",
+      "status": "pass",
+      "evidence": "静止工作或思考，持牌手近脸，收窄眼睛和眨眼后恢复，无错误移动步态。"
+    },
+    {
+      "state": "review",
+      "status": "pass",
+      "evidence": "歪头、收窄眼睛和闭眼的审视变化后返回，道具双腿轮廓完整。"
+    }
+  ],
+  "directions": [
+    {
+      "angle": "000",
+      "expected": "up",
+      "status": "pass",
+      "evidence_horizontal": "脸部接近正中，无明显左右偏转。",
+      "evidence_vertical": "下巴抬起、双眼向上，主方向明确。"
+    },
+    {
+      "angle": "022.5",
+      "expected": "up-right",
+      "status": "warning",
+      "evidence_horizontal": "相对000有轻微向右倾向，原生尺寸水平分量较弱；盲审多数判模糊，无明确反向证据。",
+      "evidence_vertical": "抬头和上移视线明确。"
+    },
+    {
+      "angle": "045",
+      "expected": "up-right",
+      "status": "pass",
+      "evidence_horizontal": "头脸及眼睛转向屏右。",
+      "evidence_vertical": "下巴上抬、视线朝右上。"
+    },
+    {
+      "angle": "067.5",
+      "expected": "up-right",
+      "status": "pass",
+      "evidence_horizontal": "向右转脸明确。",
+      "evidence_vertical": "相对090可见轻微抬头及向上视线。"
+    },
+    {
+      "angle": "090",
+      "expected": "right",
+      "status": "pass",
+      "evidence_horizontal": "头脸与瞳孔明确朝屏右，主方向清楚。",
+      "evidence_vertical": "接近水平观看，无明显上下偏移。"
+    },
+    {
+      "angle": "112.5",
+      "expected": "down-right",
+      "status": "pass",
+      "evidence_horizontal": "保持右向转脸与右移视线。",
+      "evidence_vertical": "相对090头眼降低，轻微右下看。"
+    },
+    {
+      "angle": "135",
+      "expected": "down-right",
+      "status": "warning",
+      "evidence_horizontal": "相对180保留轻微右转脸和右向视线，水平分量较克制，无左向证据。",
+      "evidence_vertical": "低头及向下视线明显，眼睛打开。"
+    },
+    {
+      "angle": "157.5",
+      "expected": "down-right",
+      "status": "warning",
+      "evidence_horizontal": "接近正下，仍有细微右向分量，未见错误象限。",
+      "evidence_vertical": "低头明确，瞳孔可见，并非用闭眼替代下看。"
+    },
+    {
+      "angle": "180",
+      "expected": "down",
+      "status": "pass",
+      "evidence_horizontal": "脸部接近正中。",
+      "evidence_vertical": "低头且双眼向下、保持睁开，主方向明确。"
+    },
+    {
+      "angle": "202.5",
+      "expected": "down-left",
+      "status": "pass",
+      "evidence_horizontal": "相对180开始向屏左偏转，视线左移。",
+      "evidence_vertical": "低头与向下视线明确。"
+    },
+    {
+      "angle": "225",
+      "expected": "down-left",
+      "status": "pass",
+      "evidence_horizontal": "头脸和瞳孔明显转向屏左。",
+      "evidence_vertical": "低头配合左下视线，眼睛未闭合。"
+    },
+    {
+      "angle": "247.5",
+      "expected": "down-left",
+      "status": "pass",
+      "evidence_horizontal": "左向转脸明确。",
+      "evidence_vertical": "相对270保留轻微低头和向下视线。"
+    },
+    {
+      "angle": "270",
+      "expected": "left",
+      "status": "pass",
+      "evidence_horizontal": "头脸与瞳孔明确朝屏左，左主方向可识别。",
+      "evidence_vertical": "接近水平观看，无明显上下偏移。"
+    },
+    {
+      "angle": "292.5",
+      "expected": "up-left",
+      "status": "pass",
+      "evidence_horizontal": "左向转脸保持明确。",
+      "evidence_vertical": "相对270轻微抬头及上移视线。"
+    },
+    {
+      "angle": "315",
+      "expected": "up-left",
+      "status": "pass",
+      "evidence_horizontal": "头脸与双眼朝屏左。",
+      "evidence_vertical": "下巴上抬、眼睛看向左上，两分量可辨。"
+    },
+    {
+      "angle": "337.5",
+      "expected": "up-left",
+      "status": "pass",
+      "evidence_horizontal": "接近正上但保留左向脸部偏转及视线。",
+      "evidence_vertical": "抬头上看明确。"
+    }
+  ],
+  "continuity": {
+    "status": "warning",
+    "evidence": "顺时针推进，无回转或错误象限。157.5→180头脸形状变化较集中，但双靴基线、裙身及整体尺寸无明显跳缩；337.5→000回中可读，无突兀反向，尺度与idle相符。身份、服装和左右手道具一致，无裁切、脱离道具、扭曲或内部透明带；格式及清边报告ok。"
+  }
+}

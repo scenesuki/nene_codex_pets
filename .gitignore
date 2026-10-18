@@ -4,3 +4,6 @@ desktop.ini
 __pycache__/
 *.pyc
 release-assets/
+# 制作记录保留本地；有效原素材依据 materials-index.json 显式提交。
+*/source/
+maintenance/**/before-files/

@@ -1,0 +1,816 @@
+{
+  "pet_id": "nene_vintage_lady",
+  "current_atlas_sha256": "4bede31726138a2ed8be69a9acae650401748c5a05531505bc86513d5beeccdc",
+  "jobs": [
+    {
+      "id": "base",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\base.png",
+      "sha256": "a9b2d07b2cb800698652e090c480c4cbe3ac6aac8d62715285084f5b089fdb68",
+      "input_files": [
+        "nene_vintage_lady\\source\\decoded\\base-r1-tall.png",
+        "nene_vintage_lady\\source\\references\\reference-01.jpg"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\base-pet-compact-r2.md"
+      ]
+    },
+    {
+      "id": "idle",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\idle.png",
+      "sha256": "0c408f7b120b45b8672e65d1bfd97273e94bd929d56d5279c1631eec3f0b9354",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\references\\layout-guides\\idle.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\idle.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\idle.md"
+      ]
+    },
+    {
+      "id": "running-right",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\running-right.png",
+      "sha256": "38b76357842f6951264137cb2c75f8de9149bcd36994d3580cada4ff1ff4e541",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\references\\layout-guides\\running-right.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\running-right.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\running-right.md"
+      ]
+    },
+    {
+      "id": "running-left",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\running-left.png",
+      "sha256": "f7ad20d8eaab0431c01c939a076742add5aefe530112474e1884771450f0e08e",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\references\\layout-guides\\running-left.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\running-left.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\running-left.md"
+      ]
+    },
+    {
+      "id": "waving",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\waving.png",
+      "sha256": "94aeb0cd3fc4145cd7ad5341b58ec0b1743375fd4f456883ee3b37026b1abeca",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\references\\layout-guides\\waving.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\waving.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\waving.md"
+      ]
+    },
+    {
+      "id": "jumping",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\jumping.png",
+      "sha256": "5ef6c1c58b7d8621a23f784ba0114a13de0245f6a593f7cbb08e96ea7dcfb541",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\references\\layout-guides\\jumping.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\jumping.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\jumping.md"
+      ]
+    },
+    {
+      "id": "failed",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\failed.png",
+      "sha256": "7581fbba4a3b43026b6f251fdada8ee656437e0366518327cb678424abd1812c",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\references\\layout-guides\\failed.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\failed.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\failed.md"
+      ]
+    },
+    {
+      "id": "waiting",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\waiting.png",
+      "sha256": "e67bbf69fe332a2477d5c22b30d08d280277d3cf5e775adf18c5d0d99838e75a",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\references\\layout-guides\\waiting.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\waiting.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\waiting.md"
+      ]
+    },
+    {
+      "id": "running",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\running.png",
+      "sha256": "d31643482754a887bdb749875bcdf4b6613e02bc69f22c53981a0dc41f8c701a",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\references\\layout-guides\\running.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\running.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\running.md"
+      ]
+    },
+    {
+      "id": "review",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\review.png",
+      "sha256": "b68be135a0508cf0849c9541017e4da6ab098846afd3009ac28971e5845cfb31",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\references\\layout-guides\\review.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\review.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\review.md"
+      ]
+    },
+    {
+      "id": "look-cardinals",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\look-cardinals.png",
+      "sha256": "730d0d737248ae967d2347951ab6d4391437ef476020ac905138ab59d31aeaea",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\layout-guides\\look-cardinals.png",
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\qa\\contact-sheet.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\look-cardinals.md",
+        "nene_vintage_lady\\source\\qa\\look-mechanics.md"
+      ]
+    },
+    {
+      "id": "look-row-9",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\look-row-9.png",
+      "sha256": "57be93b580eca43f4f9f3fcad9bf8ddfa0b33fdad408f3e3de6e639d09344ee8",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\layout-guides\\look-row-9.png",
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\qa\\contact-sheet.png",
+        "nene_vintage_lady\\source\\decoded\\look-anchors-approved.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\look-row-9.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\look-row-9.md",
+        "nene_vintage_lady\\source\\qa\\look-mechanics.md"
+      ]
+    },
+    {
+      "id": "look-row-10",
+      "selected_original": "nene_vintage_lady\\source\\decoded\\look-row-10.png",
+      "sha256": "a7f5996db5a96ed48c169e453b4779d97daa5316521e6b145463d573fa2359d2",
+      "input_files": [
+        "nene_vintage_lady\\source\\references\\selected-inputs\\look-row-10-00.png",
+        "nene_vintage_lady\\source\\references\\canonical-base.png",
+        "nene_vintage_lady\\source\\qa\\contact-sheet.png",
+        "nene_vintage_lady\\source\\decoded\\look-anchors-approved.png",
+        "nene_vintage_lady\\source\\decoded\\look-row-9.png",
+        "nene_vintage_lady\\source\\references\\selected-inputs\\look-row-10-20.png"
+      ],
+      "prompt_files": [
+        "nene_vintage_lady\\source\\prompts\\rows\\look-row-10.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\look-row-10-scale-first-executed.md",
+        "nene_vintage_lady\\source\\prompts\\row-retries\\look-row-10-scale-r5.md",
+        "nene_vintage_lady\\source\\qa\\look-mechanics.md"
+      ]
+    }
+  ],
+  "retained_materials": [
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\base-r1-tall.png",
+      "sha256": "58386c6bee4f5d4625e9fd6c0ab52e3ae0515cc47e510b2e8fc148fbb1c953e2",
+      "roles": [
+        "actual generation input for base"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\base.png",
+      "sha256": "a9b2d07b2cb800698652e090c480c4cbe3ac6aac8d62715285084f5b089fdb68",
+      "roles": [
+        "selected original generation: base"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\failed.png",
+      "sha256": "7581fbba4a3b43026b6f251fdada8ee656437e0366518327cb678424abd1812c",
+      "roles": [
+        "selected original generation: failed"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\idle.png",
+      "sha256": "0c408f7b120b45b8672e65d1bfd97273e94bd929d56d5279c1631eec3f0b9354",
+      "roles": [
+        "selected original generation: idle"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\jumping.png",
+      "sha256": "5ef6c1c58b7d8621a23f784ba0114a13de0245f6a593f7cbb08e96ea7dcfb541",
+      "roles": [
+        "selected original generation: jumping"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\look-anchors-approved.png",
+      "sha256": "46791c63984a4f6e0010c8b158a4687f329e429db682816800481c01701e3d4e",
+      "roles": [
+        "approved cardinal reference",
+        "actual generation input for look-row-9",
+        "actual generation input for look-row-10",
+        "approved cardinal input"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\look-anchors\\000.png",
+      "sha256": "e246541eaaf4faa309dc2d756ee42b93103a567a40d3c96f619f5892949b2adb",
+      "roles": [
+        "approved cardinal reference",
+        "approved cardinal input"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\look-anchors\\090.png",
+      "sha256": "979059ad6207d863fc1f0f9bc73697ad32dd04de0d5a2f08bdaa1db7d80580c2",
+      "roles": [
+        "approved cardinal reference",
+        "approved cardinal input"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\look-anchors\\180.png",
+      "sha256": "1ca4f648034e72d137418fbac9d81ac26b7eeb70ad824c8adc3ab071cf171a35",
+      "roles": [
+        "approved cardinal reference",
+        "approved cardinal input"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\look-anchors\\270.png",
+      "sha256": "7b6916057e7852e6b7a06acc5463c499da26ee96d564253d92e6ef5d25b3a8a2",
+      "roles": [
+        "approved cardinal reference",
+        "approved cardinal input"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\look-cardinals.png",
+      "sha256": "730d0d737248ae967d2347951ab6d4391437ef476020ac905138ab59d31aeaea",
+      "roles": [
+        "selected original generation: look-cardinals"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\look-row-10.png",
+      "sha256": "a7f5996db5a96ed48c169e453b4779d97daa5316521e6b145463d573fa2359d2",
+      "roles": [
+        "selected original generation: look-row-10"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\look-row-9.png",
+      "sha256": "57be93b580eca43f4f9f3fcad9bf8ddfa0b33fdad408f3e3de6e639d09344ee8",
+      "roles": [
+        "selected original generation: look-row-9",
+        "actual generation input for look-row-10"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\review.png",
+      "sha256": "b68be135a0508cf0849c9541017e4da6ab098846afd3009ac28971e5845cfb31",
+      "roles": [
+        "selected original generation: review"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\running-left.png",
+      "sha256": "f7ad20d8eaab0431c01c939a076742add5aefe530112474e1884771450f0e08e",
+      "roles": [
+        "selected original generation: running-left"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\running-right.png",
+      "sha256": "38b76357842f6951264137cb2c75f8de9149bcd36994d3580cada4ff1ff4e541",
+      "roles": [
+        "selected original generation: running-right"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\running.png",
+      "sha256": "d31643482754a887bdb749875bcdf4b6613e02bc69f22c53981a0dc41f8c701a",
+      "roles": [
+        "selected original generation: running"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\waiting.png",
+      "sha256": "e67bbf69fe332a2477d5c22b30d08d280277d3cf5e775adf18c5d0d99838e75a",
+      "roles": [
+        "selected original generation: waiting"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\decoded\\waving.png",
+      "sha256": "94aeb0cd3fc4145cd7ad5341b58ec0b1743375fd4f456883ee3b37026b1abeca",
+      "roles": [
+        "selected original generation: waving"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\imagegen-jobs.json",
+      "sha256": "c31c3026d2ac61dedb2ed2ea1e9e0593df0462349907e6e9047affd88e01c02e",
+      "roles": [
+        "original generation manifest"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\pet_request.json",
+      "sha256": "94c115750a0c8111c5f28bff897c84fa6ef0b5beb9b4722cb1dd290ed92b75fe",
+      "roles": [
+        "original generation manifest"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\base-pet-compact-r2.md",
+      "sha256": "1687bbb2895b5670ad07ef7615cd0cc2e9d8d084e45a7e6730c0d239f1e2bddc",
+      "roles": [
+        "generation prompt/mechanics: base",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\base-pet.md",
+      "sha256": "2f2d496670498ee35798d968d8cb3b941532ae95cbe8234bbc8cb74be40e5a1b",
+      "roles": [
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\look-anchor-repairs\\000.md",
+      "sha256": "b75fe6c1086c71a0914f41ef777510afd6652bcda8f0776c4a71d79f38bf1158",
+      "roles": [
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\look-anchor-repairs\\090.md",
+      "sha256": "0242330570eb3c46398a631afcb46db084be1d928a4ae6008129da60c5f18de0",
+      "roles": [
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\look-anchor-repairs\\180.md",
+      "sha256": "e33f738649cf67d7baf082abd0db11e208c7a2bf631c3dec0ae9ff1bdfacec95",
+      "roles": [
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\look-anchor-repairs\\270.md",
+      "sha256": "cad31703781d4aef0c7c2c2924c454be82fedd1c6718c63296b61f113eb3a2bb",
+      "roles": [
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\look-cardinals.md",
+      "sha256": "a61f7d9662bfc3c01e4fb398e812b412a6b436d2c77a721d5398805e7f190b20",
+      "roles": [
+        "generation prompt/mechanics: look-cardinals",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\failed.md",
+      "sha256": "e6a3c45e05d01fdffa8f2077ae3d68cc6cb967c4dc63aa2716870c5048f74309",
+      "roles": [
+        "generation prompt/mechanics: failed",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\idle.md",
+      "sha256": "eeae0fbeafa92c452fafbece83a2292b71c50ab6e8b4dac53f3dfb2864f2b776",
+      "roles": [
+        "generation prompt/mechanics: idle",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\jumping.md",
+      "sha256": "ff155b705d22c3d56d943bdfb340624f634cd1933f74e1b43cccd91ea354950b",
+      "roles": [
+        "generation prompt/mechanics: jumping",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\look-row-10-grounded-refinement-r4.md",
+      "sha256": "2d85599786fd7ef942b618de26a32fecd711c0809aeaeadc82adf5c27d3c28ab",
+      "roles": [
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\look-row-10-left-anchor-r3.md",
+      "sha256": "bf3f317209ff18060f2fe8ae38085d827829896987cd2f5bf159ae7f960d50d5",
+      "roles": [
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\look-row-10-scale-first-executed.md",
+      "sha256": "488b4a95901e868d9556237f8e8cd6ac5407fe703114902f4a9825b98e37a997",
+      "roles": [
+        "generation prompt/mechanics: look-row-10",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\look-row-10-scale-r5.md",
+      "sha256": "524c29f6fb4ed372806c3556fa025cd95d3f42600b863d5daaa00099f049e5ca",
+      "roles": [
+        "generation prompt/mechanics: look-row-10",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\look-row-10.md",
+      "sha256": "e002df5bc1e2c4b7fcc1a63cca8a46855b545f252757e41ba5f7693191d0b4c5",
+      "roles": [
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\look-row-9.md",
+      "sha256": "cf23eacd0bd049ffb2778e085fe419949de0a1b554b7f2c76daedd37481e75db",
+      "roles": [
+        "generation prompt/mechanics: look-row-9",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\review.md",
+      "sha256": "bbbd0186b0ce240d8302eecad710d17b49f22f7bd198acef0f2a9fb06b5628cf",
+      "roles": [
+        "generation prompt/mechanics: review",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\running-left.md",
+      "sha256": "59cae7ee3b3ad76fb7a7200533d6c9088e0246f37092dc07ffc00601988cf135",
+      "roles": [
+        "generation prompt/mechanics: running-left",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\running-right.md",
+      "sha256": "31ae95a287be4c4c82088ce7455028203ffa920c1cdc8232c1215597d6d6a261",
+      "roles": [
+        "generation prompt/mechanics: running-right",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\running.md",
+      "sha256": "bfec52a018af4c2b21aa454baa4a8c9415153c5a7e2ac330bc859713a703102b",
+      "roles": [
+        "generation prompt/mechanics: running",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\waiting.md",
+      "sha256": "a2d039e7f97c154149215b951174e3f547c0b30474e4c8a516b42da37e13145f",
+      "roles": [
+        "generation prompt/mechanics: waiting",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\row-retries\\waving.md",
+      "sha256": "9b6cc3ecd4ea7b5b9285cac2366a5d9f023f40991b52a3319d6b1bc537341722",
+      "roles": [
+        "generation prompt/mechanics: waving",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\failed.md",
+      "sha256": "e6a3c45e05d01fdffa8f2077ae3d68cc6cb967c4dc63aa2716870c5048f74309",
+      "roles": [
+        "generation prompt/mechanics: failed",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\idle.md",
+      "sha256": "eeae0fbeafa92c452fafbece83a2292b71c50ab6e8b4dac53f3dfb2864f2b776",
+      "roles": [
+        "generation prompt/mechanics: idle",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\jumping.md",
+      "sha256": "ff155b705d22c3d56d943bdfb340624f634cd1933f74e1b43cccd91ea354950b",
+      "roles": [
+        "generation prompt/mechanics: jumping",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\look-row-10.md",
+      "sha256": "950ac0f6de5f36dd79af9d89482256ff153525668c572d3db2f51d61688e9749",
+      "roles": [
+        "generation prompt/mechanics: look-row-10",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\look-row-9.md",
+      "sha256": "cf23eacd0bd049ffb2778e085fe419949de0a1b554b7f2c76daedd37481e75db",
+      "roles": [
+        "generation prompt/mechanics: look-row-9",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\review.md",
+      "sha256": "c38f6f6d3fa2a7db4853d2c3e39d8a69199a2b34a240eb694be4c0a7f3d14727",
+      "roles": [
+        "generation prompt/mechanics: review",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\running-left.md",
+      "sha256": "59cae7ee3b3ad76fb7a7200533d6c9088e0246f37092dc07ffc00601988cf135",
+      "roles": [
+        "generation prompt/mechanics: running-left",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\running-right.md",
+      "sha256": "31ae95a287be4c4c82088ce7455028203ffa920c1cdc8232c1215597d6d6a261",
+      "roles": [
+        "generation prompt/mechanics: running-right",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\running.md",
+      "sha256": "bfec52a018af4c2b21aa454baa4a8c9415153c5a7e2ac330bc859713a703102b",
+      "roles": [
+        "generation prompt/mechanics: running",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\waiting.md",
+      "sha256": "a2d039e7f97c154149215b951174e3f547c0b30474e4c8a516b42da37e13145f",
+      "roles": [
+        "generation prompt/mechanics: waiting",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\prompts\\rows\\waving.md",
+      "sha256": "9b6cc3ecd4ea7b5b9285cac2366a5d9f023f40991b52a3319d6b1bc537341722",
+      "roles": [
+        "generation prompt/mechanics: waving",
+        "retained production prompt/template"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\qa\\contact-sheet.png",
+      "sha256": "a271cc8c7da15815d18dff019676d024451c017af627e24f8c361a38a73bf50e",
+      "roles": [
+        "actual generation input for look-cardinals",
+        "actual generation input for look-row-9",
+        "actual generation input for look-row-10"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\qa\\look-mechanics.md",
+      "sha256": "c73d0d42617e8b7c79a9600818e296bf243540e896592f9023b28cb44bd5a072",
+      "roles": [
+        "generation prompt/mechanics: look-cardinals",
+        "generation prompt/mechanics: look-row-9",
+        "generation prompt/mechanics: look-row-10"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\app-contract-verification.json",
+      "sha256": "9cb89c73a7a1c535925387688e970a8ba20009de8b803281d83dabcaf54a3b82",
+      "roles": [
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\canonical-base.png",
+      "sha256": "a9b2d07b2cb800698652e090c480c4cbe3ac6aac8d62715285084f5b089fdb68",
+      "roles": [
+        "actual generation input for idle",
+        "actual generation input for running-right",
+        "actual generation input for running-left",
+        "actual generation input for waving",
+        "actual generation input for jumping",
+        "actual generation input for failed",
+        "actual generation input for waiting",
+        "actual generation input for running",
+        "actual generation input for review",
+        "actual generation input for look-cardinals",
+        "actual generation input for look-row-9",
+        "actual generation input for look-row-10",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\design-brief.md",
+      "sha256": "c88beea60f1a2a621bd6a3183eec82465d100fcaec3047a19ea12fc7917716bc",
+      "roles": [
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\edo-card-game-data.json",
+      "sha256": "dfcd49f7cfc10ed64e2afd61a9451965850e32024ebbf834bff100a3ad781baa",
+      "roles": [
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\edo-card-wallpaper.jpg",
+      "sha256": "8c1ad9a72abd64ca526487e5edb3e31504123dcec867581ac721318a028b81d8",
+      "roles": [
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\fetch-references.py",
+      "sha256": "8836dd0db2f0c9a8c1cefa5a917f5109ad934a6a6e8346d2fc21b853ae7b1976",
+      "roles": [
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\failed.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "actual generation input for failed",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\idle.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545",
+      "roles": [
+        "actual generation input for idle",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\jumping.png",
+      "sha256": "dd6f193a159ae50013b1c4368d9a02ab29bdffaa48fa978a9628801cfd0a0a29",
+      "roles": [
+        "actual generation input for jumping",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\look-cardinals.png",
+      "sha256": "5ccc2ce66b4677a2891ddc78b2e0c1457c8dd4c48ee03135135bf334ee782002",
+      "roles": [
+        "actual generation input for look-cardinals",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\look-row-10.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\look-row-9.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "actual generation input for look-row-9",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\review.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545",
+      "roles": [
+        "actual generation input for review",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\running-left.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "actual generation input for running-left",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\running-right.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "actual generation input for running-right",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\running.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545",
+      "roles": [
+        "actual generation input for running",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\waiting.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545",
+      "roles": [
+        "actual generation input for waiting",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\layout-guides\\waving.png",
+      "sha256": "5ccc2ce66b4677a2891ddc78b2e0c1457c8dd4c48ee03135135bf334ee782002",
+      "roles": [
+        "actual generation input for waving",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\official-event-card.jpg",
+      "sha256": "73bf0c557b58c5eda947c4044ac28814844adf1d11f056d133bccaad885e1d4a",
+      "roles": [
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\official-profile.html",
+      "sha256": "19a2c92bcecfe709b1044672e619eeef6eec75d8c5833f51da9511ae01c2471b",
+      "roles": [
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\reference-01.jpg",
+      "sha256": "8c1ad9a72abd64ca526487e5edb3e31504123dcec867581ac721318a028b81d8",
+      "roles": [
+        "actual generation input for base",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\selected-inputs\\look-row-10-00.png",
+      "sha256": "c7ccd3faf182788c93d77b592b1d0d550bcb46fedd5456bac026fcc962de409f",
+      "roles": [
+        "actual generation input for look-row-10",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\selected-inputs\\look-row-10-20.png",
+      "sha256": "c7ccd3faf182788c93d77b592b1d0d550bcb46fedd5456bac026fcc962de409f",
+      "roles": [
+        "actual generation input for look-row-10",
+        "retained original reference or reference metadata"
+      ]
+    },
+    {
+      "path": "nene_vintage_lady\\source\\references\\sources.json",
+      "sha256": "2cebcf85a3c76a9de05f1740bb93669379b07b49bab9fced4fc2f3feb4841209",
+      "roles": [
+        "retained original reference or reference metadata"
+      ]
+    }
+  ],
+  "note": "Only selected original generations and their valid input references are authoritative. Original manifests retain historic paths; this index gives the preserved paths.",
+  "name_migration": {
+    "date": "2026-10-18",
+    "previous_pet_id": "nene_edo",
+    "display_name": "宁宁 · 复古淑女",
+    "production_records_preserved": true
+  }
+}

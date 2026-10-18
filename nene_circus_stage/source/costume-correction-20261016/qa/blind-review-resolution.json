@@ -1,0 +1,20 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "independent_review": "skirt_final_qa",
+  "failed_checks": [
+    "initial independent final QA costume mismatch (wrong top-level old files reviewed)",
+    "intermediateblindaxis warnings",
+    "157.5→180 continuity localdiffoutlier"
+  ],
+  "evidence": "Exact candidate SHA confirmed by independent worker; both clean candidate sheets show skirt/bareknees/redsocks; original fail withdrawn as file-path error. Both cardinalblindpairs pass.Independent labeled all16correctquadrants, no reversal. Boundary differences minor, notconspicuoussnap. No major costume/anatomy/direction failure overridden.",
+  "original_failure_preserved": "final-visual-qa-initial-path-error.json",
+  "warnings": [
+    "horizontal-6 A horizontal axis is ambiguous",
+    "horizontal-7 B horizontal axis is ambiguous",
+    "vertical-3 B vertical axis is ambiguous",
+    "vertical-4 B vertical axis is ambiguous",
+    "vertical-7 B vertical axis is ambiguous"
+  ]
+}

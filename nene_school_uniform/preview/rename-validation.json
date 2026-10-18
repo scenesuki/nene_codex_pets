@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "date": "2026-10-18",
+  "previous_id": "nene-initial-uniform",
+  "id": "nene_school_uniform",
+  "display_name": "宁宁 · 学院制服",
+  "previous_display_name": "草薙宁宁 · 初始校服",
+  "spritesheet_sha256": "ec9c83870d127f707a5223d12067c0ae062fc7ece63b782ac9e0c7e4883d2b46",
+  "artwork_and_animation_bytes_unchanged": true,
+  "production_originals_unchanged": true,
+  "material_index_paths_verified": true,
+  "current_manifest_loader_verified": true,
+  "installed_names_migrated": false,
+  "application_ui_verified": false,
+  "published": false
+}

@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "reviewed_by": "independent robo_direction_qa worker",
+  "directions": [
+    {
+      "degree": 0,
+      "expected": "up",
+      "observed": "front-facing, gaze upward",
+      "verdict": "pass",
+      "horizontal_evidence": "centered head shell",
+      "vertical_evidence": "pupils raised and chin lifted",
+      "reason": "clear up, distinct from neutral"
+    },
+    {
+      "degree": 22.5,
+      "expected": "up-right",
+      "observed": "slightly turned up-right",
+      "verdict": "pass",
+      "horizontal_evidence": "face turns screen-right",
+      "vertical_evidence": "pupils above center",
+      "reason": "plausible first step"
+    },
+    {
+      "degree": 45,
+      "expected": "up-right",
+      "observed": "three-quarter up-right",
+      "verdict": "warning",
+      "horizontal_evidence": "mild right yaw close to 22.5",
+      "vertical_evidence": "raised gaze",
+      "reason": "correct quadrant, subtle adjacent change"
+    },
+    {
+      "degree": 67.5,
+      "expected": "up-right",
+      "observed": "up-right, near profile",
+      "verdict": "warning",
+      "horizontal_evidence": "more side-on toward right",
+      "vertical_evidence": "pupils raised",
+      "reason": "correct continuing turn; isolated blind axis cue weak, accepted by labeled full-loop review"
+    },
+    {
+      "degree": 90,
+      "expected": "right",
+      "observed": "right-facing profile",
+      "verdict": "pass",
+      "horizontal_evidence": "face silhouette and mouth point screen-right",
+      "vertical_evidence": "approximately level",
+      "reason": "unmistakable screen-right"
+    },
+    {
+      "degree": 112.5,
+      "expected": "down-right",
+      "observed": "right-facing and slightly lowered",
+      "verdict": "warning",
+      "horizontal_evidence": "profile points screen-right",
+      "vertical_evidence": "slight downward dip",
+      "reason": "no reversal; vertical cue understated; isolated blind axis cue weak, accepted by labeled full-loop review"
+    },
+    {
+      "degree": 135,
+      "expected": "down-right",
+      "observed": "three-quarter down-right",
+      "verdict": "pass",
+      "horizontal_evidence": "still right yaw, less profile",
+      "vertical_evidence": "pupils visibly lowered",
+      "reason": "correct lower-right quadrant"
+    },
+    {
+      "degree": 157.5,
+      "expected": "down-right",
+      "observed": "more lowered down-right",
+      "verdict": "warning",
+      "horizontal_evidence": "face turned screen-right",
+      "vertical_evidence": "head/gaze lower than 135",
+      "reason": "continues toward down; isolated blind axis cue weak, accepted by labeled full-loop review"
+    },
+    {
+      "degree": 180,
+      "expected": "down",
+      "observed": "centered downward head and pupils",
+      "verdict": "pass",
+      "horizontal_evidence": "centered frontal face",
+      "vertical_evidence": "low pupils, crown visible",
+      "reason": "clear cardinal down"
+    },
+    {
+      "degree": 202.5,
+      "expected": "down-left",
+      "observed": "slight down-left turn",
+      "verdict": "warning",
+      "horizontal_evidence": "face begins screen-left turn",
+      "vertical_evidence": "lowered pupils",
+      "reason": "plausible first step; isolated blind axis cue weak, accepted by labeled full-loop review"
+    },
+    {
+      "degree": 225,
+      "expected": "down-left",
+      "observed": "three-quarter down-left",
+      "verdict": "pass",
+      "horizontal_evidence": "more screen-left yaw",
+      "vertical_evidence": "lowered gaze",
+      "reason": "correct quadrant"
+    },
+    {
+      "degree": 247.5,
+      "expected": "down-left",
+      "observed": "near-profile down-left",
+      "verdict": "pass",
+      "horizontal_evidence": "further left yaw",
+      "vertical_evidence": "gaze below center",
+      "reason": "continuous turn"
+    },
+    {
+      "degree": 270,
+      "expected": "left",
+      "observed": "left-facing profile",
+      "verdict": "pass",
+      "horizontal_evidence": "face/mouth and silhouette screen-left",
+      "vertical_evidence": "approximately level",
+      "reason": "clear cardinal left"
+    },
+    {
+      "degree": 292.5,
+      "expected": "up-left",
+      "observed": "three-quarter up-left",
+      "verdict": "pass",
+      "horizontal_evidence": "still screen-left yaw",
+      "vertical_evidence": "raised pupils",
+      "reason": "correct quadrant"
+    },
+    {
+      "degree": 315,
+      "expected": "up-left",
+      "observed": "mild three-quarter up-left",
+      "verdict": "warning",
+      "horizontal_evidence": "left yaw close to337.5",
+      "vertical_evidence": "raised pupils",
+      "reason": "subtle adjacent change"
+    },
+    {
+      "degree": 337.5,
+      "expected": "up-left",
+      "observed": "slight left turn with raised gaze",
+      "verdict": "warning",
+      "horizontal_evidence": "left yaw remains visible",
+      "vertical_evidence": "raised pupils",
+      "reason": "closing seam less smooth, no severe pose snap"
+    }
+  ],
+  "continuity_note": "Independent complete-loop review:157.5 to180 natural;337.5 to000 less smooth with12.5px center metric shift but fixed feet/clothes/scale, no conspicuous snap or wrong quadrant.",
+  "major_failures": [],
+  "alpha_holes_note": "Reported y168-171 spans are intentional negative spaces around skirt-side ball ornaments and short stems; no tear or transparent horizontal strip through garment."
+}

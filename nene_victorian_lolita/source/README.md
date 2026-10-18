@@ -24,3 +24,5 @@
 | `look-row-9` | [decoded/look-row-9.png](decoded/look-row-9.png) |
 | `look-row-10` | [decoded/look-row-10.png](decoded/look-row-10.png) |
 | `jumping` | [jump-refinement-20261016/decoded/jumping.png](jump-refinement-20261016/decoded/jumping.png) |
+
+本次仅迁移外层目录与素材索引路径；生成清单、提示词、原始验收及制作脚本保留制作时的名称和字节。当前路径以素材索引为准，名称对应见[命名对照](../../PET_NAMES.md)。

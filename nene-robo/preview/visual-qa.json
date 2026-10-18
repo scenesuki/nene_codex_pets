@@ -1,9 +1,0 @@
-{
-  "visual_qa": "pass",
-  "spritesheet_sha256": "257ffd5cce157acf911c87d93385ce6325505be5a8c3c68f1b48b1a00ece54bb",
-  "record_type": "Final acceptance summary preserved during cleanup; not a new visual review",
-  "reviewed_by": "independent robo_final_qa worker",
-  "qa_note": "Original independent native-size visual acceptance passed.",
-  "accepted_minor_limitations": "157.5°、202.5°横向和067.5°、112.5°纵向分量较细；045°、315°同邻格差别较小，337.5°回正稍明显，完整循环复核未见明显跳变。",
-  "scope": "Original ordered decoded-frame review; live GIF playback and app UI not verified."
-}

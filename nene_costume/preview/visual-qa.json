@@ -1,9 +1,0 @@
-{
-  "visual_qa": "pass",
-  "spritesheet_sha256": "32b5347cfbae94b3c225f7ddc833f8efc4b9ee737aeedbbe2928b2c2ae44f51b",
-  "record_type": "Final acceptance summary preserved during cleanup; not a new visual review",
-  "reviewed_by": "costume_final_qa",
-  "qa_note": "Original independent native-size visual acceptance passed.",
-  "accepted_minor_limitations": "067.5°上向与135°横向分量较细，审视动作克制；两行视线交界有轻微换姿，原尺寸复核未见明显跳变。",
-  "scope": "Original ordered decoded-frame review; live GIF playback and app UI not verified."
-}

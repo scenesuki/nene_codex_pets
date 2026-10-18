@@ -1,0 +1,18 @@
+{
+  "actual_input_paths": [
+    "D:\\项目\\pet_2\\nene_classical_lolita\\source\\references\\reference-01.png",
+    "D:\\项目\\pet_2\\nene_classical_lolita\\source\\references\\reference-02.webp",
+    "D:\\项目\\pet_2\\nene_classical_lolita\\source\\references\\layout-guides\\running.png",
+    "D:\\项目\\pet_2\\nene_classical_lolita\\source\\references\\canonical-base.png",
+    "C:\\Users\\tieha\\.codex\\generated_images\\01a147d1-e9c2-7112-b0aa-7dee064e88a5\\exec-2a705466-728f-4304-b77b-e6a56f7ce922.png"
+  ],
+  "selected_source": "D:\\项目\\pet_2\\nene_classical_lolita\\source\\generated\\running\\attempt-02.png",
+  "preserved_input_copies": [
+    {
+      "actual_input_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a147d1-e9c2-7112-b0aa-7dee064e88a5\\exec-2a705466-728f-4304-b77b-e6a56f7ce922.png",
+      "retained_path": "D:\\项目\\pet_2\\nene_classical_lolita\\source\\references\\selected-inputs\\running-first.png",
+      "sha256": "0f46b249e32c5c44999d9e7dde7556f0fb53e94d6836575b7b93c20ae02b1afc",
+      "byte_identical": true
+    }
+  ]
+}

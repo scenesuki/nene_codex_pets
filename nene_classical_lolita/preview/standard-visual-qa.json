@@ -1,0 +1,107 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "independent standard reviewer",
+  "scope": {
+    "included": "Independent visual inspection of canonical-base.png, the nine-row contact sheet, and all 57 ordered extracted RGBA PNG frames at native 192x208 size in dedicated composites; enlarged ordered leg crops for both movement directions. Read review.json and jump-placement.json; inspected GIF frame counts, dimensions and timing metadata.",
+    "excluded": "No live Codex app UI, import test, real-time GIF playback, final chroma cleanup, or the two additional gaze rows was reviewed. This verdict covers the nine standard rows before the planned one-time chroma cleanup.",
+    "native_frame_size": [
+      192,
+      208
+    ],
+    "ordered_frame_count": 57,
+    "source_files": [
+      "references/canonical-base.png",
+      "qa/contact-sheet.png",
+      "qa/review.json",
+      "qa/jump-placement.json",
+      "frames/<state>/<index>.png",
+      "qa/previews/<state>.gif"
+    ],
+    "visual_evidence_files": [
+      "qa/standard-review-idle.png",
+      "qa/standard-review-running-right.png",
+      "qa/standard-review-running-left.png",
+      "qa/standard-review-waving.png",
+      "qa/standard-review-jumping.png",
+      "qa/standard-review-failed.png",
+      "qa/standard-review-waiting.png",
+      "qa/standard-review-running.png",
+      "qa/standard-review-review.png",
+      "qa/standard-review-legs-running-right.png",
+      "qa/standard-review-legs-running-left.png"
+    ]
+  },
+  "identity_and_integrity": {
+    "result": "pass",
+    "evidence": "Pale sage long hair, lavender eyes, small red-heart crown, white fur collar, red cape, dark green/gold bodice, layered pale skirt, dark stockings and heart boots match the canonical chibi design. The red rose and heart card remain attached to their held-hand poses across states, with plausible lateral occlusion. No empty expected frame, clipped limb, detached prop, or obvious accidental transparent hole was observed. The reported occupied bounds stay away from the canvas edges in all 57 frames.",
+    "deferred_chroma": "The visible magenta contour fringe is expected in this intermediate material and is not a failure in this review; cleanup and its final visual verification are still required."
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frame_count": 6,
+      "visual_qa": "pass",
+      "observed_evidence": "Stable frontal stance and lavender eyes; blink develops through frame 3 and reopens by frame 4. Crown, rose in the image-left hand, heart card in the image-right hand, cape, boots and body scale remain consistent. Frame 5 to 0 returns without a visibly abrupt pose change."
+    },
+    {
+      "state": "running-right",
+      "frame_count": 8,
+      "visual_qa": "pass",
+      "observed_evidence": "Right-facing body and trailing hair/cape clearly establish direction. Ordered frames 0/2/4/6 show separated stride silhouettes; 1/3/5/7 show tucked/passing legs, so the small stepping cadence is visible. Enlarged leg crops confirm attached thighs, calves and boots with no disconnected feet. Frame 7 to 0 continues passing-to-stride. Rose and card remain held. Opposite-foot identity is less explicit because both stockings share the same dark color."
+    },
+    {
+      "state": "running-left",
+      "frame_count": 8,
+      "visual_qa": "pass",
+      "observed_evidence": "Left-facing body, forward face and trailing hair/cape establish the opposite direction. The ordered extended-versus-passing leg silhouettes alternate visibly through all eight frames; frame 7 to 0 continues this cadence. Attached cuffs and boots remain intact. Crown, rose, heart card and red cape persist. As on the right row, foot identity is visually ambiguous but locomotion itself is readable."
+    },
+    {
+      "state": "waving",
+      "frame_count": 4,
+      "visual_qa": "pass",
+      "observed_evidence": "The card-side hand rises beside the face in frames 1-2 and returns in frame 3, reading as a restrained greeting with the card retained. Both boots stay at the ground line, with no unintended jump. Rose remains in the other hand. First/last poses are closely matched; the gesture is deliberately small at native size."
+    },
+    {
+      "state": "jumping",
+      "frame_count": 5,
+      "visual_qa": "pass",
+      "observed_evidence": "All five poses are occupied, fully visible and consistent with the baseline character. Grounded endpoints, intermediate bent legs, central tucked boots and the documented sole lift [0,4,8,4,0] read as a gentle hop. Crown/hair remain inside the canvas and the feet have clearance below them. Frames 0 and 4 return to the same grounded silhouette. Whole-frame integer registration introduces no visible anatomy distortion."
+    },
+    {
+      "state": "failed",
+      "frame_count": 8,
+      "visual_qa": "pass",
+      "observed_evidence": "A downcast head and lowering/closing eyes develop in frames 1-4 and recover in 5-7. Rose and card stay attached; cape, skirt and boot proportions remain stable. This is a subdued disappointed reaction rather than a large collapse. The final open-eyed pose returns close to frame 0."
+    },
+    {
+      "state": "waiting",
+      "frame_count": 6,
+      "visual_qa": "pass",
+      "observed_evidence": "The head/body lean and inquisitive gaze in the middle frames read as waiting for input, then settle back to the frontal stance. Props and costume stay consistent; feet remain planted rather than entering a locomotion cycle. Frame 5 to 0 is visually close."
+    },
+    {
+      "state": "running",
+      "frame_count": 6,
+      "visual_qa": "pass",
+      "observed_evidence": "Despite the internal state name, this row is stationary work/thinking: the card-side hand is held near the face, eyes narrow/blink, and the boots remain planted together. No directional running silhouette occurs. The head/crown/rose/card/cape stay consistent, and the last pose settles near the first."
+    },
+    {
+      "state": "review",
+      "frame_count": 6,
+      "visual_qa": "pass",
+      "observed_evidence": "A slight head tilt and narrowed/closed eyes progress through the middle frames as a quiet inspecting/considering reaction, then reopen in frame 5. Feet remain stationary, both held props persist, and the final pose returns close to the initial frontal stance."
+    }
+  ],
+  "major_issues": [],
+  "minor_limitations": [
+    "The two movement rows communicate directional stepping through alternating extended and passing silhouettes. Both dark stockings and repeated side silhouettes make the exact left/right foot swap less explicit; enlarged leg crops do not show a broken, reversed or inert gait.",
+    "Greeting, failure and review expressions are intentionally restrained. The greeting raises the held-card hand rather than showing an empty open palm; failure and review use small head/eye changes that are readable but less emphatic than a theatrical gesture.",
+    "A native-size ordered-frame review can assess pose progression and endpoint compatibility but does not replace final in-app playback and post-cleanup edge review."
+  ],
+  "inputs_sha256": {
+    "references/canonical-base.png": "9513d9a6f97641e05994357cdbc52ce46b75590b36e1317e2b5e84d6a26bc8fa",
+    "qa/contact-sheet.png": "53192cd4d166b23e42f47e3db61bd72fe905b8d2a5f0af1d4749c9dbe49ff46e",
+    "qa/review.json": "8c7e484d2644f8e91798e6fa59ceeccb9ef6ec4255938493f85b751ea1ee7ccc",
+    "qa/jump-placement.json": "2032291b120a9b5ae5bb1c38de7adb228acd9e16b53d34d1be4a3667ff1d5c31"
+  }
+}

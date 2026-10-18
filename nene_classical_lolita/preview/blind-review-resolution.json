@@ -1,0 +1,10 @@
+{
+  "decision": "accept_minor_warnings",
+  "severity": "minor",
+  "reviewed_by": "parent and independent final visual reviewer",
+  "cardinal_gates": "All four cardinals confirmed by three isolated blind reviewers and final labeled review",
+  "blind_warning": "horizontal-1 B:022.5 horizontal axis ambiguous by strict majority",
+  "evidence": "Final native-size labeled inspection:022.5 visibly looks up and has a small rightward tendency relative to000; no leftward evidence or loop reversal. Independent final reviewer recordswarning.135/157.5 weak rightward cues also recordedwarning; two continuity outliers are small head-shape/recentering changes, no whole-body scaling pop.",
+  "final_semantic_record": "direction-semantics.json",
+  "hard_gate_overridden": false
+}

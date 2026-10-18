@@ -1,0 +1,52 @@
+{
+  "job_id": "jumping",
+  "generation_mode": "builtin-imagegen",
+  "call": "selected-second-call",
+  "actual_input_paths": [
+    "D:/项目/pet_2/nene_classical_lolita/source/references/reference-01.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/reference-02.webp",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/jumping.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png",
+    "C:/Users/tieha/.codex/generated_images/01a147ce-538e-7363-a1a9-13a89eb157b7/exec-1a55282b-d35c-433f-80ef-7e0181e92420.png"
+  ],
+  "input_roles": [
+    "official costume reference",
+    "official costume reference",
+    "five-slot spacing guide only",
+    "canonical identity and proportions reference",
+    "prior generated jumping strip used as targeted correction input"
+  ],
+  "selected_source": "C:/Users/tieha/.codex/generated_images/01a147ce-538e-7363-a1a9-13a89eb157b7/exec-f2a29f41-e19e-421a-a327-4d98c1894f29.png",
+  "executed_prompt_file": "D:/项目/pet_2/nene_classical_lolita/source/prompts/jumping-executed.md",
+  "transparent_background": false,
+  "background": "#FF00FF",
+  "preserved_input_copies": [
+    {
+      "actual_input_path": "C:/Users/tieha/.codex/generated_images/01a147ce-538e-7363-a1a9-13a89eb157b7/exec-1a55282b-d35c-433f-80ef-7e0181e92420.png",
+      "preserved_copy_path": "D:/项目/pet_2/nene_classical_lolita/source/references/jump-generation-input.png",
+      "sha256": "ecd1df028666f763e4e168ce967d59099b4a559cdfc911ea07ceeddb4bab0e46",
+      "preserved_sha256": "ecd1df028666f763e4e168ce967d59099b4a559cdfc911ea07ceeddb4bab0e46",
+      "byte_for_byte_equal": true,
+      "verification": "SHA-256 equality checked with Get-FileHash against both original and preserved copy."
+    }
+  ],
+  "post_generation_placement": {
+    "reported_by": "parent",
+    "source_lift_after_shared_scale_px": 10,
+    "whole_frame_vertical_placement_corrections_px": [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    "final_lift_above_rest_px": [
+      0,
+      4,
+      8,
+      4,
+      0
+    ],
+    "anatomy_edits": false
+  }
+}

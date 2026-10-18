@@ -1,0 +1,9 @@
+{
+  "visual_qa": "pass",
+  "spritesheet_sha256": "b71cb435de3effa51cf9723179bc67b3e51e5ab964d7fc8f9c6bebe1a0bfdfda",
+  "record_type": "Final acceptance summary preserved during cleanup; not a new visual review",
+  "reviewed_by": "/root/final_qa",
+  "qa_note": "Independentall9statesand16labeledgazes pass. No conspicuousvisualsnap at157.5->180 or337.5->000; no holes/clipping/unintendedscalechanges/detachedeffects. Blindaggregateoknowarnings, subtle022.5/337.5 individuallynoted. Singlecleanupandextendedvalidationpass.",
+  "accepted_minor_limitations": "022.5°与337.5°的视线差别较细微；带标签复核确认方向及循环连贯。",
+  "scope": "Original ordered decoded-frame review; live GIF playback and app UI not verified."
+}

@@ -1,0 +1,22 @@
+{
+  "state": "waiting",
+  "selected_source": "C:/Users/tieha/.codex/generated_images/01a147d1-c530-7401-92d7-61fb526aebc8/exec-fb1e121c-9a29-4038-94b8-48b43445677c.png",
+  "actual_input_paths": [
+    "D:/项目/pet_2/nene_classical_lolita/source/references/reference-01.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/reference-02.webp",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/waiting.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png"
+  ],
+  "preserved_input_copies": [],
+  "prior_generated_candidate_attached": false,
+  "tool": "image_gen.imagegen",
+  "transparent_background": false,
+  "prompt_file": "prompts/waiting-executed.md",
+  "note": "Selected second waiting generation supplied exactly the four listed absolute referenced_image_paths. No first waiting candidate or other generated waiting image was attached. The canonical base is the approved generated identity reference and was attached. All four actual input files already reside in source/references and remain preserved at their original paths.",
+  "input_sha256": [
+    "25a44967953e27faccdcf26ae1cc50c99f78fbceb9091fc2abc6a8bda1fef2f2",
+    "79a748d8c7d2191259ddf8ee5c1f3a4a3f1ebb2265a4a572b39f0dc572626005",
+    "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545",
+    "9513d9a6f97641e05994357cdbc52ce46b75590b36e1317e2b5e84d6a26bc8fa"
+  ]
+}

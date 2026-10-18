@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-18T01:43:54.256Z",
+  "package_directory": "D:\\项目\\pet_2\\nene_circus_stage",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "id": "custom:nene_circus_stage",
+  "display_name": "宁宁 · 马戏团礼装",
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "format": "webp",
+  "manifest_sha256": "e5a3e1215a89a82a442692a9e9eb3e2fa1f864af08cc31088d1cba0b37631d06",
+  "spritesheet_sha256": "efdaa955684654f57d97767903d683b22fcbcc729651d2fe9621cfbbd9c637cb",
+  "app_version": "26.1013.4894.0",
+  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-DsLVGakC.js",
+  "app_validator_module_sha256": "28a0918f01c50b0eb17676e894998ad7182f119d978adf0467ccaac3583f259c",
+  "method": "Read-only replay of installed-app image/version and path validators on renamed workspace packages; manifest naming checked against approved mapping; no installation or UI action",
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "current_pet_changed": false
+}

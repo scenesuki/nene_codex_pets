@@ -18,7 +18,7 @@ def build_release(root, tag):
         raise FileExistsError("Preserve existing release directories; use a new tag")
     pets = sorted(path.parent for path in root.glob("*/pet.json"))
     assert pets, "No root pets found"
-    files = [root / "README.md", root / "NOTICE.md"]
+    files = [root / name for name in ["README.md", "NOTICE.md", "AGENTS.md", "PET_NAMES.md"]]
     counts = dict(zip(["idle", "running-right", "running-left", "waving", "jumping",
                        "failed", "waiting", "running", "review", "look-directions"],
                       [6, 8, 8, 4, 5, 8, 6, 6, 6, 16]))

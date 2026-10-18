@@ -6,8 +6,11 @@
 */source/** -text
 */pet.json -text
 */installed-validation.json -text
-nene_costume_2/source/references/official-character.html -text
-nene_movie/source/references/official-movie-character.html -text
-nene_movie/source/references/official-profile.html -text
-nene_wand/source/previous-distribution/** -text
-nene_wand/source/references/costume-recheck/design-brief-before-recheck.md -text
+NOTICE.md -text
+AGENTS.md -text
+*/preview/*.json -text
+nene_butterfly_stage/source/references/official-character.html -text
+nene_country_casual/source/references/official-movie-character.html -text
+nene_country_casual/source/references/official-profile.html -text
+nene_circus_stage/source/previous-distribution/** -text
+nene_circus_stage/source/references/costume-recheck/design-brief-before-recheck.md -text

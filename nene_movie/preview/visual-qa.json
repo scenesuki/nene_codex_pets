@@ -1,9 +1,0 @@
-{
-  "visual_qa": "pass",
-  "spritesheet_sha256": "7dbc2487eefdae0bfeb8efd770601bd05200b35ecea398e0e0838e3445580978",
-  "record_type": "Final acceptance summary preserved during cleanup; not a new visual review",
-  "reviewed_by": "/root/movie_directions_final",
-  "qa_note": "Cleanedextendedatlas, directionssheetandALLactualdecodedGIFframes independentlyreviewed. Native finaldespillandv2validatorpass. No regenerationrequired.",
-  "accepted_minor_limitations": "067.5°、112.5°纵向，135°、157.5°、202.5°、225°及左上段横向分量较细；270°→292.5°与337.5°→000°的差异经复核接受，未见错象限或反转。",
-  "scope": "Original ordered decoded-frame review; live GIF playback and app UI not verified."
-}

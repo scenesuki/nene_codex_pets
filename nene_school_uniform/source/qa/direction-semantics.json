@@ -1,0 +1,154 @@
+{
+  "review_warnings": [
+    "202.5 and 225 have subtly differentiated yaw; both remain coherent down-left.",
+    "337.5->000 has a more noticeable head-yaw change than nearby transitions; visual review found a coherent return to frontal up, stable lower-body registration and no conspicuous snap or identity change."
+  ],
+  "directions": [
+    {
+      "degree": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "reason": "Clear frontal upward cardinal.",
+      "horizontal_evidence": "Nose and chin are centered relative to the head; both eyes flank the head center symmetrically.",
+      "vertical_evidence": "Chin is lifted; violet irises sit high in the visible eye openings, with the face looking above the viewer."
+    },
+    {
+      "degree": "022.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Both axes support the intended shallow rightward upward direction.",
+      "horizontal_evidence": "Face axis and nose shift slightly screen-right of the head center; eye presentation begins rightward yaw.",
+      "vertical_evidence": "Raised chin and high irises preserve upward pitch."
+    },
+    {
+      "degree": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Natural diagonal head-and-eye direction.",
+      "horizontal_evidence": "Nose, chin and visible face point screen-right of the head center; left-side ear becomes visible.",
+      "vertical_evidence": "Chin remains raised, eyes directed upward, with a lifted face plane."
+    },
+    {
+      "degree": "067.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Strong rightward yaw with a small but readable upward component.",
+      "horizontal_evidence": "Face and nose lie screen-right of the head center; the far eye is reduced by yaw.",
+      "vertical_evidence": "Chin and nose tip remain slightly elevated compared with the right cardinal."
+    },
+    {
+      "degree": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "reason": "Clear right cardinal.",
+      "horizontal_evidence": "Nose and face profile point screen-right and lie to the right of the head center; visible eye faces right.",
+      "vertical_evidence": "Eye line and chin are near level, between the adjacent raised and lowered poses."
+    },
+    {
+      "degree": "112.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Readable rightward yaw with shallow downward pitch.",
+      "horizontal_evidence": "Nose and face remain screen-right of the head center; left-side ear and reduced far eye preserve rightward yaw.",
+      "vertical_evidence": "Chin lowers and the visible eye settles beneath its upper lid compared with 090."
+    },
+    {
+      "degree": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Correct diagonal with natural eyelid behavior.",
+      "horizontal_evidence": "Face axis and nose remain right of the head center, with asymmetric eye visibility from rightward yaw.",
+      "vertical_evidence": "Lowered chin, downward face plane and lowered eyelids establish the downward axis."
+    },
+    {
+      "degree": "157.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Correct axes. The transition to 180 is a coherent return toward frontal while lowering the head, without a registration jump.",
+      "horizontal_evidence": "Nose and chin retain a small screen-right displacement relative to the head center.",
+      "vertical_evidence": "Head is bowed and irises sit beneath lowered upper lids."
+    },
+    {
+      "degree": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "reason": "Clear frontal downward cardinal.",
+      "horizontal_evidence": "Nose and chin return to the head center; left and right eye placement is approximately symmetric.",
+      "vertical_evidence": "Crown faces the viewer more strongly; chin tucks toward the bow and both eyes look downward beneath the bangs."
+    },
+    {
+      "degree": "202.5",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Correct quadrant; yaw differs only subtly from 225.",
+      "horizontal_evidence": "Face axis, nose and chin shift screen-left of the head center; right-side ear becomes visible.",
+      "vertical_evidence": "Bowed head, tucked chin and low eye openings preserve downward pitch."
+    },
+    {
+      "degree": "225",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Correct quadrant and coherent anatomy; separation from 202.5 is modest.",
+      "horizontal_evidence": "Nose and face point screen-left of the head center; far-eye presentation is reduced by leftward yaw.",
+      "vertical_evidence": "Chin remains lowered and eyes look downward beneath the upper lids."
+    },
+    {
+      "degree": "247.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Strong leftward component with readable shallow downward pitch.",
+      "horizontal_evidence": "Face profile, nose and visible eye point screen-left of the head center.",
+      "vertical_evidence": "Chin is slightly lowered and eye placement remains lower than at the left cardinal."
+    },
+    {
+      "degree": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "reason": "Clear left cardinal.",
+      "horizontal_evidence": "Nose and profile point screen-left and lie left of the head center; the near eye faces left.",
+      "vertical_evidence": "Chin and eye line are near level between the adjacent down-left and up-left poses."
+    },
+    {
+      "degree": "292.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Natural leftward yaw with upward pitch.",
+      "horizontal_evidence": "Nose and face lie screen-left of the head center, with right-side ear visible.",
+      "vertical_evidence": "Chin lifts and the eye line rises relative to 270."
+    },
+    {
+      "degree": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Both diagonal axes are clearly readable.",
+      "horizontal_evidence": "Face axis and nose point left of the head center; eye asymmetry supports leftward yaw.",
+      "vertical_evidence": "Lifted chin, exposed lower face and elevated irises support upward gaze."
+    },
+    {
+      "degree": "337.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Correct axes. Wrap to 000 changes yaw more than neighboring steps but remains coherent; no conspicuous registration snap, deformation or identity change.",
+      "horizontal_evidence": "Nose, chin and face axis retain a slight screen-left offset from the head center.",
+      "vertical_evidence": "Chin remains lifted and irises sit high; upward pitch continues into the frontal-up pose."
+    }
+  ],
+  "ok": true,
+  "reviewed_by": "final_qa"
+}

@@ -1,9 +1,0 @@
-{
-  "visual_qa": "pass",
-  "spritesheet_sha256": "efdaa955684654f57d97767903d683b22fcbcc729651d2fe9621cfbbd9c637cb",
-  "record_type": "Final acceptance summary preserved during cleanup; not a new visual review",
-  "reviewed_by": "skirt_final_qa",
-  "qa_note": "All9states and16direction candidate costumes pass: short striped skirt/redgoldhem, bareknees, redcalfsocks, darkredstrap/goldbow shoes, barehands andflutedcane.",
-  "accepted_minor_limitations": "045°、112.5°、202.5°、225°、292.5°的部分视线分量较细；两行交界存在轻微换姿，带标签复核未见错象限、反转或明显跳变。",
-  "scope": "Original ordered decoded-frame review; live GIF playback and app UI not verified."
-}

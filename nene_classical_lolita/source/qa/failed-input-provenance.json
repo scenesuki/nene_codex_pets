@@ -1,0 +1,17 @@
+{
+  "job_id": "failed",
+  "generation_call": "spacing-corrected retry",
+  "actual_input_paths": [
+    "D:/项目/pet_2/nene_classical_lolita/source/references/reference-01.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/reference-02.webp",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/layout-guides/failed.png",
+    "D:/项目/pet_2/nene_classical_lolita/source/references/canonical-base.png"
+  ],
+  "selected_source": "C:/Users/tieha/.codex/generated_images/01a147ce-8dba-7fe0-8375-1be72f652a3c/exec-91f17469-bac1-4951-8973-8889e39ad197.png",
+  "preserved_input_copies": [],
+  "first_generated_source_attached": false,
+  "note": "The corrected call attached only the four listed reference images. The first generated failed candidate was not attached as input.",
+  "workspace_selected_copy": "D:/项目/pet_2/nene_classical_lolita/source/decoded/failed.png",
+  "selected_copy_sha256": "c027b3db25f2ed78762245bd876e117b0d68814108c4d5d5037c9b8734c77b8d",
+  "selected_copy_hash_verified": true
+}
