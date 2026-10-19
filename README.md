@@ -2,7 +2,7 @@
 
 草薙宁宁的 Codex 桌面宠物合集。现有十套造型，各有9种状态动画与16个注视方向。新增「夢をのせたメロディー」特训后新中式礼装 `nene_chinoiserie`（显示名 `宁宁 · 新中式礼装`）。
 
-**[下载十套完整合集 · v1.9.0](https://github.com/scenesuki/nene_codex_pets/https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/nene_codex_pets-v1.9.0.zip)** · [校验和](https://github.com/scenesuki/nene_codex_pets/https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/SHA256SUMS.txt) · [更新记录](https://github.com/scenesuki/nene_codex_pets/releases)
+**[下载十套完整合集 · v1.9.0](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/nene_codex_pets-v1.9.0.zip)** · [校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/SHA256SUMS.txt) · [更新记录](https://github.com/scenesuki/nene_codex_pets/releases)
 
 v1.9.0合集包含下列全部十套宠物、完整预览和最终校验记录。选用的制作原素材保留在仓库各套 `source/`。
 
