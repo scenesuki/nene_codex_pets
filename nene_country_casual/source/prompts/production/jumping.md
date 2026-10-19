@@ -1,5 +1,0 @@
-Create ONE coherent horizontal animation strip with exactly 5 separated full-body poses. State: jumping.
-
-Copy the canonical chibi identity exactly: same face, large head, short torso and compact ankle-length cream pinafore, plaid blouse, brown straps and shoes, yellow hair bows. Keep the canonical total head-to-body ratio; never lengthen the legs or torso. The anatomical LEFT hand always holds the same red-white striped, textless popcorn bucket against the body; never switch hands or mirror the character. Popcorn stays inside the bucket. The other RIGHT hand is free. Every figure must be complete, separated, equally scaled, with generous padding. Solid pure #FF00FF background. No lettering, logos, guides, arrows, borders, shadow, floor, glow, motion lines, dust, floating or spilled particles. Layout attachment controls spacing/count only, do not draw its marks.
-
-Small happy hop: crouch grounded, rise, clearly higher airborne apex, descend, grounded landing. Use a fixed shared camera and character scale, with different vertical body positions across five slots. Hold bucket securely in LEFT hand; popcorn does not spill. No ground marks/shadow.

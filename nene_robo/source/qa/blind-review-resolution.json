@@ -1,9 +1,0 @@
-{
-  "decision": "accept",
-  "severity": "minor",
-  "failed_checks": ["horizontal-7: 157.5/202.5 near-down yaw ambiguous", "vertical-4: 067.5/112.5 near-right pitch ambiguous"],
-  "evidence": "All four cardinal cells passed strict majority blind validation. Independent labeled16-cell review confirms each intermediate remains in its intended quadrant; body and feet anchors remain stable and no reversal or wrong quadrant is visible. Weak near-axis cues are recorded as warnings.",
-  "continuity_evidence": "337.5 to000 has a larger head/face return and12.5px center metric shift, but independently reviewed feet/clothes/scale are stable and no conspicuous pose snap occurs. Reported alpha spans are intentional skirt-ball stem negative spaces, not garment tears.",
-  "reviewed_by": "parent with independent robo_direction_qa evidence",
-  "major_failure_overridden": false
-}

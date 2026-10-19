@@ -1,7 +1,0 @@
-CRITICAL SPACING: Draw all EIGHT figures SMALLER inside a single horizontal row. Each complete hair silhouette occupies at most60% of one slot width. Leave wide continuous pure-magenta gaps between every pair of figures and wide outer canvas margins. No hair tips can touch neighbors or outer canvas edge. Do not enlarge figures to fill height.
-
-Create ONE coherent horizontal animation strip with exactly 8 separated full-body poses. State: failed.
-
-Copy the canonical chibi identity exactly: same face, large head, short torso and compact ankle-length cream pinafore, plaid blouse, brown straps and shoes, yellow hair bows. Keep the canonical total head-to-body ratio; never lengthen the legs or torso. The anatomical LEFT hand always holds the same red-white striped, textless popcorn bucket against the body; never switch hands or mirror the character. Popcorn stays inside the bucket. The other RIGHT hand is free. Every figure must be complete, separated, equally scaled, with generous padding. Solid pure #FF00FF background. No lettering, logos, guides, arrows, borders, shadow, floor, glow, motion lines, dust, floating or spilled particles. Layout attachment controls spacing/count only, do not draw its marks.
-
-Restrained dejected reaction: shoulder drop, drawn-in brows, brief closed eyes, lowered chin, small sigh posture, gradual recovery. Bucket held securely in LEFT hand throughout. No tears or detached symbols/effects.

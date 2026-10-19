@@ -1,8 +1,0 @@
-Create one clean full-body reference sprite for Codex pet 草薙宁宁·初始校服.
-
-Pet identity: Kusanagi Nene from Project SEKAI, initial Kamiyama high school uniform, one-star Foul-Mouthed and Unsociable card. Long muted sage-grey green hair past waist, thick asymmetrical sweeping bangs and two low-tied sidelocks held by small dark rose bands; violet eyes. Navy blazer with thin white piping around lapels and pockets, two brass buttons; white shirt; red diagonal white striped bow ribbon; blue grey plaid pleated skirt; dark grey short calf socks and brown school loafers. No props. Quiet mildly deadpan shy girl, restrained expressions, tiny hesitant wave, focused chin-hand thinking, modest happy small jump. Preserve outfit and face across all frames..
-Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `auto`: Infer the most appropriate pet-safe style from the user request and reference images, then keep that exact style consistent across every row. User style notes: Japanese chibi anime illustration, 2.5-head full body, clean dark outlines, soft cel shading, readable compact features; no pixel art, no 3D..
-
-
-Place a single centered pose on a perfectly flat pure user-selected #FF00FF chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #FF00FF and close colors out of the pet, props, highlights, and effects.
-

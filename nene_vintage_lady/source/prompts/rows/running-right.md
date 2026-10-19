@@ -1,7 +1,0 @@
-Create ONE horizontal strip of exactly EIGHT separated complete full-body poses of the attached canonical Nene. Image1 defines the exact character, proportions, palette, outfit and prop; Image2 is an invisible layout guide for count and spacing.
-
-Face and move SCREEN-RIGHT with clear alternating left/right steps, restrained sleeve/skirt motion and visible alternating boot tips. Preserve the fan in the anatomical LEFT hand; no mirroring.
-
-Same compact chibi identity in every pose, same face/head/hat/hair/clothing/boots, constant practical scale, strong empty gaps between figures and generous outer padding. The open gold-edged teal fan stays in the anatomical LEFT hand and remains connected to hand/body. Keep eyes and nose visible. Fully draw all hat ornaments, hair, skirt and shoes.
-
-Flat uniform #FF00FF background. No text, labels, visible guide lines, scenery, shadows, floor marks, glow, floating symbols, afterimages, trails, detached effects, or extra props. All poses generated together as one coherent animation row.

@@ -4,7 +4,7 @@
 
 **[下载十套完整合集 · v1.9.0](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/nene_codex_pets-v1.9.0.zip)** · [校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/SHA256SUMS.txt) · [更新记录](https://github.com/scenesuki/nene_codex_pets/releases)
 
-v1.9.0合集包含下列全部十套宠物、完整预览和最终校验记录。选用的制作原素材保留在仓库各套 `source/`。
+v1.9.0合集包含下列全部十套宠物、完整预览和最终校验记录。GitHub 保留成品、预览、说明与公共打包脚本；制作原素材仅在本地留档。
 
 当前目录、ID和显示名称已按服饰统一，[查看命名对照](PET_NAMES.md)。v1.8.0采用新名称；v1.7.2及更早附件保留原名称。
 
@@ -91,14 +91,14 @@ Windows默认目录为 `%USERPROFILE%\.codex\pets\`；自定义 `CODEX_HOME` 时
 
 从v1.1.1起，新Release采用全量合集。v1.7.2包含当时八套及其说明、预览和最终验收；历史版本内容以对应Release为准。
 
-本地保留当前全量合集ZIP；未采用废案、旧分发快照、重复制作缓存及旧本地包按授权清理。当前成果对应的有效制作原素材保留在各套 `source/`，由 `materials-index.json` 记录路径与哈希。已发布版本的说明、校验和与回执保留，历史附件仍从对应GitHub Release下载。
+本地保留当前全量合集ZIP；未采用废案、旧分发快照、重复制作缓存及旧本地包按授权清理。当前成果对应的有效制作原素材保留在本地各套 `source/`，由本地 `materials-index.json` 记录路径与哈希，不随 GitHub 仓库分发。已发布版本的说明、校验和与回执保留，历史附件仍从对应GitHub Release下载。
 
 </details>
 
 <details>
 <summary>项目结构与全量打包</summary>
 
-每套宠物在根目录独立存放，顶层为当前导入文件、说明与校验；`preview/`保留正式预览、应用规格依据和最终验收。各套 `source/` 保留选用的原始生成图、有效参考图、实际输入和提示词，并提供 `materials-index.json` 索引。参考来源与创作补全写在各套README。共用打包、验证脚本在`scripts/`；本地发布资源在`release-assets/<tag>/`，不提交Git。
+每套宠物在根目录独立存放，顶层为当前导入文件、说明与校验；`preview/`保留正式预览、应用规格依据和最终验收。各套 `source/` 仅在本地保留选用的原始生成图、有效参考图、实际输入、提示词及 `materials-index.json` 索引；`maintenance/` 也仅作本地维护留档。两者不提交 Git。参考来源与创作补全写在各套README。共用打包、验证脚本在`scripts/`；本地发布资源在`release-assets/<tag>/`，不提交Git。
 
 从项目根目录运行，`vX.Y.Z`替换为尚未存在的新版本：
 
@@ -109,7 +109,7 @@ python scripts/verify_release.py release-assets/vX.Y.Z/nene_codex_pets-vX.Y.Z.zi
 
 脚本自动清点根目录全部`*/pet.json`，核对成品、全部GIF与ZIP文件一致性；缺少资源时停止，已有版本不会覆盖。发布时上传合集ZIP及同目录的`SHA256SUMS.txt`，核对下载哈希。工作区保留最终成果及有效制作原素材；废案、重复缓存和本地历史包按用户授权清理。
 
-工作约定见[AGENTS.md](AGENTS.md)，机器人预览索引见[preview/README.md](nene_robo/preview/README.md)。本地发布目录索引位于`release-assets/README.md`。辅助验证脚本依赖对应Windows应用安装包；预览与打包使用Python及Pillow。
+工作约定见[AGENTS.md](AGENTS.md)，机器人预览索引见[preview/README.md](nene_robo/preview/README.md)。本地发布目录索引位于`release-assets/README.md`。公共打包与验证使用Python及Pillow；依赖本机Windows应用安装包的制作期辅助脚本仅在本地留档。
 
 </details>
 

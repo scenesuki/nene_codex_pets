@@ -36,7 +36,7 @@ nene_codex_pets/
     validation.json       # 最终文件校验
     installed-validation.json # 本机安装文件校验（如已执行）
     preview/              # 正式预览、应用规格依据和最终验收记录
-    source/               # 当前成果的有效制作原素材
+    source/               # 本地保留的有效制作原素材，不提交 Git
       README.md
       materials-index.json # 原素材、实际输入及提示词的路径与哈希
       decoded/            # 选用的原始生成结果
@@ -70,7 +70,7 @@ nene_codex_pets/
 - 每次新 Release 同时包含仓库内所有宠物的成品资源。以根目录 `*/pet.json` 自动清点宠物，任何一套缺少必需文件都应停止打包，不能只上传本次新增或修改的宠物。
 - 从仓库根目录运行 `python scripts/build_release.py --tag vX.Y.Z`，生成 `release-assets/<tag>/nene_codex_pets-<tag>.zip`、`SHA256SUMS.txt`、`package-check.json` 和 `release-notes.md`。使用新的项目版本号；仅在用户授权清理时移除旧本地包，保留发布说明和回执。
 - 全量 ZIP 包含根 README、NOTICE、AGENTS、PET_NAMES，以及每套 `<pet-id>/` 的顶层 `pet.json`、`spritesheet.webp`、README、NOTICE、`validation.json`、可用的 `installed-validation.json` 和整个 `preview/`。发布素材只取当前成品与正式记录，不纳入制作缓存、候选或旧分发快照。
-- 上传仓库时以各套 `source/materials-index.json` 显式提交有效原素材、原始生成图、实际输入与提示词，连同素材索引和source说明；既有已跟踪制作记录保留。未采用稿、制作缓存和更名备份仅留本地。
+- GitHub 当前版本仅保留各套顶层成品、说明、校验、整个 `preview/`、根说明与项目约定，以及 `scripts/` 公共打包和验证脚本。有效原素材、参考网页、实际输入、提示词、制作脚本及素材索引保留在本地各套 `source/`；维护留档保留在本地 `maintenance/`，两者均不提交 Git。精简上传范围使用取消跟踪，保留本地原文件及哈希索引；已发布附件与 Git 历史保持原样。
 - 打包后运行 `python scripts/verify_release.py release-assets/<tag>/nene_codex_pets-<tag>.zip`，确认 ZIP 的宠物 ID 集合与根目录清点结果完全一致，各资源与工作区成品逐字节一致；同时核对 SHA-256。新增宠物会自动纳入后续全量包。
 - 用户授权发布时，上传同一全量包及其 `SHA256SUMS.txt`，发布说明列出全部宠物。上传后核对附件清单与下载哈希，将回执保存到对应版本目录。不要使用归档的单宠物打包或发布脚本创建新 Release。
 - 线上已发布附件及回执保持原样；本地历史ZIP、旧分发快照和临时预览按用户授权清理，版本说明及发布回执保留。本地整理和打包不自动更新或删除线上Release。

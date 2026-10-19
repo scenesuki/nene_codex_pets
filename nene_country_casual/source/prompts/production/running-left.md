@@ -1,5 +1,0 @@
-Create ONE coherent horizontal animation strip with exactly 8 separated full-body poses. State: running-left.
-
-Copy the canonical chibi identity exactly: same face, large head, short torso and compact ankle-length cream pinafore, plaid blouse, brown straps and shoes, yellow hair bows. Keep the canonical total head-to-body ratio; never lengthen the legs or torso. The anatomical LEFT hand always holds the same red-white striped, textless popcorn bucket against the body; never switch hands or mirror the character. Popcorn stays inside the bucket. The other RIGHT hand is free. Every figure must be complete, separated, equally scaled, with generous padding. Solid pure #FF00FF background. No lettering, logos, guides, arrows, borders, shadow, floor, glow, motion lines, dust, floating or spilled particles. Layout attachment controls spacing/count only, do not draw its marks.
-
-Face and travel SCREEN-LEFT. Eight clearly alternating steps, free arm and cream skirt move gently, feet alternate. Keep bucket in anatomical LEFT hand; draw leftward poses anew, do not mirror or change bucket hand.

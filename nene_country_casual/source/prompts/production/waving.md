@@ -1,5 +1,0 @@
-Create ONE coherent horizontal animation strip with exactly 4 separated full-body poses. State: waving.
-
-Copy the canonical chibi identity exactly: same face, large head, short torso and compact ankle-length cream pinafore, plaid blouse, brown straps and shoes, yellow hair bows. Keep the canonical total head-to-body ratio; never lengthen the legs or torso. The anatomical LEFT hand always holds the same red-white striped, textless popcorn bucket against the body; never switch hands or mirror the character. Popcorn stays inside the bucket. The other RIGHT hand is free. Every figure must be complete, separated, equally scaled, with generous padding. Solid pure #FF00FF background. No lettering, logos, guides, arrows, borders, shadow, floor, glow, motion lines, dust, floating or spilled particles. Layout attachment controls spacing/count only, do not draw its marks.
-
-Restrained greeting: frame1 relaxed free RIGHT hand, frame2 lift it, frame3 open palm small wave, frame4 lower and return. LEFT hand keeps bucket at waist. Show the wave using hand movement only.
