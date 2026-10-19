@@ -14,7 +14,7 @@
 
 [动画总览](preview/animation-overview.gif) · [十六方向](preview/look-directions.gif) · [全部预览](preview/README.md) · [静态全帧](preview/contact-sheet.png)
 
-最终导入文件：[pet.json](pet.json) 与 [spritesheet.webp](spritesheet.webp)。本套包含在[v1.8.0九套完整合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.8.0/nene_codex_pets-v1.8.0.zip)，下载后用同版[SHA256SUMS.txt](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.8.0/SHA256SUMS.txt)核对校验和。历史附件及旧名称对应见[命名对照](../PET_NAMES.md)与[GitHub Release](https://github.com/scenesuki/nene_codex_pets/releases)。
+最终导入文件：[pet.json](pet.json) 与 [spritesheet.webp](spritesheet.webp)。本套包含在[v1.9.0十套完整合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/nene_codex_pets-v1.9.0.zip)，下载后用同版[SHA256SUMS.txt](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/SHA256SUMS.txt)核对校验和。历史附件与旧名称见[命名对照](../PET_NAMES.md)及[GitHub Release](https://github.com/scenesuki/nene_codex_pets/releases)。
 
 ## 安装
 

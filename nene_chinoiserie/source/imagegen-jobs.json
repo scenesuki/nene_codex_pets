@@ -1,0 +1,721 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-18T10:14:18.128456+00:00",
+  "run_dir": "D:\\项目\\pet_2\\nene_chinoiserie\\source",
+  "primary_generation_skill": "$imagegen",
+  "jobs": [
+    {
+      "id": "base",
+      "kind": "base-pet",
+      "status": "complete",
+      "prompt_file": "prompts/base-pet.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "decoded/base-attempt-01.png",
+          "role": "edit target; preserve costume and face, shorten body to compact2.5head chibi"
+        }
+      ],
+      "output_path": "decoded/base.png",
+      "depends_on": [],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "previous_attempts": [
+        {
+          "preserved_output": "decoded/base-attempt-01.png",
+          "used_as_input": true,
+          "reason": "Worker reports 3.5-head proportions instead of compact 2.5-head chibi",
+          "sha256": "9a36be93210162f07479a101b90706d06c1c17c29991bc7c504ccb157375ec96"
+        }
+      ],
+      "executed_prompt_file": "prompts/base-compact.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14e84-104b-7792-9380-67c6e67e11ea\\exec-e37ed727-77ad-4479-b095-e2d8071b3f9a.png",
+      "source_sha256": "5bd34d82c89ddf47b70f71787d5051ce605591f5d79886cf463683586e0928d3",
+      "worker_qa": "约2.5头身，完整长裙、灰短袜和黑搭带鞋；不对称服饰保持",
+      "selected_at": "2026-10-18T10:50:37.507108+00:00",
+      "completed_at": "2026-10-18T10:50:37.792323+00:00"
+    },
+    {
+      "id": "idle",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/idle.md",
+      "retry_prompt_file": "prompts/row-retries/idle.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/idle.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/idle.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "no deterministic derivation is configured for this state"
+      },
+      "mirror_policy": {},
+      "executed_prompt_file": "prompts/rows/idle.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14ea2-b221-7d01-9640-cc7ce18170fd\\exec-a9780af7-a5b0-4500-b597-47e446c3d025.png",
+      "source_sha256": "35e2bac9c798e8ce3692c4c79e7170a3f7ce6c319585b7d89658fa62c5187056",
+      "worker_qa": "6帧完整、紧凑比例与服饰一致，首尾睁眼，渐进眨眼，脚底稳定",
+      "selected_at": "2026-10-18T10:52:10.704583+00:00",
+      "completed_at": "2026-10-18T10:52:12.226543+00:00"
+    },
+    {
+      "id": "running-right",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/running-right.md",
+      "retry_prompt_file": "prompts/row-retries/running-right.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/running-right.png",
+          "role": "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/running-right.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "no deterministic derivation is configured for this state"
+      },
+      "mirror_policy": {},
+      "executed_prompt_file": "prompts\\running-right-executed.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14ea2-d168-7fd1-bd55-8e6357b7997a\\exec-dd7476ef-41bb-4a14-967a-bb09fad813c6.png",
+      "source_sha256": "44bb20d8025d6b51f2a5b2d585186454f92b9cd0cced939629bf884e3f239ce6",
+      "worker_qa": "8帧朝右且完整，无裁切；第3与6帧抬膝稍高待总览复核",
+      "selected_at": "2026-10-18T10:54:54.567782+00:00",
+      "completed_at": "2026-10-18T10:54:55.811541+00:00",
+      "input_provenance": "qa/running-right-input-provenance.json"
+    },
+    {
+      "id": "running-left",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/running-left.md",
+      "retry_prompt_file": "prompts/row-retries/running-left.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/running-left.png",
+          "role": "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "decoded/running-right.png",
+          "role": "rightward gait reference for leftward row decision"
+        }
+      ],
+      "output_path": "decoded/running-left.png",
+      "depends_on": [
+        "base",
+        "running-right"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base",
+        "running-right"
+      ],
+      "derivation_policy": {
+        "may_derive": true,
+        "may_derive_from": "running-right",
+        "derivation": "framewise-horizontal-mirror-preserving-order",
+        "requires_explicit_approval": true,
+        "fallback_generation_skill": "$imagegen"
+      },
+      "mirror_policy": {
+        "may_derive": false,
+        "reason": "Asymmetric costume lapel, bow and embroidery; left row generated separately"
+      },
+      "executed_prompt_file": "prompts/running-left-executed-v2.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14ea6-9ddd-7c90-a0d5-1b3d3548c03f\\exec-bbaef1f0-f299-499f-8878-3a098d771fca.png",
+      "source_sha256": "4aaf22200a38fb671f82caf01529fb3eb449599011addc471e659b1fd5b0025a",
+      "worker_qa": "8帧朝左且完整，低步幅交替；末帧发尾完整，外边距窄但分格后重新对齐",
+      "selected_at": "2026-10-18T10:57:53.168150+00:00",
+      "completed_at": "2026-10-18T10:57:54.413114+00:00"
+    },
+    {
+      "id": "waving",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/waving.md",
+      "retry_prompt_file": "prompts/row-retries/waving.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/waving.png",
+          "role": "layout guide for 4 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/waving.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "executed_prompt_file": "prompts/rows/waving.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14ea2-ecbf-7e73-ac11-13f20102047b\\exec-b7395cda-9d1c-4949-88b5-19ae26dea670.png",
+      "source_sha256": "df919533b2cc0afccdfff5f4e0ccceb72311a831601748a7694c638481c34b9c",
+      "worker_qa": "4帧完整全身，脚底稳定，收手抬手轻挥收手，首尾接近，服饰一致",
+      "selected_at": "2026-10-18T10:52:32.411221+00:00",
+      "completed_at": "2026-10-18T10:52:33.798514+00:00"
+    },
+    {
+      "id": "jumping",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/jumping.md",
+      "retry_prompt_file": "prompts/row-retries/jumping.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/jumping.png",
+          "role": "layout guide for 5 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/jumping.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "executed_prompt_file": "prompts\\jumping-executed.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14ea4-1c47-7b03-aa5b-398fcf44ffb4\\exec-72bf38b8-cdf3-4749-8c67-66627b73ab94.png",
+      "source_sha256": "c9960d6cdb5897e0f2b52ff6f12894cad9397f1c4035694dbfb2c96c166990b5",
+      "worker_qa": "5帧完整且无夸张肢体；仅整体y位移偏大，后续刚性定位至8px",
+      "selected_at": "2026-10-18T10:54:17.262601+00:00",
+      "completed_at": "2026-10-18T10:54:18.711019+00:00"
+    },
+    {
+      "id": "failed",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/failed.md",
+      "retry_prompt_file": "prompts/row-retries/failed.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/failed.png",
+          "role": "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/failed.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "executed_prompt_file": "prompts\\failed-executed.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14ea4-6e75-7873-a7ff-89dc02a8a493\\exec-2d717969-f3dd-4dde-bf7e-fd1532c88812.png",
+      "source_sha256": "7d283ee6ad51741cc3ec55ae8db6b08afa33b4d849694519fc2375e71e3a9883",
+      "worker_qa": "8帧完整，低落闭眼轻叹后恢复，服饰一致，无新增物",
+      "selected_at": "2026-10-18T10:54:55.931151+00:00",
+      "completed_at": "2026-10-18T10:54:57.481926+00:00"
+    },
+    {
+      "id": "waiting",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/waiting.md",
+      "retry_prompt_file": "prompts/row-retries/waiting.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/waiting.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/waiting.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "executed_prompt_file": "prompts\\waiting-executed.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14ea6-585d-7f40-b61b-9240c4ddb7de\\exec-e96f83a3-41dc-43b2-872e-c72dd7a2da4c.png",
+      "source_sha256": "c161f782cb71484273d4641a6a3b3762b37f9948f18d4f1fb68f1f91582b6b70",
+      "worker_qa": "6帧完整，胸前请求、轻微歪头后回归，双眼睁开，脚底稳定",
+      "selected_at": "2026-10-18T10:56:53.221112+00:00",
+      "completed_at": "2026-10-18T10:56:54.802606+00:00"
+    },
+    {
+      "id": "running",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/running.md",
+      "retry_prompt_file": "prompts/row-retries/running.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/running.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/running.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "executed_prompt_file": "prompts\\running-executed.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14ea6-bff7-7362-b76d-567c3ef492a9\\exec-12adb3d7-6fc5-480f-b673-46040978ecc9.png",
+      "source_sha256": "cd01126c252f945df309ab77c9016da6cd7e32727041dd03339f2b0097b4d158",
+      "worker_qa": "6帧完整，脚底稳定，以托腮点头眨眼表现工作，无新增物",
+      "selected_at": "2026-10-18T10:57:45.390149+00:00",
+      "completed_at": "2026-10-18T10:57:47.050690+00:00"
+    },
+    {
+      "id": "review",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/review.md",
+      "retry_prompt_file": "prompts/row-retries/review.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/review.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/review.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "executed_prompt_file": "prompts\\review-executed.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14ea8-08b7-7b92-a316-0004a9a5249c\\exec-aba5d4d7-ed26-40e7-9d4e-0cc9798d55b8.png",
+      "source_sha256": "14c06a84a1b5352c1fac4e297097268e5d0c4bd788921dc77d8f7fb6df2d48b3",
+      "worker_qa": "6帧完整，前倾眯眼歪头轻点头后回归，脚底稳定，无新增物",
+      "selected_at": "2026-10-18T10:58:23.325150+00:00",
+      "completed_at": "2026-10-18T10:58:24.877080+00:00"
+    },
+    {
+      "id": "look-cardinals",
+      "kind": "look-cardinal-strip",
+      "status": "complete",
+      "prompt_file": "prompts/look-cardinals.md",
+      "repair_prompt_files": {
+        "000": "prompts/look-anchor-repairs/000.md",
+        "090": "prompts/look-anchor-repairs/090.md",
+        "180": "prompts/look-anchor-repairs/180.md",
+        "270": "prompts/look-anchor-repairs/270.md"
+      },
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.webp",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/look-cardinals.png",
+          "role": "layout guide for four cardinal slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "qa/contact-sheet.png",
+          "role": "approved standard-row identity, scale, and baseline reference"
+        }
+      ],
+      "output_path": "decoded/look-cardinals.png",
+      "extracted_output_paths": [
+        "decoded/look-anchors/000.png",
+        "decoded/look-anchors/090.png",
+        "decoded/look-anchors/180.png",
+        "decoded/look-anchors/270.png"
+      ],
+      "approved_strip_path": "decoded/look-anchors-approved.png",
+      "depends_on": [
+        "idle",
+        "running-right",
+        "running-left",
+        "waving",
+        "jumping",
+        "failed",
+        "waiting",
+        "running",
+        "review"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "look_mechanics_file": "qa/look-mechanics.md",
+      "directions": [
+        "000",
+        "090",
+        "180",
+        "270"
+      ],
+      "packaging_eligible": false,
+      "parallelizable_after": [
+        "idle",
+        "running-right",
+        "running-left",
+        "waving",
+        "jumping",
+        "failed",
+        "waiting",
+        "running",
+        "review"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "cardinal directions require grounded pet-specific generation"
+      },
+      "executed_prompt_file": "prompts/look-cardinals-executed.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14eac-2e1b-7973-92cb-4fca69b575c5\\exec-a013be30-cfe8-4e29-88dd-84e4507f0d7d.png",
+      "source_sha256": "594a4187041e8f0e4b1764f947fbd5500cf663822133fd2c4a42ef46022cae64",
+      "worker_qa": "上抬颏虹膜上移，右鼻尖视线向右，下双眼睁开虹膜下移，左鼻尖向左，脚底稳定",
+      "selected_at": "2026-10-18T11:03:01.709286+00:00",
+      "completed_at": "2026-10-18T11:03:13.768611+00:00"
+    },
+    {
+      "id": "look-row-9",
+      "kind": "look-row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/look-row-9.md",
+      "retry_prompt_file": "prompts/row-retries/look-row-9.md",
+      "input_images": [
+        {
+          "path": "references/layout-guides/look-row-9.png",
+          "role": "layout guide for 8 direction slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "qa/contact-sheet.png",
+          "role": "approved standard-row identity, scale, and baseline reference"
+        },
+        {
+          "path": "decoded/look-anchors-approved.png",
+          "role": "approved cardinal reference strip in order 000 up, 090 screen-right, 180 down, 270 screen-left; interpolate intermediate directions evenly"
+        }
+      ],
+      "output_path": "decoded/look-row-9.png",
+      "depends_on": [
+        "look-cardinals"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "look_mechanics_file": "qa/look-mechanics.md",
+      "directions": [
+        "000",
+        "022.5",
+        "045",
+        "067.5",
+        "090",
+        "112.5",
+        "135",
+        "157.5"
+      ],
+      "parallelizable_after": [
+        "look-cardinals"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "look directions require grounded pet-specific generation"
+      },
+      "coherent_synthesis_required": true,
+      "individual_cell_packaging_allowed": false,
+      "packaging_eligible": true,
+      "grounding_policy": "Original game references define canonical base; gaze generation uses canonical identity, approved standard contact, cardinals, layout and prior row within five-image tool limit.",
+      "executed_prompt_file": "prompts\\look-row-9-executed.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14eae-3be3-7df1-9cbb-12dc099536dc\\exec-b7772b18-5b4e-4c3e-ab38-77c21dd2f644.png",
+      "source_sha256": "6ff00c25eb71d22cfbbe7fc082fd85a8ce370cea4ad5f0e576f1fbfbf5b4d2a2",
+      "worker_qa": "8姿势完整，上至右再至右下连贯，眼睛睁开，后段下视较含蓄",
+      "selected_at": "2026-10-18T11:05:03.909726+00:00",
+      "completed_at": "2026-10-18T11:10:46.382120+00:00"
+    },
+    {
+      "id": "look-row-10",
+      "kind": "look-row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/look-row-10.md",
+      "retry_prompt_file": "prompts/row-retries/look-row-10.md",
+      "input_images": [
+        {
+          "path": "references/layout-guides/look-row-10.png",
+          "role": "layout guide for 8 direction slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "qa/contact-sheet.png",
+          "role": "approved standard-row identity, scale, and baseline reference"
+        },
+        {
+          "path": "decoded/look-anchors-approved.png",
+          "role": "approved cardinal reference strip in order 000 up, 090 screen-right, 180 down, 270 screen-left; interpolate intermediate directions evenly"
+        },
+        {
+          "path": "decoded/look-row-9.png",
+          "role": "completed first half of the clockwise look loop for row 10 continuity"
+        }
+      ],
+      "output_path": "decoded/look-row-10.png",
+      "depends_on": [
+        "look-cardinals",
+        "look-row-9"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "look_mechanics_file": "qa/look-mechanics.md",
+      "directions": [
+        "180",
+        "202.5",
+        "225",
+        "247.5",
+        "270",
+        "292.5",
+        "315",
+        "337.5"
+      ],
+      "parallelizable_after": [
+        "look-cardinals",
+        "look-row-9"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "look directions require grounded pet-specific generation"
+      },
+      "coherent_synthesis_required": true,
+      "individual_cell_packaging_allowed": false,
+      "packaging_eligible": true,
+      "grounding_policy": "Original game references define canonical base; gaze generation uses canonical identity, approved standard contact, cardinals, layout and prior row within five-image tool limit.",
+      "executed_prompt_file": "prompts/look-row-10-executed.md",
+      "source_path": "C:\\Users\\tieha\\.codex\\generated_images\\01a14eb5-2714-7910-afba-5ff5e4308d65\\exec-6ba54280-c424-40f5-981d-b91747241fb2.png",
+      "source_sha256": "95aa1a84ce783554b9a3ecb901b6f278a2c12bd0a7180b9d4f1146b4cc26c130",
+      "worker_qa": "2172x724，8完整姿势，180睁眼俯视270左向明确，保持源图尺寸与脚底基线",
+      "selected_at": "2026-10-18T11:12:48.278923+00:00",
+      "completed_at": "2026-10-18T11:13:34.290867+00:00"
+    }
+  ]
+}

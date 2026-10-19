@@ -1,10 +1,10 @@
 # nene_codex_pets
 
-草薙宁宁的 Codex 桌面宠物合集。现有九套造型，各有9种状态动画与16个注视方向。新增「憧れに向かって」特训后红心皇后造型 `nene_classical_lolita`（显示名 `宁宁 · 古典洛丽塔 · 红心皇后`）。
+草薙宁宁的 Codex 桌面宠物合集。现有十套造型，各有9种状态动画与16个注视方向。新增「夢をのせたメロディー」特训后新中式礼装 `nene_chinoiserie`（显示名 `宁宁 · 新中式礼装`）。
 
-**[下载九套完整合集 · v1.8.0](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.8.0/nene_codex_pets-v1.8.0.zip)** · [校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.8.0/SHA256SUMS.txt) · [更新记录](https://github.com/scenesuki/nene_codex_pets/releases)
+**[下载十套完整合集 · v1.9.0](https://github.com/scenesuki/nene_codex_pets/https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/nene_codex_pets-v1.9.0.zip)** · [校验和](https://github.com/scenesuki/nene_codex_pets/https://github.com/scenesuki/nene_codex_pets/releases/download/v1.9.0/SHA256SUMS.txt) · [更新记录](https://github.com/scenesuki/nene_codex_pets/releases)
 
-v1.8.0合集包含下列全部九套宠物、统一名称、完整预览和最终校验记录。选用的制作原素材保留在仓库各套 `source/`。
+v1.9.0合集包含下列全部十套宠物、完整预览和最终校验记录。选用的制作原素材保留在仓库各套 `source/`。
 
 当前目录、ID和显示名称已按服饰统一，[查看命名对照](PET_NAMES.md)。v1.8.0采用新名称；v1.7.2及更早附件保留原名称。
 
@@ -42,17 +42,17 @@ v1.8.0合集包含下列全部九套宠物、统一名称、完整预览和最�
 | **参考卡面**：2星卡「ワンダーステッキ」 | **参考卡面**：4星卡「きらびやかな夢の舞台」特训后；服装「スパカリバルーンドレス」 |
 | [造型与说明](nene_circus_stage/README.md) · [查看动画](nene_circus_stage/preview/animation-overview.gif) | [造型与说明](nene_victorian_lolita/README.md) · [查看动画](nene_victorian_lolita/preview/animation-overview.gif) |
 
-| 古典洛丽塔·红心皇后 · 新增 |
-| :---: |
-| <a href="nene_classical_lolita/README.md"><img src="nene_classical_lolita/preview/readme-portrait.png" alt="Classical Lolita宁宁与红心牌、玫瑰" width="144"></a> |
-| **服饰要素介绍**：红心王冠、红披肩、深绿蕾丝裙、玫瑰与红心牌 |
-| **画风**：Q版日系插画 |
-| **参考卡面**：4星卡「憧れに向かって」特训后；服装「クイーン・オブ・ハート」 |
-| [造型与本地文件](nene_classical_lolita/README.md) · [查看动画](nene_classical_lolita/preview/animation-overview.gif) |
+| 古典洛丽塔·红心皇后 | 新中式礼装 · 新增 |
+| :---: | :---: |
+| <a href="nene_classical_lolita/README.md"><img src="nene_classical_lolita/preview/readme-portrait.png" alt="Classical Lolita宁宁与红心牌、玫瑰" width="144"></a> | <a href="nene_chinoiserie/README.md"><img src="nene_chinoiserie/preview/readme-portrait.png" alt="草薙宁宁新中式礼装" width="144"></a> |
+| **服饰要素介绍**：红心王冠、红披肩、深绿蕾丝裙、玫瑰与红心牌 | **服饰要素介绍**：蓝紫斜襟、腰侧蝴蝶结、黑色开衩长裙、灰短袜与黑搭带鞋 |
+| **画风**：Q版日系插画 | **画风**：Q版日系插画 |
+| **参考卡面**：4星卡「憧れに向かって」特训后；服装「クイーン・オブ・ハート」 | **参考卡面**：4星卡「夢をのせたメロディー」特训后；服装「ディグニファイド・ブリリアンス」 |
+| [造型与说明](nene_classical_lolita/README.md) · [查看动画](nene_classical_lolita/preview/animation-overview.gif) | [造型与说明](nene_chinoiserie/README.md) · [查看动画](nene_chinoiserie/preview/animation-overview.gif) |
 
 ## 三步安装
 
-1. 下载v1.8.0九套合集，使用同版 `SHA256SUMS.txt` 核对校验和后解压；历史版本按包内说明及[命名对照](PET_NAMES.md)确认旧名称。
+1. 下载v1.9.0十套合集，使用同版 `SHA256SUMS.txt` 核对校验和后解压；历史版本按包内说明及[命名对照](PET_NAMES.md)确认旧名称。
 2. 将所需宠物目录复制到 `~/.codex/pets/`，确保顶层同时有 `pet.json` 和 `spritesheet.webp`。
 3. 打开Codex设置 > Pets，刷新并选择对应中文名称，必要时重启应用。
 
@@ -68,8 +68,9 @@ Windows默认目录为 `%USERPROFILE%\.codex\pets\`；自定义 `CODEX_HOME` 时
 - `nene_circus_stage` 的九状态、十六方向及加载校验已通过；少数中间视线分量和跨段姿态差异记录为细微限制。对应造型曾以旧名纳入v1.6.2；当前名称尚未安装，应用内显示尚未实测，详见其子页。
 - 新增 `nene_victorian_lolita`（显示名称 `宁宁 · 维多利亚洛丽塔 · 花边洋伞`）已通过原生v2校验、视觉复核与本机加载算法检查；跳跃已改为8px离地的小跳，其余八状态和十六方向逐像素保留。原方向盲审仍适用，五个低头斜向的横向提示较细微，详见子页；尚未安装，应用UI与实际动态播放尚未实测。
 - 新增 `nene_classical_lolita` 采用四星卡「憧れに向かって」特训后造型，规格依据为 `OpenAI.Codex_26.1013.3656.0`。文件、动画及方向验收见其子页；尚未安装，应用UI尚未实测。
+- 新增 `nene_chinoiserie` 的九状态、十六方向、图集及加载算法验收见其子页；下半身按原色全身模型核实。2026-10-19已安装并核对文件及本机加载算法，当前选用宠物未切换；应用UI及浮动显示尚未实测。
 - 本次九套名称已统一，当前清单与加载校验见各套 `preview/rename-validation.json`、`preview/app-loader-validation.json`；历史安装记录不表示新名称已安装。
-- 首屏静态图直接提取自各套最终交付图集，完整动画通过上方链接查看。v1.8.0包含当前九套名称与正式预览，历史包内容以对应版本为准。
+- 首屏静态图直接提取自各套最终交付图集，完整动画通过上方链接查看。v1.9.0包含当前十套名称与正式预览，历史包内容以对应版本为准。
 
 </details>
 
@@ -78,6 +79,7 @@ Windows默认目录为 `%USERPROFILE%\.codex\pets\`；自定义 `CODEX_HOME` 时
 
 | 版本 | 实际内容 | 附件 |
 | --- | --- | --- |
+| [v1.9.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.9.0) | 新增新中式礼装；十套完整合集 | `nene_codex_pets-v1.9.0.zip` |
 | [v1.8.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.8.0) | 新增红心皇后，统一九套服饰命名与三项式介绍；九套完整合集 | `nene_codex_pets-v1.8.0.zip` |
 | [v1.7.2](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.7.2) | 新增Victorian Lolita蓬裙与花边伞，八套完整合集；整理有效原素材与最终验收 | `nene_codex_pets-v1.7.2.zip` |
 | [v1.6.2](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.6.2) | 新增江户风洋装与手杖造型，七套完整合集 | `nene_codex_pets-v1.6.2.zip` |

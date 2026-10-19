@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "reviewed_by": "parent native-size labeled16pose ordered-loop inspection",
+  "directions": [
+    {
+      "angle": "000",
+      "status": "pass",
+      "evidence_horizontal": "Centered face; no horizontal requirement.",
+      "evidence_vertical": "Chin raised and face plane tilted up; open irises aim upward.",
+      "continuity_note": "Planted body and coherent head/eye progression; intermediateexactangles not measured."
+    },
+    {
+      "angle": "022.5",
+      "status": "pass",
+      "evidence_horizontal": "Head and nose turn slightly screen-right.",
+      "evidence_vertical": "Lifted chin and upper eye aim retained.",
+      "continuity_note": "Planted body and coherent head/eye progression; intermediateexactangles not measured."
+    },
+    {
+      "angle": "045",
+      "status": "pass",
+      "evidence_horizontal": "Nose and face plane turn screen-right.",
+      "evidence_vertical": "Head pitch and violet eye aim stay upward.",
+      "continuity_note": "Planted body and coherent head/eye progression; intermediateexactangles not measured."
+    },
+    {
+      "angle": "067.5",
+      "status": "warning",
+      "evidence_horizontal": "Face and violet gaze increasingly screen-right.",
+      "evidence_vertical": "Chin mildly elevated; upward eye cue smaller nearhorizontal.",
+      "continuity_note": "Planted body and coherent head/eye progression; intermediateexactangles not measured."
+    },
+    {
+      "angle": "090",
+      "status": "pass",
+      "evidence_horizontal": "Nose clearly points screen-right, far eye partially occluded.",
+      "evidence_vertical": "Gaze near level, no vertical requirement.",
+      "continuity_note": "Planted body and coherent head/eye progression; intermediateexactangles not measured."
+    },
+    {
+      "angle": "112.5",
+      "status": "warning",
+      "evidence_horizontal": "Head and visible violet gaze retain rightward orientation.",
+      "evidence_vertical": "Chin lowers from090; upper lids settle and gaze starts downward, subtle.",
+      "continuity_note": "Planted body and coherent head/eye progression; intermediateexactangles not measured."
+    },
+    {
+      "angle": "135",
+      "status": "pass",
+      "evidence_horizontal": "Face and nose remain in right half.",
+      "evidence_vertical": "Lowered face angle and open purple eyes aim downward.",
+      "continuity_note": "Planted body and coherent head/eye progression; intermediateexactangles not measured."
+    },
+    {
+      "angle": "157.5",
+      "status": "warning",
+      "evidence_horizontal": "Nose and eye aim retain screen-right component.",
+      "evidence_vertical": "Tucked chin, lowered face and open eyes give downward attention; yaw still comparatively strong.",
+      "continuity_note": "Planted body and coherent head/eye progression; intermediateexactangles not measured."
+    },
+    {
+      "angle": "180",
+      "status": "pass",
+      "evidence_horizontal": "Centered lowered face, no horizontal requirement.",
+      "evidence_vertical": "Chin clearly tucked; both violet eyes open and aimed down.",
+      "continuity_note": "Foot, waist, resting hands and clothing registration remain stable; no wrong quadrant or reversal."
+    },
+    {
+      "angle": "202.5",
+      "status": "warning",
+      "evidence_horizontal": "Small head yaw and eye bias toward screen-left; subtle nearvertical.",
+      "evidence_vertical": "Lowered chin, eyelids and iris aim remain down.",
+      "continuity_note": "Foot, waist, resting hands and clothing registration remain stable; no wrong quadrant or reversal."
+    },
+    {
+      "angle": "225",
+      "status": "pass",
+      "evidence_horizontal": "Face and nose turn left, both visible eyes maintain leftward bias.",
+      "evidence_vertical": "Downward pitch and low eye aim visible.",
+      "continuity_note": "Foot, waist, resting hands and clothing registration remain stable; no wrong quadrant or reversal."
+    },
+    {
+      "angle": "247.5",
+      "status": "warning",
+      "evidence_horizontal": "Leftward facial plane and gaze clearly retained.",
+      "evidence_vertical": "Chin mildly lowered before level-left; downward component subtle.",
+      "continuity_note": "Foot, waist, resting hands and clothing registration remain stable; no wrong quadrant or reversal."
+    },
+    {
+      "angle": "270",
+      "status": "pass",
+      "evidence_horizontal": "Nose and open eye gaze unmistakably face screen-left.",
+      "evidence_vertical": "Gaze approximately level, no vertical requirement.",
+      "continuity_note": "Foot, waist, resting hands and clothing registration remain stable; no wrong quadrant or reversal."
+    },
+    {
+      "angle": "292.5",
+      "status": "warning",
+      "evidence_horizontal": "Face and gaze continue screen-left.",
+      "evidence_vertical": "Chin begins lifting and eye aim rises, small vertical cue.",
+      "continuity_note": "Foot, waist, resting hands and clothing registration remain stable; no wrong quadrant or reversal."
+    },
+    {
+      "angle": "315",
+      "status": "pass",
+      "evidence_horizontal": "Nose and iris aim into upper-left quadrant.",
+      "evidence_vertical": "Chin and open gaze raised toward upper-left.",
+      "continuity_note": "Foot, waist, resting hands and clothing registration remain stable; no wrong quadrant or reversal."
+    },
+    {
+      "angle": "337.5",
+      "status": "warning",
+      "evidence_horizontal": "Face remains left-biased while attention rises toward top.",
+      "evidence_vertical": "Head and eye aim tilted upward; strongerleftyaw than exactnearvertical ideal.",
+      "continuity_note": "Foot, waist, resting hands and clothing registration remain stable; no wrong quadrant or reversal."
+    }
+  ],
+  "continuity_notes": [
+    "157.5->180 and247.5->270 head-plane changes are more concentrated; metricsflaggedlocaloutliers but no bodyregistrationpop, incorrectquadrant, clipping, losteye or conspicuouswholefigurescalechange observed."
+  ]
+}

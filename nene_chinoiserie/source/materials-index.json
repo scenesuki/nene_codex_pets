@@ -1,0 +1,895 @@
+{
+  "pet_id": "nene_chinoiserie",
+  "current_atlas_sha256": "46b1f123c1cbce0d5ef615fa2543905dea2b2dd99d021a7e8984baf3a800eca7",
+  "jobs": [
+    {
+      "id": "base",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\base.png",
+      "sha256": "5bd34d82c89ddf47b70f71787d5051ce605591f5d79886cf463683586e0928d3",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\decoded\\base-attempt-01.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\base-pet.md",
+        "nene_chinoiserie\\source\\prompts\\base-compact.md"
+      ]
+    },
+    {
+      "id": "idle",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\idle.png",
+      "sha256": "35e2bac9c798e8ce3692c4c79e7170a3f7ce6c319585b7d89658fa62c5187056",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\idle.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\idle.md",
+        "nene_chinoiserie\\source\\prompts\\rows\\idle.md"
+      ]
+    },
+    {
+      "id": "running-right",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\running-right.png",
+      "sha256": "44bb20d8025d6b51f2a5b2d585186454f92b9cd0cced939629bf884e3f239ce6",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\running-right.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\running-right.md",
+        "nene_chinoiserie\\source\\prompts\\running-right-executed.md"
+      ]
+    },
+    {
+      "id": "running-left",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\running-left.png",
+      "sha256": "4aaf22200a38fb671f82caf01529fb3eb449599011addc471e659b1fd5b0025a",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\running-left.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png",
+        "nene_chinoiserie\\source\\decoded\\running-right.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\running-left.md",
+        "nene_chinoiserie\\source\\prompts\\running-left-executed-v2.md"
+      ]
+    },
+    {
+      "id": "waving",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\waving.png",
+      "sha256": "df919533b2cc0afccdfff5f4e0ccceb72311a831601748a7694c638481c34b9c",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\waving.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\waving.md",
+        "nene_chinoiserie\\source\\prompts\\rows\\waving.md"
+      ]
+    },
+    {
+      "id": "jumping",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\jumping.png",
+      "sha256": "c9960d6cdb5897e0f2b52ff6f12894cad9397f1c4035694dbfb2c96c166990b5",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\jumping.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\jumping.md",
+        "nene_chinoiserie\\source\\prompts\\jumping-executed.md"
+      ]
+    },
+    {
+      "id": "failed",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\failed.png",
+      "sha256": "7d283ee6ad51741cc3ec55ae8db6b08afa33b4d849694519fc2375e71e3a9883",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\failed.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\failed.md",
+        "nene_chinoiserie\\source\\prompts\\failed-executed.md"
+      ]
+    },
+    {
+      "id": "waiting",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\waiting.png",
+      "sha256": "c161f782cb71484273d4641a6a3b3762b37f9948f18d4f1fb68f1f91582b6b70",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\waiting.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\waiting.md",
+        "nene_chinoiserie\\source\\prompts\\waiting-executed.md"
+      ]
+    },
+    {
+      "id": "running",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\running.png",
+      "sha256": "cd01126c252f945df309ab77c9016da6cd7e32727041dd03339f2b0097b4d158",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\running.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\running.md",
+        "nene_chinoiserie\\source\\prompts\\running-executed.md"
+      ]
+    },
+    {
+      "id": "review",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\review.png",
+      "sha256": "14c06a84a1b5352c1fac4e297097268e5d0c4bd788921dc77d8f7fb6df2d48b3",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\review.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\review.md",
+        "nene_chinoiserie\\source\\prompts\\review-executed.md"
+      ]
+    },
+    {
+      "id": "look-cardinals",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\look-cardinals.png",
+      "sha256": "594a4187041e8f0e4b1764f947fbd5500cf663822133fd2c4a42ef46022cae64",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\reference-01.png",
+        "nene_chinoiserie\\source\\references\\reference-02.webp",
+        "nene_chinoiserie\\source\\references\\layout-guides\\look-cardinals.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png",
+        "nene_chinoiserie\\source\\qa\\contact-sheet.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\look-cardinals.md",
+        "nene_chinoiserie\\source\\prompts\\look-cardinals-executed.md",
+        "nene_chinoiserie\\source\\qa\\look-mechanics.md"
+      ]
+    },
+    {
+      "id": "look-row-9",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\look-row-9.png",
+      "sha256": "6ff00c25eb71d22cfbbe7fc082fd85a8ce370cea4ad5f0e576f1fbfbf5b4d2a2",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\layout-guides\\look-row-9.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png",
+        "nene_chinoiserie\\source\\qa\\contact-sheet.png",
+        "nene_chinoiserie\\source\\decoded\\look-anchors-approved.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\look-row-9.md",
+        "nene_chinoiserie\\source\\prompts\\look-row-9-executed.md",
+        "nene_chinoiserie\\source\\qa\\look-mechanics.md"
+      ]
+    },
+    {
+      "id": "look-row-10",
+      "selected_original": "nene_chinoiserie\\source\\decoded\\look-row-10.png",
+      "sha256": "95aa1a84ce783554b9a3ecb901b6f278a2c12bd0a7180b9d4f1146b4cc26c130",
+      "input_files": [
+        "nene_chinoiserie\\source\\references\\layout-guides\\look-row-10.png",
+        "nene_chinoiserie\\source\\references\\canonical-base.png",
+        "nene_chinoiserie\\source\\qa\\contact-sheet.png",
+        "nene_chinoiserie\\source\\decoded\\look-anchors-approved.png",
+        "nene_chinoiserie\\source\\decoded\\look-row-9.png"
+      ],
+      "prompt_files": [
+        "nene_chinoiserie\\source\\prompts\\rows\\look-row-10.md",
+        "nene_chinoiserie\\source\\prompts\\look-row-10-executed.md",
+        "nene_chinoiserie\\source\\qa\\look-mechanics.md"
+      ]
+    }
+  ],
+  "retained_materials": [
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\base-attempt-01.png",
+      "sha256": "9a36be93210162f07479a101b90706d06c1c17c29991bc7c504ccb157375ec96",
+      "roles": [
+        "preserved actual edit input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\base.png",
+      "sha256": "5bd34d82c89ddf47b70f71787d5051ce605591f5d79886cf463683586e0928d3",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\failed.png",
+      "sha256": "7d283ee6ad51741cc3ec55ae8db6b08afa33b4d849694519fc2375e71e3a9883",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\idle.png",
+      "sha256": "35e2bac9c798e8ce3692c4c79e7170a3f7ce6c319585b7d89658fa62c5187056",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\jumping.png",
+      "sha256": "c9960d6cdb5897e0f2b52ff6f12894cad9397f1c4035694dbfb2c96c166990b5",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\look-anchors-approved.png",
+      "sha256": "458f6816caa28eb08da4cdb93f8a43fc203fb14e4bd0d680236679bfacc39a68",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\look-cardinals.png",
+      "sha256": "594a4187041e8f0e4b1764f947fbd5500cf663822133fd2c4a42ef46022cae64",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\look-row-10.png",
+      "sha256": "95aa1a84ce783554b9a3ecb901b6f278a2c12bd0a7180b9d4f1146b4cc26c130",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\look-row-9.png",
+      "sha256": "6ff00c25eb71d22cfbbe7fc082fd85a8ce370cea4ad5f0e576f1fbfbf5b4d2a2",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\review.png",
+      "sha256": "14c06a84a1b5352c1fac4e297097268e5d0c4bd788921dc77d8f7fb6df2d48b3",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\running-left.png",
+      "sha256": "4aaf22200a38fb671f82caf01529fb3eb449599011addc471e659b1fd5b0025a",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\running-right.png",
+      "sha256": "44bb20d8025d6b51f2a5b2d585186454f92b9cd0cced939629bf884e3f239ce6",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\running.png",
+      "sha256": "cd01126c252f945df309ab77c9016da6cd7e32727041dd03339f2b0097b4d158",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\waiting.png",
+      "sha256": "c161f782cb71484273d4641a6a3b3762b37f9948f18d4f1fb68f1f91582b6b70",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\decoded\\waving.png",
+      "sha256": "df919533b2cc0afccdfff5f4e0ccceb72311a831601748a7694c638481c34b9c",
+      "roles": [
+        "selected original generated image"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\imagegen-jobs.json",
+      "sha256": "9aec81ba31415f6859e1616244dc30cf4639feebd0e6a7bded65a2860933fecd",
+      "roles": [
+        "generation manifest"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\pet_request.json",
+      "sha256": "3e7b9832076c81b53cc2adb610dc9efbd712063338752dcb617deff6f8a2713f",
+      "roles": [
+        "generation manifest"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\base-compact.md",
+      "sha256": "d2a774b6a798711d64d12494f1c519df09ac711bfbd2b757baadf85b5dbb2703",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\base-executed.md",
+      "sha256": "3943572e880d214caee75592d8e502fb9acac3a0b01feea6388a66f6b09e7a5e",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\base-pet.md",
+      "sha256": "7541560fea8e297a6c363f8d4cd8c2588addaebf4337594851b88e06cb381a37",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\failed-executed.md",
+      "sha256": "363b4c27190a1e8adfe9da25c4dae436f28d451c6d63db03b2883801a085a2c8",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\jumping-executed.md",
+      "sha256": "0c36a72cb644a517f596102aedd0f654c679efb3dff7b4f62d01f5f2ac0fa298",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\look-anchor-repairs\\000.md",
+      "sha256": "3093cd40bfc8be97345ba70de7924beab86cc1e9f3d3998c1e20599ca3533b52",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\look-anchor-repairs\\090.md",
+      "sha256": "f8f6adfe866f3f53982baf48750033d4b32a90f2d4da48ac62c005453322c9d4",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\look-anchor-repairs\\180.md",
+      "sha256": "8a3482fc49346869beabadc201ed57415e01c2681e1d55da472fb4a6499e3e9a",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\look-anchor-repairs\\270.md",
+      "sha256": "9e6398529788e33be174e64368e16c7da7e787a5b91b9d7a6507ebd973859627",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\look-cardinals-executed.md",
+      "sha256": "62c3324426ebb5c75475d76b8215a91fddca90699f592e84a010a278aedd5909",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\look-cardinals.md",
+      "sha256": "73a04eb662c47ae843804a4072e31a4bf0c0cafcb2cbc8078350e10ea886934a",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\look-row-10-executed.md",
+      "sha256": "f0e878cd2fa33ce1c78c1962471ea9c9029d83ef0713769646d6bb53b699e650",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\look-row-9-executed.md",
+      "sha256": "1270603da41163a90fe9553d2d9c69275aa3223ae7fe4d22ad2d1abf0a5901ab",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\review-executed.md",
+      "sha256": "c9b4a701a0f451664f8f8a7d69dbac9af86535229f1862b23449b4641fa30e6c",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\failed.md",
+      "sha256": "d37704f28b5408365f7f4914f1bfdf2f613c3c2a02b052d0c52b352dd4e3cc0e",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\idle.md",
+      "sha256": "c955a5c45ee978f286d0da41ceec6e0029a0a8cbd566d574cd84b6d1565c3aa5",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\jumping.md",
+      "sha256": "260f26eb41bae7b0c6a4ce8b8ebaaa91a057d3a89307999e88078ad2174ae985",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\look-row-10.md",
+      "sha256": "537c120ac9629d1615114d1287df2684ed5f83da28941a3047edc8a905cf61c5",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\look-row-9.md",
+      "sha256": "93462a9043cd30abc91bb1b685dcf9f649cd002dde6e5cbc579528dd15bc8457",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\review.md",
+      "sha256": "b6237dd2d16d3a7a7e378cb3735c6d3babcf2e79ba65bff655d0b28283789ec1",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\running-left.md",
+      "sha256": "b7511ce6c093c4964326b273ebc827640dd7f8f6fc57657040feff0df1646078",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\running-right.md",
+      "sha256": "816ebecbde96a407433ffd191bceb7ce752f2d6603a2a6c1c3919381add5d121",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\running.md",
+      "sha256": "20100549bd28546b53079637fc010437a3b974835c4133b68412d9c5590b21bd",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\waiting.md",
+      "sha256": "12ffab006f9cc27b3ad33ccd59bdd730070e4317212306ab1bf650f2992b33b1",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\row-retries\\waving.md",
+      "sha256": "7d2931ab3b18b671ccddae1a34503820e1ace133d066c92beece596feb1d7f6d",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\failed.md",
+      "sha256": "120ef3f06c83fd21ff2ca0cf6f2347ac88fb36ddc74a98a9fcd55e9666b2b043",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\idle.md",
+      "sha256": "f9b2cb1045d86e6532f5a31cb7de9e958aecea0ede3d315d13e5d03309ef1023",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\jumping.md",
+      "sha256": "90ae1279bab24a1c8afce66e102ffa52ddfa1551d3ed6b03c7c928190f9f3a02",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\look-row-10.md",
+      "sha256": "81a90c16f651c04ce835fc2d26ba9e22d4c99893be9063d37be5fd9a7b7662b5",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\look-row-9.md",
+      "sha256": "84f4095d05e477498ef07ea6c538354ec328c2b2c65362ce7965f915cbdc9b89",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\review.md",
+      "sha256": "15838fdf215bbd3195210b2b9b59189b0a9968bd2d31317c92e6d7686c41213c",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\running-left.md",
+      "sha256": "5314450a6025deea7258777d38e858f00b85356df17a1b53fd1179a239731b84",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\running-right.md",
+      "sha256": "30aa2c1340146b0bcc2da523e28eea9df0c6b0a68a4fadd24d9809b06e2fd067",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\running.md",
+      "sha256": "4fb920f1e665bd11ed84ec96e6e8cf6f968712cccf4c452d7b5c3c8a5960c6f5",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\waiting.md",
+      "sha256": "c8eedadf8ee1e448489367026b4a42e5be974b8cf7bc32f301fd4ddd601141c9",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\rows\\waving.md",
+      "sha256": "e147c2b0e0c308263845b445402af5e03c0f06fbd4e390cf16d83dbc7dd7c9fb",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\running-executed.md",
+      "sha256": "9417cc3b0a1b5836a0c31ca0cae2ebb45ebc9be2d9410c4fd73140cbe080dff5",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\running-left-executed-v2.md",
+      "sha256": "05c066ab727cb7d29eca0481ab849978fd937dc97b36963a672c9609592b1470",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\running-left-executed.md",
+      "sha256": "8ccf2bf52f50b6f11493444008d939cea5738b9d1e8458febbfd714156f49315",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\running-right-executed.md",
+      "sha256": "5613efd6dca1f5e24bd906d06d63f95a08b604753f634ed29a70246d93d2b203",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\prompts\\waiting-executed.md",
+      "sha256": "b6bae878487dcc8823a35107048e0b0b6189b773ccd559227c375c79504c05e3",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\assemble-standard.py",
+      "sha256": "10295bc9a467f129f06ed7e31061267919cb75e8274ca11399e6ca512f3ca6d9",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\build-v2-qa.py",
+      "sha256": "0d9b648bb547c1e3f50561ab9e2b81305839096f4f66413564415975dddc3090",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\contact-sheet.png",
+      "sha256": "0e969d65b41cab231e5fae87af84eb0637033e38cc6104cd803e0e0c5468e7f3",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\despill-validator-compatible.py",
+      "sha256": "9bcc8f680c1dba7afead233ff7c7be9efa442ffe9bccb264008af2d58057d19c",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\extract-gentle-jump.py",
+      "sha256": "077128cfe0d95bd1e839829a1e1aa087cb4a14e435488428dd8977127cdb7758",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\finish-delivery.py",
+      "sha256": "9bca77b09dc96890096fa0953d51ab76a6aa5c3245df650ab11b10289c5b43e6",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\look-mechanics.md",
+      "sha256": "992c968594e33cc9b3a4a9a8a2029798c783bf5c55e653f52a75e494ae59361b",
+      "roles": [
+        "production prompt or look mechanics"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\place-gentle-jump.py",
+      "sha256": "36d24d945df36fd4afa39487e6d08f707600d3d55d4bd0c706908b6188914f8a",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\record-generation.py",
+      "sha256": "07b46c4cd34d40ad65c12860d6315c03d3d060e5db4b3c867af00c75d0f55269",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\render-final-previews.py",
+      "sha256": "79d283afa850b19ba710bcb228e87eab8c56e6fb6e789d5bcdff882b9cd3888a",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\running-right-input-provenance.json",
+      "sha256": "c7e532903998fc83d294735cb9ebe334d5a1f3a031e7145dd3bd5f46a945a24b",
+      "roles": [
+        "actual generation input audit"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\update-catalog.py",
+      "sha256": "c90ee0631bbe6cf1d4308dccf8ff3ccfb2a90cf85f9e21efc336b69dd6923da0",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\verify-delivery.py",
+      "sha256": "20cbe19645093348785ebcb44be67065ecdf6e158556e6e845e90c21a7d5e012",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\verify-package-loader.mjs",
+      "sha256": "eb40fcb47b304c408729b5f388ab8084a69098ff8f49ea6fda984d67b955e9d3",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\qa\\verify-target-contract.py",
+      "sha256": "6909393824a84a01996f3836a47d93dd5485b7ecf3694b9cae436902480d5f4f",
+      "roles": [
+        "deterministic processing or verification script"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\app-contract-verification.json",
+      "sha256": "c14c78943262c534f1ad609a9d0b20ead6ed770e1d60e9a52b34362c67c93288",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\appmedia-card.html",
+      "sha256": "97d88c0a417c5515a7e4780d18377e2e9d6e2e8c0a5dae49f8803a864d364255",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\canonical-base.png",
+      "sha256": "5bd34d82c89ddf47b70f71787d5051ce605591f5d79886cf463683586e0928d3",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\costume-model-appmedia.webp",
+      "sha256": "780c94ed72e9030f46713d52b760018640ba4e9b0a8d54526cab7a9bcff5a37c",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\failed.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\idle.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\jumping.png",
+      "sha256": "dd6f193a159ae50013b1c4368d9a02ab29bdffaa48fa978a9628801cfd0a0a29",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\look-cardinals.png",
+      "sha256": "5ccc2ce66b4677a2891ddc78b2e0c1457c8dd4c48ee03135135bf334ee782002",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\look-row-10.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\look-row-9.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\review.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\running-left.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\running-right.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\running.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\waiting.png",
+      "sha256": "8530deda4e33f28621ebd871739ad0414e0721bdd45eb363cc13b5305aa35545",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\layout-guides\\waving.png",
+      "sha256": "5ccc2ce66b4677a2891ddc78b2e0c1457c8dd4c48ee03135135bf334ee782002",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\official-card.jpg",
+      "sha256": "9865ff415709b6aee835c73af3583fc7727029f0e8b5522fdc35849f9e895dd7",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\official-character.html",
+      "sha256": "19a2c92bcecfe709b1044672e619eeef6eec75d8c5833f51da9511ae01c2471b",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\official-event.html",
+      "sha256": "7000804acd6c1f40facbfcb388bb7bf3ef231137400d242b88740f1f906b82b4",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\original-costume-full-body-game8.jpg",
+      "sha256": "f61de865d4bb979911451204569981ec165c3e73b43d460884e92e5d19776d7b",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\reference-01.png",
+      "sha256": "f847583f10364453b9c8d28874cacef8d02761ace0c27fc41588d7c99fd23fef",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\reference-02.webp",
+      "sha256": "780c94ed72e9030f46713d52b760018640ba4e9b0a8d54526cab7a9bcff5a37c",
+      "roles": [
+        "actual generation input"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\research.md",
+      "sha256": "7bbfe27a12be38ccecfdf0627aba12a60b39fcf202e27cd00790f05e58c621eb",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\target-card-master.json",
+      "sha256": "91008eb3c014066c998dabd167cbb7fd1d4a9d51cbe60b712cd871abadf06303",
+      "roles": [
+        "reference or prompt record"
+      ]
+    },
+    {
+      "path": "nene_chinoiserie\\source\\references\\trained-card-full.png",
+      "sha256": "f847583f10364453b9c8d28874cacef8d02761ace0c27fc41588d7c99fd23fef",
+      "roles": [
+        "reference or prompt record"
+      ]
+    }
+  ],
+  "note": "Selected originals and actual inputs are retained byte for byte. Installation uses only the pet directory top-level files."
+}

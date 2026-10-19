@@ -1,0 +1,11 @@
+{
+  "prompt_file": "prompts/running-right-executed.md",
+  "candidate_inputs": [],
+  "input_images": [
+    "D:/项目/pet_2/nene_chinoiserie/source/references/reference-01.png",
+    "D:/项目/pet_2/nene_chinoiserie/source/references/reference-02.webp",
+    "D:/项目/pet_2/nene_chinoiserie/source/references/layout-guides/running-right.png",
+    "D:/项目/pet_2/nene_chinoiserie/source/references/canonical-base.png"
+  ],
+  "selected_source": "C:/Users/tieha/.codex/generated_images/01a14ea2-d168-7fd1-bd55-8e6357b7997a/exec-dd7476ef-41bb-4a14-967a-bb09fad813c6.png"
+}

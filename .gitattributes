@@ -5,6 +5,7 @@
 *.zip binary
 */source/** -text
 */pet.json -text
+*/validation.json -text
 */installed-validation.json -text
 NOTICE.md -text
 AGENTS.md -text

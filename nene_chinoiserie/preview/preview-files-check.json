@@ -1,0 +1,116 @@
+{
+  "ok": true,
+  "method": "Decoded all GIF frames and checked dimensions, counts and native timings; no live-player or app UI claim",
+  "previews": [
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 1100,
+      "sha256": "a40b9064108dc98546b8e12325d75327fbeca87b6e33eb878a6b5c6240821054"
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 1060,
+      "sha256": "6a30e80143468ff05ef7d0d225ccd52c6a9ee65b0c861767741fe45832c30350"
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 1060,
+      "sha256": "93c9aaeca0f54b88d61ed96777f1f4b53d8ef5eb91fb077d823fe37d4df52463"
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 700,
+      "sha256": "421a07cbbb076a96dfdf8865d16c2cf33225cff68001c0a29cbf92028842e932"
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 840,
+      "sha256": "5531f82ff1c1202fa6c20c44252f4ea87cea9ddd55a4facf2dd63e0422c63cb0"
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 1220,
+      "sha256": "bd200d14155a7853b7015a4383dd8195009f6123e62607d6c9a9db83f0bfb574"
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 1010,
+      "sha256": "fcc212c399d89d658fcd6695e2d0e9f40e15dd7d94005a4a170d57538c866db1"
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 820,
+      "sha256": "5c48874ca0366494cb216975fe727741a4ebfa678c35ee4fca9dc7109394b95b"
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 1030,
+      "sha256": "d0942619c0e99d187e8db7a9d04dc3598ebbb665fa441eb95f3794fa63cfa731"
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "size": [
+        192,
+        208
+      ],
+      "total_duration_ms": 3200,
+      "sha256": "37afccf7909eb06bc4f38689de175a46846cb73f06c24174457b208185f4485d"
+    },
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "size": [
+        576,
+        678
+      ],
+      "total_duration_ms": 1680,
+      "sha256": "d37f9fbeaf025535508969ad80cea60619ba5b4d6099d107d73b7dd9c30d1fdd"
+    }
+  ]
+}

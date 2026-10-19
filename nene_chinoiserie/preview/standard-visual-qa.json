@@ -1,0 +1,107 @@
+{
+  "visual_qa": "pass",
+  "pet_id": "nene_chinoiserie",
+  "scope": {
+    "stage": "preclean native nine-state visual review",
+    "method": "Viewed canonical reference, overview contact sheet, and all 57 original 192x208 frames in ordered native-size horizontal composites. Read review.json and jump-placement.json.",
+    "reference": "references/canonical-base.png",
+    "overview": "qa/contact-sheet.png",
+    "frame_dimensions": [
+      192,
+      208
+    ],
+    "frames_inspected": 57,
+    "reviewed_states": [
+      "idle",
+      "running-right",
+      "running-left",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review"
+    ],
+    "playback_performed": false,
+    "application_import_tested": false,
+    "excluded": [
+      "Chroma fringe cleanup quality",
+      "Cardinal look directions",
+      "Final atlas/manifests and import compatibility"
+    ]
+  },
+  "identity_and_integrity": {
+    "observed": "Across the inspected rows, the compact approximately 2.5-head silhouette, long grey-green hair, purple eyes, blue earrings, asymmetric navy embroidered jacket, long black skirt, grey ankle socks and black shoes remain recognizable relative to canonical-base.png. Full heads, hair tips, skirt and shoes remain inside the cells; no conspicuous missing body region, accidental hole through the figure, detached limb or clipped extremity was visible at native size.",
+    "metadata_evidence": "review.json reports the expected count for all nine states, 192x208 cells and zero edge pixels for every frame."
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": 6,
+      "visual_qa": "pass",
+      "observed_evidence": "Hands remain folded at the waist and feet stay planted. Eyes progress from open through half-lidded frame 02 to clearly closed frame 03, then reopen. Calm expression and stable outfit silhouette."
+    },
+    {
+      "state": "running-right",
+      "frames": 8,
+      "visual_qa": "pass",
+      "observed_evidence": "Right-facing profile, streaming hair, bent arms and alternating separated/under-body leg poses convey rightward running. Frames 02 and 05 lift a knee more strongly and expose the bent leg through the skirt opening; the leg, sock and shoe remain connected and the skirt reads as lifted fabric rather than broken anatomy. No major clothing failure visible.",
+      "minor_limitations": [
+        "Higher-knee poses 02/05 make cadence less uniform than the leftward row; static inspection supports a minor cadence warning only."
+      ]
+    },
+    {
+      "state": "running-left",
+      "frames": 8,
+      "visual_qa": "pass",
+      "observed_evidence": "Left-facing profile and trailing hair clearly distinguish the direction. Forward-extension and tucked-foot poses alternate; both feet and the long skirt remain readable. Opposite jacket panels show direction-appropriate differences instead of an obvious duplicated front view."
+    },
+    {
+      "state": "waving",
+      "frames": 4,
+      "visual_qa": "pass",
+      "observed_evidence": "The hand rises from the waist toward the cheek, opens in frame 02 and returns in frame 03. The other arm stays near the waist and the feet remain planted; a small reserved wave is readable."
+    },
+    {
+      "state": "jumping",
+      "frames": 5,
+      "visual_qa": "pass",
+      "observed_evidence": "Hands are raised near the chest and both feet remain together. Ordered cells visibly rise to frame 02 and return symmetrically. jump-placement.json records foot lifts 0,4,8,4,0 px with whole-frame integer vertical translations; the silhouette stays inside safe margins. The 188px row height versus 198px elsewhere makes the pose modestly shorter, but side-by-side native-size review did not show a conspicuous scale pop.",
+      "minor_limitations": [
+        "Cross-state transition timing was not played; the approximately 5% height difference is recorded rather than claimed absent."
+      ]
+    },
+    {
+      "state": "failed",
+      "frames": 8,
+      "visual_qa": "pass",
+      "observed_evidence": "Gaze lowers and eyes close as the head dips through frames 02-04, then the head and eyes recover through 05-07. Hands stay together and shoes remain planted, giving a downcast, restrained recovery."
+    },
+    {
+      "state": "waiting",
+      "frames": 6,
+      "visual_qa": "pass",
+      "observed_evidence": "Hands are held near the upper chest/chin, with alternating small head tilts in 01 and 03. Open eyes and the attentive pose read as expectant waiting; the lower body remains stable."
+    },
+    {
+      "state": "running",
+      "frames": 6,
+      "visual_qa": "pass",
+      "observed_evidence": "This task-active row stays planted: one hand rests near the chin, the other arm supports it across the torso. The focused expression and short eye closures in 01/03 support a thinking/working action without a traveling gait."
+    },
+    {
+      "state": "review",
+      "frames": 6,
+      "visual_qa": "pass",
+      "observed_evidence": "Hands remain folded low while the gaze and head tilt vary, including a clearer tilt in 03 and closed-eye smile in 04, then returning to the neutral pose in 05. The row reads as a reserved consideration/acknowledgment gesture, distinct from the hand-at-chin running row."
+    }
+  ],
+  "minor_limitations": [
+    "This is an ordered static-frame inspection, not an animated playback or application-display test; smooth timing and loop perception remain to be verified during final preview.",
+    "Rightward frames 02/05 have more pronounced knee lift than the leftward cadence, without visible broken anatomy or clothing.",
+    "Jumping uses a 188px figure height versus 198px in other states; the small size difference is visible on comparison but not conspicuous at native display size.",
+    "Fine embroidery changes with pose and is represented at small raster size; the navy asymmetric costume identity remains readable."
+  ],
+  "major_repair_notes": [],
+  "decision": "Pass for proceeding to cardinal-direction generation. This decision covers only the inspected preclean nine-state frames."
+}

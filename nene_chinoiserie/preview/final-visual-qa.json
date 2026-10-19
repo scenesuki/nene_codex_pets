@@ -1,0 +1,407 @@
+{
+  "visual_qa": "pass",
+  "pet_id": "nene_chinoiserie",
+  "scope": {
+    "stage": "final cleaned native Codex 11-row atlas visual QA",
+    "atlas": "final/spritesheet-extended.webp",
+    "atlas_sha256": "46b1f123c1cbce0d5ef615fa2543905dea2b2dd99d021a7e8984baf3a800eca7",
+    "atlas_dimensions": [
+      1536,
+      2288
+    ],
+    "cell_dimensions": [
+      192,
+      208
+    ],
+    "standard_animation_frames_inspected": 57,
+    "additional_neutral_slots_inspected": 1,
+    "look_directions_inspected": 16,
+    "rows_inspected": 11,
+    "method": "Read requested QA reports; viewed canonical base, source and final contact sheets and focused direction preview. Extracted final atlas cells without resizing into ordered native-size composites and inspected all 57 standard frames, neutral slot and 16 look cells. Decoded all nine native GIFs and 16-frame look GIF with Pillow, inspected their ordered native frames in composites; read frame counts/durations. This is ordered static frame inspection, not real-time GIF playback.",
+    "playback_performed": false,
+    "application_import_tested": false,
+    "required_existing_reports_read": [
+      "qa/direction-semantics.json",
+      "qa/look-continuity.json",
+      "final/validation-extended.json",
+      "qa/chroma-despill-extended.json",
+      "qa/standard-visual-qa.json"
+    ],
+    "evidence_composites": [
+      "qa/final-review-standard-0.png",
+      "qa/final-review-standard-1.png",
+      "qa/final-review-standard-2.png",
+      "qa/final-review-directions.png",
+      "qa/final-review-gif-standard-0.png",
+      "qa/final-review-gif-standard-1.png",
+      "qa/final-review-gif-standard-2.png",
+      "qa/final-review-gif-directions.png"
+    ],
+    "blind_answer_key_or_parallel_blind_review_verdict_opened": false
+  },
+  "identity": {
+    "status": "pass",
+    "reference": "references/canonical-base.png",
+    "evidence": "Long grey-green hair with swept/braided sides, purple eyes, compact chibi proportions, asymmetric navy embroidered jacket and waist bow remain recognizable throughout. Long dark pleated skirt, grey ankle socks and black buckle shoes persist across states and look directions. Running exposes the skirt opening naturally rather than removing the long skirt.",
+    "integrity": "No conspicuous clipping, accidental transparent body hole, hard assembly seam, pasted replacement eye, detached limb or body warp observed at native size. Native atlas alpha bboxes do not touch any cell edge. Open and closed eyes follow expressive sequences rather than unexplained eye replacements.",
+    "jewelry": "Blue drop earrings hang from ear areas in front, yawed and running poses; choker follows the visible neck and wrist details stay near cuffs. At 192x208 resolution small chains/bracelet details are simplified; no conspicuously floating jewelry observed."
+  },
+  "standard_rows": [
+    {
+      "state": "idle",
+      "frames": 6,
+      "visual_qa": "pass",
+      "evidence": "Open, half-lidded, closed and reopened purple eyes; hands and shoes stay anchored. Neutral slot 6 also inspected."
+    },
+    {
+      "state": "running-right",
+      "frames": 8,
+      "visual_qa": "pass",
+      "evidence": "Rightward face, trailing hair, arm swing and alternating lifted/extended feet read as travel. Frames 2/5 lift knees more strongly, but socks, shoes and skirt openings remain anatomically connected."
+    },
+    {
+      "state": "running-left",
+      "frames": 8,
+      "visual_qa": "pass",
+      "evidence": "Leftward face and trailing hair; alternating extension and tucked feet. Long skirt, visible grey socks and black shoes remain connected in every frame."
+    },
+    {
+      "state": "waving",
+      "frames": 4,
+      "visual_qa": "pass",
+      "evidence": "Hand moves up from the waist to an open wave beside the cheek and returns. Other arm and feet stay anchored."
+    },
+    {
+      "state": "jumping",
+      "frames": 5,
+      "visual_qa": "pass",
+      "evidence": "Chest-level hands and feet together; rise and return visible in ordered frames. Figure is modestly shorter than idle, without an obvious identity or body proportion break."
+    },
+    {
+      "state": "failed",
+      "frames": 8,
+      "visual_qa": "pass",
+      "evidence": "Lowered head and closed eyes through central frames recover toward open eyes and level face. Stable waist and shoes."
+    },
+    {
+      "state": "waiting",
+      "frames": 6,
+      "visual_qa": "pass",
+      "evidence": "Hands meet near chin/chest with small alternating head tilts. Long hair and jacket remain attached and coherent."
+    },
+    {
+      "state": "running",
+      "frames": 6,
+      "visual_qa": "pass",
+      "evidence": "Planted thinking/working pose, one hand near chin and supporting forearm across torso; blinking. Distinct from traveling right/left rows."
+    },
+    {
+      "state": "review",
+      "frames": 6,
+      "visual_qa": "pass",
+      "evidence": "Hands folded at waist; head tilt and closed-eye smile followed by return to neutral. Stable lower body and costume."
+    }
+  ],
+  "look_rows": [
+    {
+      "row": 9,
+      "poses": "000 through 157.5",
+      "visual_qa": "pass"
+    },
+    {
+      "row": 10,
+      "poses": "180 through 337.5",
+      "visual_qa": "pass"
+    }
+  ],
+  "directions": [
+    {
+      "angle": "000",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Face centered with balanced left/right cheeks; no horizontal component required.",
+      "evidence_vertical": "Raised chin, exposed lower face plane and both open violet irises positioned upward establish up."
+    },
+    {
+      "angle": "022.5",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Nose and facial plane turn slightly screen-right from 000.",
+      "evidence_vertical": "Chin and both open eyes remain elevated; up-right quadrant readable."
+    },
+    {
+      "angle": "045",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Rightward nose/cheek plane and eye aim.",
+      "evidence_vertical": "Lifted chin and upper eye aim make up-right readable."
+    },
+    {
+      "angle": "067.5",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Stronger rightward facial yaw and visible iris aim.",
+      "evidence_vertical": "Chin still slightly lifted relative to 090; upward component subtle near horizontal."
+    },
+    {
+      "angle": "090",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Clear rightward profile, protruding nose toward screen-right and far eye reduced by yaw.",
+      "evidence_vertical": "Face approximately level; no vertical component required."
+    },
+    {
+      "angle": "112.5",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Rightward profile retained.",
+      "evidence_vertical": "Head lowers from 090 with lowered eye line; small down cue near horizontal."
+    },
+    {
+      "angle": "135",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Face, nose and visible iris remain rightward.",
+      "evidence_vertical": "Lowered face and chin and open eyes direct attention down-right."
+    },
+    {
+      "angle": "157.5",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Face still noticeably yawed right, with rightward eye bias.",
+      "evidence_vertical": "Head pitched downward and iris aim low; down-right clear though yaw remains stronger than a geometrically exact near-vertical ideal."
+    },
+    {
+      "angle": "180",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Face returns to centered frontal orientation.",
+      "evidence_vertical": "Chin tucked, forehead dominant and both violet eyes visibly open with low iris aim: unambiguous down, not a blink."
+    },
+    {
+      "angle": "202.5",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Subtle screen-left face/eye bias from centered down pose.",
+      "evidence_vertical": "Tucked chin and low gaze persist; down-left quadrant, with left component small near vertical."
+    },
+    {
+      "angle": "225",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Leftward nose/cheek plane and left-biased open eyes.",
+      "evidence_vertical": "Lowered head pitch and low gaze establish down-left."
+    },
+    {
+      "angle": "247.5",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Visible leftward yaw and iris aim retained.",
+      "evidence_vertical": "Head less lowered than 225 but still slightly dipped versus level 270; down cue subtle near horizontal."
+    },
+    {
+      "angle": "270",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Clear screen-left profile with nose and open eye directed left.",
+      "evidence_vertical": "Face near level; no vertical component required."
+    },
+    {
+      "angle": "292.5",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Face and eye maintain leftward bias.",
+      "evidence_vertical": "Chin rises relative to 270 and eye aim lifts slightly; up cue subtle near horizontal."
+    },
+    {
+      "angle": "315",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Leftward nose and facial plane with open leftward-biased eyes.",
+      "evidence_vertical": "Raised chin and upper eye aim establish up-left."
+    },
+    {
+      "angle": "337.5",
+      "visual_qa": "pass",
+      "evidence_horizontal": "Leftward facial yaw remains visible.",
+      "evidence_vertical": "Head tilted up with high eye aim; up-left readable, yaw stronger than exact near-vertical ideal."
+    }
+  ],
+  "cardinal_evidence": {
+    "000": "Centered raised face and both open eyes aim up.",
+    "090": "Rightward head profile and nose clearly point screen-right.",
+    "180": "Centered lowered face with tucked chin and BOTH EYES OPEN; open purple eye regions and low irises distinguish down from closed-eye failure/blink.",
+    "270": "Leftward head profile, nose and visible open eye clearly orient screen-left."
+  },
+  "continuity_findings": {
+    "visual_qa": "pass",
+    "family": "All 16 poses retain outfit, hair identity, planted feet, waist and folded hands. Progression follows up -> right -> down -> left -> up without observed wrong quadrant, reversal or ambiguous cardinal. Head pitch/yaw carries motion; exact 22.5-degree gaze vectors are not measurable from stylized pixels.",
+    "157.5_to_180": "More concentrated right-yaw-to-front head-plane change than its immediate neighbors, agreeing with metric outlier 2860 changed pixels and reported 7.52px center delta. The bowed frontal head exposes both eyes; clothing, waist/hands and shoes remain planted. No conspicuous whole-body scale/registration break or replacement-eye seam in native side-by-side frames. Accepted as minor angular pacing unevenness.",
+    "247.5_to_270": "Leftward dipped head becomes level with a more distinct face-plane adjustment; metric 2763 changed pixels and 3.5px center delta. Gaze remains on left side, figure and lower-body placement remain coherent; no reversal, clipping or conspicuous scale jump. Accepted as minor angular pacing unevenness.",
+    "wrap_337.5_to_000": "Yaw returns from up-left to frontal up with stationary lower body. More head change than some intermediate pairs but no identity or registration break observed.",
+    "reported_alpha_holes": []
+  },
+  "authoritative_technical_checks": {
+    "atlas_validation_ok": true,
+    "atlas_validation_errors": [],
+    "atlas_validation_warnings": [],
+    "chroma_cleanup_ok": true,
+    "alpha_preserved": true,
+    "interpretation": "Accepted supplied atlas/chroma success reports as authoritative. No additional chroma cleanup requested."
+  },
+  "gif_frame_inspection": {
+    "standard": [
+      {
+        "state": "idle",
+        "frames": 6,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          280,
+          110,
+          110,
+          140,
+          140,
+          320
+        ]
+      },
+      {
+        "state": "running-right",
+        "frames": 8,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ]
+      },
+      {
+        "state": "running-left",
+        "frames": 8,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ]
+      },
+      {
+        "state": "waving",
+        "frames": 4,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          140,
+          140,
+          140,
+          280
+        ]
+      },
+      {
+        "state": "jumping",
+        "frames": 5,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          140,
+          140,
+          140,
+          140,
+          280
+        ]
+      },
+      {
+        "state": "failed",
+        "frames": 8,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          240
+        ]
+      },
+      {
+        "state": "waiting",
+        "frames": 6,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          260
+        ]
+      },
+      {
+        "state": "running",
+        "frames": 6,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ]
+      },
+      {
+        "state": "review",
+        "frames": 6,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          280
+        ]
+      }
+    ],
+    "look_directions": {
+      "frames": 16,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms_each": 200
+    },
+    "playback_performed": false
+  },
+  "minor_limitations": [
+    "Intermediate vertical cues near 067.5/112.5/247.5/292.5 are subtle but keep their intended quadrants. Near-vertical 157.5 and 337.5 retain stronger lateral yaw than an exact geometric interpolation.",
+    "Two flagged look transitions concentrate head-angle change; no major defect found in ordered native frames. Real-time timing perception was not tested.",
+    "Rightward run frames 2/5 use stronger knee lift than the leftward cadence; attached legs/socks/shoes and lifted long skirt remain plausible.",
+    "Jump pose is slightly shorter than other states, consistent with earlier documented 188px versus 198px figure height. No conspicuous proportion or identity break in native comparison; cross-state playback not tested.",
+    "Fine embroidery and jewelry details simplify at native raster size.",
+    "No Codex application import/UI display or live animation playback was performed by this reviewer."
+  ],
+  "major_repair_notes": [],
+  "decision": "Pass final visual QA for this exact cleaned atlas. Report covers static native frame/order inspection and supplied authoritative technical checks; it does not claim live playback or application import verification."
+}
