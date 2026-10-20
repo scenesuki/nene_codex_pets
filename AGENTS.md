@@ -65,12 +65,20 @@ nene_codex_pets/
 - 保留有效规格、来源及最终验收记录，通过折叠降低首屏信息量；历史下载指向对应线上Release，当前安装、发布及未验证状态以最终记录为准。
 - 使用 GitHub 可正常渲染的 Markdown 和简单 HTML。完成后核对本地链接、图片路径、静态图与成品一致性，并检查桌面与窄屏显示、折叠交互；同步 GitHub 后核对实际渲染。
 
+## GitHub 上传范围与检查
+
+- 以保持当前安装、README 展示、动画预览、校验及全量打包能力所需的最小文件集为上传范围。根目录保留 `README.md`、`NOTICE.md`、`AGENTS.md`、`PET_NAMES.md`、`.gitignore`、`.gitattributes`；`scripts/` 仅保留共用打包、验证脚本及其必要测试。
+- 每套上传顶层 `pet.json`、`spritesheet.webp`、`README.md`、`NOTICE.md`、`validation.json`、已有的 `installed-validation.json`，以及 `preview/` 内正式预览、应用规格依据和最终验收记录。过程截图、候选、重复预览及临时检查输出留在本地制作目录。
+- 有效原素材、参考网页、原始生成图、实际输入、提示词、制作脚本及素材索引仅保留在本地各套 `source/`；维护留档保留在本地 `maintenance/`；发布包与回执保留在本地 `release-assets/`。通过 `.gitignore` 排除这些目录，按文件路径选择暂存，避免用 `git add -f` 重新上传留档或混入无关的未提交修改。参考来源在各套 README 中保留可访问的外部链接；本地素材索引不作为线上文件入口。
+- 经用户授权精简已跟踪资料时，先记录成品、预览、受保护原素材和发布回执的 SHA-256，再使用 `git rm --cached -- <路径>` 取消跟踪，保留本地原文件和素材索引；仅修改 `.gitignore` 不会停止跟踪已有文件。完成后复验哈希，并同步文档和链接。
+- 提交前检查 `git diff --cached --name-status`、`git diff --cached --stat` 及 `git ls-files`，确认上传文件符合上述范围。涉及资源精简或依赖变化时，在仅含拟提交文件的临时副本中核对 README 本地链接、完整打包和 ZIP 逐文件一致性，确认不依赖本地留档目录；仅修改文档时检查相关差异与链接即可。
+- 用户授权上传后，回读 GitHub 目标分支，核对提交、文件集合及成品哈希。精简只改变当前版本文件；Git 历史、历史标签和已发布附件保持原样，历史对象仍可能占用克隆体积。改写历史或清理本地原文件须另获用户明确授权。
+
 ## 全量 Release
 
 - 每次新 Release 同时包含仓库内所有宠物的成品资源。以根目录 `*/pet.json` 自动清点宠物，任何一套缺少必需文件都应停止打包，不能只上传本次新增或修改的宠物。
 - 从仓库根目录运行 `python scripts/build_release.py --tag vX.Y.Z`，生成 `release-assets/<tag>/nene_codex_pets-<tag>.zip`、`SHA256SUMS.txt`、`package-check.json` 和 `release-notes.md`。使用新的项目版本号；仅在用户授权清理时移除旧本地包，保留发布说明和回执。
 - 全量 ZIP 包含根 README、NOTICE、AGENTS、PET_NAMES，以及每套 `<pet-id>/` 的顶层 `pet.json`、`spritesheet.webp`、README、NOTICE、`validation.json`、可用的 `installed-validation.json` 和整个 `preview/`。发布素材只取当前成品与正式记录，不纳入制作缓存、候选或旧分发快照。
-- GitHub 当前版本仅保留各套顶层成品、说明、校验、整个 `preview/`、根说明与项目约定，以及 `scripts/` 公共打包和验证脚本。有效原素材、参考网页、实际输入、提示词、制作脚本及素材索引保留在本地各套 `source/`；维护留档保留在本地 `maintenance/`，两者均不提交 Git。精简上传范围使用取消跟踪，保留本地原文件及哈希索引；已发布附件与 Git 历史保持原样。
 - 打包后运行 `python scripts/verify_release.py release-assets/<tag>/nene_codex_pets-<tag>.zip`，确认 ZIP 的宠物 ID 集合与根目录清点结果完全一致，各资源与工作区成品逐字节一致；同时核对 SHA-256。新增宠物会自动纳入后续全量包。
 - 用户授权发布时，上传同一全量包及其 `SHA256SUMS.txt`，发布说明列出全部宠物。上传后核对附件清单与下载哈希，将回执保存到对应版本目录。不要使用归档的单宠物打包或发布脚本创建新 Release。
 - 线上已发布附件及回执保持原样；本地历史ZIP、旧分发快照和临时预览按用户授权清理，版本说明及发布回执保留。本地整理和打包不自动更新或删除线上Release。

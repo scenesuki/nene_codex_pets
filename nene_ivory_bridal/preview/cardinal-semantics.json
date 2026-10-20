@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "reviewed_by": "independent ivory_standard_qa",
+  "native_size": [
+    192,
+    208
+  ],
+  "cardinals": {
+    "000": {
+      "verdict": "pass",
+      "reason": "Raisedchin/face, iriseshigh;up vsneutral"
+    },
+    "090": {
+      "verdict": "pass",
+      "reason": "Nose/facialcenter and bothirises screenright"
+    },
+    "180": {
+      "verdict": "pass",
+      "reason": "Chinloweredtowardcollar, eyesopenwithpurpleirisesbelowupperlids; readsdown",
+      "warning": "Narrowapertures mildlysubdued, directionstillclear"
+    },
+    "270": {
+      "verdict": "pass",
+      "reason": "Noseprojectsleft, cheek/ear and irisesleft opposite090"
+    }
+  },
+  "identity_scale": "pass",
+  "hat_flower_side_preserved": true,
+  "repair_anchors": []
+}

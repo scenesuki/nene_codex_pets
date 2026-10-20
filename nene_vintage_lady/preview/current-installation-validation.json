@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "source_files_match": true,
+  "checked_at": "2026-10-19T02:53:25.154Z",
+  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_vintage_lady",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "id": "custom:nene_vintage_lady",
+  "display_name": "宁宁 · 复古淑女",
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "format": "webp",
+  "manifest_sha256": "1a69c7a38543f5630eb55d226f44a4ebf5fa2c041e304cebb5b49a94af4d805c",
+  "spritesheet_sha256": "4bede31726138a2ed8be69a9acae650401748c5a05531505bc86513d5beeccdc",
+  "app_version": "26.1013.4894.0",
+  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-DsLVGakC.js",
+  "app_validator_module_sha256": "28a0918f01c50b0eb17676e894998ad7182f119d978adf0467ccaac3583f259c",
+  "method": "Byte-for-byte comparison with workspace and read-only replay of actual installed-app image/version and path validators; no app UI action",
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "current_pet_changed": false,
+  "installed_at": "2026-10-19T02:53:25.154Z"
+}

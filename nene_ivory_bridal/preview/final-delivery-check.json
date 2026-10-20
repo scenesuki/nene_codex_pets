@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-20T07:41:33.374330+00:00",
+  "pet_id": "nene_ivory_bridal",
+  "pet_count": 12,
+  "pet_ids": [
+    "nene_butterfly_stage",
+    "nene_chinoiserie",
+    "nene_circus_stage",
+    "nene_classical_lolita",
+    "nene_country_casual",
+    "nene_feather_stage",
+    "nene_ivory_bridal",
+    "nene_mint_chocolate",
+    "nene_robo",
+    "nene_school_uniform",
+    "nene_victorian_lolita",
+    "nene_vintage_lady"
+  ],
+  "local_links_checked": 89,
+  "existing_33_pet_files_unchanged": true,
+  "published_v1_9_0_zip_unchanged": true,
+  "spritesheet_sha256": "d68f832396e6347e3676e0caf79996711b9ef31af10d4b9c35413b0035a94a6b",
+  "installed": false,
+  "uploaded": false,
+  "published": false
+}

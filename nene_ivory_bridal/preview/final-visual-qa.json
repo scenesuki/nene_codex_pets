@@ -1,0 +1,472 @@
+{
+  "reviewed_by": "independent ivory_final_visual (not involved in generation)",
+  "reviewed_at": "2026-10-20T07:40:16.446871+00:00",
+  "pet_id": "nene_ivory_bridal",
+  "atlas_sha256": "d68f832396e6347e3676e0caf79996711b9ef31af10d4b9c35413b0035a94a6b",
+  "visual_qa": "pass",
+  "scope": "nene_ivory_bridal最终clean图集：9标准状态+16注视方向；独立视觉验收，非安装/发布授权。",
+  "method": "先对照高清卡与全身服装模型，再看最终全帧和带标签方向图。用Pillow逐帧解码全部11个GIF，九状态57帧、方向16帧、总览17个编码帧全部在保持192×208原生角色大小的序列图中逐格观察，读取每帧时长，并人工比较末帧与首帧。额外将最终无损WebP的待机中性帧及157.5/180/337.5/000边界帧原样合成于浅色、深色背景检查边缘与定位；未重画、缩放或修补被审图像。此次为逐帧/序列视觉验收，没有在播放器中实时播放或进行Codex界面实机导入。",
+  "reviewed_files": [
+    "source/research.md",
+    "source/references/reference-01.webp",
+    "source/references/reference-02.jpg",
+    "source/final/spritesheet-extended.webp",
+    "source/final/spritesheet-extended.png",
+    "preview/contact-sheet.png",
+    "preview/look-directions.png",
+    "preview/animation-overview.gif",
+    "preview/failed.gif",
+    "preview/idle.gif",
+    "preview/jumping.gif",
+    "preview/look-directions.gif",
+    "preview/review.gif",
+    "preview/running-left.gif",
+    "preview/running-right.gif",
+    "preview/running.gif",
+    "preview/waiting.gif",
+    "preview/waving.gif"
+  ],
+  "reviewed_supporting_records": [
+    "source/qa/standard-visual-qa.json",
+    "source/final/validation-extended.json",
+    "source/qa/chroma-despill-extended.json",
+    "source/qa/look-continuity.json",
+    "source/qa/registration-strategy-resolution.json",
+    "source/qa/look-row-10-registration.json",
+    "source/qa/direction-blind-validation.json"
+  ],
+  "gif_decode_metadata": [
+    {
+      "file": "animation-overview.gif",
+      "size": [
+        576,
+        678
+      ],
+      "frames": 17,
+      "durations_ms": [
+        240,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        120,
+        60,
+        60,
+        120,
+        60,
+        120,
+        60,
+        60,
+        120,
+        300
+      ],
+      "sha256": "ed78d99ece40dcf7f73ccc225c390654458a58147047749f011c27f75f764102"
+    },
+    {
+      "file": "failed.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "sha256": "f6900f0a03b05a33017bea16afd35855096cd16c86cafa539b015b5c63926da8"
+    },
+    {
+      "file": "idle.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "sha256": "eea176ec9a36ea7140884cd5b290400532f5f21e2c2ce55310fb20090145274e"
+    },
+    {
+      "file": "jumping.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "sha256": "d5cf52bc02f0b6915990aed7ef45f10e4e93ed72a47d998913521a630e0aacdc"
+    },
+    {
+      "file": "look-directions.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 16,
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "sha256": "0a50dfb6c89fd7c7469369a85a6f70435851ff2a09693e1754ecf228a208453e"
+    },
+    {
+      "file": "review.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "sha256": "e992f3c8af93555d3f32961b08bcd110ad7ddb06870ee85efb65aeb3e0f0c738"
+    },
+    {
+      "file": "running-left.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "23e56768c234907417fe7c0c70decf27fdb0b2ac032747dc3625846fe22cf681"
+    },
+    {
+      "file": "running-right.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "7897288f6407a71184a59d562acfb22dd760d4a701ca7fd4705b1f997c07510a"
+    },
+    {
+      "file": "running.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "04d495618495ed8a8a567397fa157805f6306112e30a77f737c1cc17d70acbca"
+    },
+    {
+      "file": "waiting.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "sha256": "e4483945a3fd33bc10425364179e0b820a5b8660370b0aa0520155440e8469f9"
+    },
+    {
+      "file": "waving.gif",
+      "size": [
+        192,
+        208
+      ],
+      "frames": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "sha256": "40622a5c9ec87b34eba2efca79bf5f0ce2b34a33e22f359fc3916564945024bf"
+    }
+  ],
+  "states": [
+    {
+      "state": "idle",
+      "verdict": "pass",
+      "evidence": "眨眼由睁眼到收睑闭眼再睁开，躯干轻动，末首姿势相容。"
+    },
+    {
+      "state": "running-right",
+      "verdict": "pass",
+      "evidence": "向屏幕右的小步；屏幕右鞋在1/2抬起、屏幕左鞋在5/6抬起，双脚落地帧连接；帽饰未镜像。"
+    },
+    {
+      "state": "running-left",
+      "verdict": "pass",
+      "evidence": "向屏幕左的小步；屏幕左鞋在1/2抬起、屏幕右鞋在5/6抬起，方向与右移动相反。"
+    },
+    {
+      "state": "waving",
+      "verdict": "pass",
+      "evidence": "屏幕右手从低位到肩旁抬起并摆动再放低，肘腕连续，无额外手臂。"
+    },
+    {
+      "state": "jumping",
+      "verdict": "pass",
+      "evidence": "双脚离地与裙摆变化可读，先起后落；末帧回落接首帧，动作幅度小。"
+    },
+    {
+      "state": "failed",
+      "verdict": "pass",
+      "evidence": "双手收于身前，低垂/闭眼再恢复，表现克制的失落；非脱离身体的手部变形。"
+    },
+    {
+      "state": "waiting",
+      "verdict": "pass",
+      "evidence": "头轻侧倾、单手抬于脸旁并眨眼，保持等待/询问语义。"
+    },
+    {
+      "state": "running",
+      "verdict": "pass",
+      "evidence": "手靠近下巴、眨眼与轻微思考动势，符合处理中状态；并非左右位移跑步。"
+    },
+    {
+      "state": "review",
+      "verdict": "pass",
+      "evidence": "双手在身前、收睑再睁眼的审视神态，与处理中手势不同。"
+    }
+  ],
+  "directions": [
+    {
+      "degrees": 0,
+      "verdict": "pass",
+      "reason": "上视清楚；双眼向上、脸抬起，横向接近正面。"
+    },
+    {
+      "degrees": 22.5,
+      "verdict": "warning",
+      "reason": "上视清楚；带标签相邻观察可见轻微右偏，但单格水平方向不足以稳定独立辨认，接受盲审ambiguous作为真实可读性限制。"
+    },
+    {
+      "degrees": 45,
+      "verdict": "pass",
+      "reason": "脸及双眼向屏幕右上偏，区别于正上和水平右视。"
+    },
+    {
+      "degrees": 67.5,
+      "verdict": "warning",
+      "reason": "右向明确，上向幅度较轻，处于45与90之间；不把弱上分量说成强烈可读。"
+    },
+    {
+      "degrees": 90,
+      "verdict": "pass",
+      "reason": "鼻尖、侧脸和双眼一致向屏幕右，水平右主方向明确。"
+    },
+    {
+      "degrees": 112.5,
+      "verdict": "warning",
+      "reason": "保留右侧脸，眼睑及脸开始收低；下分量小，接近90。"
+    },
+    {
+      "degrees": 135,
+      "verdict": "pass",
+      "reason": "眼睛睁开、视线及脸向右下，右下象限可辨。"
+    },
+    {
+      "degrees": 157.5,
+      "verdict": "pass",
+      "reason": "低头明显，仍有右侧脸/视线分量，区别于近正面180。"
+    },
+    {
+      "degrees": 180,
+      "verdict": "pass",
+      "reason": "双眼眼裂内仍见紫色虹膜；头与视线向下，近正面，并非用闭眼替代下视。"
+    },
+    {
+      "degrees": 202.5,
+      "verdict": "warning",
+      "reason": "向下清楚；与180相邻可见轻微左转，单格水平分量仍弱，保留盲审ambiguous，不宣称已消除歧义。"
+    },
+    {
+      "degrees": 225,
+      "verdict": "pass",
+      "reason": "脸与鼻尖向屏幕左下，双眼保持下视且睁开。"
+    },
+    {
+      "degrees": 247.5,
+      "verdict": "warning",
+      "reason": "左转明确，仍有轻微低头；下向分量比225弱，接近270。"
+    },
+    {
+      "degrees": 270,
+      "verdict": "pass",
+      "reason": "鼻尖投向屏幕左、屏幕右侧耳部更显露，水平左主方向明确，与90相反。"
+    },
+    {
+      "degrees": 292.5,
+      "verdict": "warning",
+      "reason": "左向明确，视线开始抬高；上向幅度很轻，接近270。"
+    },
+    {
+      "degrees": 315,
+      "verdict": "pass",
+      "reason": "左侧脸结合抬眼/抬下巴，左上象限可辨。"
+    },
+    {
+      "degrees": 337.5,
+      "verdict": "warning",
+      "reason": "上视且仍保留明显左转脸；到000正面上视时头脸轮廓步进较大，环接可用但不完全平滑。"
+    }
+  ],
+  "costume_and_identity": {
+    "verdict": "pass",
+    "evidence": [
+      "灰绿外翘短发和紫眼保持；Q版头身短腿比例全套相容。",
+      "单侧花朵、羽饰、蝴蝶结宽檐帽保持画面右侧，左右动作分别绘制，没有镜像换侧。",
+      "象牙白荷叶领、泡袖、金边束腰、覆臂/腕饰、层叠不对称裙边与金纹均保留；Q版把细密蕾丝和金纹作了尺寸适配简化。",
+      "小腿裸露，无独立袜口；礼鞋有包头、细带与金色扣件，侧步帧可看见鞋跟轮廓。",
+      "表情含蓄柔和，招手、轻跳、思考是桌面动画演绎；未混入场景花束、家具或额外披肩。"
+    ]
+  },
+  "loop": {
+    "verdict": "warning",
+    "accepted": true,
+    "standard_states": "九状态均以全部解码序列比较末首：未见大幅整体回跳或肢体断接。左右步态末尾落地停顿与两帧抬脚保持使节奏略机械；招手和小跳是克制的小幅循环。",
+    "look_boundaries": [
+      {
+        "from": 157.5,
+        "to": 180,
+        "verdict": "warning",
+        "accepted": true,
+        "reason": "头由右偏低头转为近正面低头，帽顶高约3px，脸宽和帽轮廓变化稍明显；鞋底同为y202，腰裙和双手保持同一基准，无可见身体缩放或手部瞬移。"
+      },
+      {
+        "from": 337.5,
+        "to": 0,
+        "verdict": "warning",
+        "accepted": true,
+        "reason": "左偏仰视回近正面上视的头脸轮廓步进最明显；差异主要在头部朝向，腰身、裙摆、鞋底及两手未跳到另一位置，属于非完全平滑的角度量化。"
+      }
+    ],
+    "real_time_playback_verified": false
+  },
+  "scale": {
+    "verdict": "pass",
+    "row10_uniform_scale": 0.4771084337349398,
+    "row9_approved_registration_preserved": "已核对配准记录row9 before/after SHA均6487f7664d90449e8f634185e394c001fa4e0c6b3458a31f7efb2a66a17297da；此次验收未改图。最终边缘清理改变RGB但alpha与preclean完全相同。",
+    "fresh_native_measurement": {
+      "neutral_height_px": 198,
+      "row9_height_range_px": [
+        195,
+        198
+      ],
+      "row10_height_range_px": [
+        198,
+        198
+      ],
+      "all_neutral_and_look_bottom_pixel_y": 202,
+      "row9_body_width_below_y105_px_range": [
+        120,
+        121
+      ],
+      "row10_body_width_below_y105_px_range": [
+        116,
+        117
+      ]
+    },
+    "visual_evidence": "上下行衣裙宽度有约3-4px的造型差，原尺寸比较不形成明显身体尺度切换；腰身、双手与鞋底相容。头顶高度变化来自头部朝向和帽倾角，未进行逐格拉伸。"
+  },
+  "edge": {
+    "verdict": "pass",
+    "fresh_checks": {
+      "png_webp_rgba_pixel_equal": true,
+      "cleanup_alpha_unchanged": true,
+      "all_88_cell_outer_edges_alpha_zero": true
+    },
+    "visual_evidence": "最终无损WebP深浅底原尺寸检查未见明显洋红光环、裁切、断肢或内部孔洞。GIF受调色板和二值透明限制，深底边缘较WebP略硬；以最终WebP为导入验收对象。",
+    "native_thresholds_relaxed": false
+  },
+  "accepted_minor_warnings": [
+    "22.5与202.5的水平分量弱，盲审ambiguous原判保留；带标签顺序仅支持轻微偏向，不能保证单格辨识。",
+    "其余近轴中间角67.5/112.5/247.5/292.5的垂直分量较轻。",
+    "157.5→180头帽轮廓有小步进，337.5→000头脸回正的步进更明显；均未形成身体/鞋底/手部跳位。",
+    "小跳角色最大高度约190px，相对198px站立略小，约4%，原尺寸观察可接受。",
+    "左右轻步的抬脚停留与落地停顿令节奏略机械，躯干和裙摆幅度克制。",
+    "GIF深底边缘比具有半透明alpha的WebP更硬；图集本体透明边缘通过本次检查。"
+  ],
+  "repair_needed": false,
+  "repair_states": [],
+  "repair_directions": [],
+  "hard_failures": [],
+  "application_import_verified": false,
+  "installed_or_activated": false,
+  "unverified": [
+    "Codex设置识别、桌面浮动显示和实际UI导入",
+    "实际播放器按时长实时播放；本次采用全帧解码与时长序列检查"
+  ],
+  "output_files": [
+    "source/qa/final-visual-qa.json",
+    "source/qa/direction-semantics.json",
+    "source/qa/direction-semantics-preclean.json",
+    "source/qa/blind-review-resolution.json"
+  ]
+}

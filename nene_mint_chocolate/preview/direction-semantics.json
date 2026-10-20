@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "reviewed_by": "independent final visual QA worker mint_final_qa",
+  "stage": "final cleaned native v2 atlas and decoded final preview GIFs",
+  "direction_order": "clockwise from 000 UP in 22.5 degree increments",
+  "directions": [
+    {
+      "angle": 0,
+      "expected": "UP",
+      "observed": "正上方、水平居中",
+      "verdict": "pass",
+      "reason": "抬颏与上抬视线清楚，正上基准无歧义。",
+      "horizontal_evidence": "面部与双眼保持接近中线，无明确左右偏向。",
+      "vertical_evidence": "下颏抬起，虹膜位于眼形上部，面部明显向上。"
+    },
+    {
+      "angle": 22.5,
+      "expected": "UP-RIGHT, up dominant",
+      "observed": "向上并轻微偏右",
+      "verdict": "pass",
+      "reason": "由000进入上右方向，水平分量较小但不反向。",
+      "horizontal_evidence": "脸与眼神较000向屏幕右偏。",
+      "vertical_evidence": "保持明显抬颏与上抬眼神，上分量占主导。"
+    },
+    {
+      "angle": 45,
+      "expected": "UP-RIGHT",
+      "observed": "上右",
+      "verdict": "pass",
+      "reason": "上右象限可辨，与相邻方向次序一致。",
+      "horizontal_evidence": "脸与瞳孔朝屏幕右侧偏。",
+      "vertical_evidence": "颏与眼线保持上抬，低于022.5的抬升程度。"
+    },
+    {
+      "angle": 67.5,
+      "expected": "UP-RIGHT, right dominant",
+      "observed": "向右，略向上",
+      "verdict": "warning",
+      "reason": "与090的垂直差异较细，仍保留上分量，未见反向或错象限。",
+      "horizontal_evidence": "脸和眼神明确偏屏幕右。",
+      "vertical_evidence": "相对090眼线和颏略高；上分量在原尺寸较弱。"
+    },
+    {
+      "angle": 90,
+      "expected": "RIGHT",
+      "observed": "明确向右",
+      "verdict": "pass",
+      "reason": "右方向基准清楚。",
+      "horizontal_evidence": "面部朝屏幕右侧，虹膜偏眼形右缘。",
+      "vertical_evidence": "眼线与颏接近垂直中性，不读为明显向上或向下。"
+    },
+    {
+      "angle": 112.5,
+      "expected": "DOWN-RIGHT, right dominant",
+      "observed": "向右并略向下",
+      "verdict": "pass",
+      "reason": "从090向下的变化可辨，右分量仍强。",
+      "horizontal_evidence": "保持屏幕右方脸与虹膜偏向。",
+      "vertical_evidence": "颏和眼神较090降低，双眼睁开。"
+    },
+    {
+      "angle": 135,
+      "expected": "DOWN-RIGHT",
+      "observed": "下右",
+      "verdict": "pass",
+      "reason": "下右方向可辨，无向左反转。",
+      "horizontal_evidence": "面部和虹膜保持屏幕右偏。",
+      "vertical_evidence": "头部和眼线比112.5更低，低视线清楚。"
+    },
+    {
+      "angle": 157.5,
+      "expected": "DOWN-RIGHT, down dominant",
+      "observed": "向下并偏右",
+      "verdict": "warning",
+      "reason": "方向仍在下右象限；与理想近正下姿态相比，脸部右转仍较明显，属于角度细分差异。",
+      "horizontal_evidence": "面部与虹膜保留右分量，无左偏反向。",
+      "vertical_evidence": "颏与虹膜明显下压，双眼仍可见；下分量清楚。"
+    },
+    {
+      "angle": 180,
+      "expected": "DOWN",
+      "observed": "正下方、水平近中线；双眼睁开",
+      "verdict": "pass",
+      "reason": "低头与低位紫色虹膜明确；不是闭眼图，正下基准可辨。",
+      "horizontal_evidence": "面部和两眼接近水平中线，无明显侧向凝视。",
+      "vertical_evidence": "双眼开放眼形内可见紫色虹膜，颏与眼线下压。"
+    },
+    {
+      "angle": 202.5,
+      "expected": "DOWN-LEFT, down dominant",
+      "observed": "向下，微偏左",
+      "verdict": "warning",
+      "reason": "下分量明确，初始左分量较细；与225/247.5的顺序一致，无右偏反向。",
+      "horizontal_evidence": "相对180，眼神和脸略向屏幕左移动。",
+      "vertical_evidence": "保持低颏、低位虹膜及开放眼形。"
+    },
+    {
+      "angle": 225,
+      "expected": "DOWN-LEFT",
+      "observed": "下左",
+      "verdict": "pass",
+      "reason": "下左象限可以由脸部和视线共同读出，侧向幅度克制。",
+      "horizontal_evidence": "鼻部、脸部与虹膜较180偏屏幕左。",
+      "vertical_evidence": "眼神与颏低于270水平左基准。"
+    },
+    {
+      "angle": 247.5,
+      "expected": "DOWN-LEFT, left dominant",
+      "observed": "向左、略向下",
+      "verdict": "warning",
+      "reason": "垂直细分较弱，仍属于下左，不读为上方或右方。",
+      "horizontal_evidence": "面部和虹膜偏屏幕左。",
+      "vertical_evidence": "眼线与颏略低于270，向下幅度小于202.5。"
+    },
+    {
+      "angle": 270,
+      "expected": "LEFT",
+      "observed": "明确向左",
+      "verdict": "pass",
+      "reason": "侧脸与眼神形成清楚的左方向基准。",
+      "horizontal_evidence": "脸鼻朝屏幕左，主要可见虹膜同向偏左。",
+      "vertical_evidence": "颏与眼线处于左侧的垂直中性，介于上下左邻图之间。"
+    },
+    {
+      "angle": 292.5,
+      "expected": "UP-LEFT, left dominant",
+      "observed": "向左并上抬",
+      "verdict": "pass",
+      "reason": "从270抬头的变化可读，仍保持强左分量。",
+      "horizontal_evidence": "脸、鼻和虹膜保持屏幕左偏。",
+      "vertical_evidence": "虹膜和颏相对270抬升，出现上分量。"
+    },
+    {
+      "angle": 315,
+      "expected": "UP-LEFT",
+      "observed": "上左",
+      "verdict": "pass",
+      "reason": "上左象限清楚，相邻细分幅度较小。",
+      "horizontal_evidence": "面部方向和虹膜朝屏幕左。",
+      "vertical_evidence": "抬颏与上抬虹膜明确。"
+    },
+    {
+      "angle": 337.5,
+      "expected": "UP-LEFT, up dominant",
+      "observed": "上左，头部仍有明显左转",
+      "verdict": "warning",
+      "reason": "保持正确上左象限；近正上细分的左转幅度偏大，接回000时头姿差别更明显，但无方向反转。",
+      "horizontal_evidence": "脸部仍保留明显左转，只比315略减弱。",
+      "vertical_evidence": "眼神和颏清楚上抬，不读为水平或向下。"
+    }
+  ],
+  "cardinal_directions_unambiguous": true,
+  "down_180_eyes_open": true,
+  "wrong_quadrants": [],
+  "note": "最终清理图集、原尺寸方向预览和16帧GIF复核；细小分量与插值节奏作为warning，未发现必须返工的反向或错象限。独立复核后与已有14对28项盲审分类一致。"
+}

@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "method": "Original connected-component crops, one shared scale, integer whole-pose placement; no anatomy edits",
+  "shared_scale": 0.3525046382189239,
+  "max_foot_lift_px": 8,
+  "poses": [
+    {
+      "frame": 0,
+      "raw_crop_size": [
+        342,
+        539
+      ],
+      "final_bbox": [
+        35,
+        13,
+        156,
+        203
+      ],
+      "foot_lift_px": 0
+    },
+    {
+      "frame": 1,
+      "raw_crop_size": [
+        341,
+        528
+      ],
+      "final_bbox": [
+        36,
+        13,
+        156,
+        199
+      ],
+      "foot_lift_px": 4
+    },
+    {
+      "frame": 2,
+      "raw_crop_size": [
+        341,
+        527
+      ],
+      "final_bbox": [
+        36,
+        9,
+        156,
+        195
+      ],
+      "foot_lift_px": 8
+    },
+    {
+      "frame": 3,
+      "raw_crop_size": [
+        342,
+        532
+      ],
+      "final_bbox": [
+        35,
+        11,
+        156,
+        199
+      ],
+      "foot_lift_px": 4
+    },
+    {
+      "frame": 4,
+      "raw_crop_size": [
+        342,
+        533
+      ],
+      "final_bbox": [
+        35,
+        15,
+        156,
+        203
+      ],
+      "foot_lift_px": 0
+    }
+  ]
+}

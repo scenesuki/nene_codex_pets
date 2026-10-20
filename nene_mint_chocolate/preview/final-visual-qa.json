@@ -1,0 +1,1181 @@
+{
+  "visual_qa": "pass",
+  "pet_id": "nene_mint_chocolate",
+  "reviewed_by": "independent final visual QA worker mint_final_qa",
+  "summary": "最终清理版视觉复核通过，可继续导出。未发现需要返工的裁切、断肢、重复残影、错误朝向、错误方向象限或不合理附加物。轻微尺度与方向插值差异保留为提示。",
+  "checks": {
+    "reference_identity": {
+      "verdict": "pass",
+      "evidence": "与canonical-base逐项对照：薄荷银绿短发、紫眼、巧克力棕上衣与袖、深色短裤、长系带靴、单侧头饰和单腿腿环一致；Q版缩小后保留关键轮廓与配色。"
+    },
+    "all_nine_states": {
+      "verdict": "pass",
+      "frame_count": 57,
+      "states": [
+        {
+          "state": "idle",
+          "frames_checked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "verdict": "pass",
+          "evidence": "6帧从睁眼到半闭、闭眼再睁眼，头发袖口有微变，脚基线稳定；额外neutral单元作为独立静态姿态核对。"
+        },
+        {
+          "state": "running-right",
+          "frames_checked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "verdict": "pass",
+          "evidence": "8帧全部朝屏幕右。00腿环腿为后腿，04腿环腿成为前腿，01/05为收腿连接姿态；低幅交替步行清楚，未见脚或腿环悬空。"
+        },
+        {
+          "state": "running-left",
+          "frames_checked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "verdict": "pass",
+          "evidence": "8帧全部朝屏幕左。00腿环腿为前/左腿，04变为后/右腿，01/05收腿连接；身份、短裤和靴保持一致。"
+        },
+        {
+          "state": "waving",
+          "frames_checked": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "verdict": "pass",
+          "evidence": "00/03放手，01/02抬起屏幕左手并改变手掌角度，克制招手可辨，脚保持站定。"
+        },
+        {
+          "state": "jumping",
+          "frames_checked": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "verdict": "pass",
+          "evidence": "5帧为落地、抬手上升、顶点、回落、落地；鞋底相对落地基线抬升0/4/8/4/0px，循环内部无尺度变化，首尾落地一致。"
+        },
+        {
+          "state": "failed",
+          "frames_checked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "verdict": "pass",
+          "evidence": "双手低垂靠拢、低头与闭眼形成失落状态；05短暂放开手臂为小幅动作变化，不构成断肢或严重跳帧。"
+        },
+        {
+          "state": "waiting",
+          "frames_checked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "verdict": "pass",
+          "evidence": "一手靠胸，另一手在02-04翻开手掌形成等待输入/询问姿态；与工作思考和交叉手臂审阅可区分，脚站定。"
+        },
+        {
+          "state": "running",
+          "frames_checked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "verdict": "pass",
+          "evidence": "作为工作状态为站立思考姿态，胸前手与触颏动作、短暂眼神变化可见；不是横向移动，符合本套该状态设计。"
+        },
+        {
+          "state": "review",
+          "frames_checked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "verdict": "pass",
+          "evidence": "手臂交叉/收于胸前、轻微歪头和闭眼变化形成审阅姿态，和等待手掌、工作触颏区分，脚站定。"
+        }
+      ]
+    },
+    "single_accessories_and_anatomy": {
+      "verdict": "pass",
+      "evidence": "所有标准状态、neutral与16方向均保持单侧头饰和单腿腿环；移动侧视的遮挡合理，未见第二个人影、附加肢体、断肢或不合理漂浮物。"
+    },
+    "cropping_and_frame_bounds": {
+      "verdict": "pass",
+      "evidence": "最终11行图集74个有效单元全部未触192x208单元四边；逐帧目视未见裁切。",
+      "active_cells": 74,
+      "row_measurements": [
+        {
+          "state": "idle",
+          "row": 0,
+          "active_cells": 7,
+          "alpha_bounds": [
+            [
+              46,
+              5,
+              145,
+              203
+            ],
+            [
+              46,
+              5,
+              145,
+              203
+            ],
+            [
+              47,
+              5,
+              145,
+              203
+            ],
+            [
+              47,
+              5,
+              145,
+              203
+            ],
+            [
+              47,
+              5,
+              145,
+              203
+            ],
+            [
+              47,
+              5,
+              145,
+              203
+            ],
+            [
+              46,
+              5,
+              145,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "running-right",
+          "row": 1,
+          "active_cells": 8,
+          "alpha_bounds": [
+            [
+              54,
+              5,
+              138,
+              203
+            ],
+            [
+              55,
+              5,
+              137,
+              203
+            ],
+            [
+              54,
+              5,
+              137,
+              203
+            ],
+            [
+              54,
+              5,
+              137,
+              203
+            ],
+            [
+              53,
+              5,
+              139,
+              203
+            ],
+            [
+              55,
+              5,
+              137,
+              203
+            ],
+            [
+              53,
+              5,
+              138,
+              203
+            ],
+            [
+              54,
+              5,
+              138,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "running-left",
+          "row": 2,
+          "active_cells": 8,
+          "alpha_bounds": [
+            [
+              53,
+              5,
+              138,
+              203
+            ],
+            [
+              54,
+              5,
+              138,
+              203
+            ],
+            [
+              52,
+              5,
+              139,
+              203
+            ],
+            [
+              53,
+              5,
+              139,
+              203
+            ],
+            [
+              52,
+              5,
+              139,
+              203
+            ],
+            [
+              54,
+              5,
+              137,
+              203
+            ],
+            [
+              53,
+              5,
+              138,
+              203
+            ],
+            [
+              53,
+              5,
+              139,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "waving",
+          "row": 3,
+          "active_cells": 4,
+          "alpha_bounds": [
+            [
+              44,
+              5,
+              148,
+              203
+            ],
+            [
+              43,
+              5,
+              148,
+              203
+            ],
+            [
+              44,
+              5,
+              147,
+              203
+            ],
+            [
+              44,
+              5,
+              147,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "jumping",
+          "row": 4,
+          "active_cells": 5,
+          "alpha_bounds": [
+            [
+              45,
+              15,
+              146,
+              203
+            ],
+            [
+              50,
+              11,
+              142,
+              199
+            ],
+            [
+              50,
+              7,
+              141,
+              195
+            ],
+            [
+              49,
+              11,
+              142,
+              199
+            ],
+            [
+              45,
+              15,
+              146,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "failed",
+          "row": 5,
+          "active_cells": 8,
+          "alpha_bounds": [
+            [
+              54,
+              5,
+              137,
+              203
+            ],
+            [
+              55,
+              5,
+              137,
+              203
+            ],
+            [
+              55,
+              5,
+              137,
+              203
+            ],
+            [
+              53,
+              5,
+              138,
+              203
+            ],
+            [
+              54,
+              5,
+              138,
+              203
+            ],
+            [
+              55,
+              5,
+              137,
+              203
+            ],
+            [
+              54,
+              5,
+              137,
+              203
+            ],
+            [
+              54,
+              5,
+              137,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "waiting",
+          "row": 6,
+          "active_cells": 6,
+          "alpha_bounds": [
+            [
+              51,
+              5,
+              141,
+              203
+            ],
+            [
+              51,
+              5,
+              140,
+              203
+            ],
+            [
+              51,
+              5,
+              140,
+              203
+            ],
+            [
+              50,
+              5,
+              142,
+              203
+            ],
+            [
+              50,
+              5,
+              141,
+              203
+            ],
+            [
+              51,
+              5,
+              140,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "running",
+          "row": 7,
+          "active_cells": 6,
+          "alpha_bounds": [
+            [
+              52,
+              5,
+              140,
+              203
+            ],
+            [
+              52,
+              5,
+              140,
+              203
+            ],
+            [
+              52,
+              5,
+              139,
+              203
+            ],
+            [
+              51,
+              5,
+              141,
+              203
+            ],
+            [
+              52,
+              5,
+              139,
+              203
+            ],
+            [
+              52,
+              5,
+              140,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "review",
+          "row": 8,
+          "active_cells": 6,
+          "alpha_bounds": [
+            [
+              52,
+              5,
+              140,
+              203
+            ],
+            [
+              50,
+              5,
+              142,
+              203
+            ],
+            [
+              49,
+              5,
+              143,
+              203
+            ],
+            [
+              50,
+              5,
+              141,
+              203
+            ],
+            [
+              52,
+              5,
+              140,
+              203
+            ],
+            [
+              52,
+              5,
+              140,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "look-000-to-157.5",
+          "row": 9,
+          "active_cells": 8,
+          "alpha_bounds": [
+            [
+              48,
+              5,
+              144,
+              203
+            ],
+            [
+              48,
+              6,
+              142,
+              203
+            ],
+            [
+              48,
+              7,
+              143,
+              203
+            ],
+            [
+              48,
+              8,
+              142,
+              203
+            ],
+            [
+              48,
+              9,
+              142,
+              203
+            ],
+            [
+              48,
+              12,
+              142,
+              203
+            ],
+            [
+              48,
+              14,
+              143,
+              203
+            ],
+            [
+              48,
+              16,
+              144,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "state": "look-180-to-337.5",
+          "row": 10,
+          "active_cells": 8,
+          "alpha_bounds": [
+            [
+              49,
+              9,
+              142,
+              203
+            ],
+            [
+              49,
+              9,
+              142,
+              203
+            ],
+            [
+              50,
+              9,
+              143,
+              203
+            ],
+            [
+              50,
+              9,
+              143,
+              203
+            ],
+            [
+              50,
+              9,
+              143,
+              203
+            ],
+            [
+              50,
+              9,
+              145,
+              203
+            ],
+            [
+              49,
+              9,
+              145,
+              203
+            ],
+            [
+              49,
+              9,
+              145,
+              203
+            ]
+          ],
+          "frame_edge_pixels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "verdict": "pass",
+      "count": 16,
+      "ordered_angles": [
+        0,
+        22.5,
+        45,
+        67.5,
+        90,
+        112.5,
+        135,
+        157.5,
+        180,
+        202.5,
+        225,
+        247.5,
+        270,
+        292.5,
+        315,
+        337.5
+      ],
+      "cardinals": "000上、090右、180下、270左均可辨；180双眼开放并可见紫色虹膜。",
+      "semantics_file": "source/qa/direction-semantics.json",
+      "wrong_quadrants": [],
+      "mandatory_repairs": []
+    },
+    "direction_ring_continuity": {
+      "verdict": "warning",
+      "evidence": "按顺序000至337.5逐项查看并比较闭环。身体、靴和脚基线稳定；157.5→180从右俯到正俯、337.5→000从左仰到正仰的头姿步幅稍大，270→292.5上抬也稍明显。属于头部姿态节奏差，未造成解剖破坏、角色漂移或方向反转，原尺寸不判重大。",
+      "metric_outliers": [
+        {
+          "pair": "157.5->180",
+          "diffPixels": 2411
+        },
+        {
+          "pair": "270->292.5",
+          "diffPixels": 1412
+        },
+        {
+          "pair": "337.5->000",
+          "diffPixels": 2396
+        }
+      ]
+    },
+    "all_preview_gifs": {
+      "verdict": "pass",
+      "files": 11,
+      "decoded_frames": 90,
+      "standard_frames": 57,
+      "direction_frames": 16,
+      "overview_frames": 17,
+      "evidence": "逐序解码全部11份GIF并以原尺寸无缩放拼图检查。总览17帧中九个状态均正常，未见局部残帧、鬼影或合成缺块；所有帧时长为正值。",
+      "decoding_record": "source/qa/final-gif-decoding.json"
+    },
+    "chroma_and_native_validation": {
+      "verdict": "pass",
+      "basis": "边缘色边使用指定最终确定性报告作为判据，未另行提出清理。chroma-despill-extended.json ok且alpha_preserved；validation-extended.json ok、RGBA、1536x2288、8列11行、v2、透明RGB残留0、所有单元chroma_fringe_pixels=0。少数孤立opaque key-like像素在既有验证阈值内，未形成视觉边带。",
+      "validation_ok": true,
+      "validation_errors": [],
+      "validation_warnings": []
+    },
+    "loop_endpoints": {
+      "verdict": "pass",
+      "evidence": "静态首尾及中间姿态比较未见重大位置突跳。小幅手部、头发和侧向步态变化可见；实际实时播放流畅度未在本复核中验证。"
+    }
+  },
+  "warnings": [
+    {
+      "severity": "minor",
+      "scope": "jumping",
+      "detail": "小跳角色高188px，常见其他状态198px，约小5%；同尺寸并排可见轻微差异。跳跃内部尺寸恒定、0/4/8/4/0px升降和落地基线正确，不要求返工。"
+    },
+    {
+      "severity": "minor",
+      "scope": "running-right, running-left",
+      "detail": "移动采用低幅交替行走，展开腿的整体轮廓较相似；腿环标记腿的前后交换明确，原尺寸可读。"
+    },
+    {
+      "severity": "minor",
+      "scope": "067.5, 157.5, 202.5, 247.5, 337.5",
+      "detail": "部分22.5度细分的垂直/水平分量较弱或头部侧转偏强，具体记录在direction-semantics.json；没有错误象限或反向。"
+    },
+    {
+      "severity": "minor",
+      "scope": "look ring",
+      "detail": "157.5→180、270→292.5、337.5→000头姿变化步幅略不均；身体和脚基线稳定，指标异常未自动判fail。"
+    },
+    {
+      "severity": "scope",
+      "scope": "inspection",
+      "detail": "仅解码逐帧静态序列和帧时长检查；未在实际播放器连续观看，未执行Codex应用内导入/UI测试。"
+    }
+  ],
+  "repair_rows": [],
+  "inspection_scope": {
+    "root": "D:/项目/pet_2/nene_mint_chocolate",
+    "reference": "source/references/canonical-base.png",
+    "contact_sheet": "preview/contact-sheet.png",
+    "look_sheet": "preview/look-directions.png",
+    "native_sprite_dimensions": [
+      192,
+      208
+    ],
+    "final_atlas": "source/final/spritesheet-extended.webp",
+    "final_atlas_sha256": "5db10fe32c45e6e3613e84e3ec190cab19d2924900e476f8b55efbb971d96722",
+    "method": "view_image查看基准图、11行最终contact sheet、neutral+16方向图；全部11份GIF用Pillow逐帧解码、保留原像素尺寸排为序列拼图并逐序目视检查，未将静态检查描述为实际播放。",
+    "gif_records": [
+      {
+        "file": "preview\\animation-overview.gif",
+        "sha256": "53e4f1c0a1af0ae1a3892c220fc87f9e17750c6d895834a8b0866a03248a2b93",
+        "native_size": [
+          576,
+          678
+        ],
+        "frames": 17,
+        "duration_ms": [
+          240,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          120,
+          60,
+          60,
+          120,
+          60,
+          120,
+          60,
+          60,
+          120,
+          300
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-animation-overview-00.png",
+          "source\\qa\\final-inspect-animation-overview-03.png",
+          "source\\qa\\final-inspect-animation-overview-06.png",
+          "source\\qa\\final-inspect-animation-overview-09.png",
+          "source\\qa\\final-inspect-animation-overview-12.png",
+          "source\\qa\\final-inspect-animation-overview-15.png"
+        ]
+      },
+      {
+        "file": "preview\\failed.gif",
+        "sha256": "10c0fdea731eb77a00721e0c42405deb8ab65f360b7b0a49654e3b34a23498c3",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 8,
+        "duration_ms": [
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          240
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-failed-00.png"
+        ]
+      },
+      {
+        "file": "preview\\idle.gif",
+        "sha256": "7d9f4cf4e0645a24afba0b02c586848264f04dd7d1c9b1c85a48dd616aa67ddd",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 6,
+        "duration_ms": [
+          280,
+          110,
+          110,
+          140,
+          140,
+          320
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-idle-00.png"
+        ]
+      },
+      {
+        "file": "preview\\jumping.gif",
+        "sha256": "48f89c1e1f57c92e2d24a7df7c3049d750f7eae77b74037212e14a2476a38c81",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 5,
+        "duration_ms": [
+          140,
+          140,
+          140,
+          140,
+          280
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-jumping-00.png"
+        ]
+      },
+      {
+        "file": "preview\\look-directions.gif",
+        "sha256": "84e7a9ff5f3698b85a79f30defd4fbfc8cf2fa99d89d75112627f042454f2a88",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 16,
+        "duration_ms": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-look-directions-00.png",
+          "source\\qa\\final-inspect-look-directions-08.png"
+        ]
+      },
+      {
+        "file": "preview\\review.gif",
+        "sha256": "55353ba376163bb1034a13cbc5b26d0f3106d13486e0714ddabd1025bd3f08d6",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 6,
+        "duration_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          280
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-review-00.png"
+        ]
+      },
+      {
+        "file": "preview\\running-left.gif",
+        "sha256": "eaeaa4012b4df1b61096465b975701dd51ba31e2aec5a7c091ec181467229891",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 8,
+        "duration_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-running-left-00.png"
+        ]
+      },
+      {
+        "file": "preview\\running-right.gif",
+        "sha256": "342667cfd13a09774eb2e993e73634fb6d28d55e318beb8fefe8221569ad0ec8",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 8,
+        "duration_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-running-right-00.png"
+        ]
+      },
+      {
+        "file": "preview\\running.gif",
+        "sha256": "28cf8fb023c905c765c4d5d0cb0004a2c5748532c7521e2d3c6439d1d109f215",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 6,
+        "duration_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-running-00.png"
+        ]
+      },
+      {
+        "file": "preview\\waiting.gif",
+        "sha256": "d4eb15de40d6c090623d55124e0130aa322386327eb64b831e482a7b37d85177",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 6,
+        "duration_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          260
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-waiting-00.png"
+        ]
+      },
+      {
+        "file": "preview\\waving.gif",
+        "sha256": "6f6aba8b2d225c81cf9ee8edc08c0eeab1dab8695357de34bb9f824d740857b1",
+        "native_size": [
+          192,
+          208
+        ],
+        "frames": 4,
+        "duration_ms": [
+          140,
+          140,
+          140,
+          280
+        ],
+        "inspection_sheets": [
+          "source\\qa\\final-inspect-waving-00.png"
+        ]
+      }
+    ],
+    "reports_read": {
+      "review.json": {
+        "ok": true,
+        "visual_qa": null,
+        "errors": [],
+        "warnings": []
+      },
+      "standard-visual-qa.json": {
+        "ok": null,
+        "visual_qa": "pass",
+        "errors": [],
+        "warnings": [
+          {
+            "state": "jumping",
+            "severity": "minor",
+            "detail": "188px character height versus typical 198px is mildly visible at native size, especially aligned grounded endpoints. Extra headroom is visible. Identity is preserved and the small-hop cycle is internally stable; no mandatory repair."
+          },
+          {
+            "state": "all",
+            "severity": "scope",
+            "detail": "Decoded frames and durations inspected; no actual player playback or Codex application test. Magenta fringe intentionally deferred to final cleanup."
+          },
+          {
+            "state": "running-right, running-left",
+            "severity": "minor",
+            "detail": "Movement uses restrained low-amplitude walking rather than high-knee running. Opposite leg lead is clearest through the single thigh band; spread-leg silhouettes remain similar. This is accepted as readable alternation."
+          }
+        ]
+      },
+      "direction-blind-validation.json": {
+        "ok": true,
+        "visual_qa": null,
+        "errors": [],
+        "warnings": []
+      },
+      "look-continuity.json": {
+        "ok": true,
+        "visual_qa": null,
+        "errors": [],
+        "warnings": [
+          "157.5->180 diff is a local outlier (2411 pixels vs neighbor average 1188)",
+          "270->292.5 diff is a local outlier (1412 pixels vs neighbor average 933)",
+          "337.5->000 diff is a local outlier (2396 pixels vs neighbor average 1298)"
+        ]
+      },
+      "chroma-despill-extended.json": {
+        "ok": true,
+        "visual_qa": null,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    "additional_report_read": "source/final/validation-extended.json",
+    "actual_player_playback": false,
+    "target_application_import_test": false,
+    "other_pets_read": false,
+    "modified_outputs": "只新增source/qa最终检查记录和无缩放QA拼图，更新direction-semantics.json；没有改manifest、图集、正式预览或打包。"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "source_files_match": true,
+  "installed_at": "2026-10-20T12:39:09.626Z",
+  "checked_at": "2026-10-20T12:39:09.627Z",
+  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_aqua_floral",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "id": "custom:nene_aqua_floral",
+  "display_name": "宁宁 · 水蓝花饰礼裙",
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "format": "webp",
+  "manifest_sha256": "90eb93f13c6a6549b138b0c6e705c81bc608e9df6ceaea3f2a0c8a98672ea2d7",
+  "spritesheet_sha256": "bdbe950ea003fdb79751c2917cd8305bed709d1c006a342895b213b021435f04",
+  "app_version": "26.1013.4894.0",
+  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-DsLVGakC.js",
+  "app_validator_module_sha256": "28a0918f01c50b0eb17676e894998ad7182f119d978adf0467ccaac3583f259c",
+  "method": "Installed two top-level files; byte-for-byte comparison with workspace and read-only replay of actual installed-app image/version and path validators; no app UI action",
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "current_pet_changed": false
+}

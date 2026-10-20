@@ -1,0 +1,40 @@
+{
+  "reviewed_by": "independent ivory_final_visual (not involved in generation)",
+  "reviewed_at": "2026-10-20T07:40:16.446871+00:00",
+  "pet_id": "nene_ivory_bridal",
+  "atlas_sha256": "d68f832396e6347e3676e0caf79996711b9ef31af10d4b9c35413b0035a94a6b",
+  "ok": true,
+  "source_blind_result": "direction-blind-validation.json",
+  "source_blind_sha256": "13066b8cf78e152203d72fb3a1c2648ad0c6ba99e87f9fc75a43c50db3661f30",
+  "source_result_preserved": true,
+  "method": "保留三个盲审合并原判；以最终clean WebP原尺寸、最终GIF16帧和带标签顺序复核两个review门，不把标签提示下的推断改写成独立盲识别成功。",
+  "hard_gates": {
+    "verdict": "pass",
+    "reason": "亲自确认000上、090屏幕右、180睁眼下、270屏幕左均明确；盲审合并结果所有hard门也通过，无hardfail。"
+  },
+  "resolutions": [
+    {
+      "pair": "horizontal-1",
+      "direction": 22.5,
+      "axis": "horizontal",
+      "blind_observed": "ambiguous",
+      "expected": "screen-right",
+      "verdict": "warning",
+      "accepted": true,
+      "reason": "上视清楚；带标签相邻观察可见轻微右偏，但单格水平方向不足以稳定独立辨认，接受盲审ambiguous作为真实可读性限制。"
+    },
+    {
+      "pair": "horizontal-7",
+      "direction": 202.5,
+      "axis": "horizontal",
+      "blind_observed": "ambiguous",
+      "expected": "screen-left",
+      "verdict": "warning",
+      "accepted": true,
+      "reason": "向下清楚；与180相邻可见轻微左转，单格水平分量仍弱，保留盲审ambiguous，不宣称已消除歧义。"
+    }
+  ],
+  "repair_needed": false,
+  "unresolved_hard_failures": [],
+  "limitation": "这两个非主轴中间角的水平分量仍可能被单独观看者看成近正面。接受为轻微可读性限制，不改变盲审pass:false或ambiguous原文。"
+}

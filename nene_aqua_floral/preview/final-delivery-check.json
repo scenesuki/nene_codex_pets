@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-20T12:34:22.106246+00:00",
+  "pet_id": "nene_aqua_floral",
+  "pet_count": 13,
+  "pet_ids": [
+    "nene_aqua_floral",
+    "nene_butterfly_stage",
+    "nene_chinoiserie",
+    "nene_circus_stage",
+    "nene_classical_lolita",
+    "nene_country_casual",
+    "nene_feather_stage",
+    "nene_ivory_bridal",
+    "nene_mint_chocolate",
+    "nene_robo",
+    "nene_school_uniform",
+    "nene_victorian_lolita",
+    "nene_vintage_lady"
+  ],
+  "local_links_checked": 93,
+  "existing36pet_files_unchanged": true,
+  "published_v1_9_0_zip_unchanged": true,
+  "spritesheet_sha256": "bdbe950ea003fdb79751c2917cd8305bed709d1c006a342895b213b021435f04",
+  "installed": false,
+  "uploaded": false,
+  "published": false
+}

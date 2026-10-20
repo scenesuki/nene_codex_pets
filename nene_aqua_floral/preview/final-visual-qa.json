@@ -1,0 +1,225 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "bdbe950ea003fdb79751c2917cd8305bed709d1c006a342895b213b021435f04",
+  "reviewed_by": "independent aqua_final_visual; original JSON result saved by parent",
+  "method": {
+    "inspection": "对照完整卡面、原色全身衣装和research.md，实际检查最终图集全部57标准帧、16方向；图集裁格及GIF解码均保持192×208原生像素。查看全部11个GIF的所有解码帧，包括overview全部17帧，比较末首姿态及方向跨行衔接；已有QA仅作辅助。",
+    "appearance": "灰绿长发、紫眼、珍珠发箍、角色右太阳穴花饰/海星/蓝坠、角色左腰花、白长袖尖领金扣链、水蓝不对称层裙、裸露短腿和白鞋绿踝结可辨。左向头花退向远侧；未见误加帽、鸟、贝壳、阴影或游离符号，未见缺肢及裁切。",
+    "gif_durations_ms": {
+      "idle": 1100,
+      "running-right": 1060,
+      "running-left": 1060,
+      "waving": 700,
+      "jumping": 840,
+      "failed": 1220,
+      "waiting": 1010,
+      "running": 820,
+      "review": 1030,
+      "look-directions": 3200,
+      "animation-overview": 1680
+    },
+    "gif_details": "9单状态共57帧；方向16帧、每帧200ms；overview17帧。所有GIF可完整解码，帧时长为正，loop=0。最终RGB/alpha采用已通过的native校验及单次去色记录，不提出重复去色。"
+  },
+  "reviewed_files": [
+    "source/research.md",
+    "source/references/reference-01.webp",
+    "source/references/reference-02.jpg",
+    "source/final/spritesheet-extended.webp",
+    "source/final/validation-extended.json",
+    "preview/contact-sheet.png",
+    "preview/look-directions.png",
+    "preview/idle.gif",
+    "preview/running-right.gif",
+    "preview/running-left.gif",
+    "preview/waving.gif",
+    "preview/jumping.gif",
+    "preview/failed.gif",
+    "preview/waiting.gif",
+    "preview/running.gif",
+    "preview/review.gif",
+    "preview/look-directions.gif",
+    "preview/animation-overview.gif",
+    "source/qa/chroma-despill-extended.json",
+    "source/qa/look-continuity.json",
+    "source/qa/direction-semantics.json",
+    "source/qa/standard-visual-qa.json",
+    "source/qa/direction-blind-validation.json"
+  ],
+  "states": {
+    "idle": "pass",
+    "running-right": "warning",
+    "running-left": "warning",
+    "waving": "pass",
+    "jumping": "warning",
+    "failed": "warning",
+    "waiting": "pass",
+    "running": "pass",
+    "review": "pass"
+  },
+  "directions": [
+    {
+      "degrees": 0,
+      "expected": "UP",
+      "observed": "正上",
+      "verdict": "pass",
+      "reason": "仰视明确，与neutral可区分。",
+      "horizontal_evidence": "脸基本正面，无左右误指。",
+      "vertical_evidence": "下巴抬起，睁眼虹膜上望。"
+    },
+    {
+      "degrees": 22.5,
+      "expected": "UP-RIGHT",
+      "observed": "右上",
+      "verdict": "pass",
+      "reason": "由正上开始右转，象限正确。",
+      "horizontal_evidence": "鼻尖和眼神偏屏幕右。",
+      "vertical_evidence": "脸保持仰起，眼神高于平视。"
+    },
+    {
+      "degrees": 45,
+      "expected": "UP-RIGHT",
+      "observed": "右上",
+      "verdict": "pass",
+      "reason": "右转与上望同时可读。",
+      "horizontal_evidence": "侧脸与紫色虹膜朝右。",
+      "vertical_evidence": "下巴仍抬起，区别于右下组。"
+    },
+    {
+      "degrees": 67.5,
+      "expected": "UP-RIGHT",
+      "observed": "轻微右上",
+      "verdict": "pass",
+      "reason": "趋近右轴，无反向。",
+      "horizontal_evidence": "鼻尖明确向右，面部转角增加。",
+      "vertical_evidence": "仰角较45减弱，仍略高于090。"
+    },
+    {
+      "degrees": 90,
+      "expected": "RIGHT",
+      "observed": "右",
+      "verdict": "pass",
+      "reason": "主轴清楚。",
+      "horizontal_evidence": "鼻尖、侧脸和眼神均朝右。",
+      "vertical_evidence": "视线近水平。"
+    },
+    {
+      "degrees": 112.5,
+      "expected": "DOWN-RIGHT",
+      "observed": "轻微右下",
+      "verdict": "pass",
+      "reason": "右转同时开始低头。",
+      "horizontal_evidence": "右向鼻尖与侧脸保持。",
+      "vertical_evidence": "眼线降低、下巴收起，较090明显下俯。"
+    },
+    {
+      "degrees": 135,
+      "expected": "DOWN-RIGHT",
+      "observed": "右下",
+      "verdict": "pass",
+      "reason": "右下象限可辨。",
+      "horizontal_evidence": "脸部保持向屏幕右。",
+      "vertical_evidence": "低头、较低眼线与睁开的紫眼共同表达下望。"
+    },
+    {
+      "degrees": 157.5,
+      "expected": "DOWN-RIGHT",
+      "observed": "较深右下",
+      "verdict": "pass",
+      "reason": "下俯进一步加深，未翻向其他象限。",
+      "horizontal_evidence": "仍保留明显右向侧脸。",
+      "vertical_evidence": "比135更收下巴，眼神朝下。"
+    },
+    {
+      "degrees": 180,
+      "expected": "OPEN-DOWN",
+      "observed": "睁眼正下",
+      "verdict": "pass",
+      "reason": "正下主轴明确，并非闭眼替代。",
+      "horizontal_evidence": "双眼正面布局，未偏左或右。",
+      "vertical_evidence": "头部下俯，紫色虹膜仍可见并下望。"
+    },
+    {
+      "degrees": 202.5,
+      "expected": "DOWN-LEFT",
+      "observed": "左下",
+      "verdict": "pass",
+      "reason": "从正下开始左转。",
+      "horizontal_evidence": "鼻尖与眼神偏屏幕左。",
+      "vertical_evidence": "保留明显低头和较低眼线。"
+    },
+    {
+      "degrees": 225,
+      "expected": "DOWN-LEFT",
+      "observed": "左下",
+      "verdict": "pass",
+      "reason": "左下象限正确；与202.5差异较细。",
+      "horizontal_evidence": "脸部、鼻尖与眼神向左。",
+      "vertical_evidence": "下巴收起，视线仍低于平视。"
+    },
+    {
+      "degrees": 247.5,
+      "expected": "DOWN-LEFT",
+      "observed": "轻微左下",
+      "verdict": "pass",
+      "reason": "向左轴过渡合理。",
+      "horizontal_evidence": "侧脸朝左。",
+      "vertical_evidence": "较225抬头，仍有轻微下望。"
+    },
+    {
+      "degrees": 270,
+      "expected": "LEFT",
+      "observed": "左",
+      "verdict": "pass",
+      "reason": "主轴清楚，头花处于远侧。",
+      "horizontal_evidence": "鼻尖与紫眼明确朝屏幕左。",
+      "vertical_evidence": "近水平，区别于前后的俯仰。"
+    },
+    {
+      "degrees": 292.5,
+      "expected": "UP-LEFT",
+      "observed": "轻微左上",
+      "verdict": "pass",
+      "reason": "开始抬头，未继续朝左下。",
+      "horizontal_evidence": "脸和眼神保持向左。",
+      "vertical_evidence": "下巴及眼神较270略抬高。"
+    },
+    {
+      "degrees": 315,
+      "expected": "UP-LEFT",
+      "observed": "左上",
+      "verdict": "pass",
+      "reason": "左上方向可读。",
+      "horizontal_evidence": "左向鼻尖及侧脸一致。",
+      "vertical_evidence": "仰头与上望较292.5明显。"
+    },
+    {
+      "degrees": 337.5,
+      "expected": "UP-LEFT",
+      "observed": "较强左上",
+      "verdict": "pass",
+      "reason": "保持左上，能够回接000正上。",
+      "horizontal_evidence": "仍保留向左的侧脸和眼神。",
+      "vertical_evidence": "下巴抬高，紫眼上望。"
+    }
+  ],
+  "loop_and_scale": {
+    "verdict": "warning",
+    "reason": "九状态末首均可接续；同手招手、双脚交替抬落、站定等待和思考成立。16方向顺序及环回正确。157.5→180和337.5→000可见轻微头发体积与头顶高度步进，但腰线、膝部、鞋底及手脚位置稳定，未形成显著全身缩放跳变。overview17帧完整，无缺格或越界。"
+  },
+  "holes": {
+    "verdict": "pass",
+    "reason": "原生图集置于深灰背景检查，y178–180的透明候选对应裙下腿侧、双腿之间向外开放的背景间隙；未见衣服内部封闭破洞或缺片。"
+  },
+  "accepted_minor_warnings": [
+    "左右移动都有两脚交替抬落，但持续时间不均、落地姿态偏多，呈碎步感。",
+    "jumping最高约8px，离地较轻；中央张臂帧有轻微伸展，未见实质比例突变。",
+    "failed深低头后起身擦脸较快，肢体连接与身份保持。",
+    "后八注视方向头发略饱满，两个跨行接缝有轻微头部轮廓步进。",
+    "部分相邻斜向差别细微，全部主轴及象限仍明确。",
+    "GIF量化后的细边观感不替代已通过的native RGB/alpha校验。"
+  ],
+  "repair_needed": false,
+  "repair_rows": [],
+  "application_ui_verified": false,
+  "real_time_playback_verified": false
+}

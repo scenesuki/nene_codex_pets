@@ -1,0 +1,126 @@
+{
+  "ok": true,
+  "pet_id": "nene_ivory_bridal",
+  "spritesheet_sha256": "d68f832396e6347e3676e0caf79996711b9ef31af10d4b9c35413b0035a94a6b",
+  "gif_files": 11,
+  "gifs": [
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "size": [
+        576,
+        678
+      ],
+      "duration_ms": 1680,
+      "sha256": "ed78d99ece40dcf7f73ccc225c390654458a58147047749f011c27f75f764102"
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1220,
+      "sha256": "f6900f0a03b05a33017bea16afd35855096cd16c86cafa539b015b5c63926da8"
+    },
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1100,
+      "sha256": "eea176ec9a36ea7140884cd5b290400532f5f21e2c2ce55310fb20090145274e"
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 840,
+      "sha256": "d5cf52bc02f0b6915990aed7ef45f10e4e93ed72a47d998913521a630e0aacdc"
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 3200,
+      "sha256": "0a50dfb6c89fd7c7469369a85a6f70435851ff2a09693e1754ecf228a208453e"
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1030,
+      "sha256": "e992f3c8af93555d3f32961b08bcd110ad7ddb06870ee85efb65aeb3e0f0c738"
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1060,
+      "sha256": "23e56768c234907417fe7c0c70decf27fdb0b2ac032747dc3625846fe22cf681"
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1060,
+      "sha256": "7897288f6407a71184a59d562acfb22dd760d4a701ca7fd4705b1f997c07510a"
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 820,
+      "sha256": "04d495618495ed8a8a567397fa157805f6306112e30a77f737c1cc17d70acbca"
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1010,
+      "sha256": "e4483945a3fd33bc10425364179e0b820a5b8660370b0aa0520155440e8469f9"
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 700,
+      "sha256": "40622a5c9ec87b34eba2efca79bf5f0ce2b34a33e22f359fc3916564945024bf"
+    }
+  ],
+  "material_count": 107,
+  "local_links_checked": 36,
+  "existing_pet_files_unchanged": true,
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "installed": false,
+  "uploaded": false,
+  "published": false
+}

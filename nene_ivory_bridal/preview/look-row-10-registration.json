@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "scale": 0.4771084337349398,
+  "source_sha256": "dbe4ee5cb87b0902d370cd5f26d034f3c38a3aef1901282254059046ac5d3d79",
+  "strategy": "One uniform scale for this entire coherent source row; no per-cell scale or artwork repair.",
+  "row9_sha256_before": "6487f7664d90449e8f634185e394c001fa4e0c6b3458a31f7efb2a66a17297da",
+  "row9_sha256_after": "6487f7664d90449e8f634185e394c001fa4e0c6b3458a31f7efb2a66a17297da",
+  "target": {
+    "height": 198,
+    "lower_center_x": 93.58565121412803,
+    "bottom": 203
+  },
+  "cell_bboxes": [
+    [
+      36,
+      5,
+      155,
+      203
+    ],
+    [
+      36,
+      5,
+      156,
+      203
+    ],
+    [
+      36,
+      5,
+      154,
+      203
+    ],
+    [
+      37,
+      5,
+      155,
+      203
+    ],
+    [
+      37,
+      5,
+      153,
+      203
+    ],
+    [
+      36,
+      5,
+      152,
+      203
+    ],
+    [
+      37,
+      5,
+      154,
+      203
+    ],
+    [
+      36,
+      5,
+      154,
+      203
+    ]
+  ],
+  "edge_margin": 2,
+  "edge_pixel_threshold": 24
+}

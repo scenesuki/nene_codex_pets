@@ -1,0 +1,96 @@
+{
+  "pet_id": "nene_aqua_floral",
+  "ok": true,
+  "scope": "Four temporary native cardinal anchors only; not final full-set QA",
+  "inspection": "All four current native cardinal anchors and the newly assembled 4-cell approved sheet viewed; repaired270 compared with prior canonical appearance. No image generated or modified by reviewer.",
+  "reference_assets": [
+    {
+      "path": "frames/idle/00.png",
+      "sha256": "64fd6db737c5dc3963b1d4a691bc22e9f83333d777610028fa0173cbba2009f9"
+    },
+    {
+      "path": "references/canonical-base.png",
+      "sha256": "5457d5b292cf50a4f63c40a4c5dc127b39e823ce2e79fb86cc4b7fae745aab17"
+    },
+    {
+      "path": "references/reference-02.jpg",
+      "sha256": "399ec4d9a45d89b36264b40d2f353ec968c3aea6c4e6eb0e15bab72635beb0f2"
+    }
+  ],
+  "directions": {
+    "000": {
+      "ok": true,
+      "direction": "up",
+      "evidence": [
+        "双眼睁开且能看到紫色虹膜，瞳孔上移、下巴略扬，向上注视可读。",
+        "花簇和海星蓝坠仍在角色右太阳穴（正面画面左），珍珠弧延续到头顶另一边，腰花侧别未变。"
+      ],
+      "reviewed_asset": {
+        "path": "decoded/look-anchors/000.png",
+        "sha256": "58e9b8d9c72d12c1a8f844f2aada3ed3a57110aaef80496d2956b001a0b95fbc"
+      }
+    },
+    "090": {
+      "ok": true,
+      "direction": "right",
+      "evidence": [
+        "鼻尖、脸部转向和紫色虹膜均指向画面右，双眼未闭合。",
+        "转头后画面左侧近侧太阳穴为角色右侧，花簇仍佩戴于该侧，符合正面基准；腰花和躯干保持原方向。"
+      ],
+      "reviewed_asset": {
+        "path": "decoded/look-anchors/090.png",
+        "sha256": "a0a494131b5d51a039f97818cd1b71975faa0bc85eb4dc6390dbb39902ec9c85"
+      }
+    },
+    "180": {
+      "ok": true,
+      "direction": "down",
+      "evidence": [
+        "头部下俯，眼睑收窄但两侧仍有紫色虹膜可见，属于睁眼向下看而非闭眼。",
+        "头花、头发分区与腰花均保持基准侧别。"
+      ],
+      "reviewed_asset": {
+        "path": "decoded/look-anchors/180.png",
+        "sha256": "8c0dd7afab8f700ea622e1503fa55cbc74193ad1d7e3d317fa8106fb6923615a"
+      }
+    },
+    "270": {
+      "ok": true,
+      "direction": "left",
+      "reviewed_asset": {
+        "path": "decoded/look-anchors/270.png",
+        "sha256": "01a1f56a54b84053a56ae69928126803d5ee13b66e1979419eedb07be2e3fbb7"
+      },
+      "evidence": [
+        "修复后原生锚点再次逐张查看。鼻尖和脸部轮廓指向画面左，紫色虹膜向左，保持睁眼。",
+        "画面右侧近侧耳及其上方为角色左侧太阳穴，修复后此处不再佩戴绿白花簇，原有错误已消除。",
+        "头花仅在画面左上远侧轮廓露出小部分，其他花饰与坠饰自然被头部及头发遮挡，与角色右太阳穴的固定佩戴位置相容。",
+        "灰绿色长发、紫眼、珍珠头箍、白长袖尖领、腰花及水蓝裙装保留；腰花保持躯干原侧别，双手及双脚完整，未见比例跳变。"
+      ],
+      "accepted_minor_warnings": [
+        "远侧海星和蓝坠在此转向下大部或完全遮挡，属于可以接受的投影与遮挡，并非要求换到近侧展示。"
+      ]
+    }
+  },
+  "evidence": [
+    "000/090/180字节独立核对与修复前记录一致，三方向原结论仍有效。",
+    "270修复后的近侧角色左太阳穴不再错误佩戴头花，花簇移至符合原佩戴侧的远侧并自然遮挡；向左注视语义保留。",
+    "四格总览中角色身份、衣装、腰花、手脚和身形相容，没有需要阻断row9制作的硬失败。"
+  ],
+  "repair_directions": [],
+  "final_transparency_qa": false,
+  "approved_sheet": {
+    "path": "decoded/look-anchors-approved.png",
+    "sha256": "e6cbc5152f07382e526f6a689d85dad40b8a0a60bd18d381cfe6edf27ee3674f"
+  },
+  "unchanged_cardinals_verified": {
+    "000": true,
+    "090": true,
+    "180": true
+  },
+  "review_iteration": "After genuine generated270 repair; prior failed record retained as qa/cardinal-semantics-before-left-fix.json",
+  "accepted_minor_warnings": [
+    "本批为约198px临时方向锚点，尚未按标准idle首帧归一化；不等于最终gaze行比例与过渡验收。",
+    "最终透明边缘、16方向一致性及应用内显示仍需后续检查。"
+  ]
+}

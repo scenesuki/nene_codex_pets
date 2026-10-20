@@ -1,0 +1,149 @@
+{
+  "reviewed_by": "independent ivory_final_visual (not involved in generation)",
+  "reviewed_at": "2026-10-20T07:40:16.446871+00:00",
+  "pet_id": "nene_ivory_bridal",
+  "atlas_sha256": "d68f832396e6347e3676e0caf79996711b9ef31af10d4b9c35413b0035a94a6b",
+  "ok": true,
+  "scope": "最终清理后无损RGBA图集的16个方向语义、身份、原生192×208连续性复核；替代清理前阶段性scope，历史原文件逐字节保存在direction-semantics-preclean.json。",
+  "reviewed_files": [
+    "source/research.md",
+    "source/references/reference-01.webp",
+    "source/references/reference-02.jpg",
+    "source/final/spritesheet-extended.webp",
+    "source/final/spritesheet-extended.png",
+    "preview/contact-sheet.png",
+    "preview/look-directions.png",
+    "preview/animation-overview.gif",
+    "preview/failed.gif",
+    "preview/idle.gif",
+    "preview/jumping.gif",
+    "preview/look-directions.gif",
+    "preview/review.gif",
+    "preview/running-left.gif",
+    "preview/running-right.gif",
+    "preview/running.gif",
+    "preview/waiting.gif",
+    "preview/waving.gif"
+  ],
+  "method": "先对照高清卡与全身服装模型，再看最终全帧和带标签方向图。用Pillow逐帧解码全部11个GIF，九状态57帧、方向16帧、总览17个编码帧全部在保持192×208原生角色大小的序列图中逐格观察，读取每帧时长，并人工比较末帧与首帧。额外将最终无损WebP的待机中性帧及157.5/180/337.5/000边界帧原样合成于浅色、深色背景检查边缘与定位；未重画、缩放或修补被审图像。此次为逐帧/序列视觉验收，没有在播放器中实时播放或进行Codex界面实机导入。",
+  "preclean_record_sha256": "dd7054cdb6589c25c1f56fcf81f0cb8f4e3abd52e2f6619c2a8c87680f32cbd7",
+  "identity": {
+    "verdict": "pass",
+    "reason": "灰绿短发、紫眼、象牙金纹层裙和花羽帽饰在全部16方向一致；帽饰保持屏幕右侧，没有整图镜像。"
+  },
+  "body_and_hands": {
+    "verdict": "pass",
+    "reason": "两行双手均在裙侧、手臂连接合理；腰线、层裙和鞋位相容。未见断臂、增肢、手部瞬移或整个人体尺度跳变。"
+  },
+  "integrity": {
+    "verdict": "pass",
+    "reason": "最终WebP在深浅底均未见色键光环、明显内部孔洞或裁切；所有单格最外围alpha均为0，PNG与无损WebP像素相同。"
+  },
+  "continuity": {
+    "verdict": "warning",
+    "accepted": true,
+    "boundaries": [
+      {
+        "from": 157.5,
+        "to": 180,
+        "verdict": "warning",
+        "accepted": true,
+        "reason": "头由右偏低头转为近正面低头，帽顶高约3px，脸宽和帽轮廓变化稍明显；鞋底同为y202，腰裙和双手保持同一基准，无可见身体缩放或手部瞬移。"
+      },
+      {
+        "from": 337.5,
+        "to": 0,
+        "verdict": "warning",
+        "accepted": true,
+        "reason": "左偏仰视回近正面上视的头脸轮廓步进最明显；差异主要在头部朝向，腰身、裙摆、鞋底及两手未跳到另一位置，属于非完全平滑的角度量化。"
+      }
+    ],
+    "reason": "16方向顺时针排列无错误象限或主方向反转；近轴中间角较弱，337.5到000头部转向不完全平滑。"
+  },
+  "directions": [
+    {
+      "degrees": 0,
+      "verdict": "pass",
+      "reason": "上视清楚；双眼向上、脸抬起，横向接近正面。"
+    },
+    {
+      "degrees": 22.5,
+      "verdict": "warning",
+      "reason": "上视清楚；带标签相邻观察可见轻微右偏，但单格水平方向不足以稳定独立辨认，接受盲审ambiguous作为真实可读性限制。"
+    },
+    {
+      "degrees": 45,
+      "verdict": "pass",
+      "reason": "脸及双眼向屏幕右上偏，区别于正上和水平右视。"
+    },
+    {
+      "degrees": 67.5,
+      "verdict": "warning",
+      "reason": "右向明确，上向幅度较轻，处于45与90之间；不把弱上分量说成强烈可读。"
+    },
+    {
+      "degrees": 90,
+      "verdict": "pass",
+      "reason": "鼻尖、侧脸和双眼一致向屏幕右，水平右主方向明确。"
+    },
+    {
+      "degrees": 112.5,
+      "verdict": "warning",
+      "reason": "保留右侧脸，眼睑及脸开始收低；下分量小，接近90。"
+    },
+    {
+      "degrees": 135,
+      "verdict": "pass",
+      "reason": "眼睛睁开、视线及脸向右下，右下象限可辨。"
+    },
+    {
+      "degrees": 157.5,
+      "verdict": "pass",
+      "reason": "低头明显，仍有右侧脸/视线分量，区别于近正面180。"
+    },
+    {
+      "degrees": 180,
+      "verdict": "pass",
+      "reason": "双眼眼裂内仍见紫色虹膜；头与视线向下，近正面，并非用闭眼替代下视。"
+    },
+    {
+      "degrees": 202.5,
+      "verdict": "warning",
+      "reason": "向下清楚；与180相邻可见轻微左转，单格水平分量仍弱，保留盲审ambiguous，不宣称已消除歧义。"
+    },
+    {
+      "degrees": 225,
+      "verdict": "pass",
+      "reason": "脸与鼻尖向屏幕左下，双眼保持下视且睁开。"
+    },
+    {
+      "degrees": 247.5,
+      "verdict": "warning",
+      "reason": "左转明确，仍有轻微低头；下向分量比225弱，接近270。"
+    },
+    {
+      "degrees": 270,
+      "verdict": "pass",
+      "reason": "鼻尖投向屏幕左、屏幕右侧耳部更显露，水平左主方向明确，与90相反。"
+    },
+    {
+      "degrees": 292.5,
+      "verdict": "warning",
+      "reason": "左向明确，视线开始抬高；上向幅度很轻，接近270。"
+    },
+    {
+      "degrees": 315,
+      "verdict": "pass",
+      "reason": "左侧脸结合抬眼/抬下巴，左上象限可辨。"
+    },
+    {
+      "degrees": 337.5,
+      "verdict": "warning",
+      "reason": "上视且仍保留明显左转脸；到000正面上视时头脸轮廓步进较大，环接可用但不完全平滑。"
+    }
+  ],
+  "repair_needed": false,
+  "repair_directions": [],
+  "whole_pet_complete": false,
+  "application_import_verified": false
+}

@@ -1,0 +1,262 @@
+{
+  "visual_qa": "pass",
+  "summary": "All nine states pass standard pose/motion frame review after replacing both directional rows with restrained alternating walking. Original seven nonmovement-state decisions retained. Jump scale difference remains a minor warning.",
+  "inspection_scope": {
+    "root": "D:\\项目\\pet_2\\nene_mint_chocolate\\source",
+    "canonical_reference": "references/canonical-base.png",
+    "contact_sheet": "qa/contact-sheet.png",
+    "metadata_read": [
+      "qa/review.json",
+      "qa/jump-placement.json"
+    ],
+    "native_frame_dimensions": [
+      192,
+      208
+    ],
+    "standard_states": 9,
+    "source_png_frames": 57,
+    "decoded_gif_frames": 57,
+    "method": "Initial canonical/contact review and all 57 standard GIF frames were inspected at native 192x208. Seven unchanged rows retain those visual decisions. Repaired right row: all 8 native source PNGs inspected, recorded in running-right-gait-recheck.json. Repaired left row: all 8 native regenerated GIF frames inspected, recorded in running-left-gait-recheck.json. Supplemental nearest-neighbor crops trace the thigh band. No real-time player playback.",
+    "viewed_native_strips": [
+      "qa/inspect-gif-idle.png",
+      "qa/inspect-gif-waving.png",
+      "qa/inspect-gif-jumping.png",
+      "qa/inspect-gif-failed.png",
+      "qa/inspect-gif-waiting.png",
+      "qa/inspect-gif-running.png",
+      "qa/inspect-gif-review.png",
+      "qa/running-right-gait-recheck.png",
+      "qa/running-left-gait-recheck-gif.png"
+    ],
+    "supplemental_detail": [
+      "qa/running-right-gait-recheck-detail.png",
+      "qa/running-left-gait-recheck-detail.png"
+    ],
+    "machine_frame_details": "qa/standard-frame-inspection.json",
+    "actual_player_playback": false,
+    "target_application_import_test": false,
+    "excluded": "No other pet directories read. No final/spritesheet/manifest edits. Uncleaned magenta fringe excluded as instructed; this is not final alpha-edge QA.",
+    "repaired_rows": {
+      "running-right": "qa/running-right-gait-recheck.json",
+      "running-left": "qa/running-left-gait-recheck.json"
+    },
+    "current_row_integration_checks": [
+      {
+        "state": "running-right",
+        "row_frames": 8,
+        "source_pngs_byte_identical_to_accepted_row": true,
+        "current_gif_frames": 8
+      },
+      {
+        "state": "running-left",
+        "row_frames": 8,
+        "source_pngs_byte_identical_to_accepted_row": true,
+        "current_gif_frames": 8
+      }
+    ]
+  },
+  "global_checks": {
+    "same_chibi_identity": "pass: mint/silver bob, purple eyes and consistent proportions/readable face.",
+    "outfit": "pass: chocolate bodice and sleeves, dark shorts, long lace-up boots, single head accessory at screen right and single thigh band retained; no change to skirt or costume.",
+    "direction": "pass: both directional rows face the indicated screen direction.",
+    "movement_alternation": "pass after repaired rows: the banded leg changes between front and rear lead, with gathered poses; rendered as a low-amplitude walk.",
+    "cropping_and_anatomy": "pass: no frame edge contact, missing limb, extra limb, ghost duplicate or detached effect observed.",
+    "loops": "no conspicuous endpoint pop in frame comparison; temporal smoothness not verified by real-time playback."
+  },
+  "states": [
+    {
+      "state": "idle",
+      "visual_qa": "pass",
+      "frames_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notes": [
+        "Blink progression is visible: open, half closed, closed, reopening. Small sleeve/hair changes, fixed baseline. All six frames differ; not a static duplicate."
+      ],
+      "identity_and_outfit": "pass",
+      "cropping_limbs_ghosting_detached_effects": "pass",
+      "loop_endpoint": "No conspicuous first/last position or silhouette pop in decoded frame comparison; real-time playback not performed."
+    },
+    {
+      "state": "running-right",
+      "visual_qa": "pass",
+      "frames_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "notes": [
+        "Repaired row rechecked at native 192x208 across all 8 source PNGs. Faces screen right.",
+        "Frame 00 banded thigh belongs to rear leg; frame 04 banded thigh belongs to forward leg. Gathered poses in 01/05 connect opposite leads.",
+        "A low-amplitude alternating walk is now readable. Stable baseline and no conspicuous endpoint silhouette jump.",
+        "Detailed recheck: qa/running-right-gait-recheck.json"
+      ],
+      "identity_and_outfit": "pass",
+      "cropping_limbs_ghosting_detached_effects": "pass",
+      "loop_endpoint": "No conspicuous first/last position or silhouette pop in decoded frame comparison; real-time playback not performed.",
+      "recheck_record": "qa/running-right-gait-recheck.json"
+    },
+    {
+      "state": "running-left",
+      "visual_qa": "pass",
+      "frames_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "notes": [
+        "Repaired row rechecked across all 8 native frames, including all 8 regenerated GIF frames. Faces screen left.",
+        "Frame 00 banded thigh belongs to forward/left leg; frame 04 banded thigh belongs to rear/right leg. Gathered poses in 01/05 connect opposite leads.",
+        "A low-amplitude alternating walk is now readable. Stable baseline and no conspicuous endpoint silhouette jump.",
+        "Detailed recheck: qa/running-left-gait-recheck.json"
+      ],
+      "identity_and_outfit": "pass",
+      "cropping_limbs_ghosting_detached_effects": "pass",
+      "loop_endpoint": "No conspicuous first/last position or silhouette pop in decoded frame comparison; real-time playback not performed.",
+      "recheck_record": "qa/running-left-gait-recheck.json"
+    },
+    {
+      "state": "waving",
+      "visual_qa": "pass",
+      "frames_checked": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "notes": [
+        "Frames 00/03 hands down; 01/02 lift the hand at screen left with a small change in palm angle. Readable restrained wave."
+      ],
+      "identity_and_outfit": "pass",
+      "cropping_limbs_ghosting_detached_effects": "pass",
+      "loop_endpoint": "No conspicuous first/last position or silhouette pop in decoded frame comparison; real-time playback not performed."
+    },
+    {
+      "state": "jumping",
+      "visual_qa": "pass",
+      "frames_checked": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "notes": [
+        "Grounded, raise hands/lift, apex, descend, grounded sequence is readable. Whole-character small hop, no detached limb or effect.",
+        "Final alpha bounds confirm foot lifts 0/4/8/4/0 px. Both grounded endpoints share y=203. Character height is 188 px in every jump frame; no scale change inside the jump cycle.",
+        "Compared with typical 198 px states, jump is about 5% smaller and has 10 px more headroom at grounded endpoints. At native frame size this is mildly visible side by side, but does not read as an abrupt identity/proportion change. Kept as a warning, not concealed with display scaling."
+      ],
+      "identity_and_outfit": "pass",
+      "cropping_limbs_ghosting_detached_effects": "pass",
+      "loop_endpoint": "No conspicuous first/last position or silhouette pop in decoded frame comparison; real-time playback not performed."
+    },
+    {
+      "state": "failed",
+      "visual_qa": "pass",
+      "frames_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "notes": [
+        "Downcast/blink and hands held low communicate disappointment. Frame 05 briefly lowers arms to the sides before returning; small gesture variation, no major loop pop or anatomy fault."
+      ],
+      "identity_and_outfit": "pass",
+      "cropping_limbs_ghosting_detached_effects": "pass",
+      "loop_endpoint": "No conspicuous first/last position or silhouette pop in decoded frame comparison; real-time playback not performed."
+    },
+    {
+      "state": "waiting",
+      "visual_qa": "pass",
+      "frames_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notes": [
+        "Hand at screen left opens into upward-facing palm in frames 02-04; other hand held near chest. Expectant/open-palm request gesture differs from chin-touch working and crossed-arm review."
+      ],
+      "identity_and_outfit": "pass",
+      "cropping_limbs_ghosting_detached_effects": "pass",
+      "loop_endpoint": "No conspicuous first/last position or silhouette pop in decoded frame comparison; real-time playback not performed."
+    },
+    {
+      "state": "running",
+      "visual_qa": "pass",
+      "frames_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notes": [
+        "Stationary thoughtful working pose: hands near chest/chin, one hand touching chin and brief eye change. Feet stay planted. Clearly distinct from movement rows and open-palm waiting."
+      ],
+      "identity_and_outfit": "pass",
+      "cropping_limbs_ghosting_detached_effects": "pass",
+      "loop_endpoint": "No conspicuous first/last position or silhouette pop in decoded frame comparison; real-time playback not performed."
+    },
+    {
+      "state": "review",
+      "visual_qa": "pass",
+      "frames_checked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "notes": [
+        "Crossed/folded arms, head tilt and eye changes read as scrutiny. Distinct from thinking chin-touch and expectant open palm."
+      ],
+      "identity_and_outfit": "pass",
+      "cropping_limbs_ghosting_detached_effects": "pass",
+      "loop_endpoint": "No conspicuous first/last position or silhouette pop in decoded frame comparison; real-time playback not performed."
+    }
+  ],
+  "warnings": [
+    {
+      "state": "jumping",
+      "severity": "minor",
+      "detail": "188px character height versus typical 198px is mildly visible at native size, especially aligned grounded endpoints. Extra headroom is visible. Identity is preserved and the small-hop cycle is internally stable; no mandatory repair."
+    },
+    {
+      "state": "all",
+      "severity": "scope",
+      "detail": "Decoded frames and durations inspected; no actual player playback or Codex application test. Magenta fringe intentionally deferred to final cleanup."
+    },
+    {
+      "state": "running-right, running-left",
+      "severity": "minor",
+      "detail": "Movement uses restrained low-amplitude walking rather than high-knee running. Opposite leg lead is clearest through the single thigh band; spread-leg silhouettes remain similar. This is accepted as readable alternation."
+    }
+  ],
+  "repair_rows": [],
+  "repair_requirements": {}
+}

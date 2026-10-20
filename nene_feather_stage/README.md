@@ -22,7 +22,7 @@
 2. Windows默认目录为 `%USERPROFILE%\.codex\pets\nene_feather_stage\`；自定义 `CODEX_HOME` 时使用其下的 `pets/nene_feather_stage/`。
 3. 在Codex设置 > Pets中刷新并选择「宁宁 · 羽饰舞台装」，必要时重启应用。
 
-[原安装记录](installed-validation.json)保留更名前的名称和文件哈希。本次仅更新项目，未改动本机已安装副本；新名称尚未完成安装验证。
+[原安装记录](installed-validation.json)保留更名前的名称和文件哈希，2026-10-19已清理本机旧名称重复副本。2026-10-19已按当前ID安装，文件逐字节比对及本机加载算法校验通过，见[当前安装记录](preview/current-installation-validation.json)。当前选用宠物未切换，应用内显示尚未实测。
 
 <details>
 <summary>规格与验收</summary>

@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "deviation": "Row 10 uses its own whole-source-row scale rather than the raw-pixel scale of row 9.",
+  "reason": "Three complete generations retained larger raw figures. A single uniform resampling of the complete pose family matches the approved native neutral geometry without altering character artwork.",
+  "row9_preserved": true,
+  "row9_scale": 0.49624060150375937,
+  "row10_scale": 0.4771084337349398,
+  "thresholds_unchanged": true,
+  "required_checks": [
+    "native cell edge checks",
+    "labeled full-loop continuity",
+    "three independent blind reviews",
+    "fresh final native-size visual review"
+  ]
+}

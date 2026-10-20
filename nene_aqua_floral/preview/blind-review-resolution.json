@@ -1,0 +1,13 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "blind_result": "Three isolated reviewers agreed on every one of28 A/B axis classifications; all14 pairs match the hidden key, no blind override used.",
+  "failed_checks": [],
+  "accepted_metric_warnings": [
+    "Interior-hole candidates at y178–180 are open spaces below the skirt/between legs, not holes through costume material.",
+    "000→022.5 and row-boundary head silhouettes differ visibly; body/waist/feet remain planted, no wrong quadrant or reversal.",
+    "The second gaze row has slightly larger top hair/head volume than the first."
+  ],
+  "evidence": "Parent inspected cleaned final full contact sheet and native192x208 labeled direction sheet; independent preclean16-frame review agrees. Fresh final visual review remains a separate required gate."
+}

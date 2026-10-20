@@ -1,0 +1,36 @@
+{
+  "pet_id": "nene_aqua_floral",
+  "review_role": "Independent visual reviewer; did not generate or edit the image",
+  "visual_qa": "pass",
+  "scope": "Single baseline appearance at source resolution and native 192x208 review; animation, final transparency and app import are outside this review",
+  "reviewed_files": [
+    {
+      "path": "source/decoded/candidates/base-compact.png",
+      "sha256": "5457d5b292cf50a4f63c40a4c5dc127b39e823ce2e79fb86cc4b7fae745aab17"
+    },
+    {
+      "path": "source/qa/base-native-review.png",
+      "sha256": "cf702575fcd3f685f67138e30d9e07bac603b07f53c6ca5f75386347ffdcaece"
+    }
+  ],
+  "reference_files": [
+    "source/references/reference-01.webp",
+    "source/references/reference-02.jpg"
+  ],
+  "criteria_basis": "User requested Kusanagi Nene, trained four-star 抱く焦燥 outfit, Japanese chibi illustration. Exact 2.2-head height and 12-percent bare-leg values were prompt targets, not user acceptance requirements.",
+  "evidence": [
+    "灰绿色长发、齐刘海、紫眼和安静的表情符合宁宁身份；头部和蓬松长发占据主体，原生尺寸仍能辨认脸和发型。",
+    "珍珠头箍、画面左侧绿白花与海星及蓝色水滴坠、画面右侧腰花及蓝色垂饰均保留，与两张参考的装饰位置对应。",
+    "白色长袖、绿色镶边尖领与系带、金扣、绕腰金链清楚；袖口和花饰经过Q版简化。",
+    "白色花边内裙覆盖至膝部附近；浅水蓝外层有斜向交叠边缘与两侧较长垂片，裙身占据身体主要长度，长短层次可见。",
+    "裸露部分主要是膝下小腿，白鞋及浅绿踝部蝴蝶结可见；在192x208图上裸腿约二十余像素，没有明显拉长或抢占主体的问题。",
+    "目测约2.6头身，属于协调的Q版比例；原生尺寸下头大、身体紧凑、裙摆宽、腿短，未发现必须继续压缩腿部的实质问题。",
+    "全身包含头饰与鞋子，未见明显裁切、缺肢或不协调的肢体变形。"
+  ],
+  "warnings": [
+    "头身与裸腿占比为视觉近似判断，不是测量验收值。",
+    "192x208下珍珠、花心、细链及海星等细节缩小后会合并为色点，主要依靠位置与配色辨认；这不影响本次基准造型通过。",
+    "原始候选为洋红背景；本次只核对外观，不能据此确认最终透明边缘质量。",
+    "尚未检查动画各帧的一致性、运动及实际Codex导入显示。"
+  ]
+}

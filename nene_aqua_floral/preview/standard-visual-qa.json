@@ -1,0 +1,769 @@
+{
+  "pet_id": "nene_aqua_floral",
+  "visual_qa": "pass",
+  "review_role": "Independent reviewer; did not generate, modify, resize or repair these images",
+  "scope": "Nine standardized action rows, 57 frames, source/frames/<state>/*.png, each viewed at native 192x208; contact sheet also inspected. This is the standard-action visual gate before cardinal directions, not final full-package QA.",
+  "inspection_method": "All 57 current PNGs individually viewed. Frame order and last-to-first pose continuity inspected; actual real-time application playback not observed.",
+  "frame_count": 57,
+  "state_count": 9,
+  "states": {
+    "idle": {
+      "verdict": "pass",
+      "evidence": [
+        "6帧全部逐张检查。01/04闭眼，其余睁眼，头发与上身轻微呼吸，脚底稳定。",
+        "宁宁发色、紫眼、头饰、腰花与裙装持续一致，末首姿态接近。"
+      ],
+      "accepted_minor_warnings": [
+        "眨眼出现两次，最终实际播放节奏仍需结合应用速度观察。"
+      ],
+      "frame_count": 6,
+      "reviewed_frames": [
+        {
+          "frame": 0,
+          "path": "frames/idle/00.png",
+          "sha256": "64fd6db737c5dc3963b1d4a691bc22e9f83333d777610028fa0173cbba2009f9",
+          "alpha_bbox": [
+            40,
+            15,
+            152,
+            203
+          ]
+        },
+        {
+          "frame": 1,
+          "path": "frames/idle/01.png",
+          "sha256": "3243518932d1fb80f4bb8ae06a41167215c22c1296fe48d717bc58ca86842d37",
+          "alpha_bbox": [
+            40,
+            13,
+            152,
+            203
+          ]
+        },
+        {
+          "frame": 2,
+          "path": "frames/idle/02.png",
+          "sha256": "34239fec7766e70bb00386b3c7518b2af6504ed1bbba9045510df737acf15d44",
+          "alpha_bbox": [
+            39,
+            13,
+            152,
+            203
+          ]
+        },
+        {
+          "frame": 3,
+          "path": "frames/idle/03.png",
+          "sha256": "588823cc1c2898506498865a02ee94723aba0eabf156ca1e0688bb9f4cd2768b",
+          "alpha_bbox": [
+            39,
+            13,
+            152,
+            203
+          ]
+        },
+        {
+          "frame": 4,
+          "path": "frames/idle/04.png",
+          "sha256": "02b43c646b4b7c65ebf7460c91c14c761a2d653794b935f703415145e1590bb9",
+          "alpha_bbox": [
+            39,
+            13,
+            152,
+            203
+          ]
+        },
+        {
+          "frame": 5,
+          "path": "frames/idle/05.png",
+          "sha256": "6d3435cdff1cab3c7100a90797ffefe9b33698aeef1558b3a4733272e60f6129",
+          "alpha_bbox": [
+            40,
+            14,
+            152,
+            203
+          ]
+        }
+      ]
+    },
+    "running-right": {
+      "verdict": "pass",
+      "evidence": [
+        "8帧全部逐张检查。始终朝右，头发向左飘；前鞋在01抬起，后侧腿在02及05/06屈起，双方均存在抬落。",
+        "没有反向帧、固定单腿、断肢或可见的比例跳变。末首均接近落地支撑。"
+      ],
+      "accepted_minor_warnings": [
+        "两脚抬起持续时间不均，落地姿态偏多，呈轻快碎步；并非标准均匀交替跑步。该问题不构成此次外观完整性的硬失败。"
+      ],
+      "frame_count": 8,
+      "reviewed_frames": [
+        {
+          "frame": 0,
+          "path": "frames/running-right/00.png",
+          "sha256": "da5ca17c892024524559de1fda446439bd060241b70d160d1812246414140628",
+          "alpha_bbox": [
+            37,
+            14,
+            154,
+            203
+          ]
+        },
+        {
+          "frame": 1,
+          "path": "frames/running-right/01.png",
+          "sha256": "aed6207f4ce640564a1f12f0955cf26c93533b26b7c507d0a072126e2b7dff9c",
+          "alpha_bbox": [
+            37,
+            14,
+            155,
+            203
+          ]
+        },
+        {
+          "frame": 2,
+          "path": "frames/running-right/02.png",
+          "sha256": "ed843ebf5adaef1053903dda9635b601a1d0ee4c96a8e604584191fa6d434508",
+          "alpha_bbox": [
+            37,
+            14,
+            155,
+            203
+          ]
+        },
+        {
+          "frame": 3,
+          "path": "frames/running-right/03.png",
+          "sha256": "a796297573361e091f77bec831d6da10697673c61ba51ef243110c22806c627a",
+          "alpha_bbox": [
+            37,
+            14,
+            154,
+            203
+          ]
+        },
+        {
+          "frame": 4,
+          "path": "frames/running-right/04.png",
+          "sha256": "864369afdd680256a483b60608b3e8ff04c8e271d6a574d7879a6e84af98268c",
+          "alpha_bbox": [
+            36,
+            15,
+            155,
+            203
+          ]
+        },
+        {
+          "frame": 5,
+          "path": "frames/running-right/05.png",
+          "sha256": "9fa2037c1b1165cf79290dd4d4dd12883d749702bd4a53e42d1cf19db3d2d614",
+          "alpha_bbox": [
+            37,
+            14,
+            155,
+            203
+          ]
+        },
+        {
+          "frame": 6,
+          "path": "frames/running-right/06.png",
+          "sha256": "99709d138d8f4818cc4d5daf31fb34a96b2c8b86b8076da0cb4d224cd0bbf0f6",
+          "alpha_bbox": [
+            36,
+            13,
+            155,
+            203
+          ]
+        },
+        {
+          "frame": 7,
+          "path": "frames/running-right/07.png",
+          "sha256": "c48d432bdb18a15368f2e51e865b785bdc6967b1d9ab2547e52e683787a785c1",
+          "alpha_bbox": [
+            37,
+            13,
+            154,
+            203
+          ]
+        }
+      ]
+    },
+    "running-left": {
+      "verdict": "pass",
+      "evidence": [
+        "8帧全部逐张检查。始终朝左，头发与后裙摆向右；前侧腿01抬膝，后侧腿在02及04/05/06屈起，均有抬落。",
+        "身体朝向、服装与头身比例保持连贯，未见肢体断裂或突变，末首姿态可接续。"
+      ],
+      "accepted_minor_warnings": [
+        "与右向相同，前后脚的屈膝持续帧数不均，碎步感较明显；保留自然度限制。"
+      ],
+      "frame_count": 8,
+      "reviewed_frames": [
+        {
+          "frame": 0,
+          "path": "frames/running-left/00.png",
+          "sha256": "a245980b69925214fd5dc6ce920537a1d5cb5c79e03177cee3973c9db028e209",
+          "alpha_bbox": [
+            37,
+            15,
+            154,
+            203
+          ]
+        },
+        {
+          "frame": 1,
+          "path": "frames/running-left/01.png",
+          "sha256": "0bf65cb6db3b69239a5c09e3b2170ef022d61a6f2e85e59fa6f19692afed6cee",
+          "alpha_bbox": [
+            40,
+            13,
+            152,
+            203
+          ]
+        },
+        {
+          "frame": 2,
+          "path": "frames/running-left/02.png",
+          "sha256": "61e18a2c7e008c49b3f2355695aabbe77d3012d4e1cdfead1779b41e95518bb6",
+          "alpha_bbox": [
+            39,
+            13,
+            153,
+            203
+          ]
+        },
+        {
+          "frame": 3,
+          "path": "frames/running-left/03.png",
+          "sha256": "21bd61f6b61f497066deabd3f808028d82dcebad3f74c2c5b89ef622278d5a7d",
+          "alpha_bbox": [
+            37,
+            13,
+            154,
+            203
+          ]
+        },
+        {
+          "frame": 4,
+          "path": "frames/running-left/04.png",
+          "sha256": "9fd5c160e10ad35bcb5a5226869e65d5e24dd223e44d6b7d2a58a4105702c271",
+          "alpha_bbox": [
+            39,
+            14,
+            152,
+            203
+          ]
+        },
+        {
+          "frame": 5,
+          "path": "frames/running-left/05.png",
+          "sha256": "768c8077a2103f6696cb3c284992838a1233e02d2bba86fe11b4077944843739",
+          "alpha_bbox": [
+            39,
+            13,
+            153,
+            203
+          ]
+        },
+        {
+          "frame": 6,
+          "path": "frames/running-left/06.png",
+          "sha256": "55a0bc069af89597033d676f8f1d44a0ca1912868d88440e9c5540faab782a30",
+          "alpha_bbox": [
+            38,
+            15,
+            153,
+            203
+          ]
+        },
+        {
+          "frame": 7,
+          "path": "frames/running-left/07.png",
+          "sha256": "343ff32e63cca33283b4d1c8288d7a7438c30b34cd6fcd35e695e3d3c3916f32",
+          "alpha_bbox": [
+            42,
+            13,
+            150,
+            203
+          ]
+        }
+      ]
+    },
+    "waving": {
+      "verdict": "pass",
+      "evidence": [
+        "4帧全部逐张检查。00放低、01同一画面左手抬到脸旁、02该手外摆且闭眼微笑、03放低。",
+        "未换手，手臂连接完整；头饰、服装、人物比例及脚底位置稳定。"
+      ],
+      "accepted_minor_warnings": [
+        "动作简短，只有两个明显抬手姿态。"
+      ],
+      "frame_count": 4,
+      "reviewed_frames": [
+        {
+          "frame": 0,
+          "path": "frames/waving/00.png",
+          "sha256": "aad10844e1aa03d7c4610e95ea39778e7a483dde0d3f2e66a134eacf64f1aab1",
+          "alpha_bbox": [
+            39,
+            13,
+            153,
+            203
+          ]
+        },
+        {
+          "frame": 1,
+          "path": "frames/waving/01.png",
+          "sha256": "42d4133edec2ff938ac5c662553021670d501315fcc6c4b99e9013dd88fe77aa",
+          "alpha_bbox": [
+            39,
+            13,
+            153,
+            203
+          ]
+        },
+        {
+          "frame": 2,
+          "path": "frames/waving/02.png",
+          "sha256": "c73277cd4e8f7d86a6a8d32e4eb579e73b6f13e0273b1ddfea9e829796ce3624",
+          "alpha_bbox": [
+            41,
+            13,
+            151,
+            203
+          ]
+        },
+        {
+          "frame": 3,
+          "path": "frames/waving/03.png",
+          "sha256": "cae28e372104ca9d850dde7cd142496f7828a28da690af4eecfc14cdeda03f6e",
+          "alpha_bbox": [
+            40,
+            13,
+            152,
+            203
+          ]
+        }
+      ]
+    },
+    "jumping": {
+      "verdict": "pass",
+      "evidence": [
+        "5帧全部逐张检查。起跳前收手，01/02逐渐张开手臂并微笑，03回收，04回到收手站姿。",
+        "独立读取alpha边界得脚底203/199/195/199/203px，对应0/4/8/4/0px抬升；中央帧顶部5px，完整保留头饰。",
+        "可见外形高度181/186/190/188/181px。中央张臂、躯干展开与双脚略收能解释这一小幅变化，原生尺寸未出现明显拉长、巨化或腿长跳变。",
+        "最大外形高度190px，双手、头饰、头发和鞋均未触碰画布边缘。"
+      ],
+      "accepted_minor_warnings": [
+        "属于低幅度小跳，离地感较轻；中央帧有轻微伸展感，但未达到需要返工的比例突变。"
+      ],
+      "frame_count": 5,
+      "reviewed_frames": [
+        {
+          "frame": 0,
+          "path": "frames/jumping/00.png",
+          "sha256": "b15bf234533248f28e2a1207b91fe31cd9d786681779f39c522e4da1308cbbcb",
+          "alpha_bbox": [
+            33,
+            22,
+            158,
+            203
+          ]
+        },
+        {
+          "frame": 1,
+          "path": "frames/jumping/01.png",
+          "sha256": "5984d3cbb4e588ec3f6ebe1c5b3d942f612e17483077d758d8266ab2bb9205a3",
+          "alpha_bbox": [
+            31,
+            13,
+            160,
+            199
+          ]
+        },
+        {
+          "frame": 2,
+          "path": "frames/jumping/02.png",
+          "sha256": "fee493b71a88d38116cae25605083c61637f6c7bde80e1e6adfb27140fa999dd",
+          "alpha_bbox": [
+            30,
+            5,
+            162,
+            195
+          ]
+        },
+        {
+          "frame": 3,
+          "path": "frames/jumping/03.png",
+          "sha256": "0d4d937b2563ea639c10daf9b15afd7c329badb29ab95d6584a47d2c77266243",
+          "alpha_bbox": [
+            31,
+            11,
+            161,
+            199
+          ]
+        },
+        {
+          "frame": 4,
+          "path": "frames/jumping/04.png",
+          "sha256": "b52dcb63360e584763b0de4ad8954cb4f3d061c9105fcb376269d891c40b857d",
+          "alpha_bbox": [
+            34,
+            22,
+            158,
+            203
+          ]
+        }
+      ]
+    },
+    "failed": {
+      "verdict": "pass",
+      "evidence": [
+        "8帧全部逐张检查。站立低头逐渐加深，到04最明显，随后有抬头、袖口擦脸与恢复站姿。",
+        "全8帧均包含完整头部、双腿、双鞋与裙摆；低头时外形变矮来自弯身，脚底保持203px。",
+        "无裁切、缺肢或身份丢失；与其他行的基准身高相容。"
+      ],
+      "accepted_minor_warnings": [
+        "04深低头至05起身擦脸变化较快；属于较有力的恢复动作，未见机械断裂。"
+      ],
+      "frame_count": 8,
+      "reviewed_frames": [
+        {
+          "frame": 0,
+          "path": "frames/failed/00.png",
+          "sha256": "a4ad18a4622bb70ddb1d9ac648a079cda136c0c7347536e47778cfe2bf8367f1",
+          "alpha_bbox": [
+            44,
+            13,
+            148,
+            203
+          ]
+        },
+        {
+          "frame": 1,
+          "path": "frames/failed/01.png",
+          "sha256": "6bcb188e3f6e446f9c36fd7e15c42ca74ea3e328a826106837b3383d3f41e079",
+          "alpha_bbox": [
+            43,
+            13,
+            149,
+            203
+          ]
+        },
+        {
+          "frame": 2,
+          "path": "frames/failed/02.png",
+          "sha256": "4b72039cc2c866df83d8f0678cf4f0e24517b566aad259a4a9143d2aa98d0c85",
+          "alpha_bbox": [
+            42,
+            17,
+            150,
+            203
+          ]
+        },
+        {
+          "frame": 3,
+          "path": "frames/failed/03.png",
+          "sha256": "529cfc0582e55dc0c90d7d5ebf626408076bd75f9aacbe63cfed954aed3bd7cd",
+          "alpha_bbox": [
+            43,
+            29,
+            149,
+            203
+          ]
+        },
+        {
+          "frame": 4,
+          "path": "frames/failed/04.png",
+          "sha256": "3fe72675c0f5ab148fb9d405917543a7c223ddbd77102a47e622152592e92a47",
+          "alpha_bbox": [
+            44,
+            43,
+            148,
+            203
+          ]
+        },
+        {
+          "frame": 5,
+          "path": "frames/failed/05.png",
+          "sha256": "19143f0eb12d45055a3682c6b6de064125d9dbf8146d66d52e34fad0d26c4bb4",
+          "alpha_bbox": [
+            44,
+            15,
+            147,
+            203
+          ]
+        },
+        {
+          "frame": 6,
+          "path": "frames/failed/06.png",
+          "sha256": "3505cb9f188098e60df3bd2bfd804969a6241d95b687650c6f34d54324f055f6",
+          "alpha_bbox": [
+            44,
+            24,
+            147,
+            203
+          ]
+        },
+        {
+          "frame": 7,
+          "path": "frames/failed/07.png",
+          "sha256": "d4bab741b78950cc03df963d6dde94cc516d1ebae47cd7f4f6fa41d18c98dd32",
+          "alpha_bbox": [
+            46,
+            13,
+            146,
+            203
+          ]
+        }
+      ]
+    },
+    "waiting": {
+      "verdict": "pass",
+      "evidence": [
+        "6帧全部逐张检查。同一只画面左手掌心向上，脸部由平静到微笑与轻微歪头，动作连贯。",
+        "头身、脚底与服饰稳定；未见游离黄色效果。"
+      ],
+      "accepted_minor_warnings": [
+        "动作幅度较小，主要依靠眨眼、嘴形与歪头变化表达等待。"
+      ],
+      "frame_count": 6,
+      "reviewed_frames": [
+        {
+          "frame": 0,
+          "path": "frames/waiting/00.png",
+          "sha256": "650323e4cba3a17cdd9b867916465005869d06e17c50c22f8fb91ba828f21e26",
+          "alpha_bbox": [
+            44,
+            14,
+            147,
+            203
+          ]
+        },
+        {
+          "frame": 1,
+          "path": "frames/waiting/01.png",
+          "sha256": "358cd543508b7b0a018b94bf034f24c4be0da8be46906e4378e3488a9f4afd75",
+          "alpha_bbox": [
+            44,
+            14,
+            147,
+            203
+          ]
+        },
+        {
+          "frame": 2,
+          "path": "frames/waiting/02.png",
+          "sha256": "eccf068339f39ee62701312bec21e8fc435ccc449d1a728735e399d20a807056",
+          "alpha_bbox": [
+            45,
+            14,
+            146,
+            203
+          ]
+        },
+        {
+          "frame": 3,
+          "path": "frames/waiting/03.png",
+          "sha256": "ff1be293b48489b42b9dc13840395618d424bde0b9d2c14a42d6054d2da4855b",
+          "alpha_bbox": [
+            45,
+            14,
+            147,
+            203
+          ]
+        },
+        {
+          "frame": 4,
+          "path": "frames/waiting/04.png",
+          "sha256": "21e1cfc3b0c47e933c371ff1c6b08955327f440e35454654dae1d9faa783b282",
+          "alpha_bbox": [
+            44,
+            13,
+            147,
+            203
+          ]
+        },
+        {
+          "frame": 5,
+          "path": "frames/waiting/05.png",
+          "sha256": "7aef411c5618bf296d96c5ea704ec629ef33c6f7cfceb4391aa5c0f2f57a86c5",
+          "alpha_bbox": [
+            45,
+            14,
+            146,
+            203
+          ]
+        }
+      ]
+    },
+    "running": {
+      "verdict": "pass",
+      "evidence": [
+        "6帧全部逐张检查。双手在胸前相合，头部轻微转动及闭眼思考，符合工作进行中状态的表现。",
+        "未见游离黄色效果、手部突然分离、身体拉伸或身份变化。"
+      ],
+      "accepted_minor_warnings": [
+        "这里表现为忙碌思考，非横向移动跑步；动作主要集中于头脸。"
+      ],
+      "frame_count": 6,
+      "reviewed_frames": [
+        {
+          "frame": 0,
+          "path": "frames/running/00.png",
+          "sha256": "0f86401d048e912c26c46a54a82cfd30bd93a21876271f655e8d8e205bc73d5c",
+          "alpha_bbox": [
+            43,
+            14,
+            149,
+            203
+          ]
+        },
+        {
+          "frame": 1,
+          "path": "frames/running/01.png",
+          "sha256": "dfb20185e9c7614ba33e2d2c3d12063a14097377ec192ab5785e1b0c401f15fe",
+          "alpha_bbox": [
+            43,
+            14,
+            148,
+            203
+          ]
+        },
+        {
+          "frame": 2,
+          "path": "frames/running/02.png",
+          "sha256": "ab7fb049c9b3b84a56d457085fb21e880e2670ad2059a68d781e54fb4210be57",
+          "alpha_bbox": [
+            43,
+            13,
+            149,
+            203
+          ]
+        },
+        {
+          "frame": 3,
+          "path": "frames/running/03.png",
+          "sha256": "4ac11af06ada74a715eb25b86b4bdcd9e50cbb756a02738b5a7fb01e74276cc4",
+          "alpha_bbox": [
+            43,
+            13,
+            149,
+            203
+          ]
+        },
+        {
+          "frame": 4,
+          "path": "frames/running/04.png",
+          "sha256": "70abdeeff3094286b3d83aee11ac62ce2f0ee5be3983e394e512c78a55a96b98",
+          "alpha_bbox": [
+            43,
+            14,
+            149,
+            203
+          ]
+        },
+        {
+          "frame": 5,
+          "path": "frames/running/05.png",
+          "sha256": "08d5070010a3f994e054d4ed5ad80d827eb81b829b40703436095f281c81e6b4",
+          "alpha_bbox": [
+            43,
+            13,
+            149,
+            203
+          ]
+        }
+      ]
+    },
+    "review": {
+      "verdict": "pass",
+      "evidence": [
+        "6帧全部逐张检查。手臂交叠托腮，伴随左右歪头及闭眼思考。",
+        "手臂与身体连接完整，裙装、鞋和头饰一致；倾身导致轮廓宽度小变，但没有显著缩放跳变。"
+      ],
+      "accepted_minor_warnings": [
+        "思考动作较安静，几帧歪头幅度略有差异，可接受。"
+      ],
+      "frame_count": 6,
+      "reviewed_frames": [
+        {
+          "frame": 0,
+          "path": "frames/review/00.png",
+          "sha256": "69c9458ab653bf07e138ca9c460e41a6e6a8aedd1b5dc2cd12e39c386de0d7a8",
+          "alpha_bbox": [
+            43,
+            13,
+            149,
+            203
+          ]
+        },
+        {
+          "frame": 1,
+          "path": "frames/review/01.png",
+          "sha256": "0173be75c5cfa36436e0496c58a375ab7fc108c30d4122f100eabb0de228278d",
+          "alpha_bbox": [
+            43,
+            13,
+            148,
+            203
+          ]
+        },
+        {
+          "frame": 2,
+          "path": "frames/review/02.png",
+          "sha256": "96549f72c737de68ec25b05de18baa82239089f8ad5b7a0d681f13a000743e08",
+          "alpha_bbox": [
+            47,
+            13,
+            145,
+            203
+          ]
+        },
+        {
+          "frame": 3,
+          "path": "frames/review/03.png",
+          "sha256": "0c55f49beeb522a4955cbb57b04d182ebf19c753973553f9f647c31aee86900f",
+          "alpha_bbox": [
+            45,
+            14,
+            147,
+            203
+          ]
+        },
+        {
+          "frame": 4,
+          "path": "frames/review/04.png",
+          "sha256": "91922c6b5c7721aa50fe38d9a48ab1e09b42f44138b3ef28ea2f043a98ad3335",
+          "alpha_bbox": [
+            43,
+            14,
+            149,
+            203
+          ]
+        },
+        {
+          "frame": 5,
+          "path": "frames/review/05.png",
+          "sha256": "b3a78e77313e457b89a741f0e9fa581ee6dd351c7705cd9565ee3768c784c675",
+          "alpha_bbox": [
+            47,
+            14,
+            145,
+            203
+          ]
+        }
+      ]
+    }
+  },
+  "cross_state_evidence": [
+    "所有帧独立读取均为192x208，alpha包围盒高度均不超过190px，所有可见像素与画布四边均有间距。",
+    "九状态均保持灰绿色长发、紫眼、珍珠花饰、白色上衣和水蓝裙装的宁宁造型；方向变化不会丢失身份。",
+    "统一整行缩放后，未见必须阻断下一阶段的实质比例跳变、肢体损坏或裁切。"
+  ],
+  "accepted_minor_warnings": [
+    "左右跑步节律不均，偏碎步；jumping低幅小跳及中央轻微伸展；failed起身较快，均有具体逐行记录。",
+    "当前边缘仍有少量洋红残边，本轮处于最终去色溢之前；本记录不声明最终透明边缘通过。",
+    "cardinal方向、最终去色溢、最终图集与清单、应用内显示和实际播放均仍需后续验收。"
+  ],
+  "repair_rows": []
+}

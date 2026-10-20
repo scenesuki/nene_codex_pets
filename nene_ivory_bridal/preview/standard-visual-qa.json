@@ -1,0 +1,34 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "independent ivory_standard_qa",
+  "scope": "All9 native192x208 standard states: assembled contact, PNG and decoded GIF sequences",
+  "state_verdicts": {
+    "idle": "pass",
+    "running-right": "pass",
+    "running-left": "pass",
+    "waving": "pass",
+    "jumping": "pass",
+    "failed": "pass",
+    "waiting": "pass",
+    "running": "pass",
+    "review": "pass"
+  },
+  "left_gait_evidence": [
+    "Nose/body/shoes face viewerLEFT",
+    "Front/imageleftshoe lifts1-2, rear/imagerightshoe lifts5-6",
+    "Bothground0/3/4/7; neither foot permanently supports"
+  ],
+  "right_gait": "Previously independently verified matching alternatingtwofootcadence",
+  "cross_state_identity": {
+    "verdict": "pass",
+    "hat_asymmetry_preserved": true,
+    "no_clipping_or_detached_effects": true
+  },
+  "accepted_minor_warnings": [
+    "Jump max190px vs standing198px (about4percent smaller)",
+    "Directional motion deliberately tiny in-place steps with still torso/skirt",
+    "Raisedshoe holds and final plantedhold make cadence slightly mechanical"
+  ],
+  "repair_rows": [],
+  "application_import_verified": false
+}

@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "checked_angles": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "inspection_scope": {
+    "method": "000/090/270 individually inspected at exact original 192x208 in prior partial review and retained unchanged. Replacement 180 individually viewed at exact original 192x208 for this final review.",
+    "native_dimensions": [
+      192,
+      208
+    ],
+    "actual_player_playback": false,
+    "target_application_import_test": false,
+    "scope": "Four cardinal anchors only. Sixteen-direction row transitions and final alpha cleanup require their own checks.",
+    "prior_partial_record": "qa/cardinal-semantics-partial.json",
+    "magenta_edge_cleanup_deferred": true
+  },
+  "checks": [
+    {
+      "angle": 0,
+      "visual_qa": "pass",
+      "file": "D:\\项目\\pet_2\\nene_mint_chocolate\\source\\decoded\\look-anchors\\000.png",
+      "dimensions": [
+        192,
+        208
+      ],
+      "bbox": [
+        47,
+        5,
+        145,
+        203
+      ],
+      "sha256": "39122b03f22f278d0352a1d346015f8e7fcaedfcdb8562f00f8aa569dca20325",
+      "direction": "UP",
+      "notes": [
+        "Eyes look upward and chin/head angle is lifted; reads as UP at native size.",
+        "Body, shorts and boots remain upright, no full-body lean."
+      ],
+      "costume": "Same chibi identity; chocolate outfit with shorts and long boots, single headpiece at physical left (screen right) and single thigh band at physical right (screen left) retained.",
+      "anatomy": "No cropping, detached limb, duplicate limb or ghost silhouette observed.",
+      "landmark_reasons": [
+        "Eyes look upward and chin/head angle is lifted; reads as UP at native size.",
+        "Body, shorts and boots remain upright, no full-body lean.",
+        "Same chibi identity; chocolate outfit with shorts and long boots, single headpiece at physical left (screen right) and single thigh band at physical right (screen left) retained."
+      ]
+    },
+    {
+      "angle": 90,
+      "visual_qa": "pass",
+      "file": "D:\\项目\\pet_2\\nene_mint_chocolate\\source\\decoded\\look-anchors\\090.png",
+      "dimensions": [
+        192,
+        208
+      ],
+      "bbox": [
+        44,
+        5,
+        147,
+        203
+      ],
+      "sha256": "569fdc98e996ed9c5ef079081b934a6c0646328e01a4a9c4b8c6559c1ac0c6a2",
+      "direction": "RIGHT",
+      "notes": [
+        "Pupils/face look toward screen right. Headpiece remains on character physical left, seen at screen right; not mirrored.",
+        "Body and boot baseline remain upright."
+      ],
+      "costume": "Same chibi identity; chocolate outfit with shorts and long boots, single headpiece at physical left (screen right) and single thigh band at physical right (screen left) retained.",
+      "anatomy": "No cropping, detached limb, duplicate limb or ghost silhouette observed.",
+      "landmark_reasons": [
+        "Pupils/face look toward screen right. Headpiece remains on character physical left, seen at screen right; not mirrored.",
+        "Body and boot baseline remain upright.",
+        "Same chibi identity; chocolate outfit with shorts and long boots, single headpiece at physical left (screen right) and single thigh band at physical right (screen left) retained."
+      ]
+    },
+    {
+      "angle": 180,
+      "visual_qa": "pass",
+      "file": "D:\\项目\\pet_2\\nene_mint_chocolate\\source\\decoded\\look-anchors\\180.png",
+      "dimensions": [
+        192,
+        208
+      ],
+      "bbox": [
+        48,
+        5,
+        144,
+        203
+      ],
+      "sha256": "aab11eff4487784a86bc7ffc497dbc5dd2b832e6ce7cb30ba06c2262ccca7ac3",
+      "direction": "DOWN",
+      "landmark_reasons": [
+        "Both eyes remain open: separate purple irises are visible inside the two eye openings, rather than closed eyelid strokes.",
+        "Irises sit low under the upper lids, and the slightly lowered chin/head makes the gaze read downward at native 192x208.",
+        "Mint bob, purple eyes, chocolate shorts/bodice, long boots, single headpiece at character physical left (screen right), and single thigh band at physical right (screen left) match the approved identity.",
+        "Torso vertical axis and planted boot baseline remain upright; the downward cue is in face/head rather than full-body tilt."
+      ],
+      "notes": [
+        "Downcast eyes are naturally smaller than neutral eyes, but both visible irises keep this readable as looking down rather than blinking."
+      ],
+      "anatomy": "No clipping, detached limb, duplicate limb or ghost silhouette observed."
+    },
+    {
+      "angle": 270,
+      "visual_qa": "pass",
+      "file": "D:\\项目\\pet_2\\nene_mint_chocolate\\source\\decoded\\look-anchors\\270.png",
+      "dimensions": [
+        192,
+        208
+      ],
+      "bbox": [
+        47,
+        5,
+        144,
+        203
+      ],
+      "sha256": "20d5c06f4e654a5d91d8e1c22035be48d4fe2f153141ebef9ab9cbaa877c254b",
+      "direction": "LEFT",
+      "notes": [
+        "Pupils/face look toward screen left. Headpiece remains on character physical left, still screen right; not mirrored.",
+        "Body remains upright; no full-body lean used to indicate direction."
+      ],
+      "costume": "Same chibi identity; chocolate outfit with shorts and long boots, single headpiece at physical left (screen right) and single thigh band at physical right (screen left) retained.",
+      "anatomy": "No cropping, detached limb, duplicate limb or ghost silhouette observed.",
+      "landmark_reasons": [
+        "Pupils/face look toward screen left. Headpiece remains on character physical left, still screen right; not mirrored.",
+        "Body remains upright; no full-body lean used to indicate direction.",
+        "Same chibi identity; chocolate outfit with shorts and long boots, single headpiece at physical left (screen right) and single thigh band at physical right (screen left) retained."
+      ]
+    }
+  ],
+  "repair_angles": [],
+  "warnings": [],
+  "summary": "All four cardinal anchors pass: UP/RIGHT/DOWN/LEFT gaze semantics are readable, asymmetric costume sides are retained, and direction does not rely on full-body tilt."
+}

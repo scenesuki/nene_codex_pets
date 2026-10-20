@@ -1,0 +1,92 @@
+{
+  "ok": true,
+  "method": "Native component extraction with 188px height limit, then integer whole-frame vertical registration only; no anatomy edits or warps",
+  "max_boot_lift_px": 8,
+  "poses": [
+    {
+      "frame": 0,
+      "source_bbox": [
+        45,
+        10,
+        146,
+        198
+      ],
+      "vertical_translation_px": 5,
+      "final_bbox": [
+        45,
+        15,
+        146,
+        203
+      ],
+      "foot_lift_px": 0
+    },
+    {
+      "frame": 1,
+      "source_bbox": [
+        50,
+        10,
+        142,
+        198
+      ],
+      "vertical_translation_px": 1,
+      "final_bbox": [
+        50,
+        11,
+        142,
+        199
+      ],
+      "foot_lift_px": 4
+    },
+    {
+      "frame": 2,
+      "source_bbox": [
+        50,
+        10,
+        141,
+        198
+      ],
+      "vertical_translation_px": -3,
+      "final_bbox": [
+        50,
+        7,
+        141,
+        195
+      ],
+      "foot_lift_px": 8
+    },
+    {
+      "frame": 3,
+      "source_bbox": [
+        49,
+        10,
+        142,
+        198
+      ],
+      "vertical_translation_px": 1,
+      "final_bbox": [
+        49,
+        11,
+        142,
+        199
+      ],
+      "foot_lift_px": 4
+    },
+    {
+      "frame": 4,
+      "source_bbox": [
+        45,
+        10,
+        146,
+        198
+      ],
+      "vertical_translation_px": 5,
+      "final_bbox": [
+        45,
+        15,
+        146,
+        203
+      ],
+      "foot_lift_px": 0
+    }
+  ]
+}
