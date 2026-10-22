@@ -1,0 +1,74 @@
+{
+  "target": "Codex desktop current shared Pets library; native v2 files",
+  "verified_on": "2026-10-22",
+  "spriteVersionNumber": 2,
+  "format": "lossless RGBA WebP",
+  "width": 1536,
+  "height": 2288,
+  "columns": 8,
+  "rows": 11,
+  "cell_width": 192,
+  "cell_height": 208,
+  "standard_frames": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "gaze_degrees": [
+    0.0,
+    22.5,
+    45.0,
+    67.5,
+    90.0,
+    112.5,
+    135.0,
+    157.5,
+    180.0,
+    202.5,
+    225.0,
+    247.5,
+    270.0,
+    292.5,
+    315.0,
+    337.5
+  ],
+  "unused_cells": "transparent except native reserved neutral cell idle row column6",
+  "installation": "Local <CODEX_HOME>/pets/<pet-id>/pet.json and spritesheet.webp; current application library additionally uses Pets upload sessions. This run stops before installation.",
+  "evidence": [
+    {
+      "type": "actual upload preflight and library operation in current app",
+      "record": "maintenance/install-all-20261022/cloud-preflight.json",
+      "result": "18 existing native v2 packages accepted,1536x2288 with192x208 cells"
+    },
+    {
+      "type": "actual installed package native validators replayed on same format",
+      "record": "maintenance/reinstall-nene-20261022/staged-native-validation.json",
+      "result": "18 accepted by image/version/path functions from installed26.1016.6573.0 build; compatibility evidence, not current native-app UI verification"
+    },
+    {
+      "type": "installed hatch-pet production contract",
+      "path": "C:/Users/tieha/.codex/skills/hatch-pet/SKILL.md"
+    },
+    {
+      "type": "Read-only discovery in actual installed current app8120",
+      "record": "source/qa/records/current-app-source-discovery.json",
+      "result": "Current8120 module native constants and validator functions verified; final new pet passed native image/version/path replay, no installation or UI action"
+    }
+  ],
+  "application_ui_verified": false,
+  "new_file_preflight": {
+    "method": "Read-only replay of current installed native image/version/path validators",
+    "app_version": "26.1016.8120.0",
+    "report": "preview/app-loader-validation.json",
+    "ok": true,
+    "upload_session_created": false,
+    "application_ui_verified": false
+  },
+  "current_app_version": "26.1016.8120.0"
+}

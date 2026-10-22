@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-21T16:21:41.527Z",
+  "package_directory": "D:\\项目\\pet_2\\nene_gothic_couture",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "id": "custom:nene_gothic_couture",
+  "display_name": "宁宁 · 紫夜哥特",
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "format": "webp",
+  "manifest_sha256": "5e1679107e2302e8b385d4c17fcb1ed95447940fd8df5d3e799eb484b14df8a7",
+  "spritesheet_sha256": "2b8ce02832a41d4cd7aafa9deee14a4c77f3ba213f6dfacd909dddbf09f13869",
+  "app_version": "26.1016.6573.0",
+  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1016.6573.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-CsH31EEu.js",
+  "app_validator_module_sha256": "6a266611954c6f0c72aca09bb13c0c793959a69e8d6330778a7cdef21835a1db",
+  "method": "Read-only replay of installed-app image/version and path validators on this new workspace package; no installation or UI action",
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "current_pet_changed": false
+}

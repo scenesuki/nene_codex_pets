@@ -1,0 +1,57 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "Original six-state QA inherited by pixel identity; three replaced states independently reviewed in motion-revision-validation.json",
+  "states": {
+    "idle": {
+      "verdict": "pass",
+      "observed": "6帧收敛待机与眨眼，唇侧手指、半眯眼和自信姿态保留。",
+      "loop": "首尾接近，闭环自然。"
+    },
+    "running-right": {
+      "verdict": "pass",
+      "observed": "八帧支撑腿交替可辨，步幅低摆臂形成普通行走，无高抬膝和奔跑腾空。",
+      "loop": "末首自然，120ms×7+220ms与左向一致。"
+    },
+    "running-left": {
+      "verdict": "pass",
+      "observed": "八帧形成交替迈步，双腿经过靠拢位置，膝与手臂低位，无明显腾空，身份服饰一致。",
+      "loop": "末首姿态相容，120ms×7+220ms循环成立。"
+    },
+    "waving": {
+      "verdict": "pass",
+      "observed": "4帧唇侧与外展手指形成戏谑招手。",
+      "loop": "首尾回到近似唇侧姿态。"
+    },
+    "jumping": {
+      "verdict": "pass",
+      "observed": "站立交叉腿、轻侧头与唇边指尖狡黠动作；支撑脚稳定，后脚保持原姿态，无起跳全身腾空或落地。",
+      "loop": "五帧微动作闭合，末帧后恢复首帧可接受。"
+    },
+    "failed": {
+      "verdict": "pass",
+      "observed": "8帧自信唇侧姿态转叉腰垂手偏头，克制不满。",
+      "loop": "末段返回起始姿态。"
+    },
+    "waiting": {
+      "verdict": "pass",
+      "observed": "6帧伸掌和手指回勾，交叉站姿稳定。",
+      "loop": "首尾伸手姿态相近。"
+    },
+    "running": {
+      "verdict": "pass",
+      "observed": "6帧双手胸前处理事务，双脚落地，无位移步态。",
+      "loop": "首尾手势相近，定位稳定。"
+    },
+    "review": {
+      "verdict": "pass",
+      "observed": "6帧前倾侧头审视，交叉脚至双腿靠近为小幅重心调整。",
+      "loop": "后两帧恢复起始站姿。"
+    }
+  },
+  "accepted_minor_warnings": [
+    "review交叉脚转靠拢脚过渡略快。",
+    "修长比例下嘴角和手指细节较细。"
+  ],
+  "major_issues": [],
+  "repair_note": "身份、修长比例和服饰一致；无明显裁切、内部破洞或巨大体型变化。预清理青色边缘留待最终单次清理，无需结构返修。"
+}

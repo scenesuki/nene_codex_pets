@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "reviewed_by": "talisman_standard_qa",
+  "directions": {
+    "000": {
+      "verdict": "pass",
+      "evidence": "仰头、眼睛睁开紫色瞳孔朝上，鼻口随头上扬"
+    },
+    "090": {
+      "verdict": "pass",
+      "evidence": "鼻尖及面部前缘向屏幕右突出，瞳孔偏右"
+    },
+    "180": {
+      "verdict": "pass",
+      "evidence": "收下巴前俯，窄开眼眶仍见紫色虹膜和瞳孔，下看成立"
+    },
+    "270": {
+      "verdict": "pass",
+      "evidence": "鼻尖及前缘向屏幕左突出，瞳孔偏左，与090相对"
+    }
+  },
+  "anchors_stable": true,
+  "major_issues": [],
+  "minor_warnings": [
+    "俯仰造成正常头顶高度与露面变化",
+    "180眼睛开口较窄但紫虹膜可见"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "reviewed_by": "parent",
+  "method": "Ordered normal-size registered cells, neutral/cardinal comparison, head/neck yaw and pitch plus irises and eyelids; exact numerical pupil placement is not the acceptance criterion.",
+  "directions": [
+    {
+      "degree": "000",
+      "expected": "up",
+      "observed": "Front-centered face, raised chin and upper irises with visible violet eyes.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "022.5",
+      "expected": "up-right",
+      "observed": "Head and nose turn right, raised eye line; yaw stronger than nominal near-up angle.",
+      "verdict": "warning"
+    },
+    {
+      "degree": "045",
+      "expected": "up-right",
+      "observed": "Rightward nose, high violet irises and slightly raised chin.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "067.5",
+      "expected": "up-right",
+      "observed": "Face clearly right with slight upward pitch, similar to045.",
+      "verdict": "warning"
+    },
+    {
+      "degree": "090",
+      "expected": "screen-right",
+      "observed": "Nose, eye apertures and both irises aim to screen-right; torso remains frontal.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "112.5",
+      "expected": "down-right",
+      "observed": "Clearly rightward head and eyes; small downward pitch is visible only in labeled ordered comparison, vertical component ambiguous to blind majority",
+      "verdict": "warning"
+    },
+    {
+      "degree": "135",
+      "expected": "down-right",
+      "observed": "Brim and chin lower, half-closed lids and irises point down-right.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "157.5",
+      "expected": "down-right",
+      "observed": "Downward eyes and chin with a remaining rightward head bias.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "180",
+      "expected": "down",
+      "observed": "Centered lowered head and brim, both violet eyes visible below the brim and directed down.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "202.5",
+      "expected": "down-left",
+      "observed": "Mostly down, slight leftward facial/iris component is subtle at small size.",
+      "verdict": "warning"
+    },
+    {
+      "degree": "225",
+      "expected": "down-left",
+      "observed": "Leftward nose and lowered eyelids/chin under tilted brim.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "247.5",
+      "expected": "down-left",
+      "observed": "Head aims left with slightly lowered eye line, maintaining anchored body.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "270",
+      "expected": "screen-left",
+      "observed": "Nose and both violet irises face unmistakably toward screen-left; right cheek/ear exposed.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "292.5",
+      "expected": "up-left",
+      "observed": "Left-facing head and slightly lifted irises/chin.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "315",
+      "expected": "up-left",
+      "observed": "Head and irises point up-left, upward facial plane visible.",
+      "verdict": "pass"
+    },
+    {
+      "degree": "337.5",
+      "expected": "up-left",
+      "observed": "Strong upward chin/eye direction, residual leftward component near the vertical axis.",
+      "verdict": "warning"
+    }
+  ],
+  "whole_body_turntable": false,
+  "anchors": "Boots and lower torso remain grounded; asymmetric strap and potion order stay fixed. Hat follows the actual head pitch and yaw rather than whole-cell rotation.",
+  "cross_row_review": "157.5→180 continues into lowered frontal head,337.5→000 returns from lifted leftward to lifted frontal head. No side swap, reversed quadrant, detached prop or clipping seen.",
+  "accepted_minor_warnings": [
+    "右上区域部分相邻仰角接近，接近正上或正下的方向横向分量较轻。"
+  ],
+  "application_ui_verified": false
+}

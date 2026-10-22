@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "operation": "install_all_local_and_cloud",
+  "installed": true,
+  "installed_at": "2026-10-22T08:24:59.8469464Z",
+  "checked_at": "2026-10-22T08:31:14.442Z",
+  "pet_id": "nene_kuchipatchi_casual",
+  "display_name": "宁宁 · 青柠休闲装",
+  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_kuchipatchi_casual",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "directory_absent": false,
+  "source_files_match": true,
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "manifest_sha256": "57c1b35a3e863ebf31165c0cddd465d3c68bf8d8d762e3b8e85206fd50963184",
+  "spritesheet_sha256": "ef06347b6c104f0f79af365ec63ddc0bc4299e0ce5fcdc23d78583dac4bcf0d2",
+  "cloud_pet_id": "pet_6ad9c9398f3c81918b221d7c557cdad6",
+  "cloud_sprite_preflight_valid": true,
+  "cloud_creation_confirmed": true,
+  "cloud_metadata_verified": true,
+  "cloud_collection_nene_count": 18,
+  "cloud_duplicate_names": false,
+  "active_pet_preserved": true,
+  "selection_settings_modified": false,
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "method": "Exact current workspace files copied to local pets directory and SHA-256 verified; exact atlas passed Pets preflight and upload session creation; complete cloud inventory read back."
+}

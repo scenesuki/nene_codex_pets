@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "reviewed_by": "/root/traveler_motion_qa",
+  "directions": [
+    {
+      "degree": "000",
+      "expected": "UP",
+      "observed": "正面仰视",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖居中",
+      "vertical_evidence": "下巴抬起虹膜上移",
+      "reason": "Independentnormal-sizeorderedreview confirms correct quadrant andcoherentarc."
+    },
+    {
+      "degree": "022.5",
+      "expected": "UP-RIGHT nearUP",
+      "observed": "轻微向右仰视",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖和脸开始偏右",
+      "vertical_evidence": "保留上视",
+      "reason": "Independentnormal-sizeorderedreview confirms correct quadrant andcoherentarc."
+    },
+    {
+      "degree": "045",
+      "expected": "UP-RIGHT",
+      "observed": "向右上看",
+      "verdict": "pass",
+      "horizontal_evidence": "侧脸鼻尖朝右",
+      "vertical_evidence": "脸抬起瞳孔偏上",
+      "reason": "Independentnormal-sizeorderedreview confirms correct quadrant andcoherentarc."
+    },
+    {
+      "degree": "067.5",
+      "expected": "RIGHT nearUP",
+      "observed": "向右略抬头",
+      "verdict": "pass",
+      "horizontal_evidence": "右侧脸更明确",
+      "vertical_evidence": "略向上",
+      "reason": "Independentnormal-sizeorderedreview confirms correct quadrant andcoherentarc."
+    },
+    {
+      "degree": "090",
+      "expected": "RIGHT",
+      "observed": "向右平视",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖瞳孔朝右",
+      "vertical_evidence": "接近水平",
+      "reason": "Independentnormal-sizeorderedreview confirms correct quadrant andcoherentarc."
+    },
+    {
+      "degree": "112.5",
+      "expected": "RIGHT-DOWN",
+      "observed": "向右开始低头",
+      "verdict": "pass",
+      "horizontal_evidence": "保留右转脸",
+      "vertical_evidence": "眼线下降虹膜可见",
+      "reason": "Independentnormal-sizeorderedreview confirms correct quadrant andcoherentarc."
+    },
+    {
+      "degree": "135",
+      "expected": "DOWN-RIGHT",
+      "observed": "向右下看",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖视线仍向右",
+      "vertical_evidence": "俯视加深紫色虹膜可见",
+      "reason": "Independentnormal-sizeorderedreview confirms correct quadrant andcoherentarc."
+    },
+    {
+      "degree": "157.5",
+      "expected": "DOWN-RIGHT nearDOWN",
+      "observed": "更接近向下的右下视线",
+      "verdict": "pass",
+      "horizontal_evidence": "右转减轻但保留",
+      "vertical_evidence": "低头最明显双眼未闭合",
+      "reason": "Independentnormal-sizeorderedreview confirms correct quadrant andcoherentarc."
+    },
+    {
+      "degree": "180",
+      "expected": "DOWN睁眼紫瞳",
+      "observed": "正面低头紫色虹膜可见",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖居中",
+      "vertical_evidence": "眼线下压向下非闭眼",
+      "reason": "Independent nativeorderedreview confirmsintendedquadrant,no reversal."
+    },
+    {
+      "degree": "202.5",
+      "expected": "DOWNLEFT nearDOWN",
+      "observed": "低头略向左",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖双眼开始偏左",
+      "vertical_evidence": "向下明显",
+      "reason": "Independent nativeorderedreview confirmsintendedquadrant,no reversal."
+    },
+    {
+      "degree": "225",
+      "expected": "DOWNLEFT",
+      "observed": "向左下看",
+      "verdict": "pass",
+      "horizontal_evidence": "脸部瞳孔向左",
+      "vertical_evidence": "保持俯视可见紫瞳",
+      "reason": "Independent nativeorderedreview confirmsintendedquadrant,no reversal."
+    },
+    {
+      "degree": "247.5",
+      "expected": "LEFT down",
+      "observed": "朝左略低头",
+      "verdict": "pass",
+      "horizontal_evidence": "左侧脸明确",
+      "vertical_evidence": "视线低于水平",
+      "reason": "Independent nativeorderedreview confirmsintendedquadrant,no reversal."
+    },
+    {
+      "degree": "270",
+      "expected": "LEFT",
+      "observed": "向左平视",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖瞳孔朝左",
+      "vertical_evidence": "接近水平",
+      "reason": "Independent nativeorderedreview confirmsintendedquadrant,no reversal."
+    },
+    {
+      "degree": "292.5",
+      "expected": "LEFT up",
+      "observed": "朝左略仰视",
+      "verdict": "pass",
+      "horizontal_evidence": "保持左转",
+      "vertical_evidence": "下巴抬起虹膜上移",
+      "reason": "Independent nativeorderedreview confirmsintendedquadrant,no reversal."
+    },
+    {
+      "degree": "315",
+      "expected": "UPLEFT",
+      "observed": "向左上看",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖瞳孔向左",
+      "vertical_evidence": "仰视加深",
+      "reason": "Independent nativeorderedreview confirmsintendedquadrant,no reversal."
+    },
+    {
+      "degree": "337.5",
+      "expected": "UPLEFT nearUP",
+      "observed": "接近向上的左上视线",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖瞳孔仍向左未反向",
+      "vertical_evidence": "明显仰视",
+      "reason": "Independent nativeorderedreview confirmsintendedquadrant,no reversal."
+    }
+  ],
+  "crossrow_continuity": {
+    "verdict": "pass",
+    "157.5_to_180": "Right-down toDOWN no reversal;shoe center98.29->98.12px",
+    "337.5_to_000": "Left-up toUP no reversal;shoe center97.97->98.43px",
+    "full_circle": "All16correctorder,nostrongidentity/wholebodysizepop",
+    "bbox_explanation": "Centerdeltafromhair/hat/headangle, notfootanchorpop",
+    "shoe_centroid_all16_px": [
+      97.16,
+      98.48
+    ],
+    "shoe_width_all16_px": [
+      35,
+      37
+    ]
+  },
+  "accepted_minor_warnings": [
+    "Crossrowhat/haircontours slightheightdifference,bodyanchorsstable.",
+    "Some adjacentangles subtle."
+  ]
+}

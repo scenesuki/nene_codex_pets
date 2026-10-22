@@ -1,0 +1,21 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "cardinal_hard_gates": "All4cardinals confirmed by strictmajority; no errors.",
+  "failed_checks": [
+    "horizontal-7A:157.5 horizontalambiguous",
+    "horizontal-7B:202.5 horizontalambiguous",
+    "vertical-6A:225 verticalambiguous"
+  ],
+  "evidence": [
+    "Nativefocusedhorizontal7 shows two chin-tucked nearverticalposes.157.5 is almostfrontal withtinyrightcue;202.5 nose/faceleansslightlyleft. Fullorderedloop remains correct withright→down→left arc, no reversal.",
+    "Nativevertical6 shows225 nose/profileleftandchintuckeddown vs315raisedchinup. All28blindcells match finalspritepixels exactly,225Ahas7530visiblealphapixels; reportedmissingfigure is perception, not emptyoutput.",
+    "Continuitylocaloutliers090→112.5 and135→157.5 correspondheadpitch/yaw change; stablefootbaseline203, no arm/ponytailsideflip or structuraldefect."
+  ],
+  "unresolved_minor_limits": [
+    "Near-down angles have weak horizontal cues underfringe.",
+    "Severalneighboring angles are visually similar; spacing approximate."
+  ],
+  "major_failure_override": false
+}

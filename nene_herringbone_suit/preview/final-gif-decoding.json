@@ -1,0 +1,238 @@
+{
+  "ok": true,
+  "gifs": [
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "size": [
+        576,
+        678
+      ],
+      "durations_ms": [
+        240,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        120,
+        60,
+        60,
+        120,
+        60,
+        120,
+        60,
+        60,
+        120,
+        300
+      ],
+      "loop": 0,
+      "sha256": "da73d917bfa83c6fbf26a7e99263e7d24c710209fd39aba99369701a6bf64143"
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "loop": 0,
+      "sha256": "6327b3eb6279e1b374f91e5b31dd2ff44c31bf009bc7cfe2e1a9832d7d2b3898",
+      "decoded_filmstrip": "qa\\final-review\\failed.png"
+    },
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "loop": 0,
+      "sha256": "94c30636d54ad3182d38d944aa6f7af42705ac55c565d614a0e3bcedd8ab976b",
+      "decoded_filmstrip": "qa\\final-review\\idle.png"
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "loop": 0,
+      "sha256": "7a079eedaec043d8e10c8546e50caa44f29326f502affe02d2340f9ca998762e",
+      "decoded_filmstrip": "qa\\final-review\\jumping.png"
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "sha256": "9efcb82eb30cf0d2fab778e825f59f8c10deb49167cacb6dcae26f00810b9c92",
+      "decoded_filmstrip": "qa\\final-review\\look-directions.png"
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "loop": 0,
+      "sha256": "a260b8488d200263bc795f6fdc9a321e238b46d63a413ad0361ce4ea447d6bd3",
+      "decoded_filmstrip": "qa\\final-review\\review.png"
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "loop": 0,
+      "sha256": "c88d8a8bf1a49fa57c8442cc30ed5a85807a87606ca3381057e95d61b4cf77f4",
+      "decoded_filmstrip": "qa\\final-review\\running-left.png"
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "loop": 0,
+      "sha256": "175aafe9d667c31dc5643052adc9cc47891a35b30ef597c3bf6a8c43555665a1",
+      "decoded_filmstrip": "qa\\final-review\\running-right.png"
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "loop": 0,
+      "sha256": "8722e5e70364d5494e1ad7928771bfab4f73c0163ce57a9f02f8854809732129",
+      "decoded_filmstrip": "qa\\final-review\\running.png"
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "loop": 0,
+      "sha256": "d2a76ba4a9531c336dbcfecfb5d2529d1d48d656cb171e0981f0dfd3384a084a",
+      "decoded_filmstrip": "qa\\final-review\\waiting.png"
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "loop": 0,
+      "sha256": "91fca013f94c89e192d0aa8320a2393857ea3acf38f6a25ad12b23b839e84751",
+      "decoded_filmstrip": "qa\\final-review\\waving.png"
+    }
+  ],
+  "total_frames": 90
+}

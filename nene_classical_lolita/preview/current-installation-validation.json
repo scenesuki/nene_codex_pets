@@ -1,28 +1,34 @@
 {
   "ok": true,
-  "source_files_match": true,
-  "checked_at": "2026-10-19T02:53:25.085Z",
+  "operation": "install_all_local_and_cloud",
+  "installed": true,
+  "installed_at": "2026-10-22T08:24:59.8469464Z",
+  "checked_at": "2026-10-22T08:31:14.442Z",
+  "pet_id": "nene_classical_lolita",
+  "display_name": "宁宁 · 古典洛丽塔 · 红心皇后",
   "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_classical_lolita",
   "package_files": [
     "pet.json",
     "spritesheet.webp"
   ],
-  "id": "custom:nene_classical_lolita",
-  "display_name": "宁宁 · 古典洛丽塔 · 红心皇后",
+  "directory_absent": false,
+  "source_files_match": true,
   "sprite_version": 2,
   "decoded_dimensions": {
     "width": 1536,
     "height": 2288
   },
-  "format": "webp",
   "manifest_sha256": "a50d080a88d758e9984449ae07e392485f309efb9951d55d81e4a96acb70f3c0",
   "spritesheet_sha256": "0fe2483da32a22567716dd52f0f2961f602370b9465107606831011bd2dc4500",
-  "app_version": "26.1013.4894.0",
-  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-DsLVGakC.js",
-  "app_validator_module_sha256": "28a0918f01c50b0eb17676e894998ad7182f119d978adf0467ccaac3583f259c",
-  "method": "Byte-for-byte comparison with workspace and read-only replay of actual installed-app image/version and path validators; no app UI action",
+  "cloud_pet_id": "pet_6ad9c8e023448191baac8bbbcf64c812",
+  "cloud_sprite_preflight_valid": true,
+  "cloud_creation_confirmed": true,
+  "cloud_metadata_verified": true,
+  "cloud_collection_nene_count": 18,
+  "cloud_duplicate_names": false,
+  "active_pet_preserved": true,
+  "selection_settings_modified": false,
   "application_ui_detection_verified": false,
   "floating_display_verified": false,
-  "current_pet_changed": false,
-  "installed_at": "2026-10-19T02:53:25.085Z"
+  "method": "Exact current workspace files copied to local pets directory and SHA-256 verified; exact atlas passed Pets preflight and upload session creation; complete cloud inventory read back."
 }

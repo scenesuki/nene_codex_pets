@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "operation": "install_all_local_and_cloud",
+  "installed": true,
+  "installed_at": "2026-10-22T08:24:59.8469464Z",
+  "checked_at": "2026-10-22T08:31:14.442Z",
+  "pet_id": "nene_gothic_couture",
+  "display_name": "宁宁 · 紫夜哥特",
+  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_gothic_couture",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "directory_absent": false,
+  "source_files_match": true,
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "manifest_sha256": "5e1679107e2302e8b385d4c17fcb1ed95447940fd8df5d3e799eb484b14df8a7",
+  "spritesheet_sha256": "2b8ce02832a41d4cd7aafa9deee14a4c77f3ba213f6dfacd909dddbf09f13869",
+  "cloud_pet_id": "pet_6ad9c90effac8191ae7e9ff6d752eb93",
+  "cloud_sprite_preflight_valid": true,
+  "cloud_creation_confirmed": true,
+  "cloud_metadata_verified": true,
+  "cloud_collection_nene_count": 18,
+  "cloud_duplicate_names": false,
+  "active_pet_preserved": true,
+  "selection_settings_modified": false,
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "method": "Exact current workspace files copied to local pets directory and SHA-256 verified; exact atlas passed Pets preflight and upload session creation; complete cloud inventory read back."
+}

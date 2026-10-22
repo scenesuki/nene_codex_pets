@@ -1,0 +1,24 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "parent",
+  "evidence": [
+    "Cleaned final focused16-direction sheet and neutral comparison",
+    "Full57-frame standard contact review and independent actual GIF playback",
+    "Native v2 atlas and single despill reports",
+    "Three isolated blind direction verdicts and original consensus",
+    "Labeled normal-size continuity review"
+  ],
+  "identity": "Compact sage-haired violet-eyed Nene remains consistent through standard and look states; blue/gold hat and coat, white pleats, asymmetric potion bandolier, black-topped socks and brown boots retained.",
+  "directions": "All16 present, four cardinals unmistakable and blind-confirmed. Eyes/eyelids and head/neck move together; torso and boots stay anchored. No wrong principal quadrant, reversal, detached prop, clipping or visible accidental transparency hole.",
+  "chroma": "Single full-atlas edge-local despill passed with alpha preserved; native atlas validation has zero errors, warnings and transparent RGB residue. No extra cleanup pass performed.",
+  "accepted_minor_warnings": [
+    "左向移动的过渡帧后膝较弯，略带Q版夸张。",
+    "部分右上仰角接近，112.5°的向下分量在盲审中不够明显；按有标注循环复核后接受。",
+    "个别注视转折的头帽变化幅度略不均匀，未发现重大衔接或定位问题。"
+  ],
+  "independent_final_contact_review_pending": false,
+  "application_ui_verified": false,
+  "installed": false,
+  "independent_final_contact_review": "final-independent-review.json",
+  "atlas_sha256": "be4da176880b173f4ea9d1423fb1012e89302ee0bba8b3cb284c5d28ad0f822f"
+}

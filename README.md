@@ -1,27 +1,61 @@
-# nene_codex_pets
+<p align="center">
+  <a href="nene_feather_stage/README.md">
+    <img src="nene_feather_stage/preview/readme-portrait.png" alt="草薙宁宁 · 羽饰舞台装" width="144">
+  </a>
+</p>
 
-草薙宁宁的 Codex 桌面宠物合集。现有十三套造型，各有9种状态动画与16个注视方向。v1.10.0新增水蓝花饰礼裙、象牙白花嫁与薄荷巧克力装。
+<h1 align="center">nene_codex_pets</h1>
 
-**[下载十三套完整合集 · v1.10.0](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.10.0/nene_codex_pets-v1.10.0.zip)** · [校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v1.10.0/SHA256SUMS.txt) · [更新记录](https://github.com/scenesuki/nene_codex_pets/releases)
+<p align="center">《Project SEKAI》草薙宁宁的 Codex 桌面宠物合集</p>
 
-v1.10.0合集包含全部十三套宠物、完整预览和最终校验记录。GitHub 保留成品、预览、说明与公共打包脚本；制作原素材仅在本地留档。
+项目当前收录十九套造型，每套提供 9 种状态动画与 16 个注视方向。
 
-当前目录、ID和显示名称已按服饰统一，[查看命名对照](PET_NAMES.md)。v1.8.0采用新名称；v1.7.2及更早附件保留原名称。
+**[前往下载](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip)** · [更新记录](https://github.com/scenesuki/nene_codex_pets/releases) · [提交 Issue](https://github.com/scenesuki/nene_codex_pets/issues/new)
 
-## 选一位宁宁
+**下载范围**：v2.0.0 完整合集包含本页展示的全部十九套宠物，以及各套安装文件、动画预览与校验记录。
 
-| 水蓝花饰礼裙 · 本次新增 |
+[浏览造型](#宠物展示) · [安装方法](#三步安装) · [版本记录](#版本与历史下载) · [项目阶段性总述](#项目阶段性总述)
+
+## 宠物展示
+
+点击角色小图查看造型说明；动画通过文字链接打开。各套的服饰、画风与参考卡面如下。
+
+| 见习魔导师 · v2.0.0 新增 |
 | :---: |
-| <a href="nene_aqua_floral/README.md"><img src="nene_aqua_floral/preview/readme-portrait.png" alt="草薙宁宁水蓝花饰礼裙" width="144"></a> |
-| **服饰要素介绍**：珍珠花饰发箍、白色灯笼袖、水蓝不对称层裙、金链腰花与系带礼鞋 |
+| <a href="nene_apprentice_mage/README.md"><img src="nene_apprentice_mage/preview/readme-portrait.png" alt="草薙宁宁见习魔导师" width="144"></a> |
+| **服饰要素介绍**：蓝青尖顶帽与金边外套、白色百褶短裙、斜挎药剂带、黑口白长袜与棕色系带短靴 |
 | **画风**：Q版日系插画 |
-| **参考卡面**：4星卡「抱く焦燥」特训后；衣装「レーヴ・デ・トナリティ」 |
-| [造型与说明](nene_aqua_floral/README.md) · [查看动画](nene_aqua_floral/preview/animation-overview.gif) |
+| **参考卡面**：4星「悲しみも全部」特训后；衣装「見習い魔導士のワンピース」 |
+| [造型与说明](nene_apprentice_mage/README.md) · [查看动画](nene_apprentice_mage/preview/animation-overview.gif) |
 
-| 薄荷巧克力 · 本次新增 | 象牙白花嫁 · 本次新增 |
+| 橙纹西装 · v2.0.0 新增 | 紫夜哥特 · v2.0.0 新增 |
+| :---: | :---: |
+| <a href="nene_herringbone_suit/README.md"><img src="nene_herringbone_suit/preview/readme-portrait.png" alt="草薙宁宁橙纹西装" width="144"></a> | <a href="nene_gothic_couture/README.md"><img src="nene_gothic_couture/preview/readme-portrait.png" alt="草薙宁宁紫夜哥特" width="144"></a> |
+| **服饰要素**：高马尾与铆钉发箍、橙色人字纹西装、单侧绿翻领、金链蝴蝶翻边宽裤与黑色长靴 | **服饰要素**：玫瑰荷叶发箍、紫色收腰长袖、藏蓝竖纹裙片、星链与黑蕾丝、灰袜及紫色系带礼鞋 |
+| **画风**：修长日系舞台插画 | **画风**：Q版日系插画 |
+| **参考卡面**：4星「森の導き手」特训后；衣装「Acting ambition」 | **参考卡面**：4星「ステップに想いをのせて」特训后；衣装「シェリール・オートクチュール」 |
+| [造型与说明](nene_herringbone_suit/README.md) · [查看动画](nene_herringbone_suit/preview/animation-overview.gif) | [造型与说明](nene_gothic_couture/README.md) · [查看动画](nene_gothic_couture/preview/animation-overview.gif) |
+
+| 青柠休闲装 · v2.0.0 新增 | 猫耳旅装 · v2.0.0 新增 |
+| :---: | :---: |
+| <a href="nene_kuchipatchi_casual/README.md"><img src="nene_kuchipatchi_casual/preview/readme-portrait.png" alt="草薙宁宁青柠休闲装" width="144"></a> | <a href="nene_cat_traveler/README.md"><img src="nene_cat_traveler/preview/readme-portrait.png" alt="草薙宁宁猫耳旅装" width="144"></a> |
+| **服饰要素**：叶饰耳机、青柠蓬袖外套、白色花边短裙、粉色拓麻歌子挂件、连袜裤与绒拖鞋 | **服饰要素**：猫耳贝雷帽、薄荷披肩夹克、浅绿灯笼裤、格纹荷叶裤口、长袜与厚底鞋，随身小挎包 |
+| **画风**：细线与柔和上色、复古淑女比例Q版 | **画风**：Q版日系插画 |
+| **参考卡面**：4星「大特訓大会の成果！」特训后；衣装「くちぱっち風ゆったりコーデ」 | **参考卡面**：4星「憧れを焼き付けて」特训后；衣装「アスピリング・トリッパー」 |
+| [造型与说明](nene_kuchipatchi_casual/README.md) · [查看动画](nene_kuchipatchi_casual/preview/animation-overview.gif) | [造型与说明](nene_cat_traveler/README.md) · [查看动画](nene_cat_traveler/preview/animation-overview.gif) |
+
+| 符饰旗袍 · v2.0.0 新增 | 水蓝花饰礼裙 |
+| :---: | :---: |
+| <a href="nene_talisman_qipao/README.md"><img src="nene_talisman_qipao/preview/readme-portrait.png" alt="草薙宁宁符饰旗袍" width="144"></a> | <a href="nene_aqua_floral/README.md"><img src="nene_aqua_floral/preview/readme-portrait.png" alt="草薙宁宁水蓝花饰礼裙" width="144"></a> |
+| **服饰要素**：双丸子辫、符饰项链、玫红盘扣上衣、短裤、单侧腿环与厚底鞋 | **服饰要素**：珍珠花饰发箍、白色灯笼袖、水蓝不对称层裙、金链腰花与系带礼鞋 |
+| **画风**：Q版日系插画 | **画风**：Q版日系插画 |
+| **参考卡面**：4星卡「口には出せないこの気持ち」特训后；衣装「躍るは宴者」 | **参考卡面**：4星卡「抱く焦燥」特训后；衣装「レーヴ・デ・トナリティ」 |
+| [造型与说明](nene_talisman_qipao/README.md) · [查看动画](nene_talisman_qipao/preview/animation-overview.gif) | [造型与说明](nene_aqua_floral/README.md) · [查看动画](nene_aqua_floral/preview/animation-overview.gif) |
+
+| 薄荷巧克力 · v1.10.0 新增 | 象牙白花嫁 · v1.10.0 新增 |
 | :---: | :---: |
 | <a href="nene_mint_chocolate/README.md"><img src="nene_mint_chocolate/preview/readme-portrait.png" alt="草薙宁宁薄荷巧克力装" width="144"></a> | <a href="nene_ivory_bridal/README.md"><img src="nene_ivory_bridal/preview/readme-portrait.png" alt="草薙宁宁象牙白花嫁" width="144"></a> |
-| **服饰要素介绍**：巧克力棕长袖与束腰、格纹短裤、单侧腿环与薄荷绿系带长靴 | **服饰要素介绍**：花羽宽檐帽、金边束腰、象牙白金纹层叠长裙与金扣礼鞋 |
+| **服饰要素**：巧克力棕长袖与束腰、格纹短裤、单侧腿环与薄荷绿系带长靴 | **服饰要素**：花羽宽檐帽、金边束腰、象牙白金纹层叠长裙与金扣礼鞋 |
 | **画风**：Q版日系插画 | **画风**：Q版日系插画 |
 | **参考卡面**：4星卡「相手をイメージして」特训后；衣装「メルティペパーミント」 | **参考卡面**：4星卡「願いのドレスへ」特训后；衣装「lady in flowers」 |
 | [造型与说明](nene_mint_chocolate/README.md) · [查看动画](nene_mint_chocolate/preview/animation-overview.gif) | [造型与说明](nene_ivory_bridal/README.md) · [查看动画](nene_ivory_bridal/preview/animation-overview.gif) |
@@ -29,7 +63,7 @@ v1.10.0合集包含全部十三套宠物、完整预览和最终校验记录。G
 | 学院制服 | 宁宁机器人 |
 | :---: | :---: |
 | <a href="nene_school_uniform/README.md"><img src="nene_school_uniform/preview/readme-portrait.png" alt="草薙宁宁初始校服" width="144"></a> | <a href="nene_robo/README.md"><img src="nene_robo/preview/readme-portrait.png" alt="宁宁机器人原始造型" width="144"></a> |
-| **服饰要素介绍**：深蓝西装、红色领结、格纹百褶裙 | **服饰要素介绍**：黄裙、青绿马甲、粉色蝴蝶结与蝶饰 |
+| **服饰要素**：深蓝西装、红色领结、格纹百褶裙 | **服饰要素**：黄裙、青绿马甲、粉色蝴蝶结与蝶饰 |
 | **画风**：Q版日系插画 | **画风**：贴近游戏原画 |
 | **参考卡面**：1星卡「爱损人的社交恐惧者」 | **参考卡面**：无独立参考卡面；参考官方宁宁机器人原始造型 |
 | [造型与说明](nene_school_uniform/README.md) · [查看动画](nene_school_uniform/preview/animation-overview.gif) | [造型与说明](nene_robo/README.md) · [查看动画](nene_robo/preview/animation-overview.gif) |
@@ -37,7 +71,7 @@ v1.10.0合集包含全部十三套宠物、完整预览和最终校验记录。G
 | 羽饰舞台装 | 蝶饰舞台装 |
 | :---: | :---: |
 | <a href="nene_feather_stage/README.md"><img src="nene_feather_stage/preview/readme-portrait.png" alt="草薙宁宁 Brand New Style 舞台服" width="144"></a> | <a href="nene_butterfly_stage/README.md"><img src="nene_butterfly_stage/preview/readme-portrait.png" alt="草薙宁宁ワンダーランズ×ショウタイム初始舞台服" width="144"></a> |
-| **服饰要素介绍**：羽饰白花、白金短披肩与青绿层叠裙摆 | **服饰要素介绍**：青绿马甲、浅黄百褶裙与蝶叶头饰 |
+| **服饰要素**：羽饰白花、白金短披肩与青绿层叠裙摆 | **服饰要素**：青绿马甲、浅黄百褶裙与蝶叶头饰 |
 | **画风**：Q版日系插画 | **画风**：Q版日系插画 |
 | **参考卡面**：2星卡「Brand New Style」 | **参考卡面**：2星卡「ワンダーランズ×ショウタイム」 |
 | [造型与说明](nene_feather_stage/README.md) · [查看动画](nene_feather_stage/preview/animation-overview.gif) | [造型与说明](nene_butterfly_stage/README.md) · [查看动画](nene_butterfly_stage/preview/animation-overview.gif) |
@@ -45,7 +79,7 @@ v1.10.0合集包含全部十三套宠物、完整预览和最终校验记录。G
 | 田园休闲 | 复古淑女 |
 | :---: | :---: |
 | <a href="nene_country_casual/README.md"><img src="nene_country_casual/preview/readme-portrait.png" alt="草薙宁宁观影造型" width="144"></a> | <a href="nene_vintage_lady/README.md"><img src="nene_vintage_lady/preview/readme-portrait.png" alt="草薙宁宁黑绿复古洋装" width="144"></a> |
-| **服饰要素介绍**：黄色发结、格纹上衣、背带长裙与爆米花桶 | **服饰要素介绍**：小礼帽、黑绿洋装、黑色手套与金边折扇 |
+| **服饰要素**：黄色发结、格纹上衣、背带长裙与爆米花桶 | **服饰要素**：小礼帽、黑绿洋装、黑色手套与金边折扇 |
 | **画风**：Q版日系插画 | **画风**：Q版日系插画 |
 | **参考卡面**：2星卡「Let's enjoy the movie！」 | **参考卡面**：2星卡「江戸の町並みに飲まれて」 |
 | [造型与说明](nene_country_casual/README.md) · [查看动画](nene_country_casual/preview/animation-overview.gif) | [造型与说明](nene_vintage_lady/README.md) · [查看动画](nene_vintage_lady/preview/animation-overview.gif) |
@@ -53,7 +87,7 @@ v1.10.0合集包含全部十三套宠物、完整预览和最终校验记录。G
 | 马戏团礼装 | 维多利亚洛丽塔·花边洋伞 |
 | :---: | :---: |
 | <a href="nene_circus_stage/README.md"><img src="nene_circus_stage/preview/readme-portrait.png" alt="草薙宁宁膝上条纹短裙、红色小腿袜与手杖" width="144"></a> | <a href="nene_victorian_lolita/README.md"><img src="nene_victorian_lolita/preview/readme-portrait.png" alt="Victorian Lolita宁宁与展开花边伞" width="144"></a> |
-| **服饰要素介绍**：红色短外套、条纹短裙、红色小腿袜与手杖 | **服饰要素介绍**：藏蓝帽、青绿蓬裙、棕色束腰与花边洋伞 |
+| **服饰要素**：红色短外套、条纹短裙、红色小腿袜与手杖 | **服饰要素**：藏蓝帽、青绿蓬裙、棕色束腰与花边洋伞 |
 | **画风**：Q版日系插画 | **画风**：Q版日系插画 |
 | **参考卡面**：2星卡「ワンダーステッキ」 | **参考卡面**：4星卡「きらびやかな夢の舞台」特训后；服装「スパカリバルーンドレス」 |
 | [造型与说明](nene_circus_stage/README.md) · [查看动画](nene_circus_stage/preview/animation-overview.gif) | [造型与说明](nene_victorian_lolita/README.md) · [查看动画](nene_victorian_lolita/preview/animation-overview.gif) |
@@ -61,43 +95,36 @@ v1.10.0合集包含全部十三套宠物、完整预览和最终校验记录。G
 | 古典洛丽塔·红心皇后 | 新中式礼装 |
 | :---: | :---: |
 | <a href="nene_classical_lolita/README.md"><img src="nene_classical_lolita/preview/readme-portrait.png" alt="Classical Lolita宁宁与红心牌、玫瑰" width="144"></a> | <a href="nene_chinoiserie/README.md"><img src="nene_chinoiserie/preview/readme-portrait.png" alt="草薙宁宁新中式礼装" width="144"></a> |
-| **服饰要素介绍**：红心王冠、红披肩、深绿蕾丝裙、玫瑰与红心牌 | **服饰要素介绍**：蓝紫斜襟、腰侧蝴蝶结、黑色开衩长裙、灰短袜与黑搭带鞋 |
+| **服饰要素**：红心王冠、红披肩、深绿蕾丝裙、玫瑰与红心牌 | **服饰要素**：蓝紫斜襟、腰侧蝴蝶结、黑色开衩长裙、灰短袜与黑搭带鞋 |
 | **画风**：Q版日系插画 | **画风**：Q版日系插画 |
 | **参考卡面**：4星卡「憧れに向かって」特训后；服装「クイーン・オブ・ハート」 | **参考卡面**：4星卡「夢をのせたメロディー」特训后；服装「ディグニファイド・ブリリアンス」 |
 | [造型与说明](nene_classical_lolita/README.md) · [查看动画](nene_classical_lolita/preview/animation-overview.gif) | [造型与说明](nene_chinoiserie/README.md) · [查看动画](nene_chinoiserie/preview/animation-overview.gif) |
 
 ## 三步安装
 
-1. 下载v1.10.0十三套合集，使用同版 `SHA256SUMS.txt` 核对校验和后解压；历史版本按包内说明及[命名对照](PET_NAMES.md)确认旧名称。
-2. 将所需宠物目录复制到 `~/.codex/pets/`，确保顶层同时有 `pet.json` 和 `spritesheet.webp`。
-3. 打开Codex设置 > Pets，刷新并选择对应中文名称，必要时重启应用。
+1. 下载上方的 **v2.0.0 十九套合集**及同版校验和文件，核对 SHA-256 后解压。
+2. 将所需的完整宠物目录复制到 `~/.codex/pets/`，确保目录顶层同时包含 `pet.json` 和 `spritesheet.webp`。
+3. 打开 **Codex 设置 > Pets**，刷新并选择对应中文名称；必要时重启应用。
 
-Windows默认目录为 `%USERPROFILE%\.codex\pets\`；自定义 `CODEX_HOME` 时使用其下的 `pets/`。2026-10-19已按当前ID补装九套，此前十套宠物均已安装并核对文件及本机加载算法；六套旧名称重复副本已清理，当前选用宠物未切换。2026-10-20已安装水蓝花饰礼裙并通过文件与加载算法校验；薄荷巧克力装、象牙白花嫁尚未安装。更名前的安装与发布记录继续作为历史凭据。
+Windows 默认目录为 `%USERPROFILE%\.codex\pets\`。设置了 `CODEX_HOME` 时，使用该目录下的 `pets/`。历史版本的目录名称请参阅[命名对照](PET_NAMES.md)。
 
 <details>
 <summary>规格与验证范围</summary>
 
-- Codex桌面v2格式：无损RGBA WebP，1536×2288；8×11格，单格192×208。
-- 动画帧数、透明边缘、方向语义和循环沿用既有验收，图片及动画像素未变。此前十套及本次水蓝花饰礼裙已核对当前目录、清单、图集及本机加载算法。
-- 更名前的原安装记录保留在对应宠物的 `installed-validation.json`；本次补装的九套记录见各套 `preview/current-installation-validation.json`。六套旧名称重复副本已清理，当前选用宠物未切换；**应用设置识别、选用及桌面浮动显示尚未实测。** 详细记录与已接受的细微问题见各套README。
-- `nene_vintage_lady` 的规格、文件与视觉验收记录见其子页；对应造型曾以旧名于2026-10-15安装并纳入v1.6.2。当前ID已于2026-10-19安装并通过文件与加载算法校验。
-- `nene_circus_stage` 的九状态、十六方向及加载校验已通过；少数中间视线分量和跨段姿态差异记录为细微限制。对应造型曾以旧名纳入v1.6.2；当前ID已于2026-10-19安装，应用内显示尚未实测，详见其子页。
-- 新增 `nene_victorian_lolita`（显示名称 `宁宁 · 维多利亚洛丽塔 · 花边洋伞`）已通过原生v2校验、视觉复核与本机加载算法检查；跳跃已改为8px离地的小跳，其余八状态和十六方向逐像素保留。原方向盲审仍适用，五个低头斜向的横向提示较细微，详见子页；当前ID已于2026-10-19安装，应用UI与实际动态播放尚未实测。
-- 新增 `nene_classical_lolita` 采用四星卡「憧れに向かって」特训后造型，规格依据为 `OpenAI.Codex_26.1013.3656.0`。文件、动画及方向验收见其子页；当前ID已于2026-10-19安装，应用UI尚未实测。
-- 新增 `nene_chinoiserie` 的九状态、十六方向、图集及加载算法验收见其子页；下半身按原色全身模型核实。2026-10-19已安装并核对文件及本机加载算法，当前选用宠物未切换；应用UI及浮动显示尚未实测。
-- 本次九套名称已统一，当前清单与加载校验见各套 `preview/rename-validation.json`、`preview/app-loader-validation.json`；当前ID的本机安装状态以各套当前安装记录为准，历史记录保留当时名称。
-- `nene_mint_chocolate` 已完成九状态、十六方向、图集和本机加载算法检查；服装下半身按原色全身模型核实，已纳入v1.10.0合集，尚未安装，详见[本套说明](nene_mint_chocolate/README.md)。
-- `nene_ivory_bridal` 的服饰按高清特训后卡面和原色全身模型核实，制作与验收见[本套说明](nene_ivory_bridal/README.md)，已纳入v1.10.0合集，尚未安装。
-- `nene_aqua_floral` 已核对完整特训后卡面与原色全身模型，制作与验收见[本套说明](nene_aqua_floral/README.md)，已纳入v1.10.0合集；2026-10-20已安装，文件比对与本机加载算法校验通过，应用UI及浮动显示尚未实测。
-- 首屏静态图直接提取自各套最终交付图集，完整动画通过上方链接查看。v1.10.0包含当前十三套名称与正式预览，历史包内容以对应版本为准。
+- 成品采用 Codex 原生 v2 图集：无损 RGBA WebP，1536 × 2288 像素，8 列 11 行，单格 192 × 208 像素。
+- 每套说明页保留对应应用版本的格式依据、图集校验、视觉验收及已知限制。
+- 文件校验与动画预览不等同于 Codex 应用内显示验证；具体检查范围以各套记录为准。
 
 </details>
+
+<a name="版本与历史下载"></a>
 
 <details>
 <summary>版本与历史下载</summary>
 
 | 版本 | 实际内容 | 附件 |
 | --- | --- | --- |
+| [v2.0.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v2.0.0) | 新增符饰旗袍、猫耳旅装、青柠休闲装、紫夜哥特、橙纹西装与见习魔导师；十九套完整合集 | `nene_codex_pets-v2.0.0.zip` |
 | [v1.10.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.10.0) | 新增薄荷巧克力装、象牙白花嫁与水蓝花饰礼裙；十三套完整合集 | `nene_codex_pets-v1.10.0.zip` |
 | [v1.9.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.9.0) | 新增新中式礼装；十套完整合集 | `nene_codex_pets-v1.9.0.zip` |
 | [v1.8.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.8.0) | 新增红心皇后，统一九套服饰命名与三项式介绍；九套完整合集 | `nene_codex_pets-v1.8.0.zip` |
@@ -109,16 +136,16 @@ Windows默认目录为 `%USERPROFILE%\.codex\pets\`；自定义 `CODEX_HOME` 时
 | [v1.1.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.1.0) | 机器人单套包 | `nene-robo-v1.0.0.zip` |
 | [v1.0.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.0.0) | 初始校服单套包 | `nene-codex-pet-v1.0.0.zip` |
 
-从v1.1.1起，新Release采用全量合集。v1.7.2包含当时八套及其说明、预览和最终验收；历史版本内容以对应Release为准。
+从 v1.1.1 起，Release 采用当时全部宠物的完整合集。
 
-本地保留当前全量合集ZIP；未采用废案、旧分发快照、重复制作缓存及旧本地包按授权清理。当前成果对应的有效制作原素材保留在本地各套 `source/`，由本地 `materials-index.json` 记录路径与哈希，不随 GitHub 仓库分发。已发布版本的说明、校验和与回执保留，历史附件仍从对应GitHub Release下载。
+历史版本的内容以对应 Release 附件为准，旧名称可通过[命名对照](PET_NAMES.md)查询。
 
 </details>
 
 <details>
 <summary>项目结构与全量打包</summary>
 
-每套宠物在根目录独立存放，顶层为当前导入文件、说明与校验；`preview/`保留正式预览、应用规格依据和最终验收。各套 `source/` 仅在本地保留选用的原始生成图、有效参考图、实际输入、提示词及 `materials-index.json` 索引；`maintenance/` 也仅作本地维护留档。两者不提交 Git。参考来源与创作补全写在各套README。共用打包、验证脚本在`scripts/`；本地发布资源在`release-assets/<tag>/`，不提交Git。
+每套宠物使用独立目录，顶层包含 `pet.json`、`spritesheet.webp`、说明与校验文件；`preview/` 提供正式预览、格式依据和验收记录。公共打包与验证脚本位于 `scripts/`，依赖 Python 与 Pillow。
 
 从项目根目录运行，`vX.Y.Z`替换为尚未存在的新版本：
 
@@ -127,11 +154,27 @@ python scripts/build_release.py --tag vX.Y.Z
 python scripts/verify_release.py release-assets/vX.Y.Z/nene_codex_pets-vX.Y.Z.zip
 ```
 
-脚本自动清点根目录全部`*/pet.json`，核对成品、全部GIF与ZIP文件一致性；缺少资源时停止，已有版本不会覆盖。发布时上传合集ZIP及同目录的`SHA256SUMS.txt`，核对下载哈希。工作区保留最终成果及有效制作原素材；废案、重复缓存和本地历史包按用户授权清理。
+脚本自动清点根目录全部 `*/pet.json`，核对图集、动画与 ZIP 内容；缺少必需资源时停止，已有版本不会覆盖。发布附件为完整合集 ZIP 与同目录的 `SHA256SUMS.txt`。
 
-工作约定见[AGENTS.md](AGENTS.md)，机器人预览索引见[preview/README.md](nene_robo/preview/README.md)。本地发布目录索引位于`release-assets/README.md`。公共打包与验证使用Python及Pillow；依赖本机Windows应用安装包的制作期辅助脚本仅在本地留档。
+工作约定见 [AGENTS.md](AGENTS.md)，角色名称见 [PET_NAMES.md](PET_NAMES.md)。
 
 </details>
+
+## 项目阶段性总述
+
+这个项目截至目前已经完成了19套宠物的开发，主要选取了1星卡、2星卡和4星卡为原型制作。前两者一般是简单的立绘，能够直接观测到所有的服装要素，大大减少AI乱发挥的可能；后者则因为有衣服建模辅助，能也能达成类似的效果。宁宁存在许多优质且质量完全不输四星的三星卡面，但目前还未就此进行尝试，这是未来的项目方向之一。
+
+该项目的起源是Tibo于2026年10月的28days挑战，巨量的重置使得手头项目的进度从额度导向开始向个人精力导向转变，本着不用就是浪费且精力有限的原则，该项目正好可以消耗过量的额度并且几乎不占用过多精力。
+
+诚然，手头项目已经占用了大量的精力，因此这一项目除了prompt几乎由Codex放养式管理，尽管在制作时已经打回很多动作，但依然难以让各个宠物的各个动作尽善尽美，依然存在某些宠物的某些动作视觉效果不佳的情况，这一部分优化将会是下一阶段的主要任务。
+
+总而言之，该项目接下来可能会搁置一段时间，会时不时优化一下过去的动作，欢迎提出Issue提出改进建议。
+
+很幸运能够认识这样一个开始虽社恐怕生，但在成长中不断变得坚强、成熟以及自信的天才歌姬草薙宁宁。
+
+宁宁的故事真的激励了我很多，欢迎同好使用该项目，也欢迎所有人了解这位天才歌姬的故事！
+
+
 
 ---
 

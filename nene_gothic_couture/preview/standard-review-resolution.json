@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "independent standard QA and parent",
+  "checks": [
+    "Leftward A/flat/B/flat/B/flat/B/flat is uneven, but two distinct shoes lift and the loop remains complete."
+  ],
+  "evidence": "standard-visual-qa.json and standard-review/running-left-decoded.png",
+  "restriction": "Describe as short uneven steps, never uniform alternating running.",
+  "major_issues": []
+}

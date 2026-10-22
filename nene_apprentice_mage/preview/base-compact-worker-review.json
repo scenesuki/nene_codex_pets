@@ -1,0 +1,30 @@
+{
+  "job": "base-compact-repair",
+  "verdict": "pass",
+  "generated_source_path": "C:/Users/tieha/.codex/generated_images/01a162cf-66c7-7271-9de3-2676996e78d9/exec-5481d4e1-dd5f-492c-892a-10b58973d98f.png",
+  "selected_source_path": "D:/项目/pet_2/nene_apprentice_mage/source/decoded/base.png",
+  "canonical_reference_path": "D:/项目/pet_2/nene_apprentice_mage/source/references/canonical-base.png",
+  "sha256": "2c1915c1b941f9495517a475bb98d4bebf883d83ea08dfcf2b7b5b22e210cd34",
+  "prompt_file": "prompts/base-compact-executed.md",
+  "generation_mode": "built-in-imagegen",
+  "generation_calls": 1,
+  "full_body": {
+    "verdict": "pass",
+    "note": "Single centered complete character; hat and both boots visible with margin, natural near-front stance, no scenery/text/shadow/detached effects."
+  },
+  "proportions": {
+    "verdict": "pass",
+    "note": "Conspicuously larger head relative to shortened coat/body and much shorter socked legs than preserved tall version. Visually approximately 3 heads excluding wizard hat; estimate is visual, not exact anthropometric measurement."
+  },
+  "identity_outfit": {
+    "verdict": "pass",
+    "note": "Sage-grey wavy hair, two front ties, violet eyes, blue hat with braided gold brim/brown buckle band, blue-teal gold-trim open coat, asymmetric diagonal three-vial brown bandolier, yellow cuffs, black chest bow, white pleated dress, black-topped white socks and brown lace boots with teal bow charms retained. Pink vial is muted rose rather than background magenta."
+  },
+  "preserved_originals": [
+    "decoded/candidates/base-tall-v1.png",
+    "prompts/base-tall-v1-executed.md",
+    "qa/base-tall-v1-review.json"
+  ],
+  "byte_verification": "Generated original, decoded/base.png and references/canonical-base.png have identical SHA-256.",
+  "retained_default_original": "Retained in place per tool output; no deletion performed."
+}

@@ -1,0 +1,24 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "hard_cardinal_gates": "All four cardinal directions confirmed by strict majority of three isolated blind reviewers; no errors or unconfirmed hard directions.",
+  "checks": [
+    {
+      "check": "vertical-4 B,112.5 degrees",
+      "result": "Three blind reviewers classified the small vertical component as ambiguous; horizontal screen-right component passed.",
+      "evidence": "Labeled normal-size loop places this frame between level090 and visibly lowered135. Chin and upper eyelid are slightly lower than090, nose remains rightward. It does not point up or reverse quadrant; the vertical change is subtle near the horizontal axis.",
+      "resolution": "Accepted minor direction-readability limitation; retain all original blind results."
+    },
+    {
+      "check": "Upper-right angle spacing",
+      "evidence": "022.5/045/067.5 head pitches are close, with stronger yaw already in022.5. Ordered loop retains up/right/down progression and the same face construction.",
+      "resolution": "Accepted artistic interpolation rather than exact angular geometry."
+    },
+    {
+      "check": "Continuity local outliers000→022.5,157.5→180,247.5→270",
+      "evidence": "Metric flags head/hat silhouette differences. Labeled cells preserve boots, lower body, bandolier and scale; the differences follow real head yaw/pitch. No prop side swap, clipping, body teleport or major anatomy change is visible. Cross-row boundaries also inspected.",
+      "resolution": "Accepted minor uneven head-motion spacing. No metric threshold was changed."
+    }
+  ]
+}

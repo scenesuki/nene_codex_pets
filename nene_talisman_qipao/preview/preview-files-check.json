@@ -1,0 +1,126 @@
+{
+  "ok": true,
+  "pet_id": "nene_talisman_qipao",
+  "spritesheet_sha256": "d53b7c82822e1457a64aac621d97e513c5abbcd96046bdccb205a992564f7d2b",
+  "gif_files": 11,
+  "gifs": [
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "size": [
+        576,
+        678
+      ],
+      "duration_ms": 1680,
+      "sha256": "3e077a84abcf70f4b61d0f052a7be4d71878086800b17c796db8cb3dea6d6d86"
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1220,
+      "sha256": "6801bdf0b395284597f57db586a3644e991603779b856a781a63e86508a5b3f3"
+    },
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1100,
+      "sha256": "4454844b1d7119dcbf223956715f2dba8bcbbc9b0f9438e1ccb047f6d75c98dd"
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 840,
+      "sha256": "d240b2b713ca134ff204cbecbc172edaeeedf10ebd950f8335b6ec3bb67c9ed3"
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 3200,
+      "sha256": "29b0aa3b46cc2413110ec484b903cec2de8e4121d39a82e90c3e03b266e4eed2"
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1030,
+      "sha256": "3e01d91e1f400ae22e8219b464b9c7fa165c85abb9f4ac5d024277463b8594ca"
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1060,
+      "sha256": "2ba7554c0960aa62278016bd45f6a486fd6af71c4f6905525a2da6e747b5a59a"
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1060,
+      "sha256": "f5ac879b60dadc49b14595e67d394f20ad4cb09193a4ac7cd7d22f85916fce1a"
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 820,
+      "sha256": "3a6f3f6adb050c554432471b33d0a68bd0d33e7bff2e4d9f981da0f29baf9802"
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 1010,
+      "sha256": "1d971e63a4df5ebe6b6662b88e35ee078858bfcb4d8f9d5faef697b5eb4253b6"
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms": 700,
+      "sha256": "c33750093a2c396d7cecf1f9b3146e944f777b863be917239b86472a3801b519"
+    }
+  ],
+  "material_count": 98,
+  "local_links_checked": 36,
+  "existing_pet_files_unchanged": true,
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "installed": false,
+  "uploaded": false,
+  "published": false
+}

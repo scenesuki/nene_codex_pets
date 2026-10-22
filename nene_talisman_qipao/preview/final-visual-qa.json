@@ -1,0 +1,122 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "/root/talisman_final_qa",
+  "pet_id": "nene_talisman_qipao",
+  "atlas_sha256": "d53b7c82822e1457a64aac621d97e513c5abbcd96046bdccb205a992564f7d2b",
+  "states": {
+    "idle": "pass：轻微呼吸和眨眼，角色稳定",
+    "running-right": "pass：00/04与02/06交替抬起相反靴子，右向目光可辨",
+    "running-left": "pass：双腿交替、手臂配合，头脸明确朝左",
+    "waving": "pass：举手与放手清楚，袖子完整",
+    "jumping": "pass：脚底上移0/4/8/4/0px，起跳、开心表情和落地可辨",
+    "failed": "pass：垂头收手，双袖、头发和鞋完整",
+    "waiting": "pass_with_minor_warning：摊手、歪头询问，与review可区分；末首歪头有反向接缝",
+    "running": "pass：站立思考和眨眼，无原地跑步",
+    "review": "pass：低头审视后复位，与waiting的摊手动作不同"
+  },
+  "directions": {
+    "000": "pass：正面仰头、双眼向上",
+    "022.5": "pass：抬头偏右",
+    "045": "pass_with_minor_warning：右上正确，与022.5较接近",
+    "067.5": "pass：偏右、略向上",
+    "090": "pass：鼻尖与瞳孔朝右",
+    "112.5": "pass：朝右并开始俯视",
+    "135": "pass：右下，俯头更明显",
+    "157.5": "pass：偏下且保留右向",
+    "180": "pass：正面低头，窄开紫眼可见",
+    "202.5": "pass：偏下向左转",
+    "225": "pass：左下鼻口目光同向",
+    "247.5": "pass：偏左略向下",
+    "270": "pass：鼻尖目光朝左",
+    "292.5": "pass：偏左开始抬头",
+    "315": "pass：左上",
+    "337.5": "pass：左上更向上，无右向反转"
+  },
+  "geometry": {
+    "atlas": "1536x2288 RGBA,8列11行",
+    "cell": "192x208",
+    "standard_counts": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6
+    ],
+    "neutral": "idle第6列，与idle首帧RGBA逐字节相同",
+    "edge_touching_used_cells": 0,
+    "identity": "与canonical-base及两张服饰参考一致：灰绿双丸子卷发、紫眼、粉色青柠绿包边上衣、藏青金边短裤、左侧白衣片、右腿单腿环、紫色鞋帮和金色圆鞋底均可辨。",
+    "silhouette": "未见断肢、裁切或破损躯干。000的y91–92透明区为头发与肩袖之间的外部空隙，非身体内部破洞。"
+  },
+  "continuity": {
+    "verdict": "pass_with_minor_warnings",
+    "157.5_to_180": "头顶y13到y4约9px接缝，脚底均y203，躯干鞋定位稳定，非明显全身缩放跳变。",
+    "337.5_to_000": "左上回到正上正确，头顶y6到y14轻微头发轮廓接缝。",
+    "other_transitions": "无错误象限、方向反转或明显锚点跳动。",
+    "chroma": "单次清理记录与原生验证通过；白、深背景复查无需要重新生成的明显色边。"
+  },
+  "decoded_gifs": {
+    "all_11_decoded": true,
+    "all_loop_values": 0,
+    "state_frame_counts": {
+      "idle": 6,
+      "running-right": 8,
+      "running-left": 8,
+      "waving": 4,
+      "jumping": 5,
+      "failed": 8,
+      "waiting": 6,
+      "running": 6,
+      "review": 6
+    },
+    "look-directions": {
+      "frames": 16,
+      "size": [
+        192,
+        208
+      ],
+      "duration_ms_each": 200
+    },
+    "animation-overview": {
+      "frames": 17,
+      "size": [
+        576,
+        678
+      ],
+      "duration_ms": [
+        240,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        120,
+        60,
+        60,
+        120,
+        60,
+        120,
+        60,
+        60,
+        120,
+        300
+      ]
+    },
+    "evidence": "实际解码全部帧与时长，检查九状态帧拼图、16方向拼图、overview首中末帧；未声称播放器实播。"
+  },
+  "accepted_minor_warnings": [
+    "方向第10行的头发轮廓比第9行高约8–10px，两个跨行接缝可见，但身体与脚位稳定。",
+    "022.5与045的角度差异偏弱，均保持正确右上象限。",
+    "315与337.5的水平差异较弱，向上程度仍有递进。",
+    "waiting末首歪头方向反转，属于局部循环接缝。",
+    "向右移动比向左移动更正面，但目光方向及相反靴子交替足以辨认。",
+    "少量手指、袖褶和配饰细节存在帧间变化。"
+  ],
+  "major_issues": [],
+  "application_ui_verified": false,
+  "project_changes": "仅保存source/qa/final-review-scratch/解码检查拼图，未改素材清单或正式记录。"
+}

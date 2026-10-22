@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-20T17:42:55.961Z",
+  "package_directory": "D:\\项目\\pet_2\\nene_talisman_qipao",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "id": "custom:nene_talisman_qipao",
+  "display_name": "宁宁 · 符饰旗袍",
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "format": "webp",
+  "manifest_sha256": "8526c7e100d9bcf40be5894e71377b69742715c68f488abc12f30c3970c6f16b",
+  "spritesheet_sha256": "d53b7c82822e1457a64aac621d97e513c5abbcd96046bdccb205a992564f7d2b",
+  "app_version": "26.1013.4894.0",
+  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-DsLVGakC.js",
+  "app_validator_module_sha256": "28a0918f01c50b0eb17676e894998ad7182f119d978adf0467ccaac3583f259c",
+  "method": "Read-only replay of installed-app image/version and path validators on this new workspace package; no installation or UI action",
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "current_pet_changed": false
+}

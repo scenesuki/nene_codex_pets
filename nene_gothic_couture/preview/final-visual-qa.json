@@ -1,0 +1,228 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "/root/gothic_final_qa 独立只读视觉验收",
+  "method": "对照canonical-base，检查最终contact-sheet、look-directions与最终GIF九状态及注视循环的全部解码序列和末帧至首帧；未修改文件。",
+  "states9": {
+    "idle": {
+      "verdict": "pass",
+      "observed": "六帧轻微摆动、闭眼后睁眼，双脚稳定，首尾无明显突跳"
+    },
+    "running-right": {
+      "verdict": "pass",
+      "observed": "明确右向，两鞋交替抬起并穿插双平，完整小步循环"
+    },
+    "running-left": {
+      "verdict": "warning",
+      "observed": "明确左向，A／双平／B／双平／B／双平／B／双平，两脚均抬落；偏侧碎步节奏不匀，minor"
+    },
+    "waving": {
+      "verdict": "pass",
+      "observed": "单手抬至脸侧、外摆再放下，手臂连接且双脚稳定"
+    },
+    "jumping": {
+      "verdict": "pass",
+      "observed": "0/4/8/4/0px浅幅起落，首尾落地，无裁切、异常缩放或落点跳动"
+    },
+    "failed": {
+      "verdict": "pass",
+      "observed": "闭眼低头、连续深蹲再恢复，身高变化有动作原因，首尾可读"
+    },
+    "waiting": {
+      "verdict": "pass",
+      "observed": "摊手、轻歪头与表情变化，区别待机，首尾平顺"
+    },
+    "running": {
+      "verdict": "warning",
+      "observed": "站定，手近下巴并眨眼，符合任务思考；与审视差别细微，minor"
+    },
+    "review": {
+      "verdict": "warning",
+      "observed": "低位合手、低头歪斜后恢复，区别专注的手位，差异含蓄，minor"
+    }
+  },
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "horizontal_evidence": "面部近正面，左右没有明显偏向",
+      "vertical_evidence": "下巴抬高、面部朝上，眼睛视线上移",
+      "reason": "正上方向明确，与180的低头形成清楚对照"
+    },
+    {
+      "direction": "022.5",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "面部、鼻尖与视线偏屏幕右侧",
+      "vertical_evidence": "下巴上抬，眼睛看向偏上位置",
+      "reason": "象限正确；接近正上时水平分量稍强，属于minor"
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "脸部转右，鼻尖朝右，左右脸宽不对称",
+      "vertical_evidence": "抬头与上移视线可见",
+      "reason": "右上象限明确，没有反转"
+    },
+    {
+      "direction": "067.5",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "脸部明显偏右，视线朝右",
+      "vertical_evidence": "下巴仍略高于090，保留轻微上看",
+      "reason": "方向正确；与045及090差异细微，属于minor"
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "horizontal_evidence": "头脸朝右，鼻尖与双眼视线指向右侧",
+      "vertical_evidence": "头部俯仰接近水平",
+      "reason": "正右可辨，没有误作左或上下"
+    },
+    {
+      "direction": "112.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "脸部仍朝右，视线保留右偏",
+      "vertical_evidence": "眼睛下移，下巴较090收低",
+      "reason": "右下成立，下看变化较含蓄，属于minor"
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "头部右转、鼻尖与视线右偏",
+      "vertical_evidence": "低头、上眼睑下压，视线向下",
+      "reason": "右下两轴证据明确"
+    },
+    {
+      "direction": "157.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "脸部仍有明显右转，鼻尖与视线右偏",
+      "vertical_evidence": "头和下巴进一步收低，眼睛向下",
+      "reason": "象限正确；靠近正下时水平分量稍强，属于minor"
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "horizontal_evidence": "面部基本居中，无明显左右偏向",
+      "vertical_evidence": "头部低垂、下巴收低，眼睛看向下方",
+      "reason": "正下明确，与000的抬头明显不同"
+    },
+    {
+      "direction": "202.5",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "鼻尖和面部偏屏幕左侧，双眼视线左偏",
+      "vertical_evidence": "头部低垂，眼睛向下",
+      "reason": "象限正确；靠近正下时左向分量稍强，属于minor"
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "脸部转左，鼻尖朝左，视线向左",
+      "vertical_evidence": "下巴收低，眼睑和瞳孔显示下看",
+      "reason": "左下象限明确，无左右反转"
+    },
+    {
+      "direction": "247.5",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "左转脸部与左偏视线明确",
+      "vertical_evidence": "仍有低头和下看，较270更低",
+      "reason": "方向成立；相邻变化较小，属于minor"
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "horizontal_evidence": "头脸、鼻尖和目光明确朝屏幕左侧",
+      "vertical_evidence": "俯仰接近水平",
+      "reason": "正左可辨，与090形成正确反向"
+    },
+    {
+      "direction": "292.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "脸部朝左，鼻尖和双眼视线向左",
+      "vertical_evidence": "下巴抬起，眼睛看向上方",
+      "reason": "左上两轴均可辨"
+    },
+    {
+      "direction": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "脸部与鼻尖左偏，左向注视明确",
+      "vertical_evidence": "仰头和上看清楚",
+      "reason": "左上正确，接续292.5自然"
+    },
+    {
+      "direction": "337.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "仍保留左转脸部与左向视线",
+      "vertical_evidence": "下巴上抬，目光向上",
+      "reason": "象限正确；水平分量偏强，接000时头部转正稍明显，但身体和尺度稳定，属于minor"
+    }
+  ],
+  "geometry_continuity": {
+    "verdict": "pass",
+    "layout": "1536×2288RGBA，8列11行；57标准帧+16方向+1兼容中性参考，r0c6与idle首帧相同",
+    "identity_and_costume": "灰绿长发、紫眼、紫黑褶边头饰和浅色花饰、层叠紫裙、浅色纵向饰边、腰带、星链、深色手套及搭带鞋一致",
+    "limbs_and_clipping": "未见明显断肢、缺鞋、裁切、脸部和躯干意外透明内孔",
+    "edges_and_alpha": "单次清边成功，alpha保持；验证无透明RGB残留、实心色键及边缘残留；不要求进一步清边",
+    "look_loop": {
+      "verdict": "warning",
+      "classification": "minor",
+      "observed": "全16帧沿顺时针右上→右→右下→下→左下→左→左上回上，无反转或错误象限",
+      "closure": "337.5→000头发和头部转正稍明显，脚底、躯干、裙摆稳定，无重大突跳",
+      "metrics": {
+        "diff_pixels": 2005,
+        "neighbor_average": 1066,
+        "center_delta_px": 1.8,
+        "area_ratio": 1.077
+      }
+    }
+  },
+  "decoded_gifs": {
+    "verdict": "pass",
+    "files_decoded": 11,
+    "frames_decoded": 90,
+    "visually_reviewed_state_gifs": 9,
+    "visually_reviewed_direction_frames": 16,
+    "loop_closure_reviewed": true,
+    "overview_frames_decoded": 17,
+    "overview_additional_visual_review": false,
+    "limitation": "按最终解码序列、顺序和时长检查，未在目标应用连续播放"
+  },
+  "accepted_minor_warnings": [
+    "左移动作为偏侧碎步，实际A／双平／B／双平／B／双平／B／双平，不能描述为均匀交替跑步。",
+    "接近正上或正下的对角方向水平分量稍强，部分相邻方向变化细微，但全部四正向与对角象限正确。",
+    "337.5至000的头部转正稍明显，完整循环未出现重大定位或尺度突跳。",
+    "专注与审视都采用克制站姿，依靠手位和低头区分，实际尺寸下差异较含蓄。",
+    "细小花边、发丝和链饰在不同姿态略有变化，整体造型与人物比例一致。"
+  ],
+  "major_issues": [],
+  "application_ui_verified": false
+}

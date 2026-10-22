@@ -1,0 +1,10 @@
+{
+ "visual_qa":"pass","reviewed_by":"parent/native-size preview and explicit user selection",
+ "accepted_style":"日系舞台插画，沿用用户确认的修长比例（约4.5～5头身）",
+ "user_selection":"沿用当前修长比例，继续制作（推荐）",
+ "identity":"灰绿高马尾、紫眼与铆钉黑发箍；原色橙纹西装、白内衫、单侧绿翻领、金链蝴蝶翻边裤和黑色金底靴。",
+ "acting":"锐利半眯眼、不对称笑意、唇边指尖与错肩重心，气质明显带有原卡的挑衅与狂气。",
+ "native_readability":"192×208下，唇边手势、错肩轮廓及修长服装可辨；脸部较小是用户选择修长比例的取舍。",
+ "source_edges":"完整轮廓有空白边距，无场景与阴影。",
+ "superseded_numeric_target":"最初试约3.3/3.5头身；实际生成更修长，展示原生预览后用户明确采用当前比例。保留原提示词与实际输入，不将其冒称3.5头身。"
+}

@@ -1,0 +1,644 @@
+{
+  "ok": true,
+  "method": "Retain six original states; three regenerated rows use one scale per row, constant203px support baseline and zero deterministic lift.",
+  "jump_lifts_px": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "scale": 0.28023598820059,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            59,
+            13,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            56,
+            14,
+            136,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            57,
+            14,
+            134,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            59,
+            14,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            59,
+            15,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            60,
+            13,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ]
+    },
+    {
+      "ok": true,
+      "state": "running-right",
+      "scale": 0.3064516129032258,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            48,
+            13,
+            143,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            52,
+            13,
+            139,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            59,
+            13,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            47,
+            14,
+            144,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            49,
+            14,
+            143,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            53,
+            13,
+            139,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 6,
+          "bbox": [
+            59,
+            14,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 7,
+          "bbox": [
+            49,
+            13,
+            142,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ],
+      "method": "Original complete pose crops, one scale for entire row, constant203px ground baseline. No deterministic lift or character-art editing."
+    },
+    {
+      "ok": true,
+      "state": "running-left",
+      "scale": 0.296875,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            49,
+            16,
+            142,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            55,
+            15,
+            137,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            61,
+            14,
+            130,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            52,
+            16,
+            140,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            51,
+            15,
+            140,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            55,
+            13,
+            136,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 6,
+          "bbox": [
+            61,
+            14,
+            130,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 7,
+          "bbox": [
+            51,
+            16,
+            141,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ],
+      "method": "Original complete pose crops, one scale for entire row, constant203px ground baseline. No deterministic lift or character-art editing."
+    },
+    {
+      "state": "waving",
+      "scale": 0.2790014684287812,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            53,
+            14,
+            138,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            55,
+            13,
+            136,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            49,
+            14,
+            142,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            56,
+            13,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ]
+    },
+    {
+      "ok": true,
+      "state": "jumping",
+      "scale": 0.28273809523809523,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            58,
+            15,
+            133,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            57,
+            13,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            57,
+            14,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            57,
+            15,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            58,
+            15,
+            134,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ],
+      "method": "Original complete pose crops, one scale for entire row, constant203px ground baseline. No deterministic lift or character-art editing."
+    },
+    {
+      "state": "failed",
+      "scale": 0.2790014684287812,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            61,
+            13,
+            130,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            61,
+            13,
+            131,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            59,
+            14,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            62,
+            16,
+            130,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            58,
+            14,
+            133,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            57,
+            15,
+            134,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 6,
+          "bbox": [
+            61,
+            13,
+            130,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 7,
+          "bbox": [
+            62,
+            14,
+            130,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "scale": 0.27696793002915454,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            55,
+            13,
+            136,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            59,
+            13,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            59,
+            14,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            56,
+            14,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            56,
+            13,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            56,
+            13,
+            136,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "scale": 0.27259684361549497,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            59,
+            13,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            61,
+            14,
+            131,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            59,
+            14,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            58,
+            13,
+            134,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            58,
+            14,
+            133,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            61,
+            14,
+            130,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "scale": 0.2773722627737226,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            62,
+            13,
+            129,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            57,
+            14,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            56,
+            17,
+            136,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            54,
+            19,
+            137,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            61,
+            13,
+            131,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            63,
+            13,
+            129,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ]
+    }
+  ],
+  "jumping_state_semantics": "原地戏谑侧头与指尖轻勾，全程有支撑，无跳跃"
+}

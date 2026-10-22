@@ -1,0 +1,170 @@
+{
+  "ok": true,
+  "reviewed_by": "independent talisman_standard_qa",
+  "directions": [
+    {
+      "degree": "000",
+      "expected": "UP",
+      "observed": "UP",
+      "verdict": "pass",
+      "horizontal_evidence": "脸基本正中，双眼平衡",
+      "vertical_evidence": "抬下巴、睁眼瞳孔朝上，与neutral平视不同",
+      "reason": "头部与眼睛共同表达预期方向"
+    },
+    {
+      "degree": "022.5",
+      "expected": "UP-RIGHT",
+      "observed": "UP-RIGHT",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻口和瞳孔朝屏幕右",
+      "vertical_evidence": "目光仍偏上，脸不低俯",
+      "reason": "头部与眼睛共同表达预期方向"
+    },
+    {
+      "degree": "045",
+      "expected": "UP-RIGHT",
+      "observed": "UP-RIGHT",
+      "verdict": "warning",
+      "horizontal_evidence": "右向鼻部轮廓及目光",
+      "vertical_evidence": "仍上看，但与22.5较相似",
+      "reason": "正确象限，无反向；022.5与045步进细微"
+    },
+    {
+      "degree": "067.5",
+      "expected": "UP-RIGHT",
+      "observed": "UP-RIGHT",
+      "verdict": "pass",
+      "horizontal_evidence": "右向鼻尖前缘和瞳孔增加",
+      "vertical_evidence": "抬头减弱，仍略高于平视",
+      "reason": "头部与眼睛共同表达预期方向"
+    },
+    {
+      "degree": "090",
+      "expected": "RIGHT",
+      "observed": "RIGHT",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖前脸突出屏幕右，瞳孔右望",
+      "vertical_evidence": "接近水平，明确主轴",
+      "reason": "头部与眼睛共同表达预期方向"
+    },
+    {
+      "degree": "112.5",
+      "expected": "DOWN-RIGHT",
+      "observed": "DOWN-RIGHT",
+      "verdict": "pass",
+      "horizontal_evidence": "保留右向鼻部和目光",
+      "vertical_evidence": "开始前俯，紫眼睁开向下",
+      "reason": "头部与眼睛共同表达预期方向"
+    },
+    {
+      "degree": "135",
+      "expected": "DOWN-RIGHT",
+      "observed": "DOWN-RIGHT",
+      "verdict": "pass",
+      "horizontal_evidence": "脸和鼻口仍在中轴右侧",
+      "vertical_evidence": "低头增强，窄开眼眶虹膜朝下",
+      "reason": "头部与眼睛共同表达预期方向"
+    },
+    {
+      "degree": "157.5",
+      "expected": "DOWN-RIGHT",
+      "observed": "DOWN-RIGHT",
+      "verdict": "pass",
+      "horizontal_evidence": "右偏较135减弱但仍有右向轮廓",
+      "vertical_evidence": "低头最明显，紫虹膜朝下",
+      "reason": "头部与眼睛共同表达预期方向"
+    },
+    {
+      "degree": "180",
+      "expected": "向下，眼睛睁开",
+      "observed": "向下，眼睛睁开",
+      "verdict": "pass",
+      "horizontal_evidence": "正面脸部与双眼基本对称。",
+      "vertical_evidence": "低头，紫色虹膜在窄开的眼中可见，目光向下。",
+      "reason": "Independent native-size review: correct principal quadrant, no reversal."
+    },
+    {
+      "degree": "202.5",
+      "expected": "左下，偏下",
+      "observed": "左下，偏下",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻口及脸部向左偏移，右侧耳部露出。",
+      "vertical_evidence": "保持俯头及向下目光。",
+      "reason": "Independent native-size review: correct principal quadrant, no reversal."
+    },
+    {
+      "degree": "225",
+      "expected": "左下",
+      "observed": "左下",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻部朝左，右耳清楚，眼睛朝左。",
+      "vertical_evidence": "低俯，瞳孔向下，眼睛睁开。",
+      "reason": "Independent native-size review: correct principal quadrant, no reversal."
+    },
+    {
+      "degree": "247.5",
+      "expected": "偏左、略向下",
+      "observed": "偏左、略向下",
+      "verdict": "pass",
+      "horizontal_evidence": "前脸和鼻尖朝左突出。",
+      "vertical_evidence": "俯头较225减弱，仍保留下向目光。",
+      "reason": "Independent native-size review: correct principal quadrant, no reversal."
+    },
+    {
+      "degree": "270",
+      "expected": "向左",
+      "observed": "向左",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖、前脸及瞳孔明确朝左，近耳在右侧。",
+      "vertical_evidence": "脸部接近水平，眼睛平视。",
+      "reason": "Independent native-size review: correct principal quadrant, no reversal."
+    },
+    {
+      "degree": "292.5",
+      "expected": "偏左、略向上",
+      "observed": "偏左、略向上",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖及目光仍朝左，右耳露出。",
+      "vertical_evidence": "脸部抬起，瞳孔向上。",
+      "reason": "Independent native-size review: correct principal quadrant, no reversal."
+    },
+    {
+      "degree": "315",
+      "expected": "左上",
+      "observed": "左上",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻部与前脸仍偏左，近耳在右侧。",
+      "vertical_evidence": "抬头和上移瞳孔清晰。",
+      "reason": "Independent native-size review: correct principal quadrant, no reversal."
+    },
+    {
+      "degree": "337.5",
+      "expected": "左上，接近正上",
+      "observed": "左上，接近正上",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖与前脸朝左，右侧近耳可见，瞳孔朝上并偏左，没有旧版右向线索。",
+      "vertical_evidence": "后仰并双眼向上，眼睛睁开。",
+      "reason": "Independent native-size review: correct principal quadrant, no reversal."
+    }
+  ],
+  "crossrow_continuity": {
+    "157.5_to_180": {
+      "status": "warning",
+      "reason": "右下到正下连续；180头顶约高8至10px，正面头发更宽，轻微轮廓接缝；脸部身体比例接近，脚位无跳动。"
+    },
+    "315_to_337.5": {
+      "status": "pass",
+      "reason": "鼻尖瞳孔近耳保持同侧，向上程度增加，无方向反转。"
+    },
+    "337.5_to_000": {
+      "status": "warning",
+      "reason": "左上到正上正确，头顶与发型轮廓轻微接缝，无明显身体或锚点跳变。"
+    }
+  },
+  "accepted_minor_warnings": [
+    "第10行头顶较第9行高约8至10px，跨行轻微头发轮廓接缝。",
+    "315与337.5水平转角差异较弱，但均为正确左上象限。",
+    "第10行头顶距帧边约4至6px，未裁切。",
+    "尚未验证动态播放器UI。"
+  ]
+}

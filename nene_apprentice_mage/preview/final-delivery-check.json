@@ -1,0 +1,104 @@
+{
+  "ok": true,
+  "pet_id": "nene_apprentice_mage",
+  "checked_at": "2026-10-22T12:39:07.238251+00:00",
+  "atlas_sha256": "be4da176880b173f4ea9d1423fb1012e89302ee0bba8b3cb284c5d28ad0f822f",
+  "native_app_version": "26.1016.8120.0",
+  "states": 9,
+  "gaze_directions": 16,
+  "previews": [
+    {
+      "name": "idle",
+      "frames": 6,
+      "total_duration_ms": 1100
+    },
+    {
+      "name": "running-right",
+      "frames": 8,
+      "total_duration_ms": 1060
+    },
+    {
+      "name": "running-left",
+      "frames": 8,
+      "total_duration_ms": 1060
+    },
+    {
+      "name": "waving",
+      "frames": 4,
+      "total_duration_ms": 700
+    },
+    {
+      "name": "jumping",
+      "frames": 5,
+      "total_duration_ms": 840
+    },
+    {
+      "name": "failed",
+      "frames": 8,
+      "total_duration_ms": 1220
+    },
+    {
+      "name": "waiting",
+      "frames": 6,
+      "total_duration_ms": 1010
+    },
+    {
+      "name": "running",
+      "frames": 6,
+      "total_duration_ms": 820
+    },
+    {
+      "name": "review",
+      "frames": 6,
+      "total_duration_ms": 1030
+    },
+    {
+      "name": "look-directions",
+      "frames": 16,
+      "total_duration_ms": 3200
+    },
+    {
+      "name": "animation-overview",
+      "frames": 17,
+      "total_duration_ms": 1680
+    }
+  ],
+  "local_links": 116,
+  "portrait_exact_idle_pixels": true,
+  "protected_existing_files": 625,
+  "unchanged_existing_files": 598,
+  "externally_modified_existing_readmes": [
+    "nene_aqua_floral/README.md",
+    "nene_butterfly_stage/README.md",
+    "nene_butterfly_stage/preview/README.md",
+    "nene_cat_traveler/README.md",
+    "nene_chinoiserie/README.md",
+    "nene_circus_stage/README.md",
+    "nene_circus_stage/preview/README.md",
+    "nene_classical_lolita/README.md",
+    "nene_country_casual/README.md",
+    "nene_country_casual/preview/README.md",
+    "nene_feather_stage/README.md",
+    "nene_feather_stage/preview/README.md",
+    "nene_gothic_couture/README.md",
+    "nene_herringbone_suit/README.md",
+    "nene_ivory_bridal/README.md",
+    "nene_kuchipatchi_casual/README.md",
+    "nene_kuchipatchi_casual/preview/README.md",
+    "nene_mint_chocolate/README.md",
+    "nene_robo/README.md",
+    "nene_robo/preview/README.md",
+    "nene_school_uniform/README.md",
+    "nene_school_uniform/preview/README.md",
+    "nene_talisman_qipao/README.md",
+    "nene_victorian_lolita/README.md",
+    "nene_victorian_lolita/preview/README.md",
+    "nene_vintage_lady/README.md",
+    "nene_vintage_lady/preview/README.md"
+  ],
+  "existing_import_files_unchanged": true,
+  "installed": false,
+  "github_uploaded": false,
+  "release_published": false,
+  "application_ui_verified": false
+}

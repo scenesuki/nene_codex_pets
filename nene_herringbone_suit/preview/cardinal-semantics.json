@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "reviewed_by": "parent native192x208 four-anchor strip",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "horizontal": "frontal",
+      "vertical": "Chin raised, eye apertures and violet gaze aim upward."
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "horizontal": "Nose silhouette and eye line unmistakably screen-right.",
+      "vertical": "Level head pitch."
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "horizontal": "Near-frontal",
+      "vertical": "Chin lowered, crown revealed, eyelids and visible eyes downward."
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "horizontal": "Nose and violet gaze screen-left, opposite090.",
+      "vertical": "Level pitch."
+    }
+  ],
+  "body": "Crossed stance, raised viewer-left arm, viewer-right lapel and long ponytail preserved.",
+  "anchor_provenance": {
+    "000": "decoded/look-cardinals.png",
+    "090": "decoded/look-anchor-090.png",
+    "180": "decoded/look-cardinals.png",
+    "270": "decoded/look-cardinals.png"
+  },
+  "note": "090 reference anchor repaired before coherent final row synthesis; no individual final cells replaced."
+}

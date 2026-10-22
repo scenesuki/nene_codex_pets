@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "operation": "install_all_local_and_cloud",
+  "installed": true,
+  "installed_at": "2026-10-22T08:24:59.8469464Z",
+  "checked_at": "2026-10-22T08:31:14.442Z",
+  "pet_id": "nene_chinoiserie",
+  "display_name": "宁宁 · 新中式礼装",
+  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_chinoiserie",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "directory_absent": false,
+  "source_files_match": true,
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "manifest_sha256": "aa3c39f8a47a522b792ae6766106dbfdcd6340613b6d5170cc2fe500309be106",
+  "spritesheet_sha256": "46b1f123c1cbce0d5ef615fa2543905dea2b2dd99d021a7e8984baf3a800eca7",
+  "cloud_pet_id": "pet_6ad9c8c9f4a481919fd1c7a596177c0f",
+  "cloud_sprite_preflight_valid": true,
+  "cloud_creation_confirmed": true,
+  "cloud_metadata_verified": true,
+  "cloud_collection_nene_count": 18,
+  "cloud_duplicate_names": false,
+  "active_pet_preserved": true,
+  "selection_settings_modified": false,
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "method": "Exact current workspace files copied to local pets directory and SHA-256 verified; exact atlas passed Pets preflight and upload session creation; complete cloud inventory read back."
+}

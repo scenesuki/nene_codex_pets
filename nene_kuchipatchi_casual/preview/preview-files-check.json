@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "checked_on": "2026-10-22",
+  "pet_id": "nene_kuchipatchi_casual",
+  "spritesheet_sha256": "ef06347b6c104f0f79af365ec63ddc0bc4299e0ce5fcdc23d78583dac4bcf0d2",
+  "readme_portrait_rgba_exact": true,
+  "neutral_cell_exact": true,
+  "all_gifs_fully_decoded": true,
+  "gifs": [
+    {
+      "file": "preview/idle.gif",
+      "frames": 6,
+      "duration_ms": 1100,
+      "sha256": "f6f6feee2a0e64a89cdc6c091715a06e6876c70be0282f810adbc90cdbc122c7"
+    },
+    {
+      "file": "preview/running-right.gif",
+      "frames": 8,
+      "duration_ms": 1060,
+      "sha256": "eea70f712481d55fe920a2fdeab758231d4d9a663c74c4d1a2d55bf0a070e66d"
+    },
+    {
+      "file": "preview/running-left.gif",
+      "frames": 8,
+      "duration_ms": 1060,
+      "sha256": "ad449ca130bc0d4d2f4ce91f4f35a1e2e1844b959e502abce54f330be8132189"
+    },
+    {
+      "file": "preview/waving.gif",
+      "frames": 4,
+      "duration_ms": 700,
+      "sha256": "e428125fcbe3c70fd2e99d1c13916f12017b4a49b35e952cdbed2750f2bf9fd6"
+    },
+    {
+      "file": "preview/jumping.gif",
+      "frames": 5,
+      "duration_ms": 840,
+      "sha256": "909e8c588ad5ad9a5e83548f037b4b79bb7eff4a74aea77afb0786d5f84d1086"
+    },
+    {
+      "file": "preview/failed.gif",
+      "frames": 8,
+      "duration_ms": 1220,
+      "sha256": "3a045edff96a71411e6bfd58a5b0f46b2c67472ddc780b68d10307434983a43d"
+    },
+    {
+      "file": "preview/waiting.gif",
+      "frames": 6,
+      "duration_ms": 1010,
+      "sha256": "51006124efa8842e3afd5cb913cd84bd6143ed61591d2e3c3bbf74c024a967ef"
+    },
+    {
+      "file": "preview/running.gif",
+      "frames": 6,
+      "duration_ms": 820,
+      "sha256": "613d5f440cc25429eea62ad0e4046061a60a2a92450bf5eb70b7d826210cc2bc"
+    },
+    {
+      "file": "preview/review.gif",
+      "frames": 6,
+      "duration_ms": 1030,
+      "sha256": "63519f49b816256aa228f5c6787c3f3814de66f393bcdb717426fb5ce37323b7"
+    },
+    {
+      "file": "preview/look-directions.gif",
+      "frames": 16,
+      "duration_ms": 3840,
+      "sha256": "91842c6b6dc13c1e4aac1387fbae3187c057ec3b0f1f12da770e2cc59475a58c"
+    },
+    {
+      "file": "preview/animation-overview.gif",
+      "frames": 17,
+      "duration_ms": 1680,
+      "sha256": "02aeaa1f552b9808384004b12a83713099ddd459070c2994615db4922c80bdd1"
+    }
+  ],
+  "local_links_checked": 129,
+  "material_hashes_checked": 121,
+  "edo_original_unchanged": true,
+  "installed": false,
+  "application_ui_verified": false
+}

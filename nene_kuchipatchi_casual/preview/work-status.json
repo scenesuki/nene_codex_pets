@@ -1,0 +1,15 @@
+{
+  "status": "complete-local-not-installed",
+  "pet_id": "nene_kuchipatchi_casual",
+  "approved_base": "source/decoded/base-edo-outfit-transfer.png",
+  "spritesheet_sha256": "ef06347b6c104f0f79af365ec63ddc0bc4299e0ce5fcdc23d78583dac4bcf0d2",
+  "animation_states": 9,
+  "gaze_directions": 16,
+  "file_validation": "pass",
+  "visual_review": "pass with minor limits",
+  "actual_size_browser_playback": "pass",
+  "application_ui_verified": false,
+  "installed": false,
+  "current_pet_changed": false,
+  "published": false
+}

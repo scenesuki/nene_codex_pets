@@ -1,0 +1,116 @@
+{
+  "reviewed_by": "parent observed filesystem comparison",
+  "scope": "This revision writes only nene_herringbone_suit and its root catalog style/status. Other pet paths are not written or restored by this task.",
+  "changes": [
+    {
+      "path": "nene_kuchipatchi_casual/README.md",
+      "before": "0355d2f844a14fed8c773fcfaed76f0575870d5eecc9ee96d9059489cf8b0fb1",
+      "current": "1e1e621a464a17811f3183e008f947a37be20a1a742b8720e2b46fffebb96d0d"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/spritesheet.webp",
+      "before": "9172766fdc7cd5041f74a68e732ce593f2e75630926941afb4ce0e63c442b291",
+      "current": "ef06347b6c104f0f79af365ec63ddc0bc4299e0ce5fcdc23d78583dac4bcf0d2"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/validation.json",
+      "before": "20aa7e47ab2f306fab286fc539d03ceb915138bad3ca86ab6fcbca78eab09c31",
+      "current": "17a1ec04c1681ffdd857a5e190e30616172efd62383e7f1f47d6a60f433a5d67"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/animation-overview.gif",
+      "before": "87f4babaadd89b02cffd827b507cf3503c3b7cbe0ef7135930f12a757234124c",
+      "current": "02aeaa1f552b9808384004b12a83713099ddd459070c2994615db4922c80bdd1"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/app-loader-validation.json",
+      "before": "dcaae5a2acdbce6bfc70887b5b76d849eb28ca42bac37ba13d31b14ce3ff7d3a",
+      "current": "d309799034b6e0aeebaad0aedd91813fff77550599f4df693a3c06c457a869e1"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/contact-sheet.png",
+      "before": "c48dea18661fb0eba748a48e675cb0b3a14fa831e1db99dd7248846519bc0a46",
+      "current": "6fe69e5c63fe5106aa86d3c7e15a8407965488ebc71c3b1bc459ee31e8eff03a"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/failed.gif",
+      "before": "58769ef51b1eaed713ff38e6d58000d09bb2cc77cbbc21ddcef7b625ff295a33",
+      "current": "3a045edff96a71411e6bfd58a5b0f46b2c67472ddc780b68d10307434983a43d"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/idle.gif",
+      "before": "5dec5525b1c5814c31e20071db37bee4787dc0a008324f3f2f08b94b57a03d71",
+      "current": "f6f6feee2a0e64a89cdc6c091715a06e6876c70be0282f810adbc90cdbc122c7"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/jumping.gif",
+      "before": "2d8a56b3bc0d50d243b978fb4e7972fe19d382b5d7640b8c8eb7cc9f3890f962",
+      "current": "909e8c588ad5ad9a5e83548f037b4b79bb7eff4a74aea77afb0786d5f84d1086"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/look-directions.gif",
+      "before": "b329c0613ee350f8ae930f92700f030256291b5a7a9c994899876177b3ba4b48",
+      "current": "91842c6b6dc13c1e4aac1387fbae3187c057ec3b0f1f12da770e2cc59475a58c"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/look-directions.png",
+      "before": "23527634f180bf64fe4f93fafdb6c45c35be525f2a389cad6cd4036508c4669f",
+      "current": "4c8041528a9a9be5a6cc343a26ca3e431cb61dec64fee4c6b30505d7a31b3d23"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/readme-portrait.png",
+      "before": "8d0b7c79b3c2afa1e75099ea07338d34f6d6328f9cfa7baae5a45f593f446ef9",
+      "current": "3f25e3b8cd81e381cbe8fa1250cac8159a6b06646a8f7e3db00743e087c15a72"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/README.md",
+      "before": "385703022903df0d216a797319d7f3a7a1db1a265426c80e279ee9c96ee2866f",
+      "current": "f3fae308cb464bbfc454591bf66c8cfe24ddf6cf2a4a22e083b1701b930416dc"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/registration.json",
+      "before": "a2197b6fa0071fe63c88cdd6c8dbad72a4f36e5ef24ced4451136e133667f114",
+      "current": "59d4c947e814c33bab633a6bbd051869565da479b471f0feee0b74d68ea01c77"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/review.gif",
+      "before": "92c7f2565a4b5652228568e7a9409d832cd5e1207a3a4dd66a009fa45fbdc893",
+      "current": "63519f49b816256aa228f5c6787c3f3814de66f393bcdb717426fb5ce37323b7"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/running-left.gif",
+      "before": "a924bf258ec89ef43303d754ae887275954310b36240da785d5dc73e2cc51d8b",
+      "current": "ad449ca130bc0d4d2f4ce91f4f35a1e2e1844b959e502abce54f330be8132189"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/running-right.gif",
+      "before": "08a2ebabd9dbd5c46751b12f36bc4663dc308dcdab471dffbab3fb4c3742738b",
+      "current": "eea70f712481d55fe920a2fdeab758231d4d9a663c74c4d1a2d55bf0a070e66d"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/running.gif",
+      "before": "404c1b62c353b2ce137830b64c0f60709c077ea782af954b79a95f0efb0f7d0b",
+      "current": "613d5f440cc25429eea62ad0e4046061a60a2a92450bf5eb70b7d826210cc2bc"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/waiting.gif",
+      "before": "d2239ef8fedf6ed609e58e61bff3a76418673ce310ccb7aaf48cb6d334598cdd",
+      "current": "51006124efa8842e3afd5cb913cd84bd6143ed61591d2e3c3bbf74c024a967ef"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/waving.gif",
+      "before": "94db5d609f4c953634eb2ae99faf612a8c68d46714cdd210be14f45e78f21903",
+      "current": "e428125fcbe3c70fd2e99d1c13916f12017b4a49b35e952cdbed2750f2bf9fd6"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/preview/work-status.json",
+      "before": "e4cec87ff27e83f985a9e48dd1f3d3e15afdab36686eb48c73f6263860f749f0",
+      "current": "e91190d28df2baa56598d1ff4b30d6fdd612601e5f4883aa5c15c5e1cfc44ea0"
+    },
+    {
+      "path": "nene_kuchipatchi_casual/source/materials-index.json",
+      "before": "3691919049a91051a3f6e135bafc1232267e1164e9badd05bb248d41fd89f5b4",
+      "current": "c2dfd953f1fb748e35d4d6f98d834b2b96fbf439bc2d6b85ff8a8360d2da0e0b"
+    }
+  ]
+}

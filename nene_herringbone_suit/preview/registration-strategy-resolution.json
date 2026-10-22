@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "reviewed_by": "parent",
+  "neutral_source": "registered idle first frame, exact atlas fallback",
+  "explicit_neutral_cell_omitted": true,
+  "reason": "The192x208 idle frame already has a190px body and203px foot baseline. Passing it as external neutral would refit it again; native default atlas fallback preserves original cell geometry.",
+  "look_row_10": "Reuses protected row9 scale and cells exactly.",
+  "application_pointer_deadzone": "Installed runtime returns null to use current standard animation; compatibilityneutralcell is not claimed as a live renderer slot."
+}

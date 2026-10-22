@@ -1,0 +1,205 @@
+{
+  "ok": true,
+  "atlas_sha256": "f98e51981a445e405546f7c4a991521717c79c9a11022d4a874cc0c1c6d531f6",
+  "note": "Every blindcell RGB exactly matches originalRGBA finalcell composited against nativeblindbackground. No empty figures; isolated missing-character perception is not an asset defect.",
+  "cells": [
+    {
+      "pair": "horizontal-1",
+      "slot": "A",
+      "direction": "337.5",
+      "sprite_alpha_pixels": 7352,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-1",
+      "slot": "B",
+      "direction": "022.5",
+      "sprite_alpha_pixels": 7855,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-2",
+      "slot": "A",
+      "direction": "045",
+      "sprite_alpha_pixels": 7927,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-2",
+      "slot": "B",
+      "direction": "315",
+      "sprite_alpha_pixels": 7516,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-3",
+      "slot": "A",
+      "direction": "292.5",
+      "sprite_alpha_pixels": 7413,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-3",
+      "slot": "B",
+      "direction": "067.5",
+      "sprite_alpha_pixels": 8028,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-4",
+      "slot": "A",
+      "direction": "090",
+      "sprite_alpha_pixels": 7893,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-4",
+      "slot": "B",
+      "direction": "270",
+      "sprite_alpha_pixels": 7422,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-5",
+      "slot": "A",
+      "direction": "247.5",
+      "sprite_alpha_pixels": 7422,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-5",
+      "slot": "B",
+      "direction": "112.5",
+      "sprite_alpha_pixels": 7666,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-6",
+      "slot": "A",
+      "direction": "225",
+      "sprite_alpha_pixels": 7530,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-6",
+      "slot": "B",
+      "direction": "135",
+      "sprite_alpha_pixels": 7569,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-7",
+      "slot": "A",
+      "direction": "157.5",
+      "sprite_alpha_pixels": 7762,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "horizontal-7",
+      "slot": "B",
+      "direction": "202.5",
+      "sprite_alpha_pixels": 7412,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-1",
+      "slot": "A",
+      "direction": "000",
+      "sprite_alpha_pixels": 7752,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-1",
+      "slot": "B",
+      "direction": "180",
+      "sprite_alpha_pixels": 7285,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-2",
+      "slot": "A",
+      "direction": "157.5",
+      "sprite_alpha_pixels": 7762,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-2",
+      "slot": "B",
+      "direction": "022.5",
+      "sprite_alpha_pixels": 7855,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-3",
+      "slot": "A",
+      "direction": "135",
+      "sprite_alpha_pixels": 7569,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-3",
+      "slot": "B",
+      "direction": "045",
+      "sprite_alpha_pixels": 7927,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-4",
+      "slot": "A",
+      "direction": "067.5",
+      "sprite_alpha_pixels": 8028,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-4",
+      "slot": "B",
+      "direction": "112.5",
+      "sprite_alpha_pixels": 7666,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-5",
+      "slot": "A",
+      "direction": "202.5",
+      "sprite_alpha_pixels": 7412,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-5",
+      "slot": "B",
+      "direction": "337.5",
+      "sprite_alpha_pixels": 7352,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-6",
+      "slot": "A",
+      "direction": "225",
+      "sprite_alpha_pixels": 7530,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-6",
+      "slot": "B",
+      "direction": "315",
+      "sprite_alpha_pixels": 7516,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-7",
+      "slot": "A",
+      "direction": "292.5",
+      "sprite_alpha_pixels": 7413,
+      "matches_final_cell": true
+    },
+    {
+      "pair": "vertical-7",
+      "slot": "B",
+      "direction": "247.5",
+      "sprite_alpha_pixels": 7422,
+      "matches_final_cell": true
+    }
+  ],
+  "inherited_from_atlas_sha256": "1a99b193423e0d3eac6264a649c7a79f032f8670f3b1b81fdb2f498006f5a71e",
+  "motion_revision_note": "All16lookcells pixel-identical; original28blindcells remain exactly valid."
+}

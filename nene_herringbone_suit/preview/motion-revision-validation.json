@@ -1,0 +1,289 @@
+{
+  "ok": true,
+  "before_atlas_sha256": "1a99b193423e0d3eac6264a649c7a79f032f8670f3b1b81fdb2f498006f5a71e",
+  "after_atlas_sha256": "f98e51981a445e405546f7c4a991521717c79c9a11022d4a874cc0c1c6d531f6",
+  "changed_rows": [
+    1,
+    2,
+    4
+  ],
+  "preserved_rows": [
+    0,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "look_directions_pixel_identical": true,
+  "old_cleaned_pixels_reprocessed": false,
+  "visual_qa": {
+    "visual_qa": "pass",
+    "reviewed_by": "fresh independent final motion reviewer;canonical,contact,three actualfinalGIFfilmstrips and validation/preservation reports",
+    "atlas_sha256": "f98e51981a445e405546f7c4a991521717c79c9a11022d4a874cc0c1c6d531f6",
+    "states": {
+      "running-left": {
+        "verdict": "pass",
+        "observed": "八帧形成交替迈步，双腿经过靠拢位置，膝与手臂低位，无明显腾空，身份服饰一致。",
+        "loop": "末首姿态相容，120ms×7+220ms循环成立。"
+      },
+      "running-right": {
+        "verdict": "pass",
+        "observed": "八帧支撑腿交替可辨，步幅低摆臂形成普通行走，无高抬膝和奔跑腾空。",
+        "loop": "末首自然，120ms×7+220ms与左向一致。"
+      },
+      "jumping": {
+        "verdict": "pass",
+        "observed": "站立交叉腿、轻侧头与唇边指尖狡黠动作；支撑脚稳定，后脚保持原姿态，无起跳全身腾空或落地。",
+        "loop": "五帧微动作闭合，末帧后恢复首帧可接受。"
+      }
+    },
+    "matching_directions": "左右步幅、低膝、低摆臂与播放节奏一致，均为从容普通行走。",
+    "accepted_minor_warnings": [
+      "发丝与衣饰有轻微帧间细节变化，不影响身份动作辨识。",
+      "末帧220ms停留造成轻微节奏顿点，符合应用实际时序。"
+    ],
+    "major_issues": [],
+    "repair_note": "仅图集行1/2/4改变，其余六状态与十六方向逐像素保留；格式透明度和色键检查通过，无需返修。"
+  },
+  "registration": [
+    {
+      "ok": true,
+      "state": "running-right",
+      "scale": 0.3064516129032258,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            48,
+            13,
+            143,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            52,
+            13,
+            139,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            59,
+            13,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            47,
+            14,
+            144,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            49,
+            14,
+            143,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            53,
+            13,
+            139,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 6,
+          "bbox": [
+            59,
+            14,
+            132,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 7,
+          "bbox": [
+            49,
+            13,
+            142,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ],
+      "method": "Original complete pose crops, one scale for entire row, constant203px ground baseline. No deterministic lift or character-art editing."
+    },
+    {
+      "ok": true,
+      "state": "running-left",
+      "scale": 0.296875,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            49,
+            16,
+            142,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            55,
+            15,
+            137,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            61,
+            14,
+            130,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            52,
+            16,
+            140,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            51,
+            15,
+            140,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 5,
+          "bbox": [
+            55,
+            13,
+            136,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 6,
+          "bbox": [
+            61,
+            14,
+            130,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 7,
+          "bbox": [
+            51,
+            16,
+            141,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ],
+      "method": "Original complete pose crops, one scale for entire row, constant203px ground baseline. No deterministic lift or character-art editing."
+    },
+    {
+      "ok": true,
+      "state": "jumping",
+      "scale": 0.28273809523809523,
+      "frames": [
+        {
+          "frame": 0,
+          "bbox": [
+            58,
+            15,
+            133,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 1,
+          "bbox": [
+            57,
+            13,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 2,
+          "bbox": [
+            57,
+            14,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 3,
+          "bbox": [
+            57,
+            15,
+            135,
+            203
+          ],
+          "foot_lift_px": 0
+        },
+        {
+          "frame": 4,
+          "bbox": [
+            58,
+            15,
+            134,
+            203
+          ],
+          "foot_lift_px": 0
+        }
+      ],
+      "method": "Original complete pose crops, one scale for entire row, constant203px ground baseline. No deterministic lift or character-art editing."
+    }
+  ],
+  "animation_timing": "Use installed app native row durations; pet.json has no playback speed override. Small ordinary walking stride, no running/high-knee poses.",
+  "jumping_mapping": "Native state name retained for format compatibility; rendered action is grounded head/finger gesture."
+}

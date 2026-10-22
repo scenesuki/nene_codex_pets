@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "installed": true,
+  "source_files_match": true,
+  "installed_at": "2026-10-22T06:41:25.1113061Z",
+  "updated_at": "2026-10-22T07:13:09.5171159Z",
+  "checked_at": "2026-10-22T07:13:10.422Z",
+  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_herringbone_suit",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "id": "custom:nene_herringbone_suit",
+  "display_name": "宁宁 · 橙纹西装",
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "format": "webp",
+  "manifest_sha256": "411ac0ba49fe9167536d606e2517690bd047dff00d6ad4c3a478ce4ae677ebf2",
+  "spritesheet_sha256": "f98e51981a445e405546f7c4a991521717c79c9a11022d4a874cc0c1c6d531f6",
+  "app_version": "26.1016.6573.0",
+  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1016.6573.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-CsH31EEu.js",
+  "app_validator_module_sha256": "6a266611954c6f0c72aca09bb13c0c793959a69e8d6330778a7cdef21835a1db",
+  "method": "Installed two top-level files; byte-for-byte comparison with workspace and read-only replay of actual installed-app image/version and path validators; no app UI action",
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "current_pet_changed": false
+}

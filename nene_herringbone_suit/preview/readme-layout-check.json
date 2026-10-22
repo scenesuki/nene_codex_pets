@@ -1,0 +1,410 @@
+{
+  "ok": true,
+  "method": "Local marked-rendered GitHub-like Markdown in installed Chromium; agent-browser CLI unavailable, bundled Playwright fallback; no online GitHub rendering",
+  "tested_viewports": [
+    1280,
+    390
+  ],
+  "readme_static_images_verified": true,
+  "no_page_horizontal_overflow": true,
+  "default_collapsed_details_verified": true,
+  "results": [
+    {
+      "page": "catalog",
+      "width": 1280,
+      "viewport": 1280,
+      "documentWidth": 1280,
+      "images": [
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_herringbone_suit/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_gothic_couture/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_kuchipatchi_casual/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_cat_traveler/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_talisman_qipao/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_aqua_floral/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_mint_chocolate/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_ivory_bridal/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_school_uniform/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_robo/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_feather_stage/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_butterfly_stage/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_country_casual/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_vintage_lady/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_circus_stage/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_victorian_lolita/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_classical_lolita/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_chinoiserie/preview/readme-portrait.png"
+        }
+      ],
+      "details": [
+        false,
+        false,
+        false
+      ],
+      "details_toggle_verified": true
+    },
+    {
+      "page": "catalog",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "images": [
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_herringbone_suit/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_gothic_couture/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_kuchipatchi_casual/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_cat_traveler/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_talisman_qipao/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_aqua_floral/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_mint_chocolate/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_ivory_bridal/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_school_uniform/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_robo/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_feather_stage/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_butterfly_stage/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_country_casual/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_vintage_lady/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 133.75,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_circus_stage/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_victorian_lolita/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_classical_lolita/preview/readme-portrait.png"
+        },
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "nene_chinoiserie/preview/readme-portrait.png"
+        }
+      ],
+      "details": [
+        false,
+        false,
+        false
+      ],
+      "details_toggle_verified": true
+    },
+    {
+      "page": "pet",
+      "width": 1280,
+      "viewport": 1280,
+      "documentWidth": 1280,
+      "images": [
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "preview/readme-portrait.png"
+        }
+      ],
+      "details": [
+        false,
+        false
+      ],
+      "details_toggle_verified": true
+    },
+    {
+      "page": "pet",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "images": [
+        {
+          "ok": true,
+          "width": 144,
+          "natural": [
+            192,
+            208
+          ],
+          "src": "preview/readme-portrait.png"
+        }
+      ],
+      "details": [
+        false,
+        false
+      ],
+      "details_toggle_verified": true
+    }
+  ],
+  "application_ui_verified": false
+}

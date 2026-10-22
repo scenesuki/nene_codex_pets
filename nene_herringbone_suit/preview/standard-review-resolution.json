@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "decision": "accept",
+  "reviewed_by": "parent and independent standard reviewer",
+  "evidence": [
+    "qa/standard-visual-qa.json",
+    "qa/right-gait-acceptance.json",
+    "qa/gait-left-opposite-qa.json"
+  ],
+  "note": "Both left and right now use matching ordinary low-step walks; previous directional-gait acceptance is superseded. Jump slot now grounded gesture.",
+  "accepted_minor_warnings": [
+    "Two-phase directional movement with brief held final frame.",
+    "Review crossed-to-close stance transition is quick but readable."
+  ],
+  "superseded_states": [
+    "running-right",
+    "running-left",
+    "jumping"
+  ],
+  "current_motion_record": "motion-revision-validation.json"
+}

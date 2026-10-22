@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-10-22",
+  "archive": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1016.6573.0_x64__2p2nqsd0c76g0\\app\\resources\\app.asar",
+  "entries": {
+    ".vite/build/src-CsH31EEu.js": {
+      "sha256": "6a266611954c6f0c72aca09bb13c0c793959a69e8d6330778a7cdef21835a1db",
+      "excerpts": {
+        "spriteVersionNumber": "ion:t.N().nullish().transform(e=>e?.trim()||null),spriteVersionNumber:t.I([t.w(1),t.w(2)]).default(1),spritesheetPath:t.N().trim().min(1).default(`spritesheet.webp`)});async function sJ({appServerClient:e,preferWsl:t=!1}){let n=o.lt({preferWsl:t}),r=await e.platformPath(),i=r.join(n,`pets`),a=r.join(n,`avatars`);try{await U.mkdir(i,{recursive:!0},e)}catch{return{avatarDirectory:i,avatars:[]}}let[s,c]=await Promise.all([dJ(r,e,a,`avatar.json`).catch(()=>[]),dJ(r,e,i,`pet.json`)]),l=new Map(s.map(e=>[e.id,e]));for(let e of c)l.set(e.id,e);return{avatarDirectory:i,avatars:[...l.values()].sort((e,t)=>(t.updatedAt??0)-(e.updatedAt??0))}}async function cJ({appServerClient:e,avatarId:t,preferWsl:n=!1}){let r=t.startsWith(`custom:`)?t.slice(7):``;if(!r)return null;let i=o.lt({preferWsl:n}),a=await e.platformPath();return await fJ(a,e,a.join(i,`pets`),r,`pet.json`)??fJ(a,e,a.join(i,`avatars`),r,`avatar.json`)}function lJ(e,t=1){let n=hJ(e),r=t===1?rJ:iJ;return n==null||n.width!==nJ||n.height!==r?null:{extension:n.mimeType===`image/png`?`png`:`webp`,spriteVersionNumber:t,spritesheetDataUrl:`data:${n.mimeType};base64,${e.toString(`base64`)}`}}async function uJ({appServerClient:e,name:t,description:n,preferWsl:r=!1,spritesheet:i}){let a=await e.platformPath(),s=o.lt({preferWsl:r}),c=a.join(s,`pets`);await U.mkdir(c,{recursive:!0},e);let l=m",
+        "spritesheetPath": "riteVersionNumber:t.I([t.w(1),t.w(2)]).default(1),spritesheetPath:t.N().trim().min(1).default(`spritesheet.webp`)});async function sJ({appServerClient:e,preferWsl:t=!1}){let n=o.lt({preferWsl:t}),r=await e.platformPath(),i=r.join(n,`pets`),a=r.join(n,`avatars`);try{await U.mkdir(i,{recursive:!0},e)}catch{return{avatarDirectory:i,avatars:[]}}let[s,c]=await Promise.all([dJ(r,e,a,`avatar.json`).catch(()=>[]),dJ(r,e,i,`pet.json`)]),l=new Map(s.map(e=>[e.id,e]));for(let e of c)l.set(e.id,e);return{avatarDirectory:i,avatars:[...l.values()].sort((e,t)=>(t.updatedAt??0)-(e.updatedAt??0))}}async function cJ({appServerClient:e,avatarId:t,preferWsl:n=!1}){let r=t.startsWith(`custom:`)?t.slice(7):``;if(!r)return null;let i=o.lt({preferWsl:n}),a=await e.platformPath();return await fJ(a,e,a.join(i,`pets`),r,`pet.json`)??fJ(a,e,a.join(i,`avatars`),r,`avatar.json`)}function lJ(e,t=1){let n=hJ(e),r=t===1?rJ:iJ;return n==null||n.width!==nJ||n.height!==r?null:{extension:n.mimeType===`image/png`?`png`:`webp`,spriteVersionNumber:t,spritesheetDataUrl:`data:${n.mimeType};base64,${e.toString(`base64`)}`}}async function uJ({appServerClient:e,name:t,description:n,preferWsl:r=!1,spritesheet:i}){let a=await e.platformPath(),s=o.lt({preferWsl:r}),c=a.join(s,`pets`);await U.mkdir(c,{recursive:!0},e);let l=mJ(t,new Set(await U.readdir(c,e))),u=a.join(c,l),d=a"
+      }
+    },
+    "webview/assets/app-initial-2b6b8063022d.js": {
+      "sha256": "6cb0ab2a8d03a47f95c4df668aa8e5a3004e42614a7d596cb239442344f1a497",
+      "excerpts": {
+        "version:2,width:1536": "ws:9,requiredFramesByRow:[6,8,8,4,5,8,6,6,6]},W1={version:2,width:1536,height:2288,cellWidth:192,cellHeight:208,columns:8,rows:11,requiredFramesByRow:[6,8,8,4,5,8,6,6,6,8,8]},Ytc=[Jtc,W1]})))()}function Ztc(e,t,n=!1){let r=anc[e];if(t)return{frames:[Qtc(r,0)],loopStartIndex:null};if(e===`idle`)return{frames:inc,loopStartIndex:0};if(n)return{frames:r,loopStartIndex:0};let i=[...r,...r,...r];return{frames:[...i,...inc],loopStartIndex:i.length}}function Qtc(e,t){let n=e[t];if(n==null)throw RangeError(`Codex pet animation frame is out of range`);return n}function $tc(e,t,n,r){return Array.from({length:t},(i,a)=>({columnIndex:a,frameDurationMs:a===t-1?r:n,rowIndex:e}))}function enc(e,t){return`${e.columnIndex/(tnc-1)*100}% ${t==null?`calc(-${e.rowIndex} * var(--codex-pet-frame-height))`:`${e.rowIndex/(t-1)*100}%`}`}var tnc,nnc,rnc,inc,anc;function onc(){return(onc=t((()=>{Xtc(),tnc=W1.columns,nnc=6,rnc=[{rowIndex:0,columnIndex:0,frameDurationMs:280},{rowIndex:0,columnIndex:1,frameDurationMs:110},{rowIndex:0,columnIndex:2,frameDurationMs:110},{rowIndex:0,columnIndex:3,frameDurationMs:140},{rowIndex:0,columnIndex:4,frameDurationMs:140},{rowIndex:0,columnIndex:5,frameDurationMs:320}],inc=rnc.map(e=>({...e,frameDurationMs:e.frameDurationMs*nnc})),anc={failed:$tc(5,8,140,240),idle:rnc,jumping:$tc(4,5,140,280),review:$tc(8,6,150,280),runni",
+        "spriteVersionNumber": "tRef:e.assetRef}:{petId:e.id,spriteRowCount:Unc(e.spriteVersionNumber),spritesheetUrl:e.spritesheetUrl}}function Ync(e,t,n){return(e==null||e.length===0)&&(t==null||t.length===0)?G1:[...(t??[]).map(e=>({assetRef:`codex`,description:e.description,displayName:e.name,id:e.id,spriteVersionNumber:e.spriteVersionNumber,spritesheetFingerprint:e.spritesheetFingerprint,spritesheetUrl:e.spritesheetUrl,updatedAt:e.updatedAt})),...(e??[]).filter(e=>n?.[e.id]==null).map(e=>{let t=e.spriteVersionNumber??1;return{assetRef:`codex`,description:e.description,displayName:e.displayName,id:e.id,spriteVersionNumber:t,spritesheetUrl:e.spritesheetDataUrl,updatedAt:e.updatedAt,upgradeDirectoryPath:t<2?e.directoryPath:void 0}})].sort((e,t)=>(t.updatedAt??0)-(e.updatedAt??0)).concat(G1)}var G1;function K1(){return(K1=t((()=>{Knc(),G1=[{assetRef:`codex`,description:`The original Codex companion.`,displayName:`Codex`,id:`codex`,spriteVersionNumber:2},{assetRef:`dewey`,description:`A calm companion for focused workspace days`,displayName:`Dewey`,id:`dewey`,spriteVersionNumber:2},{assetRef:`fireball`,description:`Hot path energy for fast iteration.`,displayName:`Fireball`,id:`fireball`,spriteVersionNumber:2},{assetRef:`hoots`,description:`A sharp-eyed owl for polished work in a blink.`,displayName:`Hoots`,id:`hoots`,spriteVersionNumber:2},{assetRef:`rocky`,de"
+      }
+    }
+  },
+  "method": "Fresh read-only ASAR inspection; Get-AppxPackage denied access, registered version not re-queried.",
+  "contract": {
+    "format": "RGBA WebP or PNG",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell": [
+      192,
+      208
+    ],
+    "spriteVersionNumber": 2,
+    "counts": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "gaze": "16 directions clockwise; 000 up, 090 screen right, 180 down, 270 screen left"
+  }
+}

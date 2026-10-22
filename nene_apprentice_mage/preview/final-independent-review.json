@@ -1,0 +1,80 @@
+{
+  "reviewer": "independent-final-contact-motion-reviewer",
+  "pet_id": "nene_apprentice_mage",
+  "verdict": "pass_with_minor_warnings",
+  "major_issues": [],
+  "actual_scope": {
+    "contact": "source/qa/contact-sheet-extended.png, all 57 standard action cells, neutral cell and 16 look cells",
+    "focused": "source/qa/look-directions.png, neutral plus all 16 labeled directions and enlarged face regions",
+    "identity_reference": "source/references/canonical-base.png",
+    "motion": "Decoded the actual final preview/ GIFs in sequence into native 192x208-frame montages. Inspected all 57 standard frames and the full clockwise 16-frame look sequence; repeated the two row/wrap boundaries in a separate native-size strip.",
+    "look_montage": "source/qa/final-independent-ordered-native.png",
+    "standard_montages": [
+      "source/qa/final-independent-standard-1.png",
+      "source/qa/final-independent-standard-2.png",
+      "source/qa/final-independent-standard-3.png"
+    ],
+    "read_evidence": [
+      "source/qa/look-mechanics.md",
+      "source/qa/look-continuity.json",
+      "source/qa/standard-independent-review.json"
+    ]
+  },
+  "checks": {
+    "identity_body_hat": "pass: pale silver-green hair, lavender eyes, blue/gold broad pointed hat, white skirt, blue/gold coat, diagonal brown potion bandolier and brown boots remain the same character. Hat perspective changes with head pitch/yaw, without a conspicuous scale or identity pop. No extra eyes, limbs or replacement props seen.",
+    "look_anchors": "pass: boots stay planted in the same lower-center stance; torso, coat opening and diagonal bandolier retain their orientation. Head/hair/hat change while the body stays front-facing. No whole-sprite rotation used to fake gaze.",
+    "cardinals": "pass: 000 has symmetric raised eyes and upturned face with visible underside of the brim; 090 has nose/face and both eyes directed screen-right; 180 has lowered chin and low eyelids/irises beneath the brim while eyes remain visible; 270 has face/nose and both eyes directed screen-left. Horizontal and vertical pairs are distinctive at native pet size.",
+    "ordered_semantics": "pass with minor angular-spacing warning: up to upper-right to right to lower-right to down to lower-left to left to upper-left to up. No gross wrong quadrant or visible reversal seen.",
+    "157.5_to_180": "pass: lower-right head returns toward centered down-facing head; brim pitches farther forward, both eyes lower, and boots/torso stay anchored. This is a larger head-pose step than 135 to 157.5, but no conspicuous size, anatomy or registration snap.",
+    "337.5_to_000": "pass: upper-left head returns to centered up-facing head with both irises raised. Hat underside and chin remain coherent; body and boot placement do not pop across wrap.",
+    "000_to_022.5": "warning, minor: this head/hat yaw change is more pronounced than the next two upper-right steps. The face moves in the correct clockwise direction, identity remains stable and planted lower-body anchors avoid a whole-sprite jump.",
+    "247.5_to_270": "pass: face raises from down-left toward left while hat follows the head; no wrong direction, conspicuous scale jump or silhouette break despite the metric outlier.",
+    "interior_holes": "pass by contact/focused/native-sequence visual review: no accidental horizontal gaps or transparent holes in filled face, hat, torso, skirt or boots seen. Space between hair/arms/coat and between legs reads as intentional negative space. Also reviewed supplied continuity alphaHoles=[] evidence.",
+    "clipping": "pass: full hats, hair tips, hands, coat and boots fit within final cells; no neighboring-pose overlap seen.",
+    "standard_actions": "pass with minor left-gait warning: idle blink, alternating right/left travel, open-hand wave, crouch-hop-return, disappointed expression, requesting hand, planted focused work and chin-rest review remain readable and distinct. No reversed travel, frozen full loop, added effects, gross anatomy deformation or conspicuous body-size pop seen in final decoded sequences.",
+    "chroma": "Not re-adjudicated visually. Per review task, the successful final deterministic cleanup report and native atlas validation are authoritative. No additional cleanup or generation performed."
+  },
+  "direction_verdicts": [
+    {"direction":"000","verdict":"pass","evidence":"Centered face pitches up; both irises raised, no lateral bias."},
+    {"direction":"022.5","verdict":"warning","evidence":"Raised face and eyes turn screen-right; shares much of the next upper-right pose family."},
+    {"direction":"045","verdict":"warning","evidence":"Upper-right head and eye orientation is readable; pitch separation from neighboring upper-right steps is subtle."},
+    {"direction":"067.5","verdict":"warning","evidence":"Still upper-right and increasingly lateral; similar pitch to 045 at native size."},
+    {"direction":"090","verdict":"pass","evidence":"Face/nose and both irises point right; neither frontal nor left-facing."},
+    {"direction":"112.5","verdict":"pass","evidence":"Right-facing face begins lowering; brim/eyelids support downward progression."},
+    {"direction":"135","verdict":"pass","evidence":"Down-right face and lowered eyes; no upper-right reversal."},
+    {"direction":"157.5","verdict":"pass","evidence":"Further lowered down-right face approaches centered down pose."},
+    {"direction":"180","verdict":"pass","evidence":"Centered down-facing pose, lowered chin/eyes and forward brim; both eyes still discernible."},
+    {"direction":"202.5","verdict":"pass","evidence":"Low gaze begins shifting left, maintaining downward pitch."},
+    {"direction":"225","verdict":"pass","evidence":"Lower-left eye and face direction, head beginning to lift."},
+    {"direction":"247.5","verdict":"pass","evidence":"Left-facing face remains below horizontal before left cardinal."},
+    {"direction":"270","verdict":"pass","evidence":"Clear screen-left face/nose and eye bias, distinct from right cardinal."},
+    {"direction":"292.5","verdict":"pass","evidence":"Left-facing head and eyes lift above horizontal."},
+    {"direction":"315","verdict":"pass","evidence":"Upper-left face/iris bias continues upward."},
+    {"direction":"337.5","verdict":"pass","evidence":"Strong up-left pitch approaches the symmetric up pose without direction reversal."}
+  ],
+  "minor_issues": [
+    {
+      "area": "running-left",
+      "issue": "Trailing knee stays visibly bent/high during several phases.",
+      "judgment": "Minor stylized gait. Alternating extension/support phases and left-facing travel remain readable; independently confirmed in final GIF frames."
+    },
+    {
+      "area": "look upper-right interpolation",
+      "issue": "022.5, 045 and 067.5 share similar upward pitch; 000 to 022.5 contributes a larger yaw/hat-orientation step.",
+      "judgment": "Minor uneven angular interpolation. Directions stay in the correct quadrant and flow toward the right cardinal; no visible reversal, identity change or anchored-body registration jump."
+    }
+  ],
+  "gif_metadata": {
+    "all_dimensions": [192,208],
+    "all_loop_values": 0,
+    "all_durations_positive": true,
+    "look_frames": 16,
+    "look_durations_ms": 200,
+    "standard_frames": {"idle":6,"running-right":8,"running-left":8,"waving":4,"jumping":5,"failed":8,"waiting":6,"running":6,"review":6}
+  },
+  "limitations": [
+    "Motion judgment uses deterministic ordered decoded final-GIF frames at native size, including repeated boundary sequences; no continuous real-time playback or browser screenshot observation was performed in this review.",
+    "No Codex in-app import/display, installation, package or release verification was performed.",
+    "No additional alpha-mask connected-component analysis or independent chroma pass was run; the review task supplies final deterministic cleanup/native-validation acceptance."
+  ]
+}

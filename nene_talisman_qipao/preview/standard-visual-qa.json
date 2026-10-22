@@ -1,0 +1,49 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "talisman_standard_qa",
+  "scope": "9standardrows57nativeframes, contact sheets, actual GIF decodedframes/timing; noappUIplayer",
+  "atlas_sha256": "981960a91c778b15e91afd991cadd41f28853da1835485a289bc447088cc6cb7",
+  "states": {
+    "idle": "pass",
+    "running-right": "pass",
+    "running-left": "pass",
+    "waving": "pass",
+    "jumping": "pass",
+    "failed": "pass",
+    "waiting": "warning",
+    "running": "pass",
+    "review": "pass"
+  },
+  "gait_evidence": "Right andleft00/04vs02/06 liftoppositeboots, otherbootssupportground, transitioncontactframesandloopreadable. Heads/eyesfacecorrectscreenedge.",
+  "failed_evidence": "Hair/buns/curls/bothsleevesandbootscomplete, nooriginalslotclipping.",
+  "technical_evidence": {
+    "standard_frames": 57,
+    "counts": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6
+    ],
+    "review_json_ok": true,
+    "edge_pixels_all_frames": 0,
+    "gif_frame_counts_match": true,
+    "gif_size": [
+      192,
+      208
+    ],
+    "gif_loop": 0,
+    "dynamic_player_ui_verified": false
+  },
+  "accepted_minor_warnings": [
+    "waiting末首歪头方向反转，幅度有限",
+    "向右移动的头部朝向弱于向左，躯干较正面，但右向眼神及双腿交替可辨",
+    "小手、袖褶及配饰细节在帧间有轻微变化"
+  ],
+  "major_issues": [],
+  "repair_rows": []
+}

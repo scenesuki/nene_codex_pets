@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "method": "Bundled full-row assembler reused persisted approved row9 transform and neutral anchor for row10; original pose groups uniformly resized exactly once",
+  "shared_scale": 0.43478260869565216,
+  "row9_registered_sha256": "720c57a2035966ef7db9b44e8e09b08cab6ce1afec559dbc8cceb0901d6714af",
+  "row10_source_sha256": "ae3b042f83e49cce66cf12b673b2d42faacc268167596f91c0c410432dc89eaf",
+  "post_registration_edge_check": "pass with original default thresholds",
+  "normal_size_semantics": "Down, down-left, left and up-left in intended order; only near-vertical horizontal component subtle; no opposite quadrant or reversal",
+  "continuity": "Grounded boots and potion bandolier remain registered; hat pitching changes silhouette height naturally. Both157.5to180 and337.5to000 checked."
+}

@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "reviewed_by": "/root/traveler_motion_qa",
+  "directions": [
+    {
+      "degree": "000",
+      "expected": "向上",
+      "observed": "仰头、下巴抬起，视线高于中性",
+      "verdict": "pass",
+      "horizontal_evidence": "鼻尖双眼近中央",
+      "vertical_evidence": "虹膜靠近上眼睑，眼下至下巴展开",
+      "reason": "Independent native192x208 review confirms cardinal clear anddistinctfromneutral."
+    },
+    {
+      "degree": "090",
+      "expected": "屏幕右",
+      "observed": "头脸鼻尖瞳孔朝右",
+      "verdict": "pass",
+      "horizontal_evidence": "右侧轮廓突出，远侧眼压缩，双眼向右",
+      "vertical_evidence": "接近水平",
+      "reason": "Independent native192x208 review confirms cardinal clear anddistinctfromneutral."
+    },
+    {
+      "degree": "180",
+      "expected": "向下，睁眼紫色虹膜可见",
+      "observed": "低头俯视，双眼可见紫色虹膜",
+      "verdict": "pass",
+      "horizontal_evidence": "脸与视线接近中央",
+      "vertical_evidence": "上眼睑低而未闭合，虹膜位于眼裂下方",
+      "reason": "Independent native192x208 review confirms cardinal clear anddistinctfromneutral."
+    },
+    {
+      "degree": "270",
+      "expected": "屏幕左",
+      "observed": "头脸鼻尖瞳孔朝左",
+      "verdict": "pass",
+      "horizontal_evidence": "左侧轮廓突出，远侧眼压缩，双眼向左",
+      "vertical_evidence": "接近水平",
+      "reason": "Independent native192x208 review confirms cardinal clear anddistinctfromneutral."
+    }
+  ],
+  "identity": "Hair/violet eyes/cat-earberet/two trouserlegs/viewer-leftsatchel/rightclips correct;noclipping/holes/attachmentfailure.",
+  "minorwarnings": [
+    "Slight headheight/fold variation accepted asreferencebasis.",
+    "Chroma cleanup pending."
+  ],
+  "majorissues": []
+}

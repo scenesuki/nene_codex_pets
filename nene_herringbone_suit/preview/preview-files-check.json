@@ -1,0 +1,202 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-22T07:13:45.878022+00:00",
+  "pet_id": "nene_herringbone_suit",
+  "spritesheet_sha256": "f98e51981a445e405546f7c4a991521717c79c9a11022d4a874cc0c1c6d531f6",
+  "changed_rows": [
+    1,
+    2,
+    4
+  ],
+  "preserved_rows": [
+    0,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "preserved_standard_states": 6,
+  "look_directions_pixel_identical": 16,
+  "gif_files": 11,
+  "actual_gif_frames": 90,
+  "gifs": [
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "durations_ms": [
+        240,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        120,
+        60,
+        60,
+        120,
+        60,
+        120,
+        60,
+        60,
+        120,
+        300
+      ],
+      "sha256": "da73d917bfa83c6fbf26a7e99263e7d24c710209fd39aba99369701a6bf64143"
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "sha256": "6327b3eb6279e1b374f91e5b31dd2ff44c31bf009bc7cfe2e1a9832d7d2b3898"
+    },
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "sha256": "94c30636d54ad3182d38d944aa6f7af42705ac55c565d614a0e3bcedd8ab976b"
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "sha256": "7a079eedaec043d8e10c8546e50caa44f29326f502affe02d2340f9ca998762e"
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "sha256": "9efcb82eb30cf0d2fab778e825f59f8c10deb49167cacb6dcae26f00810b9c92"
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "sha256": "a260b8488d200263bc795f6fdc9a321e238b46d63a413ad0361ce4ea447d6bd3"
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "c88d8a8bf1a49fa57c8442cc30ed5a85807a87606ca3381057e95d61b4cf77f4"
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "175aafe9d667c31dc5643052adc9cc47891a35b30ef597c3bf6a8c43555665a1"
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "8722e5e70364d5494e1ad7928771bfab4f73c0163ce57a9f02f8854809732129"
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "sha256": "d2a76ba4a9531c336dbcfecfb5d2529d1d48d656cb171e0981f0dfd3384a084a"
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "sha256": "91fca013f94c89e192d0aa8320a2393857ea3acf38f6a25ad12b23b839e84751"
+    }
+  ],
+  "retained_materials_verified": 171,
+  "previous_materials_unchanged": 137,
+  "local_links_checked": 106,
+  "installed": true,
+  "application_ui_verified": false,
+  "current_pet_changed": false,
+  "uploaded": false,
+  "published": false
+}

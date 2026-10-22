@@ -1,0 +1,23 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "blind_results": "All28consensusaxisclassificationscorrect;nohardgateoverride.",
+  "failed_checks": [
+    "Continuitymetriccrossrowdiff/centerwarnings",
+    "180/225aty9alpha-gapcandidates",
+    "Leftgaitcontacttiminguneven"
+  ],
+  "evidence": [
+    "Independentfull16semanticsandfreshfinalvisualQApassno majorissues.",
+    "Shoecentroid97.16..98.48px,shoewidth35..37px:bodyandfeetstable;hat/haircontourdifferenceonly.",
+    "Alpha gapsbetweenhat-ears connecttoexternalbackground,notbodyholes.",
+    "LeftABBBABBBtwo4framecyclesgenuineoppositefootsupport,noisolatedsingleframesnap."
+  ],
+  "records": [
+    "direction-blind-validation.json",
+    "direction-semantics.json",
+    "look-continuity.json",
+    "final-visual-qa.json"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "checked_local_date": "2026-10-22",
+  "app_version": "26.1016.6573.0",
+  "module": "webview/assets/app-initial-2b6b8063022d.js",
+  "runtime_function": "hnc",
+  "actual_mapping": "Version2only;atan2(dx,-dy),22.5degree increments,16directions,rows9and10,8columns. Distance<=1 returnsnull and renderer keeps regular animation.",
+  "compatibility_reference_cell": "Processing tools retain a copy of idle first frame atrow0column6 as their neutral reference; current Codex pointer deadzone does not require this extra cell.",
+  "source_excerpt": "function hnc(e,t,n=Jtc.version){if(n!==W1.version)return null;let r=t.x-(e.left+e.width/2),i=t.y-(e.top+e.height/2);if(Math.hypot(r,i)<=bnc)return null;let a=(Math.atan2(r,-i)*(180/Math.PI)+360)%360,o=Math.round(a/gnc)%_nc;return{columnIndex:o%ync,frameDurationMs:0,rowIndex:vnc+Math.floor(o/ync)}}"
+}

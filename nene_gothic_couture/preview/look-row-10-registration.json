@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "scale": 0.3727810650887574,
+  "strategy": "Reuse approved row9 transform exactly; source crops resampled once.",
+  "source_sha256": "c978563dab2d97483b2de2e128d8ba84504ed654907e6c73cbe9daafc6870dee",
+  "row9_preserved": true,
+  "bboxes": [
+    [
+      51,
+      20,
+      144,
+      203
+    ],
+    [
+      50,
+      20,
+      143,
+      203
+    ],
+    [
+      50,
+      20,
+      143,
+      203
+    ],
+    [
+      51,
+      19,
+      144,
+      203
+    ],
+    [
+      51,
+      19,
+      143,
+      203
+    ],
+    [
+      51,
+      18,
+      144,
+      203
+    ],
+    [
+      51,
+      17,
+      143,
+      203
+    ],
+    [
+      50,
+      17,
+      143,
+      203
+    ]
+  ],
+  "source_pose_heights": [
+    492,
+    492,
+    492,
+    493,
+    493,
+    497,
+    499,
+    499
+  ]
+}

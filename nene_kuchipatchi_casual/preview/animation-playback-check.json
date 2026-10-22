@@ -1,0 +1,224 @@
+{
+  "ok": true,
+  "method": "Local Chromium atlas playback at192x208 using native frame layout and state durations; agent-browser CLI unavailable, bundled Playwright fallback. This is not Codex UI playback.",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "all_states_advanced": true,
+  "screenshots": [
+    {
+      "index": 0,
+      "frames": [
+        {
+          "row": 0,
+          "frame": 0,
+          "position": "0px 0px"
+        },
+        {
+          "row": 1,
+          "frame": 1,
+          "position": "-192px -208px"
+        },
+        {
+          "row": 2,
+          "frame": 1,
+          "position": "-192px -416px"
+        },
+        {
+          "row": 3,
+          "frame": 0,
+          "position": "0px -624px"
+        },
+        {
+          "row": 4,
+          "frame": 0,
+          "position": "0px -832px"
+        },
+        {
+          "row": 5,
+          "frame": 0,
+          "position": "0px -1040px"
+        },
+        {
+          "row": 6,
+          "frame": 0,
+          "position": "0px -1248px"
+        },
+        {
+          "row": 7,
+          "frame": 1,
+          "position": "-192px -1456px"
+        },
+        {
+          "row": 8,
+          "frame": 0,
+          "position": "0px -1664px"
+        }
+      ],
+      "sha256": "9ba7c553058bc98e2d35a8175317fd542f74999f4bec566fe6b472d596794bac"
+    },
+    {
+      "index": 1,
+      "frames": [
+        {
+          "row": 0,
+          "frame": 3,
+          "position": "-576px 0px"
+        },
+        {
+          "row": 1,
+          "frame": 5,
+          "position": "-960px -208px"
+        },
+        {
+          "row": 2,
+          "frame": 5,
+          "position": "-960px -416px"
+        },
+        {
+          "row": 3,
+          "frame": 3,
+          "position": "-576px -624px"
+        },
+        {
+          "row": 4,
+          "frame": 4,
+          "position": "-768px -832px"
+        },
+        {
+          "row": 5,
+          "frame": 4,
+          "position": "-768px -1040px"
+        },
+        {
+          "row": 6,
+          "frame": 4,
+          "position": "-768px -1248px"
+        },
+        {
+          "row": 7,
+          "frame": 5,
+          "position": "-960px -1456px"
+        },
+        {
+          "row": 8,
+          "frame": 4,
+          "position": "-768px -1664px"
+        }
+      ],
+      "sha256": "ec544741f859a2da0c5774de425c24917ffc3607dec009682fc5249f7fbd66d4"
+    },
+    {
+      "index": 2,
+      "frames": [
+        {
+          "row": 0,
+          "frame": 5,
+          "position": "-960px 0px"
+        },
+        {
+          "row": 1,
+          "frame": 7,
+          "position": "-1344px -208px"
+        },
+        {
+          "row": 2,
+          "frame": 7,
+          "position": "-1344px -416px"
+        },
+        {
+          "row": 3,
+          "frame": 2,
+          "position": "-384px -624px"
+        },
+        {
+          "row": 4,
+          "frame": 1,
+          "position": "-192px -832px"
+        },
+        {
+          "row": 5,
+          "frame": 7,
+          "position": "-1344px -1040px"
+        },
+        {
+          "row": 6,
+          "frame": 0,
+          "position": "0px -1248px"
+        },
+        {
+          "row": 7,
+          "frame": 1,
+          "position": "-192px -1456px"
+        },
+        {
+          "row": 8,
+          "frame": 5,
+          "position": "-960px -1664px"
+        }
+      ],
+      "sha256": "93ea931199c032f6c39be31cdbc09b88036fa2697328c819d019c9c940321fc3"
+    },
+    {
+      "index": 3,
+      "frames": [
+        {
+          "row": 0,
+          "frame": 4,
+          "position": "-768px 0px"
+        },
+        {
+          "row": 1,
+          "frame": 7,
+          "position": "-1344px -208px"
+        },
+        {
+          "row": 2,
+          "frame": 7,
+          "position": "-1344px -416px"
+        },
+        {
+          "row": 3,
+          "frame": 3,
+          "position": "-576px -624px"
+        },
+        {
+          "row": 4,
+          "frame": 1,
+          "position": "-192px -832px"
+        },
+        {
+          "row": 5,
+          "frame": 4,
+          "position": "-768px -1040px"
+        },
+        {
+          "row": 6,
+          "frame": 5,
+          "position": "-960px -1248px"
+        },
+        {
+          "row": 7,
+          "frame": 2,
+          "position": "-384px -1456px"
+        },
+        {
+          "row": 8,
+          "frame": 5,
+          "position": "-960px -1664px"
+        }
+      ],
+      "sha256": "da8ba67d3a931dc7f0a315c85c96ad66fd2c75c71e43a2dc8f84b948a21fb2c2"
+    }
+  ],
+  "application_ui_verified": false,
+  "installed": false
+}

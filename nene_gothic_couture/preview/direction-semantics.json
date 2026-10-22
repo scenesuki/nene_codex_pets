@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "reviewed_by": "/root/gothic_final_qa 独立只读视觉验收",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "horizontal_evidence": "面部近正面，左右没有明显偏向",
+      "vertical_evidence": "下巴抬高、面部朝上，眼睛视线上移",
+      "reason": "正上方向明确，与180的低头形成清楚对照"
+    },
+    {
+      "direction": "022.5",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "面部、鼻尖与视线偏屏幕右侧",
+      "vertical_evidence": "下巴上抬，眼睛看向偏上位置",
+      "reason": "象限正确；接近正上时水平分量稍强，属于minor"
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "脸部转右，鼻尖朝右，左右脸宽不对称",
+      "vertical_evidence": "抬头与上移视线可见",
+      "reason": "右上象限明确，没有反转"
+    },
+    {
+      "direction": "067.5",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "脸部明显偏右，视线朝右",
+      "vertical_evidence": "下巴仍略高于090，保留轻微上看",
+      "reason": "方向正确；与045及090差异细微，属于minor"
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "horizontal_evidence": "头脸朝右，鼻尖与双眼视线指向右侧",
+      "vertical_evidence": "头部俯仰接近水平",
+      "reason": "正右可辨，没有误作左或上下"
+    },
+    {
+      "direction": "112.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "脸部仍朝右，视线保留右偏",
+      "vertical_evidence": "眼睛下移，下巴较090收低",
+      "reason": "右下成立，下看变化较含蓄，属于minor"
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "头部右转、鼻尖与视线右偏",
+      "vertical_evidence": "低头、上眼睑下压，视线向下",
+      "reason": "右下两轴证据明确"
+    },
+    {
+      "direction": "157.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "脸部仍有明显右转，鼻尖与视线右偏",
+      "vertical_evidence": "头和下巴进一步收低，眼睛向下",
+      "reason": "象限正确；靠近正下时水平分量稍强，属于minor"
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "horizontal_evidence": "面部基本居中，无明显左右偏向",
+      "vertical_evidence": "头部低垂、下巴收低，眼睛看向下方",
+      "reason": "正下明确，与000的抬头明显不同"
+    },
+    {
+      "direction": "202.5",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "鼻尖和面部偏屏幕左侧，双眼视线左偏",
+      "vertical_evidence": "头部低垂，眼睛向下",
+      "reason": "象限正确；靠近正下时左向分量稍强，属于minor"
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "脸部转左，鼻尖朝左，视线向左",
+      "vertical_evidence": "下巴收低，眼睑和瞳孔显示下看",
+      "reason": "左下象限明确，无左右反转"
+    },
+    {
+      "direction": "247.5",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "左转脸部与左偏视线明确",
+      "vertical_evidence": "仍有低头和下看，较270更低",
+      "reason": "方向成立；相邻变化较小，属于minor"
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "horizontal_evidence": "头脸、鼻尖和目光明确朝屏幕左侧",
+      "vertical_evidence": "俯仰接近水平",
+      "reason": "正左可辨，与090形成正确反向"
+    },
+    {
+      "direction": "292.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "脸部朝左，鼻尖和双眼视线向左",
+      "vertical_evidence": "下巴抬起，眼睛看向上方",
+      "reason": "左上两轴均可辨"
+    },
+    {
+      "direction": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "脸部与鼻尖左偏，左向注视明确",
+      "vertical_evidence": "仰头和上看清楚",
+      "reason": "左上正确，接续292.5自然"
+    },
+    {
+      "direction": "337.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "仍保留左转脸部与左向视线",
+      "vertical_evidence": "下巴上抬，目光向上",
+      "reason": "象限正确；水平分量偏强，接000时头部转正稍明显，但身体和尺度稳定，属于minor"
+    }
+  ],
+  "major_issues": [],
+  "accepted_minor_warnings": [
+    "接近正上或正下的对角方向水平分量稍强，部分相邻方向变化细微，但全部四正向与对角象限正确。",
+    "337.5至000的头部转正稍明显，完整循环未出现重大定位或尺度突跳。"
+  ]
+}

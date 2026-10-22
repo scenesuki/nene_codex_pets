@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-22T12:35:53.699Z",
+  "package_directory": "D:\\项目\\pet_2\\nene_apprentice_mage",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "id": "custom:nene_apprentice_mage",
+  "display_name": "宁宁 · 见习魔导师",
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "format": "webp",
+  "manifest_sha256": "d0215d93d72f6d32a513f148a1296dd10410b45dbcc775e9c86e7b6554ffeef9",
+  "spritesheet_sha256": "be4da176880b173f4ea9d1423fb1012e89302ee0bba8b3cb284c5d28ad0f822f",
+  "app_version": "26.1016.8120.0",
+  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1016.8120.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-CsH31EEu.js",
+  "app_validator_module_sha256": "6a266611954c6f0c72aca09bb13c0c793959a69e8d6330778a7cdef21835a1db",
+  "method": "Read-only replay of installed-app image/version and path validators on this new workspace package; no installation or UI action",
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "current_pet_changed": false
+}

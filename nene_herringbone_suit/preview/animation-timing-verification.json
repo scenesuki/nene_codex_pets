@@ -1,0 +1,19 @@
+{
+  "app_version": "26.1016.6573.0",
+  "module": "webview/assets/app-initial-2b6b8063022d.js",
+  "module_sha256": "6cb0ab2a8d03a47f95c4df668aa8e5a3004e42614a7d596cb239442344f1a497",
+  "excerpt": "anc={failed:$tc(5,8,140,240),idle:rnc,jumping:$tc(4,5,140,280),review:$tc(8,6,150,280),running:$tc(7,6,120,220),\"running-left\":$tc(2,8,120,220),\"running-right\":$tc(1,8,120,220),waving:$tc(3,4,140,280),waiting:$tc(6,6,150,260)}})))()}var snc,cnc,lnc;function unc(){return(unc=t((()=>{snc=`_Root_1208h_1`,cnc=`_Container_1208h_11`,lnc={Root:snc,Container:cnc}})))()}var dnc,fnc,pnc;function mnc(){return(mnc=t((()=>{Bi(),Cde(),dnc=jr(),onc(),Xtc(),unc(),fnc=G(),pnc=({assetMap:e,className:t,lookFrame:n,loop:r=!1,respondToHover:i=!1,size:a=`default`,source:o,state:s=`idle`})=>{\"use forget\";let[c,l]=(0,dnc.useState)(!1),u=(0,dnc.useRef)(null),d=Lee(),f=i&&c?`jumping`:s,p=o.assetRef==null?o.spriteRowCount:W1.rows;return(0,dnc.useEffect)(()=>{let e=u.current;if(e==null)return;if(n!=null){e.style.backgroundPosition=enc(n,p);return}let t=Ztc(f,d,r),i=t.frames,a=0,o=null;if(e.style.backgroundPosition=enc(Qtc(i,a),p),i.length===1)return;let s=()=>{o=window.setTimeout(()=>{let n=a+1;if(n>=i.length){if(t.loopStartIndex!=null){a=t.loopStartIndex,e.styl",
+  "directional_frame_durations_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "directional_cycle_ms": 1060,
+  "custom_package_timing_override_verified": false,
+  "implementation": "Keep nativeapp timing; match both directions through a small ordinary stride and low foot motion. No app binary/config modification."
+}

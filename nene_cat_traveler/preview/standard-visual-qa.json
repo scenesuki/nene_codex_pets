@@ -1,0 +1,69 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "/root/traveler_motion_qa",
+  "atlas_sha256": "ccab836a6e0664f79119b83a2d23097091d66dae6e59cb36db7202d9c46c2ba1",
+  "states": {
+    "idle": "pass",
+    "running-right": "pass",
+    "running-left": "pass",
+    "waving": "pass",
+    "jumping": "pass",
+    "failed": "pass",
+    "waiting": "pass",
+    "running": "pass",
+    "review": "pass"
+  },
+  "left_boot_evidence": {
+    "sequence": "ABBBABBB",
+    "A": "screen-leftboot supports,screen-rightliftedrear",
+    "B": "screen-rightboot supports,screen-leftliftedfront",
+    "frames": [
+      "A",
+      "B",
+      "B",
+      "B",
+      "A",
+      "B",
+      "B",
+      "B"
+    ],
+    "assessment": "Two4framecycles exchangebothboots; oldsingleisolatedoppositephasegone; mildunequalcontacttiming,nobodypop."
+  },
+  "right_boot_evidence": "00/04screen-leftrearboot supports,frontbootlifted;02/06frontboot supports/rearlifted.",
+  "native_frames": 57,
+  "counts": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "cell": [
+    192,
+    208
+  ],
+  "gifdecode": {
+    "decoded": 9,
+    "total_frames": 57,
+    "all_loop": 0,
+    "positive_durations": true,
+    "range_ms": [
+      110,
+      320
+    ]
+  },
+  "geometry": "Allbboxesincell;extentsx37..155,y5..203; jumpfootlift0/4/8/4/0.49otherapprovedframes unchanged.",
+  "identity": "Longhair/frontbraids,cat-earberet,clips,bow,two distinctballoonpants/citypattern/plaidfrilledcuffs,satchel correct;no skirt,clippingorfilledbodyholes.",
+  "minorwarnings": [
+    "LeftgaitAoneframe/Bthreeframes gives slightlyunevencontactrhythm but clearalternation.",
+    "Slight hair/fold/detail variations.",
+    "Chroma edges awaitsinglefinalcleanup."
+  ],
+  "majorissues": [],
+  "repair_rows": [],
+  "application_ui_verified": false
+}

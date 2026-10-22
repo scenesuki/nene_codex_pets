@@ -1,0 +1,37 @@
+{
+  "visual_qa": "pass",
+  "checked_on": "2026-10-22",
+  "pet_id": "nene_kuchipatchi_casual",
+  "approved_base": "source/decoded/base-edo-outfit-transfer.png",
+  "approved_base_sha256": "ee6089bbf42bbf91ac885d8a437bef281838afa57ec507eb95a48926f09c18f8",
+  "user_authorization": "开始完全体宠物制作",
+  "spritesheet_sha256": "ef06347b6c104f0f79af365ec63ddc0bc4299e0ce5fcdc23d78583dac4bcf0d2",
+  "reviewer": "primary agent",
+  "review_inputs": [
+    "preview/contact-sheet.png",
+    "preview/look-directions.png",
+    "source/qa/animation-playback/playback-1.png",
+    "source/qa/animation-playback/playback-2.png"
+  ],
+  "checks": {
+    "edo_based_chibi_proportions": true,
+    "clothing_identity_and_palette": true,
+    "nine_readable_states": true,
+    "left_and_right_generated_separately": true,
+    "alternating_gait_keyposes": true,
+    "gaze_16_semantic_review": true,
+    "complete_hair_hands_slippers": true,
+    "small_jump_7px": true,
+    "browser_actual_size_playback_reviewed": true
+  },
+  "movement": "4 alternating keyposes repeated twice per native8-frame movement row. No mirroring.",
+  "minor_limits": [
+    "部分相邻斜向注视的分量差异较细，角度属于插画语义而非眼球几何精确测量。",
+    "抬头修正帧与相邻帧的发丝、头部轮廓略有变化，脚底基线稳定。",
+    "少量发丝、衣褶及挂件细节随帧变化；GIF有限调色板可能产生轻微边缘颗粒。"
+  ],
+  "application_ui_verified": false,
+  "installed": false,
+  "current_pet_changed": false,
+  "published": false
+}

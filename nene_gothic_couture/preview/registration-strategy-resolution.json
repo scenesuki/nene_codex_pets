@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "root_cause": "Native load_neutral_cell(external path) refits and recenters an already registered192x208idle cell, changing bottom203 to198.",
+  "correction": "Omit optional --neutral-cell and use unmodified base-atlas idle first frame as geometry reference, for both row9 registration and final registered-row assembly.",
+  "resampling": "Original generated poses remain unchanged, exactly one source-to-cell resize per accepted registered cell.",
+  "verified_bottoms_px": [
+    203,
+    203,
+    203,
+    203,
+    203,
+    203,
+    203,
+    203
+  ],
+  "old_diagnostic": "qa/registration-diagnostic/",
+  "source_images_regenerated": false
+}

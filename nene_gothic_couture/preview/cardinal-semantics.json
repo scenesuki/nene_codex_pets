@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "reviewed_by": "generation worker and parent at extracted192x208cell size",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "evidence": "下巴抬起、鼻口较高，紫色虹膜向上，双眼睁开；区别于待机正视。"
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "evidence": "头脸向屏幕右转，鼻尖及眼神偏头中心右，左颊展开、远侧脸收窄。"
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "evidence": "下巴内收、头顶与发箍正面更可见，虹膜向下；眼睛半睁仍见紫色。"
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "evidence": "头脸向屏幕左转，鼻尖及虹膜在头中心左侧，右颊更多可见；与090相反。"
+    }
+  ],
+  "body_anchor": "裙片、腰带、低位双手和双鞋保持前向站姿、相同基线；头部自然转动。",
+  "intermediate_chroma_note": "尚未执行最终单次清边，青色边缘不作为视觉生成失败依据。"
+}

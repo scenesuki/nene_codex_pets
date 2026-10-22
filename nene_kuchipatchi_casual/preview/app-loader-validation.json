@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "checked_at": "2026-10-22T01:26:45.222Z",
+  "package_directory": "D:\\项目\\pet_2\\nene_kuchipatchi_casual",
+  "package_files": [
+    "pet.json",
+    "spritesheet.webp"
+  ],
+  "id": "custom:nene_kuchipatchi_casual",
+  "display_name": "宁宁 · 青柠休闲装",
+  "sprite_version": 2,
+  "decoded_dimensions": {
+    "width": 1536,
+    "height": 2288
+  },
+  "format": "webp",
+  "manifest_sha256": "57c1b35a3e863ebf31165c0cddd465d3c68bf8d8d762e3b8e85206fd50963184",
+  "spritesheet_sha256": "ef06347b6c104f0f79af365ec63ddc0bc4299e0ce5fcdc23d78583dac4bcf0d2",
+  "app_version": "26.1016.6573.0",
+  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1016.6573.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-CsH31EEu.js",
+  "app_validator_module_sha256": "6a266611954c6f0c72aca09bb13c0c793959a69e8d6330778a7cdef21835a1db",
+  "method": "Read-only replay of installed-app image/version and path validators on this new workspace package; no installation or UI action",
+  "application_ui_detection_verified": false,
+  "floating_display_verified": false,
+  "current_pet_changed": false
+}

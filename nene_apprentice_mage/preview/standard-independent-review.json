@@ -1,0 +1,268 @@
+{
+  "reviewer": "independent-standard-action-worker",
+  "created_at": "2026-10-22T12:17:54.502181+00:00",
+  "scope": "Nine standard action rows only, 57 used frames, current registered standard atlas and actual GIF previews; excludes look directions, final despill/chroma signoff, packaging and app import.",
+  "verdict": "pass_with_minor_warning",
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "state": "running-left",
+      "issue": "The trailing leg stays noticeably bent and elevated through several stride phases rather than passing closely under the body.",
+      "judgment": "Minor stylized gait. Left-facing silhouette and alternating extended lead/support legs are clear, feet retain a grounded support phase, torso remains upright, and no directional reversal or frozen stride is visible. Does not block standard-action acceptance."
+    }
+  ],
+  "evidence": {
+    "atlas": "final/spritesheet.webp",
+    "atlas_sha256": "aa35e42fb2bd659961d7ec30938ca20c535c8a62d0b4b758f8b13a1d8ef99aeb",
+    "native_contact": "qa/standard-independent-native.png",
+    "native_contact_sections": [
+      "qa/standard-independent-native-0.png",
+      "qa/standard-independent-native-1.png",
+      "qa/standard-independent-native-2.png"
+    ],
+    "actual_gif_playback": "Headless installed Google Chrome through bundled Playwright, nine 192x208 GIFs in 3x3 grid, screenshots at 330ms intervals after images loaded.",
+    "playback_snapshots": [
+      "qa/standard-independent-motion-0.png",
+      "qa/standard-independent-motion-1.png",
+      "qa/standard-independent-motion-2.png"
+    ],
+    "decoded_loop_check": "All nine actual GIF files decoded in order; frame counts, unique frames, positive timing, infinite-loop metadata checked. Native-size sequence sheets for idle, running-left, jumping inspected in addition to atlas and timed playback snapshots.",
+    "gif_metadata": [
+      {
+        "state": "failed",
+        "frames": 8,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          140,
+          240
+        ],
+        "loop": 0,
+        "unique_frames": 8
+      },
+      {
+        "state": "idle",
+        "frames": 6,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          280,
+          110,
+          110,
+          140,
+          140,
+          320
+        ],
+        "loop": 0,
+        "unique_frames": 6
+      },
+      {
+        "state": "jumping",
+        "frames": 5,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          140,
+          140,
+          140,
+          140,
+          280
+        ],
+        "loop": 0,
+        "unique_frames": 5
+      },
+      {
+        "state": "review",
+        "frames": 6,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          280
+        ],
+        "loop": 0,
+        "unique_frames": 6
+      },
+      {
+        "state": "running-left",
+        "frames": 8,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ],
+        "loop": 0,
+        "unique_frames": 8
+      },
+      {
+        "state": "running-right",
+        "frames": 8,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ],
+        "loop": 0,
+        "unique_frames": 8
+      },
+      {
+        "state": "running",
+        "frames": 6,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          220
+        ],
+        "loop": 0,
+        "unique_frames": 6
+      },
+      {
+        "state": "waiting",
+        "frames": 6,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          260
+        ],
+        "loop": 0,
+        "unique_frames": 6
+      },
+      {
+        "state": "waving",
+        "frames": 4,
+        "size": [
+          192,
+          208
+        ],
+        "durations_ms": [
+          140,
+          140,
+          140,
+          280
+        ],
+        "loop": 0,
+        "unique_frames": 4
+      }
+    ]
+  },
+  "checks": {
+    "identity_props_proportions": "pass: same pale silver-green long hair, lavender eyes, blue/gold pointed mage hat, blue/gold coat, white layered skirt, diagonal brown strap and brown boots. No missing costume element, new prop, extra limb, obvious body deformation or conspicuous scale popping.",
+    "clipping_slot_overlap": "pass: every hat, hair tip, hand, coat and boot remains inside its frame; no adjacent-pose overlap.",
+    "interior_transparency": "pass by visual inspection of all native cells: no accidental horizontal gaps or filled-body holes seen. Expected openings between arms/coat and legs remain intentional negative space.",
+    "forbidden_effects": "pass: no detached marks, stars, speed lines, dust, floor shadows or new review props.",
+    "loop_and_registration": "pass: 57 distinct nonblank GIF frames across nine states, valid positive durations and loop=0; repeated near-contact travel phases support cyclic cadence. Jump returns to stance, hand/expression states return to a quiet pose without an obvious anatomy/scale snap.",
+    "chroma": "not assessed here: current standard previews are pre-final-despill; final cleanup report and final atlas validation own chroma acceptance."
+  },
+  "states": [
+    {
+      "state": "idle",
+      "frames": 6,
+      "verdict": "pass",
+      "observed": "Quiet planted pose with slight eyelid variation and a full closed-eye blink in frame 2, minimal body change; not a duplicated static row or active gesture."
+    },
+    {
+      "state": "running-right",
+      "frames": 8,
+      "verdict": "pass",
+      "observed": "Nose/face and chest point screen-right. Extended and passing feet alternate, including opposite lead legs in frames 0 and 2 and repeated cyclic support phases. Short grounded strides, no reversal."
+    },
+    {
+      "state": "running-left",
+      "frames": 8,
+      "verdict": "warning",
+      "observed": "Face and chest point screen-left, hair trails right. Opposite feet visibly lead across frames 0 and 2/6; near phases 1/3/5/7 alternate support. Bent raised trailing knee gives a jaunty walk but does not prevent readable leftward alternating travel."
+    },
+    {
+      "state": "waving",
+      "frames": 4,
+      "verdict": "pass",
+      "observed": "Raised open hand in frames 1-2 and smiling face read as a wave; frame 0/3 hands relax. No detached wave marks."
+    },
+    {
+      "state": "jumping",
+      "frames": 5,
+      "verdict": "pass",
+      "observed": "Stance, crouch, upward light hop with both boots lifted at peak frame 2, crouch recovery, stance. Full body stays visible; no landing effects."
+    },
+    {
+      "state": "failed",
+      "frames": 8,
+      "verdict": "pass",
+      "observed": "Drooping eyelids, hands down/in front, uncertain hand near head and closed-eye lowered expression read as mild disappointment/fluster rather than idle."
+    },
+    {
+      "state": "waiting",
+      "frames": 6,
+      "verdict": "pass",
+      "observed": "Hand held forward/up toward viewer, head tilt and brief friendly closed-eye smile form an expectant requesting-input pose, distinct from chin-rest review and passive idle."
+    },
+    {
+      "state": "running",
+      "frames": 6,
+      "verdict": "pass",
+      "observed": "Feet remain planted; hands draw together at chest with focused downward eyes and closed-eye effort, then relax. Reads as working/thinking without literal foot-running."
+    },
+    {
+      "state": "review",
+      "frames": 6,
+      "verdict": "pass",
+      "observed": "Hand against chin/cheek, thoughtful head lean and upright checking glance read as scrutiny/review. No added paper, magnifier or UI prop."
+    }
+  ],
+  "not_verified": [
+    "Look-direction rows and gaze semantics",
+    "Final cleaned atlas edge/chroma validation",
+    "Codex in-app import/display",
+    "Real-time continuous human video observation; evidence is ordered decoded frames plus timed actual playback snapshots"
+  ]
+}

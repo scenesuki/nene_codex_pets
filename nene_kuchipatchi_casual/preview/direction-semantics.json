@@ -1,0 +1,104 @@
+{
+  "ok": true,
+  "reviewer": "primary agent visual review; not an independent blind panel",
+  "method": "Final192x208 cells in look-directions.png and full contact sheet; clockwise from screen up",
+  "directions": [
+    {
+      "angle": "000",
+      "expected": "up",
+      "observation": "明显抬下巴、双眼朝上；使用抬头修正帧。",
+      "verdict": "pass"
+    },
+    {
+      "angle": "022.5",
+      "expected": "up-right mostly up",
+      "observation": "眼与头略朝右上，纵向提示较细。",
+      "verdict": "pass_with_minor_limit"
+    },
+    {
+      "angle": "045",
+      "expected": "up-right",
+      "observation": "右上方注视可辨。",
+      "verdict": "pass"
+    },
+    {
+      "angle": "067.5",
+      "expected": "right-up mostly right",
+      "observation": "偏右且略抬眼，与045°的差异较细。",
+      "verdict": "pass_with_minor_limit"
+    },
+    {
+      "angle": "090",
+      "expected": "right",
+      "observation": "正右方头眼朝向清晰。",
+      "verdict": "pass"
+    },
+    {
+      "angle": "112.5",
+      "expected": "right-down mostly right",
+      "observation": "偏右略向下，纵向提示较细。",
+      "verdict": "pass_with_minor_limit"
+    },
+    {
+      "angle": "135",
+      "expected": "down-right",
+      "observation": "右下方注视；与112.5°差异较细。",
+      "verdict": "pass_with_minor_limit"
+    },
+    {
+      "angle": "157.5",
+      "expected": "down-right mostly down",
+      "observation": "低头为主、眼睛略右。",
+      "verdict": "pass"
+    },
+    {
+      "angle": "180",
+      "expected": "down",
+      "observation": "正下方低头、眼睛向下。",
+      "verdict": "pass"
+    },
+    {
+      "angle": "202.5",
+      "expected": "down-left mostly down",
+      "observation": "低头为主，左向分量较细。",
+      "verdict": "pass_with_minor_limit"
+    },
+    {
+      "angle": "225",
+      "expected": "down-left",
+      "observation": "低头并略向左，与邻角差异较细。",
+      "verdict": "pass_with_minor_limit"
+    },
+    {
+      "angle": "247.5",
+      "expected": "left-down mostly left",
+      "observation": "左下方，纵向分量较细。",
+      "verdict": "pass_with_minor_limit"
+    },
+    {
+      "angle": "270",
+      "expected": "left",
+      "observation": "正左方头眼朝向清晰。",
+      "verdict": "pass"
+    },
+    {
+      "angle": "292.5",
+      "expected": "left-up mostly left",
+      "observation": "左向略抬头；使用抬头修正帧。",
+      "verdict": "pass"
+    },
+    {
+      "angle": "315",
+      "expected": "up-left",
+      "observation": "抬头并向左，双分量可辨；使用修正帧。",
+      "verdict": "pass"
+    },
+    {
+      "angle": "337.5",
+      "expected": "up-left mostly up",
+      "observation": "接近正上方、略向左；使用修正帧。",
+      "verdict": "pass"
+    }
+  ],
+  "exact_geometric_eye_angles_verified": false
+}

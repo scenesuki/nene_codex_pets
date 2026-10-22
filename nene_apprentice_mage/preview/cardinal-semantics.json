@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "reviewed_by": "parent",
+  "review_image": "decoded/look-anchors-approved.png",
+  "sha256": "b478dab7dee3ec928d7719c12a891828e015b04859451d48fe249cabe1cfb2ca",
+  "normal_pet_size": [
+    192,
+    208
+  ],
+  "directions": [
+    {
+      "degree": "000",
+      "observed": "Chin visibly raised, upward irises and lower face opening; front torso and boots fixed",
+      "verdict": "pass"
+    },
+    {
+      "degree": "090",
+      "observed": "Nose projects screen-right, violet irises both aim screen-right; hair and brim follow yaw",
+      "verdict": "pass"
+    },
+    {
+      "degree": "180",
+      "observed": "Chin lowered, heavy upper eyelids and downward violet irises still visible under brim",
+      "verdict": "pass"
+    },
+    {
+      "degree": "270",
+      "observed": "Nose and chin point screen-left, irises aim left with asymmetric eye apertures; torso and potion bandolier stay anchored",
+      "verdict": "pass"
+    }
+  ],
+  "whole_body_rotation": false,
+  "identity_and_outfit_preserved": true
+}

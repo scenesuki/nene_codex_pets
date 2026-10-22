@@ -1,0 +1,114 @@
+{
+  "ok": true,
+  "reviewed_by": "parent registered rows and full16 ordered native-size review",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "horizontal": "centered",
+      "vertical": "Unmistakably up relative to neutral."
+    },
+    {
+      "direction": "022.5",
+      "verdict": "pass",
+      "horizontal": "Clearly right-facing nose and eyes.",
+      "vertical": "Chin raised, eyes up."
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "horizontal": "Clearly screen-right face profile.",
+      "vertical": "Upward chin and eyes."
+    },
+    {
+      "direction": "067.5",
+      "verdict": "pass",
+      "horizontal": "Right-facing nose/eyes.",
+      "vertical": "Slightly up."
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "horizontal": "Unmistakably right at native192x208.",
+      "vertical": "Approximately level."
+    },
+    {
+      "direction": "112.5",
+      "verdict": "pass",
+      "horizontal": "Right nose/gaze.",
+      "vertical": "Downward chin/eye line."
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "horizontal": "Right face/gaze.",
+      "vertical": "Downward chin and open eye line."
+    },
+    {
+      "direction": "157.5",
+      "verdict": "pass",
+      "horizontal": "Slightly right, returning toward frontal.",
+      "vertical": "Chin tucked and eyes downward."
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "horizontal": "Frontal, no horizontal requirement.",
+      "vertical": "Head deeply lowered with crown visible and chin tucked; eye line down beneath fringe."
+    },
+    {
+      "direction": "202.5",
+      "verdict": "pass",
+      "horizontal": "Nose and face turn slightly screen-left.",
+      "vertical": "Head pitch remains lowered and gaze below horizon."
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "horizontal": "Clear left cheek/nose turn toward screen-left.",
+      "vertical": "Chin tucked with eyes looking down-left."
+    },
+    {
+      "direction": "247.5",
+      "verdict": "warning",
+      "horizontal": "Stronger left-facing nose profile.",
+      "vertical": "Slight downward eye/chin cue; close to225 and near level cardinal."
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "horizontal": "Nose silhouette and violet eyes point clearly screen-left, opposite090.",
+      "vertical": "Pitch near level, no vertical requirement."
+    },
+    {
+      "direction": "292.5",
+      "verdict": "pass",
+      "horizontal": "Left-facing nose and open eyes retained.",
+      "vertical": "Chin rises and eye line shifts above horizon."
+    },
+    {
+      "direction": "315",
+      "verdict": "warning",
+      "horizontal": "Face remains left-oriented.",
+      "vertical": "Strong chin raise, visible throat and upward eyes."
+    },
+    {
+      "direction": "337.5",
+      "verdict": "warning",
+      "horizontal": "Left yaw persists mildly; close to315.",
+      "vertical": "Strong upward head pitch, raised chin and upward eyes, connects000UP."
+    }
+  ],
+  "continuity_review": [
+    "Coherent clockwise arc from nose/eyes/chin.000 clearlyup and090 clearlyright. Stable body scale/placement/attachments. No leftward reversal or closed-eye failure.",
+    "Parent rechecked full16 after correctedrow9registration. Leftrow reuses currentapprovedrow9scale; footbaseline203.157.5→180 staysdown withsmallheadyaw;337.5→000 staysup withsmallheadyaw, slightheightsizevariation. Bodycrossedstance/raisedarm/ponytail remain stable. No wrongquadrant/reversal."
+  ],
+  "accepted_minor_warnings": [
+    "022.5/045/067.5 visually similar; angularspacing approximate.",
+    "112.5/135 apparent head direction is close.",
+    "225/247.5 and315/337.5 changes subtle; angularspacing approximate.",
+    "337.5→000 headheight varies slightly, feet anchored.",
+    "Continuity metrics090→112.5 and135→157.5 are local diff outliers; labeledfull16 review shows headpitch/yaw progression withoutstructural defect."
+  ],
+  "application_playback_verified": false
+}

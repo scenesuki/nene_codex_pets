@@ -1,28 +1,34 @@
 {
   "ok": true,
-  "source_files_match": true,
-  "checked_at": "2026-10-19T02:53:25.095Z",
+  "operation": "install_all_local_and_cloud",
+  "installed": true,
+  "installed_at": "2026-10-22T08:24:59.8469464Z",
+  "checked_at": "2026-10-22T08:31:14.442Z",
+  "pet_id": "nene_country_casual",
+  "display_name": "宁宁 · 田园休闲",
   "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_country_casual",
   "package_files": [
     "pet.json",
     "spritesheet.webp"
   ],
-  "id": "custom:nene_country_casual",
-  "display_name": "宁宁 · 田园休闲",
+  "directory_absent": false,
+  "source_files_match": true,
   "sprite_version": 2,
   "decoded_dimensions": {
     "width": 1536,
     "height": 2288
   },
-  "format": "webp",
   "manifest_sha256": "55ab8a2b90c24ba496d87de35c52a11ece4f0d56f006773492504b279ed11710",
   "spritesheet_sha256": "7dbc2487eefdae0bfeb8efd770601bd05200b35ecea398e0e0838e3445580978",
-  "app_version": "26.1013.4894.0",
-  "app_validator_source": "C:/Program Files/WindowsApps/OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0/app/resources/app.asar::.vite/build/src-DsLVGakC.js",
-  "app_validator_module_sha256": "28a0918f01c50b0eb17676e894998ad7182f119d978adf0467ccaac3583f259c",
-  "method": "Byte-for-byte comparison with workspace and read-only replay of actual installed-app image/version and path validators; no app UI action",
+  "cloud_pet_id": "pet_6ad9c8f0e1808191b7c692f8f63a883a",
+  "cloud_sprite_preflight_valid": true,
+  "cloud_creation_confirmed": true,
+  "cloud_metadata_verified": true,
+  "cloud_collection_nene_count": 18,
+  "cloud_duplicate_names": false,
+  "active_pet_preserved": true,
+  "selection_settings_modified": false,
   "application_ui_detection_verified": false,
   "floating_display_verified": false,
-  "current_pet_changed": false,
-  "installed_at": "2026-10-19T02:53:25.095Z"
+  "method": "Exact current workspace files copied to local pets directory and SHA-256 verified; exact atlas passed Pets preflight and upload session creation; complete cloud inventory read back."
 }

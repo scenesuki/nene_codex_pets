@@ -1,0 +1,68 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "/root/traveler_final_qa",
+  "atlas_sha256": "4ddf79da860cb381a26475218e60b25207810d65d023ff762ea53bf851bf2930",
+  "states9": {
+    "idle": "pass:breathing/blink,neutralpixelidenticalidle0",
+    "running-right": "pass:00/04vs02/06supportexchange,facingscreenright",
+    "running-left": "pass:ABBBABBBtwo4framecyclesexchangeboots,facingscreenleft",
+    "waving": "pass:handgreeting/smile/return",
+    "jumping": "pass:crouch/smalljump/land,foot0/4/8/4/0px",
+    "failed": "pass:headdown/closedeyes/handsinthenrecover",
+    "waiting": "pass:openpalmsrequestinput",
+    "running": "pass:plantedfeet/chinhandthinking",
+    "review": "pass:lowerjoinedhands/downscan"
+  },
+  "directions16": {
+    "000": "pass:UP",
+    "022.5": "pass:UPslightlyRIGHT",
+    "045": "pass:UPRIGHT",
+    "067.5": "pass:RIGHTslightlyUP",
+    "090": "pass:RIGHT",
+    "112.5": "pass:RIGHTslightlyDOWN",
+    "135": "pass:DOWNRIGHT",
+    "157.5": "pass:DOWNnearRIGHT",
+    "180": "pass:DOWNopenvioletirisslivers",
+    "202.5": "pass:DOWNslightlyLEFT",
+    "225": "pass:DOWNLEFT",
+    "247.5": "pass:LEFTslightlyDOWN",
+    "270": "pass:LEFT",
+    "292.5": "pass:LEFTslightlyUP",
+    "315": "pass:UPLEFT",
+    "337.5": "pass:UPnearLEFT"
+  },
+  "geometry_continuity": {
+    "verdict": "pass",
+    "atlas": "1536x2288 RGBA8x11,192x208cells",
+    "occupied_extents": "x37..158,y2..202,noclipping",
+    "identity": "Canonicalandfullcostumematch:cat-earberet(notrealears),two independentballoonpantlegs,cityprint,creamcrosscurves,plaidfrilledcuffs,shoeorangebows,attachedsatchel.",
+    "full_circle": "All16ordered,noquadrantreversalorbrokenbody",
+    "cross_row_boundaries": "Visiblehat/haircontourheightdifferencesat157.5->180and337.5->000; pants/shoes/bodyanchorsstable,noconspicuouswholebodyresize/locationjump.",
+    "alpha_gaps": "180/225aty9externalnegativegapbetween2cat-earhattips,notbodyhole.",
+    "cleanup": "Oncecleanupandnativevalidatorpass;novisiblekeypollutionneedingfurthercleanup."
+  },
+  "decoded_gifs": {
+    "count": 11,
+    "total_frames": 90,
+    "state_frames": 57,
+    "direction_frames": 16,
+    "overview_frames": 17,
+    "all_frames_decoded_and_inspected": true,
+    "all_loop_values": 0,
+    "all_durations_positive": true,
+    "duration_range_ms": [
+      60,
+      320
+    ],
+    "direction_frame_duration_ms": 200,
+    "order_and_loop": "No majorbreakinactualdecodedorder/stateend-to-start."
+  },
+  "accepted_minor_warnings": [
+    "左跑支撑角色为一帧A、三帧B，接触节奏稍不均匀，但确实交换双脚。",
+    "跨行注视的帽顶及头发轮廓有高度差，属于局部外观变化；身体与脚锚点保持稳定。",
+    "部分相邻注视角度差异较细微，仍保持正确方向。",
+    "少量发丝、衣褶细节变化及GIF调色板边缘颗粒不影响角色辨识。"
+  ],
+  "major_issues": [],
+  "application_ui_verified": false
+}

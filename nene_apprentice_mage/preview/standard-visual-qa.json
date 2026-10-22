@@ -1,0 +1,30 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "parent",
+  "evidence": "Native-size aggregate standard contact sheet and per-frame extraction reports, plus generated-row worker checks; source imagery is unchanged.",
+  "identity": "All nine families retain sage wavy twin front locks, violet eyes, blue gold-rope hat, teal gold-trimmed coat, white pleats, asymmetric potion bandolier, socks and brown boots. Compact chibi proportions remain recognizable.",
+  "actions": {
+    "idle": "Visible half blink, full blink and return; quiet stance.",
+    "running-right": "Eight right-facing poses; opposite support at frames1/5 versus3/7; narrow passing poses alternate.",
+    "running-left": "Eight left-facing poses; opposite support at frames1/5 versus3/7. Upright torso and short stride, one boot remains grounded; passing poses retain a bent trailing knee. Accepted as slightly stylized stepping, not a broken cadence or a wrong direction.",
+    "waving": "Four modest open-handed greetings, hat and potion belt intact.",
+    "jumping": "Anticipation crouch, one small lifted middle pose, recovery crouch and return; no impact effects.",
+    "failed": "Downcast eyes and withdrawn hands alternate with a small attached hand gesture; no detached tears.",
+    "waiting": "One hand reaches or opens toward user with expectant eyes; distinguishable from idle and review.",
+    "running": "Hands focus on existing potion/chest area, feet anchored, no literal running or new props.",
+    "review": "Chin and cheek inspection gestures; six separate full hats and boots, slight final head tilt."
+  },
+  "accepted_minor_warnings": [
+    "左向移动的过渡帧保留较弯的后膝，步态略带Q版夸张；双脚交替承重且身体直立，没有双脚同时腾空。"
+  ],
+  "left_worker_fail_resolution": {
+    "severity": "minor",
+    "decision": "accept",
+    "reason": "Worker flagged ideal narrow passing pose mismatch. Parent aggregate normal-size review confirms correct heading, alternating support, no flight and no forward sprint lean. Trailing sole lift is roughly4–8% of hat-to-boot height, about8–15px at final scale; this is a stylistic gait deviation rather than a failed directional state. Retain the worker's original fail evidence."
+  },
+  "chroma": "Judged only after one final full-atlas despill, not on the intermediate sheet.",
+  "application_ui_verified": false,
+  "atlas_sha256": "aa35e42fb2bd659961d7ec30938ca20c535c8a62d0b4b758f8b13a1d8ef99aeb",
+  "independent_review": "qa/standard-independent-review.json",
+  "actual_loop_check": "Independent browser-timed GIF playback and decoded frame sequences passed; see independent review for actual scope."
+}

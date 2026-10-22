@@ -1,0 +1,22 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "blind_hard_gates": "All28 consensus axis classifications correct; no override of blind validation.",
+  "failed_checks": [
+    "continuity metric warnings at157.5->180,247.5->270,337.5->000;000 transparency candidates",
+    "local waiting loop tilt reversal and fine pose details"
+  ],
+  "evidence": [
+    "Independent repaired-row semantics and fresh final-visual-qa pass no major issues.",
+    "Feet and body anchors stable.8–10px head-outline seams are minor, not whole-body scaling.",
+    "000 transparent region is external hair/shoulder gap, not interior body hole.",
+    "All16 directions remain correct quadrant; no reversal."
+  ],
+  "records": [
+    "direction-semantics.json",
+    "look-continuity.json",
+    "final-visual-qa.json",
+    "direction-blind-validation.json"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ok": true,
+  "reviewed_by": "parent",
+  "registered_row_sha256": "720c57a2035966ef7db9b44e8e09b08cab6ce1afec559dbc8cceb0901d6714af",
+  "post_registration_edge_check": "passed by bundled assembler without relaxed threshold",
+  "directions": [
+    {
+      "degree": "000",
+      "observed": "chin raised, eyes high, balanced frontal face: up",
+      "verdict": "pass"
+    },
+    {
+      "degree": "022.5",
+      "observed": "nose and both eyes aim up-right, head yaw stronger than nominal near-up step",
+      "verdict": "warning"
+    },
+    {
+      "degree": "045",
+      "observed": "rightward nose and raised eye-line, up-right",
+      "verdict": "pass"
+    },
+    {
+      "degree": "067.5",
+      "observed": "rightward face with slight lifted chin; similar vertical pitch to045",
+      "verdict": "warning"
+    },
+    {
+      "degree": "090",
+      "observed": "both eyes and nose unmistakably screen-right",
+      "verdict": "pass"
+    },
+    {
+      "degree": "112.5",
+      "observed": "rightward nose, gradually lowered eyes and chin",
+      "verdict": "pass"
+    },
+    {
+      "degree": "135",
+      "observed": "head and eyelids pitch down while right bias remains",
+      "verdict": "pass"
+    },
+    {
+      "degree": "157.5",
+      "observed": "mostly down with small remaining rightward bias",
+      "verdict": "pass"
+    }
+  ],
+  "continuity": "No wrong quadrant or reversal; anchored boots and bandolier stable. Upper-right pitch changes compressed across022.5–067.5; accepted minor artistic interpolation, not exact pupil geometry.",
+  "accepted_minor_warnings": [
+    "右上方向的仰角变化较集中，部分相邻姿势接近。"
+  ]
+}

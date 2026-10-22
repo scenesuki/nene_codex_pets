@@ -1,0 +1,347 @@
+{
+  "visual_qa": "pass",
+  "scope": "Independent review of the nine standard action rows only. Intermediate registered imagegen artwork, before final edge cleanup. No look directions, installation, packaging or final application playback reviewed.",
+  "reviewed_by": "gothic_standard_qa independent subagent; visual comparison plus read-only Pillow decoding and alpha-region inspection",
+  "reviewed_at_utc": "2026-10-21T15:51:54.331260+00:00",
+  "method": "Viewed canonical-base.png and qa/contact-sheet.png, then all nine decoded GIF frame sequences at original 192x208 cell resolution. Checked every frame and last-to-first ordering using actual GIF durations. This is frame-sequence/timing review, not a claim of testing playback inside Codex.",
+  "references": [
+    "references/canonical-base.png",
+    "qa/contact-sheet.png",
+    "qa/review.json",
+    "qa/standard-registration.json"
+  ],
+  "identity_and_costume": "Consistent pale sage long hair, purple eyes, dark purple/black ruffled headband with cream rose/bow ornaments, high-collar layered purple dress, pale vertical trim, waist ties, chains/star accents, dark gloves and strapped shoes. Small lace/chain details simplify at native size, but character identity and costume silhouette match the canonical base.",
+  "states9": {
+    "idle": {
+      "visual_qa": "pass",
+      "frames": 6,
+      "action": "Subtle breathing/sway and a blink: eyes close around frames 2-3, then reopen. Both shoes remain planted.",
+      "loop": "Frame 5 returns close to frame 0; no pronounced reset or positional jump.",
+      "quality": "Stable head/body ratio and dress silhouette; no crop or limb loss.",
+      "clipping": "No frame touches the 192x208 cell edge in review.json; visual margins confirmed.",
+      "transparency": "No visually obvious unintended large interior puncture or broken limb at native size. Cyan contour residue and tiny alpha gaps remain in this intermediate extraction and require final-alpha QA."
+    },
+    "running-right": {
+      "visual_qa": "pass",
+      "frames": 8,
+      "action": "Clear right-facing three-quarter profile, forward hands and slight hair/skirt response. Screen-left shoe lifts in frames 0 and 4; the other shoe lifts in frames 2 and 6; intervening frames give two-foot contact.",
+      "loop": "Alternating lift/contact cycle is legible; frame 7 contact returns to frame 0 lift.",
+      "quality": "Direction is clear, both distinct shoes participate, body height and planted-foot baseline remain stable. Small steps rather than a broad running stride.",
+      "clipping": "No frame touches the 192x208 cell edge in review.json; visual margins confirmed.",
+      "transparency": "No visually obvious unintended large interior puncture or broken limb at native size. Cyan contour residue and tiny alpha gaps remain in this intermediate extraction and require final-alpha QA."
+    },
+    "running-left": {
+      "visual_qa": "pass",
+      "frames": 8,
+      "action": "Clear left-facing three-quarter profile. Screen-left shoe A visibly lifts in frame 0; screen-right shoe B lifts in frames 2, 4 and 6. Frames 1,3,5,7 show two-foot contact. Both different shoes genuinely leave the ground.",
+      "loop": "Actual eight-frame order is A/contact/B/contact/B/contact/B/contact, including frame 7-to-0. All frames are 120ms except frame 7 at 220ms. The loop is complete and readable as a restrained leftward shuffle, but favors B and has an uneven stepping rhythm.",
+      "quality": "Accepted minor rhythm limitation, not a claim of regular alternating gait. Direction, feet, silhouette and baseline remain readable; no missing shoe or teleporting body.",
+      "gait_decision": "minor",
+      "gait_rationale": "A complete cycle contains distinct lifts of both feet and intervening contacts. Repeated B steps make the pace lopsided, but do not invalidate this small-step desktop movement. A perfectly symmetric four-frame template is not required.",
+      "clipping": "No frame touches the 192x208 cell edge in review.json; visual margins confirmed.",
+      "transparency": "No visually obvious unintended large interior puncture or broken limb at native size. Cyan contour residue and tiny alpha gaps remain in this intermediate extraction and require final-alpha QA."
+    },
+    "waving": {
+      "visual_qa": "pass",
+      "frames": 4,
+      "action": "One hand rises beside the face, opens/outward-tilts and lowers again across four frames. Feet stay planted; the greeting is readable at native size.",
+      "loop": "Frame 3 lowered hand returns close to frame 0; compact greeting loop.",
+      "quality": "No arm detachment, extra limb, clipping or prominent scale jump.",
+      "clipping": "No frame touches the 192x208 cell edge in review.json; visual margins confirmed.",
+      "transparency": "No visually obvious unintended large interior puncture or broken limb at native size. Cyan contour residue and tiny alpha gaps remain in this intermediate extraction and require final-alpha QA."
+    },
+    "jumping": {
+      "visual_qa": "pass",
+      "frames": 5,
+      "action": "Small hop with hands close to the chest, skirt opening slightly and both shoes raised together. Registered foot lifts are 0/4/8/4/0px.",
+      "loop": "Grounded first and last frames surround a shallow up/down arc. No large leap.",
+      "quality": "No top/bottom crop; body/dress respond through the hop without a sudden gross size change.",
+      "clipping": "No frame touches the 192x208 cell edge in review.json; visual margins confirmed.",
+      "transparency": "No visually obvious unintended large interior puncture or broken limb at native size. Cyan contour residue and tiny alpha gaps remain in this intermediate extraction and require final-alpha QA."
+    },
+    "failed": {
+      "visual_qa": "pass",
+      "frames": 8,
+      "action": "Eyes lower/close, head bows, torso and knees settle into a deep disappointed crouch, then recover to standing. Frames 3-4 are low poses, followed by recovery in frames 5-7.",
+      "loop": "The large height reduction follows a visible crouch trajectory, rather than arbitrary frame registration. Upright final pose returns close to the first.",
+      "quality": "Hands, hair, skirt and shoes remain connected/readable; the skirt broadens during crouching as expected. No clipped head or missing limb.",
+      "clipping": "No frame touches the 192x208 cell edge in review.json; visual margins confirmed.",
+      "transparency": "No visually obvious unintended large interior puncture or broken limb at native size. Cyan contour residue and tiny alpha gaps remain in this intermediate extraction and require final-alpha QA."
+    },
+    "waiting": {
+      "visual_qa": "pass",
+      "frames": 6,
+      "action": "Standing waiting/questioning gesture: one palm opens toward the viewer side, head tilts slightly, then returns.",
+      "loop": "Frames 0 and 5 are similar resting poses; gesture completes before the reset.",
+      "quality": "Distinguishable from idle by the open-palm gesture; stable feet, volume and silhouette.",
+      "clipping": "No frame touches the 192x208 cell edge in review.json; visual margins confirmed.",
+      "transparency": "No visually obvious unintended large interior puncture or broken limb at native size. Cyan contour residue and tiny alpha gaps remain in this intermediate extraction and require final-alpha QA."
+    },
+    "running": {
+      "visual_qa": "pass",
+      "frames": 6,
+      "action": "Task-active/focused interpretation, as specified: standing thinking pose with a gloved hand near the chin, restrained expression changes and blink. This is not a locomotion row.",
+      "loop": "Small head/face changes return to the initial thinking pose without a body reset.",
+      "quality": "Both feet stay planted; no crop, detached hand or substantial proportion shift. Action is deliberately subtle.",
+      "clipping": "No frame touches the 192x208 cell edge in review.json; visual margins confirmed.",
+      "transparency": "No visually obvious unintended large interior puncture or broken limb at native size. Cyan contour residue and tiny alpha gaps remain in this intermediate extraction and require final-alpha QA."
+    },
+    "review": {
+      "visual_qa": "pass",
+      "frames": 6,
+      "action": "Standing scrutiny/review: hands lower together near the waist, head tilts/bows and eyes narrow/close before looking up again.",
+      "loop": "The bowed middle poses recover toward the upright endpoint; last-to-first is restrained.",
+      "quality": "Distinguished from focused running row by lower hand placement and clearer head bow; difference is subtle at native size but visible. No major limb or silhouette defect.",
+      "clipping": "No frame touches the 192x208 cell edge in review.json; visual margins confirmed.",
+      "transparency": "No visually obvious unintended large interior puncture or broken limb at native size. Cyan contour residue and tiny alpha gaps remain in this intermediate extraction and require final-alpha QA."
+    }
+  },
+  "accepted_minor_warnings": [
+    {
+      "state": "running-left",
+      "severity": "minor",
+      "observation": "Uneven A/contact/B/contact/B/contact/B/contact cadence; shoe B lifts three times per cycle versus shoe A once. Reads as a small shuffle with a favored foot, not an evenly alternating run. Both shoes do lift and direction/loop remain clear."
+    },
+    {
+      "state": "all",
+      "severity": "minor",
+      "observation": "Fine trim, chain and hair-line details vary slightly between generated poses. Native-size costume identity and overall proportions remain coherent."
+    },
+    {
+      "state": "running,review",
+      "severity": "minor",
+      "observation": "Focused standing thinking and scrutiny are understated. Their hand placement/head tilt differ, but the distinction relies on these small gestures."
+    },
+    {
+      "state": "all",
+      "severity": "deferred_final_alpha",
+      "observation": "Cyan contour residue and tiny enclosed transparent pixels exist in the intermediate frames. They were not used as grounds to fail action QA. Final cleaned spritesheet transparency/edge quality must be checked separately."
+    }
+  ],
+  "major_issues": [],
+  "alpha_region_check": {
+    "method": "For all 57 RGBA PNG frames, flood-filled alpha==0 components using 4-connectivity; excluded components touching the cell boundary. Screened for visually disruptive interior holes, with all regions over 20 pixels above y=170 enumerated.",
+    "result": "No enclosed zero-alpha component larger than 20 pixels had top y<170 in any standard frame. Larger lower-frame regions are the visible gap between legs/shoes. Numerous one-pixel/thin contour gaps remain; native-size visual inspection found no obvious face/torso puncture or broken limb.",
+    "enclosed_zero_alpha_component_max_area_px": {
+      "idle": 32,
+      "running-right": 69,
+      "running-left": 16,
+      "waving": 98,
+      "jumping": 25,
+      "failed": 127,
+      "waiting": 96,
+      "running": 57,
+      "review": 100
+    },
+    "limitation": "Area screening supports the visual review and does not certify every alpha pixel or final edge cleanup."
+  },
+  "decoded_gifs": {
+    "idle": {
+      "path": "qa/previews/idle.gif",
+      "sha256": "a3ea5f8edce355fdf6e142421ab0abc593b9869dae4f1350099c329552a915bb",
+      "size_px": [
+        192,
+        208
+      ],
+      "frame_count": 6,
+      "expected_frame_count": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "cycle_ms": 1100,
+      "loop": 0,
+      "decode": "Pillow ImageSequence: all frames decoded and inspected in order at original 192x208 cell size; last-to-first pose continuity included",
+      "qa_contact_sheet": "qa/standard-review/idle-decoded.png"
+    },
+    "running-right": {
+      "path": "qa/previews/running-right.gif",
+      "sha256": "48c064ad51e0b53401bb0d4f420394a2d8db77cd91336d9864c58b0b5bfadef7",
+      "size_px": [
+        192,
+        208
+      ],
+      "frame_count": 8,
+      "expected_frame_count": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "cycle_ms": 1060,
+      "loop": 0,
+      "decode": "Pillow ImageSequence: all frames decoded and inspected in order at original 192x208 cell size; last-to-first pose continuity included",
+      "qa_contact_sheet": "qa/standard-review/running-right-decoded.png"
+    },
+    "running-left": {
+      "path": "qa/previews/running-left.gif",
+      "sha256": "60e4b70177e91fec13500c336f89b5bf4a93517e55be2fff49805b15878a3a35",
+      "size_px": [
+        192,
+        208
+      ],
+      "frame_count": 8,
+      "expected_frame_count": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "cycle_ms": 1060,
+      "loop": 0,
+      "decode": "Pillow ImageSequence: all frames decoded and inspected in order at original 192x208 cell size; last-to-first pose continuity included",
+      "qa_contact_sheet": "qa/standard-review/running-left-decoded.png"
+    },
+    "waving": {
+      "path": "qa/previews/waving.gif",
+      "sha256": "163730e13979be22b2ad46adee96924c6ee8856f8b7d38dfbe8866b74f32c176",
+      "size_px": [
+        192,
+        208
+      ],
+      "frame_count": 4,
+      "expected_frame_count": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "cycle_ms": 700,
+      "loop": 0,
+      "decode": "Pillow ImageSequence: all frames decoded and inspected in order at original 192x208 cell size; last-to-first pose continuity included",
+      "qa_contact_sheet": "qa/standard-review/waving-decoded.png"
+    },
+    "jumping": {
+      "path": "qa/previews/jumping.gif",
+      "sha256": "a3b7ef2aa43965f7a050a2fea2e55c24129852cfca2090d911c87b8bd5e7981f",
+      "size_px": [
+        192,
+        208
+      ],
+      "frame_count": 5,
+      "expected_frame_count": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "cycle_ms": 840,
+      "loop": 0,
+      "decode": "Pillow ImageSequence: all frames decoded and inspected in order at original 192x208 cell size; last-to-first pose continuity included",
+      "qa_contact_sheet": "qa/standard-review/jumping-decoded.png"
+    },
+    "failed": {
+      "path": "qa/previews/failed.gif",
+      "sha256": "ca3e28722ffa497442ed50b82b25aa082f91829de4525bb53bda005623033e69",
+      "size_px": [
+        192,
+        208
+      ],
+      "frame_count": 8,
+      "expected_frame_count": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "cycle_ms": 1220,
+      "loop": 0,
+      "decode": "Pillow ImageSequence: all frames decoded and inspected in order at original 192x208 cell size; last-to-first pose continuity included",
+      "qa_contact_sheet": "qa/standard-review/failed-decoded.png"
+    },
+    "waiting": {
+      "path": "qa/previews/waiting.gif",
+      "sha256": "72143847862e144be371c5ed52a090be9a510ef5ddca49bd833af4debc3e7e51",
+      "size_px": [
+        192,
+        208
+      ],
+      "frame_count": 6,
+      "expected_frame_count": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "cycle_ms": 1010,
+      "loop": 0,
+      "decode": "Pillow ImageSequence: all frames decoded and inspected in order at original 192x208 cell size; last-to-first pose continuity included",
+      "qa_contact_sheet": "qa/standard-review/waiting-decoded.png"
+    },
+    "running": {
+      "path": "qa/previews/running.gif",
+      "sha256": "101e6fe183f4b77817456a4d7c7dc91def013acfa20fcb25825e1d59a652212b",
+      "size_px": [
+        192,
+        208
+      ],
+      "frame_count": 6,
+      "expected_frame_count": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "cycle_ms": 820,
+      "loop": 0,
+      "decode": "Pillow ImageSequence: all frames decoded and inspected in order at original 192x208 cell size; last-to-first pose continuity included",
+      "qa_contact_sheet": "qa/standard-review/running-decoded.png"
+    },
+    "review": {
+      "path": "qa/previews/review.gif",
+      "sha256": "2d462a1c41a8802edefd09f45d76c2bdbf7231f3143f9286870b1d6ac5e796ca",
+      "size_px": [
+        192,
+        208
+      ],
+      "frame_count": 6,
+      "expected_frame_count": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "cycle_ms": 1030,
+      "loop": 0,
+      "decode": "Pillow ImageSequence: all frames decoded and inspected in order at original 192x208 cell size; last-to-first pose continuity included",
+      "qa_contact_sheet": "qa/standard-review/review-decoded.png"
+    }
+  },
+  "mutations": "Only this JSON and decoded QA contact sheets under qa/standard-review were written; no character artwork, source frames, manifests or deliverables edited.",
+  "not_verified": [
+    "Continuous playback in the target Codex application",
+    "Final edge cleanup and final spritesheet alpha",
+    "Look directions, import/installation and release packaging"
+  ]
+}

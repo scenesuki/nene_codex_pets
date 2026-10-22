@@ -1,0 +1,139 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "Previous unchanged-state/direction review plus independent three-row motion revision review",
+  "atlas_sha256": "f98e51981a445e405546f7c4a991521717c79c9a11022d4a874cc0c1c6d531f6",
+  "standard_states": {
+    "count": 9,
+    "animation_frames": 57,
+    "idle": "窄紫眼、偏笑与唇边手势，修长比例稳定。",
+    "running-right": {
+      "verdict": "pass",
+      "observed": "八帧支撑腿交替可辨，步幅低摆臂形成普通行走，无高抬膝和奔跑腾空。",
+      "loop": "末首自然，120ms×7+220ms与左向一致。"
+    },
+    "running-left": {
+      "verdict": "pass",
+      "observed": "八帧形成交替迈步，双腿经过靠拢位置，膝与手臂低位，无明显腾空，身份服饰一致。",
+      "loop": "末首姿态相容，120ms×7+220ms循环成立。"
+    },
+    "waving": "手指和腕部招手可读。",
+    "jumping": {
+      "verdict": "pass",
+      "observed": "站立交叉腿、轻侧头与唇边指尖狡黠动作；支撑脚稳定，后脚保持原姿态，无起跳全身腾空或落地。",
+      "loop": "五帧微动作闭合，末帧后恢复首帧可接受。"
+    },
+    "failed": "落手摊手与恢复，身份服饰一致。",
+    "waiting": "手掌邀请姿态微动。",
+    "running": "working双手操作，双脚落地。",
+    "review": "前倾审视恢复，无异常缩放。",
+    "integrity": "全部10张实际GIF分镜已查，无裁切、内部孔洞、身份变化、配饰翻侧或明显尺度跳变。"
+  },
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "horizontal": "鼻与下巴居中",
+      "vertical": "下巴抬起、面部朝上"
+    },
+    {
+      "direction": "022.5",
+      "verdict": "pass",
+      "horizontal": "鼻尖和眼线向右",
+      "vertical": "下巴抬高、视线上望"
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "horizontal": "鼻尖面部朝右",
+      "vertical": "眼线和下巴有仰角"
+    },
+    {
+      "direction": "067.5",
+      "verdict": "pass",
+      "horizontal": "明确右转",
+      "vertical": "轻微抬颏"
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "horizontal": "鼻尖侧脸明确朝右",
+      "vertical": "接近水平"
+    },
+    {
+      "direction": "112.5",
+      "verdict": "pass",
+      "horizontal": "右侧脸鼻尖朝右",
+      "vertical": "头低、下巴收回"
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "horizontal": "脸朝右",
+      "vertical": "目光鼻尖下俯"
+    },
+    {
+      "direction": "157.5",
+      "verdict": "pass",
+      "horizontal": "轻微右转趋中",
+      "vertical": "明显低头，刘海遮眼增多"
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "horizontal": "低头居中",
+      "vertical": "下巴收胸，明确下望"
+    },
+    {
+      "direction": "202.5",
+      "verdict": "pass",
+      "horizontal": "鼻和脸开始左偏",
+      "vertical": "保持低头"
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "horizontal": "鼻尖脸廓朝左",
+      "vertical": "眼线下俯"
+    },
+    {
+      "direction": "247.5",
+      "verdict": "pass",
+      "horizontal": "明确左向侧脸",
+      "vertical": "轻微低头"
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "horizontal": "鼻尖侧脸明确朝左",
+      "vertical": "接近水平"
+    },
+    {
+      "direction": "292.5",
+      "verdict": "pass",
+      "horizontal": "面部朝左",
+      "vertical": "下巴开始抬起"
+    },
+    {
+      "direction": "315",
+      "verdict": "pass",
+      "horizontal": "鼻尖眼线朝左",
+      "vertical": "明显抬颏上望"
+    },
+    {
+      "direction": "337.5",
+      "verdict": "pass",
+      "horizontal": "轻微向左逐渐回正",
+      "vertical": "仰头朝上"
+    }
+  ],
+  "cardinals": "000上090右180下270左全部通过，无错误象限/反转。",
+  "loop": "标准首尾可衔接；157.5→180继续俯视回正，337.5→000继续仰视回正，无配饰跳侧。实际GIF解码与无限循环标记通过。",
+  "accepted_minor_warnings": [
+    "发丝与衣饰有轻微帧间细节变化，不影响身份动作辨识。",
+    "末帧220ms停留造成轻微节奏顿点，符合应用实际时序。",
+    "部分相邻注视方向接近、正下方附近横向线索较弱；沿用原验收。"
+  ],
+  "major_issues": [],
+  "repair_note": "无需修复。原生validation和chroma检查ok=true，alpha保留，不再处理边缘。",
+  "motion_revision": "Only atlasrows1/2/4 changed; other6standardstates and16directions pixel-identical, see motion-revision-validation.json."
+}
