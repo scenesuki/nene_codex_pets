@@ -1,0 +1,106 @@
+{
+  "ok": true,
+  "date": "2026-11-07",
+  "pet_id": "nene_cat_traveler",
+  "description": "重制左跑四阶段支撑交替，保留猫耳帽、双裤腿纹样、挎包与鞋饰。",
+  "atlas_sha256": "0d549c8c0180f1558b5473cc532e92eb14078ccce30821fdb31c63b2c9a9c3f3",
+  "changed_cells": [
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ]
+  ],
+  "unchanged_cells": 80,
+  "source_hashes_preserved": true,
+  "portrait_unchanged": true,
+  "gif_checks": [
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "duration_ms": 1680
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "duration_ms": 1220
+    },
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "duration_ms": 1100
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "duration_ms": 840
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "duration_ms": 3200
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "duration_ms": 1030
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "duration_ms": 820
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "duration_ms": 1010
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "duration_ms": 700
+    }
+  ],
+  "user_review": "pending",
+  "application_playback_verified": false,
+  "installed": false,
+  "cloud_updated": false,
+  "published": false
+}

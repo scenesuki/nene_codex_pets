@@ -6,6 +6,8 @@
 
 **宁宁 · 橙纹西装** · ID `nene_herringbone_suit` · 9种动画 · 16个注视方向
 
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
 - **服饰要素**：灰绿高马尾、金铆钉黑发箍、金绿不对称耳饰；橙色人字纹两扣西装、黑滚边与袖口、单侧绿翻领和徽章；白色高领内衫、黑颈圈、金项链及戒指；黑色翻边宽裤、金链与蝴蝶刺绣，配金橙底缘黑色圆头长靴。
 - **画风**：日系舞台插画，采用修长比例（约4.5～5头身）；锐利半眯眼、不对称笑意、错肩站姿与唇边指尖手势，表现原卡的狂气与从容。
 - **参考卡面**：4星「森の導き手」特训后；原色衣装「Acting ambition」。
@@ -16,7 +18,11 @@
 
 导入文件：[pet.json](pet.json) · [spritesheet.webp](spritesheet.webp)。
 
-[下载 v2.0.0 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/SHA256SUMS.txt)。本套已收录于该版本；历史名称见[命名对照](../PET_NAMES.md)。
+2026-11-06 连续优化：以右走原图为色彩参考微调左走头发明暗，按原脚底位置组装，保留修长比例、慢走和原地戏谑设计。 [本轮校验](preview/refinement-validation.json)。工作区成品已更新，待用户验收；该轮修订晚于已发布合集。此前跳跃、安装及更名校验为历史记录，以本轮成品哈希为准。
+
+[下载 v2.0.1 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/SHA256SUMS.txt)。
+
+2026-11-12 已核对本机文件与云端图集均为当前成品，云端保留一条。 [当前安装记录](preview/current-installation-validation.json)
 
 ## 安装
 
@@ -26,6 +32,8 @@
 
 <details>
 <summary>规格与验收</summary>
+
+- 2026-11-07–08画风与精细度修订：两向移动、专注与审视整理面部、手腕袖口和发丝线条，保留修长比例与慢走动作。 [当前修订校验](preview/style-fix-validation.json)记录本轮图集哈希与修改格；旧验收为历史记录。已检查静态帧序列与文件，应用内播放及用户验收待确认。
 
 **验证范围**：文件及预览检查已有记录；Codex 设置识别、桌面浮动显示与应用内动态播放尚未实测。兼容依据和已知限制如下。
 

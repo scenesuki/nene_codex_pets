@@ -10,9 +10,11 @@
 
 项目当前收录十九套造型，每套提供 9 种状态动画与 16 个注视方向。
 
-**[前往下载](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip)** · [更新记录](https://github.com/scenesuki/nene_codex_pets/releases) · [提交 Issue](https://github.com/scenesuki/nene_codex_pets/issues/new)
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
 
-**下载范围**：v2.0.0 完整合集包含本页展示的全部十九套宠物，以及各套安装文件、动画预览与校验记录。
+**[前往下载](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip)** · [更新记录](https://github.com/scenesuki/nene_codex_pets/releases) · [提交 Issue](https://github.com/scenesuki/nene_codex_pets/issues/new)
+
+**下载范围**：v2.0.1 完整合集包含本页展示的全部十九套宠物，以及各套安装文件、动画预览与校验记录。
 
 [浏览造型](#宠物展示) · [安装方法](#三步安装) · [版本记录](#版本与历史下载) · [项目阶段性总述](#项目阶段性总述)
 
@@ -102,11 +104,11 @@
 
 ## 三步安装
 
-1. 下载上方的 **v2.0.0 十九套合集**及同版校验和文件，核对 SHA-256 后解压。
+1. 下载上方的 **v2.0.1 十九套合集**及同版校验和文件，核对 SHA-256 后解压。
 2. 将所需的完整宠物目录复制到 `~/.codex/pets/`，确保目录顶层同时包含 `pet.json` 和 `spritesheet.webp`。
 3. 打开 **Codex 设置 > Pets**，刷新并选择对应中文名称；必要时重启应用。
 
-Windows 默认目录为 `%USERPROFILE%\.codex\pets\`。设置了 `CODEX_HOME` 时，使用该目录下的 `pets/`。历史版本的目录名称请参阅[命名对照](PET_NAMES.md)。
+Windows 默认目录为 `%USERPROFILE%\.codex\pets\`。设置了 `CODEX_HOME` 时，使用该目录下的 `pets/`。
 
 <details>
 <summary>规格与验证范围</summary>
@@ -124,6 +126,7 @@ Windows 默认目录为 `%USERPROFILE%\.codex\pets\`。设置了 `CODEX_HOME` �
 
 | 版本 | 实际内容 | 附件 |
 | --- | --- | --- |
+| [v2.0.1](https://github.com/scenesuki/nene_codex_pets/releases/tag/v2.0.1) | 更新既有宠物动作、画风和预览，重绘紫夜哥特；十九套完整合集 | `nene_codex_pets-v2.0.1.zip` |
 | [v2.0.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v2.0.0) | 新增符饰旗袍、猫耳旅装、青柠休闲装、紫夜哥特、橙纹西装与见习魔导师；十九套完整合集 | `nene_codex_pets-v2.0.0.zip` |
 | [v1.10.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.10.0) | 新增薄荷巧克力装、象牙白花嫁与水蓝花饰礼裙；十三套完整合集 | `nene_codex_pets-v1.10.0.zip` |
 | [v1.9.0](https://github.com/scenesuki/nene_codex_pets/releases/tag/v1.9.0) | 新增新中式礼装；十套完整合集 | `nene_codex_pets-v1.9.0.zip` |
@@ -138,7 +141,7 @@ Windows 默认目录为 `%USERPROFILE%\.codex\pets\`。设置了 `CODEX_HOME` �
 
 从 v1.1.1 起，Release 采用当时全部宠物的完整合集。
 
-历史版本的内容以对应 Release 附件为准，旧名称可通过[命名对照](PET_NAMES.md)查询。
+历史版本的内容以对应 Release 附件为准。
 
 </details>
 
@@ -156,7 +159,7 @@ python scripts/verify_release.py release-assets/vX.Y.Z/nene_codex_pets-vX.Y.Z.zi
 
 脚本自动清点根目录全部 `*/pet.json`，核对图集、动画与 ZIP 内容；缺少必需资源时停止，已有版本不会覆盖。发布附件为完整合集 ZIP 与同目录的 `SHA256SUMS.txt`。
 
-工作约定见 [AGENTS.md](AGENTS.md)，角色名称见 [PET_NAMES.md](PET_NAMES.md)。
+工作约定见 [AGENTS.md](AGENTS.md)。
 
 </details>
 

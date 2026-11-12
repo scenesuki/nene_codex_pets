@@ -2,7 +2,9 @@
 
 # 宁宁 · 紫夜哥特 · 动画预览
 
-[九状态总览](animation-overview.gif) · [十六方向循环](look-directions.gif) · [静态全帧](contact-sheet.png) · [方向检查图](look-directions.png)
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
+[九状态总览](animation-overview.gif) · [十六方向循环](look-directions.gif) · [静态全帧](contact-sheet.png) · [方向检查图](look-directions.png) · [跳跃衔接](jump-transition.gif)
 
 | 动作 | 预览 |
 | --- | --- |
@@ -17,3 +19,6 @@
 | 审视 | [查看动画](review.gif) |
 
 全部预览来自本套最终交付图集。
+
+
+2026-11-12 整套重绘后，左右走路共16格已改为低抬脚、轻摆臂的小步。已逐帧解码12个GIF并核对时长，应用内播放与用户验收待确认。 [当前校验](quiet-walk-validation.json)

@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\项目\\pet_2\\nene_butterfly_stage\\spritesheet.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -305,45 +305,45 @@
       "row": 4,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 9612,
+      "nontransparent_pixels": 14240,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 11783,
+      "nontransparent_pixels": 14015,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 12255,
+      "nontransparent_pixels": 13412,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 12507,
+      "nontransparent_pixels": 14108,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 9693,
+      "nontransparent_pixels": 14240,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
@@ -665,144 +665,131 @@
       "row": 9,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 14018,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13234,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13914,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13133,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 13721,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12950,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 13680,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12925,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 13279,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12544,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 13313,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12557,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 13286,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12552,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 13110,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12387,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 14951,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14113,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 14343,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13558,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 14331,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13545,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 14215,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13454,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 14271,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13509,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 14786,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13955,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 14979,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14107,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 15097,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14254,
+      "opaque_chroma_key_pixels": 0
     }
-  ]
+  ],
+  "checked_on": "2026-11-07",
+  "spritesheet_sha256": "728c9a5134432a2390171bf10061ecd6a88728a37d4bfcdad3b1d450b627d929",
+  "revision": "以待机的浅细线和清楚大分组统一中间3帧，不再增加发丝数量。 本轮已按此方向局部修订，待用户验收。"
 }

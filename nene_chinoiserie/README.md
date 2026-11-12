@@ -8,6 +8,8 @@
 
 **显示名「宁宁 · 新中式礼装」** · ID `nene_chinoiserie` · 9种动画 · 16个注视方向
 
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
 - **服饰要素**：蓝紫斜襟礼装、珠饰与腰侧蝴蝶结、不对称纹样外层、黑色及踝开衩长裙、灰色短袜、黑色搭带皮鞋，配蓝色宝石耳饰与黑色颈饰。
 - **画风**：Q版日系插画，紧凑头身与短腿比例；克制表情及轻幅动作属于同人演绎。
 - **参考卡面**：4星「夢をのせたメロディー」特训后；对应服装「ディグニファイド・ブリリアンス」。
@@ -18,7 +20,9 @@
 
 导入文件：[pet.json](pet.json) · [spritesheet.webp](spritesheet.webp)。
 
-[下载 v2.0.0 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/SHA256SUMS.txt)。本套已收录于该版本；历史名称见[命名对照](../PET_NAMES.md)。
+[下载 v2.0.1 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/SHA256SUMS.txt)。
+
+2026-11-12 已核对本机文件与云端图集均为当前成品，云端保留一条。 [当前安装记录](preview/current-installation-validation.json)
 
 ## 安装
 

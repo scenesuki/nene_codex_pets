@@ -1,34 +1,18 @@
 {
   "ok": true,
-  "operation": "install_all_local_and_cloud",
-  "installed": true,
-  "installed_at": "2026-10-22T08:24:59.8469464Z",
-  "checked_at": "2026-10-22T08:31:14.442Z",
+  "checked_on": "2026-11-12",
   "pet_id": "nene_country_casual",
   "display_name": "宁宁 · 田园休闲",
-  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_country_casual",
-  "package_files": [
-    "pet.json",
-    "spritesheet.webp"
-  ],
-  "directory_absent": false,
+  "installed": true,
+  "operation": "reinstalled",
   "source_files_match": true,
-  "sprite_version": 2,
-  "decoded_dimensions": {
-    "width": 1536,
-    "height": 2288
-  },
   "manifest_sha256": "55ab8a2b90c24ba496d87de35c52a11ece4f0d56f006773492504b279ed11710",
-  "spritesheet_sha256": "7dbc2487eefdae0bfeb8efd770601bd05200b35ecea398e0e0838e3445580978",
-  "cloud_pet_id": "pet_6ad9c8f0e1808191b7c692f8f63a883a",
-  "cloud_sprite_preflight_valid": true,
-  "cloud_creation_confirmed": true,
-  "cloud_metadata_verified": true,
-  "cloud_collection_nene_count": 18,
+  "spritesheet_sha256": "4cedf4d47ba23b7108bdf712f68e08c9d75f33135e8fd26306f04273ae00b960",
+  "cloud_matching_pet_count": 1,
   "cloud_duplicate_names": false,
-  "active_pet_preserved": true,
-  "selection_settings_modified": false,
+  "cloud_rgba_pixels_match_workspace": true,
+  "cloud_download_sha256": "89c0d6276877809fe8020324accff548c6d3b231ce3159aaa953265f7a051358",
+  "cloud_creation_confirmed": true,
   "application_ui_detection_verified": false,
-  "floating_display_verified": false,
-  "method": "Exact current workspace files copied to local pets directory and SHA-256 verified; exact atlas passed Pets preflight and upload session creation; complete cloud inventory read back."
+  "floating_display_verified": false
 }

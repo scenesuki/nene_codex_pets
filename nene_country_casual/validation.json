@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\项目\\pet_2\\nene_country_casual\\spritesheet.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -305,45 +305,45 @@
       "row": 4,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 13321,
+      "nontransparent_pixels": 17952,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 15033,
+      "nontransparent_pixels": 17954,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 15910,
+      "nontransparent_pixels": 17482,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 14888,
+      "nontransparent_pixels": 17874,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 14107,
+      "nontransparent_pixels": 17952,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
@@ -804,5 +804,8 @@
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     }
-  ]
+  ],
+  "checked_on": "2026-11-07",
+  "spritesheet_sha256": "4cedf4d47ba23b7108bdf712f68e08c9d75f33135e8fd26306f04273ae00b960",
+  "revision": "保留已改比例，统一眼睑粗细、减少软灰阴影，明确口袋和桶沿/手的分界。 本轮已按此方向局部修订，待用户验收。"
 }

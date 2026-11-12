@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\\u9879\u76ee\\pet_2\\nene_mint_chocolate\\source\\final\\spritesheet-extended.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -89,144 +89,128 @@
       "row": 1,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 10819,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10697,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 10074,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 9957,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 10772,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10780,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 10783,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10642,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 10843,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10694,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 10120,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10038,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 10794,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10843,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 10870,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10681,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 10742,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10647,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 10343,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10260,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 10577,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10462,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 10501,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10443,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 10676,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10542,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 9822,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 9730,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 10777,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10609,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 10570,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 10433,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "waving",
@@ -804,5 +788,8 @@
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     }
-  ]
+  ],
+  "spritesheet_sha256": "dc61d2dea4a3985bf86812dbf4dffc5098a74c4f7a040f52d9a6185ea5b36f7a",
+  "checked_on": "2026-11-07",
+  "revision": "必要时只提升眼睛和靴带关键分界，不改变画风。 本轮已按此方向局部修订，待用户验收。"
 }

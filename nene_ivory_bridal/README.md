@@ -6,6 +6,8 @@
 
 **宁宁 · 象牙白花嫁** · ID `nene_ivory_bridal` · 9种动画 · 16个注视方向
 
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
 - **服饰要素**：灰绿外翘短发、花朵羽饰宽檐帽与珍珠垂耳饰，一字肩荷叶领、泡袖、蕾丝覆臂、金边束腰、象牙白金纹层叠长裙与金扣低跟礼鞋。
 - **画风**：Q版日系插画，紧凑头身与短腿比例，采用含蓄表情和轻幅动作。
 - **参考卡面**：4星「願いのドレスへ」特训后；对应衣装「lady in flowers」。
@@ -16,7 +18,9 @@
 
 导入文件：[pet.json](pet.json) · [spritesheet.webp](spritesheet.webp)。
 
-[下载 v2.0.0 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/SHA256SUMS.txt)。本套已收录于该版本；历史名称见[命名对照](../PET_NAMES.md)。
+[下载 v2.0.1 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/SHA256SUMS.txt)。
+
+2026-11-12 已核对本机文件与云端图集均为当前成品，云端保留一条。 [当前安装记录](preview/current-installation-validation.json)
 
 ## 安装
 
@@ -26,6 +30,8 @@
 
 <details>
 <summary>规格与验收</summary>
+
+- 2026-11-07–08画风与精细度修订：待机与两向跑动增强帽沿、裙层和鞋边的浅色层次，同步待机静态展示图。 [当前修订校验](preview/style-fix-validation.json)记录本轮图集哈希与修改格；旧验收为历史记录。已检查静态帧序列与文件，应用内播放及用户验收待确认。
 
 **验证范围**：文件及预览检查已有记录；Codex 设置识别、桌面浮动显示与应用内动态播放尚未实测。兼容依据和已知限制如下。
 

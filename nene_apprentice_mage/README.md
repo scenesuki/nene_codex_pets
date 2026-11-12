@@ -6,6 +6,8 @@
 
 **宁宁 · 见习魔导师** · ID `nene_apprentice_mage` · 9种状态 · 16个注视方向
 
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
 - **服饰要素介绍**：蓝青尖顶宽檐帽、金边外套与黄色袖口，白色百褶短裙、黑色胸前结、棕色斜挎药剂带，黑口白长袜与棕色系带短靴。
 - **画风**：Q版日系插画，约3头身，紧凑身体与短腿，轻幅动作。
 - **参考卡面**：4星「悲しみも全部」特训后；衣装「見習い魔導士のワンピース」。
@@ -16,7 +18,11 @@
 
 导入文件：[pet.json](pet.json) · [spritesheet.webp](spritesheet.webp)。
 
-[下载 v2.0.0 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/SHA256SUMS.txt)。本套已收录于该版本；历史名称见[命名对照](../PET_NAMES.md)。
+2026-11-06 连续优化：全部16方向注视帧整体下移4px，脚底由199px对齐待机203px；不缩放、不重绘，不改变头身与颜色。 [本轮校验](preview/refinement-validation.json)。工作区成品已更新，待用户验收；该轮修订晚于已发布合集。此前跳跃、安装及更名校验为历史记录，以本轮成品哈希为准。
+
+[下载 v2.0.1 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/SHA256SUMS.txt)。
+
+2026-11-12 已核对本机文件与云端图集均为当前成品，云端保留一条。 [当前安装记录](preview/current-installation-validation.json)
 
 ## 安装
 

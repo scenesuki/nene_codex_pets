@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\\u9879\u76ee\\pet_2\\nene_apprentice_mage\\source\\final\\spritesheet-extended.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -666,8 +666,7 @@
       "column": 0,
       "used": true,
       "nontransparent_pixels": 14641,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
@@ -675,8 +674,7 @@
       "column": 1,
       "used": true,
       "nontransparent_pixels": 13983,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
@@ -684,8 +682,7 @@
       "column": 2,
       "used": true,
       "nontransparent_pixels": 13865,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
@@ -693,8 +690,7 @@
       "column": 3,
       "used": true,
       "nontransparent_pixels": 13900,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
@@ -702,8 +698,7 @@
       "column": 4,
       "used": true,
       "nontransparent_pixels": 13822,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
@@ -711,8 +706,7 @@
       "column": 5,
       "used": true,
       "nontransparent_pixels": 13658,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
@@ -720,8 +714,7 @@
       "column": 6,
       "used": true,
       "nontransparent_pixels": 13663,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
@@ -729,8 +722,7 @@
       "column": 7,
       "used": true,
       "nontransparent_pixels": 13441,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
@@ -738,8 +730,7 @@
       "column": 0,
       "used": true,
       "nontransparent_pixels": 13728,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
@@ -747,8 +738,7 @@
       "column": 1,
       "used": true,
       "nontransparent_pixels": 13455,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
@@ -756,8 +746,7 @@
       "column": 2,
       "used": true,
       "nontransparent_pixels": 13952,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
@@ -765,8 +754,7 @@
       "column": 3,
       "used": true,
       "nontransparent_pixels": 13798,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
@@ -774,8 +762,7 @@
       "column": 4,
       "used": true,
       "nontransparent_pixels": 14017,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
@@ -783,8 +770,7 @@
       "column": 5,
       "used": true,
       "nontransparent_pixels": 13952,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
@@ -792,8 +778,7 @@
       "column": 6,
       "used": true,
       "nontransparent_pixels": 14176,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
@@ -801,8 +786,10 @@
       "column": 7,
       "used": true,
       "nontransparent_pixels": 14193,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "opaque_chroma_key_pixels": 0
     }
-  ]
+  ],
+  "spritesheet_sha256": "15ac26a544203060cda246227d39ea71a8667e4dfcec9bfcfea0f32c485a430e",
+  "checked_on": "2026-11-06",
+  "revision": "全部16方向注视帧整体下移4px，脚底由199px对齐待机203px；不缩放、不重绘，不改变头身与颜色。"
 }

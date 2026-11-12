@@ -1,34 +1,18 @@
 {
   "ok": true,
-  "operation": "install_all_local_and_cloud",
-  "installed": true,
-  "installed_at": "2026-10-22T08:24:59.8469464Z",
-  "checked_at": "2026-10-22T08:31:14.442Z",
+  "checked_on": "2026-11-12",
   "pet_id": "nene_ivory_bridal",
   "display_name": "宁宁 · 象牙白花嫁",
-  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_ivory_bridal",
-  "package_files": [
-    "pet.json",
-    "spritesheet.webp"
-  ],
-  "directory_absent": false,
+  "installed": true,
+  "operation": "reinstalled",
   "source_files_match": true,
-  "sprite_version": 2,
-  "decoded_dimensions": {
-    "width": 1536,
-    "height": 2288
-  },
   "manifest_sha256": "ce00c0cf23bae60d27bce3dd36d8ba4a7d813ac7a30b3d604d296ae5be278aeb",
-  "spritesheet_sha256": "d68f832396e6347e3676e0caf79996711b9ef31af10d4b9c35413b0035a94a6b",
-  "cloud_pet_id": "pet_6ad9c9258ac88191aea7c634d277a1ed",
-  "cloud_sprite_preflight_valid": true,
-  "cloud_creation_confirmed": true,
-  "cloud_metadata_verified": true,
-  "cloud_collection_nene_count": 18,
+  "spritesheet_sha256": "c388c7832745c871f184c26305ba955f508bf6ddc807c13178617bd03d1eb436",
+  "cloud_matching_pet_count": 1,
   "cloud_duplicate_names": false,
-  "active_pet_preserved": true,
-  "selection_settings_modified": false,
+  "cloud_rgba_pixels_match_workspace": true,
+  "cloud_download_sha256": "e3224206218de9398f366565a40a3bfaea2520bdd1384627a1158a64a52a8981",
+  "cloud_creation_confirmed": true,
   "application_ui_detection_verified": false,
-  "floating_display_verified": false,
-  "method": "Exact current workspace files copied to local pets directory and SHA-256 verified; exact atlas passed Pets preflight and upload session creation; complete cloud inventory read back."
+  "floating_display_verified": false
 }

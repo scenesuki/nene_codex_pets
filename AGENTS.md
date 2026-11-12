@@ -14,7 +14,7 @@
 
 存储结构参考 `D:\项目\pet`：每个宠物版本在仓库根目录使用独立目录 `<pet-id>/`。`pet-id` 使用简短、稳定的小写英文名称，包含可辨认的造型信息；同一造型的独立成品也使用不同 ID。
 
-- 当前命名采用 `nene_服饰风格或标志特征`，目录名与 `pet.json.id` 一致，显示名采用中文。更名或定位旧标识时查看 [PET_NAMES.md](PET_NAMES.md)；两套洛丽塔保留英文ID，展示名分别包含“花边洋伞”和“红心皇后”。
+- 当前命名采用 `nene_服饰风格或标志特征`，目录名与 `pet.json.id` 一致，显示名采用中文。更名或定位旧标识时查看本地 `PET_NAMES.md`；两套洛丽塔保留英文ID，展示名分别包含“花边洋伞”和“红心皇后”。
 - 更名时同步当前清单、说明、素材索引路径及加载校验；保留制作原图、实际输入、提示词、历史制作记录和脚本的原字节。原安装记录和已发布附件保留当时名称；项目更名不代表已迁移本机安装或发布新包。
 
 按实际需要创建以下子目录，不提前创建空目录：
@@ -67,7 +67,7 @@ nene_codex_pets/
 
 ## GitHub 上传范围与检查
 
-- 以保持当前安装、README 展示、动画预览、校验及全量打包能力所需的最小文件集为上传范围。根目录保留 `README.md`、`NOTICE.md`、`AGENTS.md`、`PET_NAMES.md`、`.gitignore`、`.gitattributes`；`scripts/` 仅保留共用打包、验证脚本及其必要测试。
+- 以保持当前安装、README 展示、动画预览、校验及全量打包能力所需的最小文件集为上传范围。根目录保留 `README.md`、`NOTICE.md`、`AGENTS.md`、`.gitignore`、`.gitattributes`。`scripts/` 仅保留共用打包、验证脚本及其必要测试。审查计划 `REVIEW_PLAN.md` 和名称对照 `PET_NAMES.md` 仅留本地。
 - 每套上传顶层 `pet.json`、`spritesheet.webp`、`README.md`、`NOTICE.md`、`validation.json`、已有的 `installed-validation.json`，以及 `preview/` 内正式预览、应用规格依据和最终验收记录。过程截图、候选、重复预览及临时检查输出留在本地制作目录。
 - 有效原素材、参考网页、原始生成图、实际输入、提示词、制作脚本及素材索引仅保留在本地各套 `source/`；维护留档保留在本地 `maintenance/`；发布包与回执保留在本地 `release-assets/`。通过 `.gitignore` 排除这些目录，按文件路径选择暂存，避免用 `git add -f` 重新上传留档或混入无关的未提交修改。参考来源在各套 README 中保留可访问的外部链接；本地素材索引不作为线上文件入口。
 - 经用户授权精简已跟踪资料时，先记录成品、预览、受保护原素材和发布回执的 SHA-256，再使用 `git rm --cached -- <路径>` 取消跟踪，保留本地原文件和素材索引；仅修改 `.gitignore` 不会停止跟踪已有文件。完成后复验哈希，并同步文档和链接。
@@ -78,7 +78,7 @@ nene_codex_pets/
 
 - 每次新 Release 同时包含仓库内所有宠物的成品资源。以根目录 `*/pet.json` 自动清点宠物，任何一套缺少必需文件都应停止打包，不能只上传本次新增或修改的宠物。
 - 从仓库根目录运行 `python scripts/build_release.py --tag vX.Y.Z`，生成 `release-assets/<tag>/nene_codex_pets-<tag>.zip`、`SHA256SUMS.txt`、`package-check.json` 和 `release-notes.md`。使用新的项目版本号；仅在用户授权清理时移除旧本地包，保留发布说明和回执。
-- 全量 ZIP 包含根 README、NOTICE、AGENTS、PET_NAMES，以及每套 `<pet-id>/` 的顶层 `pet.json`、`spritesheet.webp`、README、NOTICE、`validation.json`、可用的 `installed-validation.json` 和整个 `preview/`。发布素材只取当前成品与正式记录，不纳入制作缓存、候选或旧分发快照。
+- 全量 ZIP 包含根 README、NOTICE、AGENTS，以及每套 `<pet-id>/` 的顶层 `pet.json`、`spritesheet.webp`、README、NOTICE、`validation.json`、可用的 `installed-validation.json` 和整个 `preview/`。发布素材只取当前成品与正式记录，不纳入本地计划、名称对照、制作缓存、候选或旧分发快照。
 - 打包后运行 `python scripts/verify_release.py release-assets/<tag>/nene_codex_pets-<tag>.zip`，确认 ZIP 的宠物 ID 集合与根目录清点结果完全一致，各资源与工作区成品逐字节一致；同时核对 SHA-256。新增宠物会自动纳入后续全量包。
 - 用户授权发布时，上传同一全量包及其 `SHA256SUMS.txt`，发布说明列出全部宠物。上传后核对附件清单与下载哈希，将回执保存到对应版本目录。不要使用归档的单宠物打包或发布脚本创建新 Release。
 - 线上已发布附件及回执保持原样；本地历史ZIP、旧分发快照和临时预览按用户授权清理，版本说明及发布回执保留。本地整理和打包不自动更新或删除线上Release。

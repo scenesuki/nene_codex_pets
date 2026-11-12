@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "date": "2026-11-06",
+  "pet_id": "nene_cat_traveler",
+  "description": "统一16方向注视帧的尺度与脚底锚点，增加猫耳帽顶部余量；步态偏脚候选保留待动态确认，本轮不改跑步。",
+  "atlas_sha256": "f53235be2c85135d1134d0cf82a027a0b14eaf31cf56e62f73d70d7c1225d9f0",
+  "changed_cells": [
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      10,
+      7
+    ]
+  ],
+  "unchanged_cells": 72,
+  "source_hashes_preserved": true,
+  "portrait_unchanged": true,
+  "gif_checks": [
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "duration_ms": 1680
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "duration_ms": 1220
+    },
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "duration_ms": 1100
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "duration_ms": 840
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "duration_ms": 3200
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "duration_ms": 1030
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "duration_ms": 820
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "duration_ms": 1010
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "duration_ms": 700
+    }
+  ],
+  "user_review": "pending",
+  "application_playback_verified": false,
+  "installed": false,
+  "cloud_updated": false,
+  "published": false
+}

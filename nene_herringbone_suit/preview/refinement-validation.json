@@ -1,0 +1,106 @@
+{
+  "ok": true,
+  "date": "2026-11-06",
+  "pet_id": "nene_herringbone_suit",
+  "description": "以右走原图为色彩参考微调左走头发明暗，按原脚底位置组装，保留修长比例、慢走和原地戏谑设计。",
+  "atlas_sha256": "4c582eb3d2be1933a80a1974d1e1dbb2801e50d768eea1be2c9bd1a9f8389c38",
+  "changed_cells": [
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ]
+  ],
+  "unchanged_cells": 80,
+  "source_hashes_preserved": true,
+  "portrait_unchanged": true,
+  "gif_checks": [
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "duration_ms": 1680
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "duration_ms": 1220
+    },
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "duration_ms": 1100
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "duration_ms": 840
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "duration_ms": 3200
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "duration_ms": 1030
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "duration_ms": 820
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "duration_ms": 1010
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "duration_ms": 700
+    }
+  ],
+  "user_review": "pending",
+  "application_playback_verified": false,
+  "installed": false,
+  "cloud_updated": false,
+  "published": false
+}

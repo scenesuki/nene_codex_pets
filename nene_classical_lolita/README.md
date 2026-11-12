@@ -6,6 +6,8 @@
 
 **宁宁 · 古典洛丽塔 · 红心皇后** · ID `nene_classical_lolita` · 9种动画 · 16个注视方向
 
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
 - **服饰要素**：红心小王冠、红披肩、深绿蕾丝短裙、黑色连裤袜与白色鞋口绿靴；右手持玫瑰，左手持红心牌。站姿、紧凑头身及互动动作属于创作演绎。
 - **画风**：Q版日系插画
 - **参考卡面**：4星卡「憧れに向かって」特训后；服装「クイーン・オブ・ハート」。
@@ -16,7 +18,11 @@
 
 导入文件：[pet.json](pet.json) · [spritesheet.webp](spritesheet.webp)。
 
-[下载 v2.0.0 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/SHA256SUMS.txt)。本套已收录于该版本；历史名称见[命名对照](../PET_NAMES.md)。
+2026-11-06 连续优化：全部16个注视帧采用同一尺度重新定位，增加王冠顶部安全余量并保持脚底203px，其余动作不变。 [本轮校验](preview/refinement-validation.json)。工作区成品已更新，待用户验收；该轮修订晚于已发布合集。此前跳跃、安装及更名校验为历史记录，以本轮成品哈希为准。
+
+[下载 v2.0.1 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/SHA256SUMS.txt)。
+
+2026-11-12 已核对本机文件与云端图集均为当前成品，云端保留一条。 [当前安装记录](preview/current-installation-validation.json)
 
 ## 安装
 
@@ -27,9 +33,11 @@
 <details>
 <summary>规格与验收</summary>
 
+- 2026-11-07–08画风与精细度修订：两向跑动整理发束阴影密度，保留王冠、服饰与步态。 [当前修订校验](preview/style-fix-validation.json)记录本轮图集哈希与修改格；旧验收为历史记录。已检查静态帧序列与文件，应用内播放及用户验收待确认。
+
 **验证范围**：文件及预览检查已有记录；Codex 设置识别、桌面浮动显示与应用内动态播放尚未实测。兼容依据和已知限制如下。
 
-- [更名校验](preview/rename-validation.json)记录当前名称及成品哈希；图片、动画和有效制作原素材保持原字节。历史记录保留当时标识，当前名称见[命名对照](../PET_NAMES.md)。
+- [更名校验](preview/rename-validation.json)记录当前名称及成品哈希；图片、动画和有效制作原素材保持原字节。历史记录保留当时标识。
 
 - 原生Codex v2，无损RGBA WebP，1536×2288，8列11行，单格192×208，`spriteVersionNumber: 2`。[应用规格依据](preview/app-contract-verification.json)来自2026-10-17对`OpenAI.Codex_26.1013.3656.0` 的只读检查。
 - 九状态为待机、左右移动、招手、跳跃、失落、等待回应、专注处理中、审视，帧数6/8/8/4/5/8/6/6/6。后两行从正上方000°开始顺时针每22.5°一个，共16方向。

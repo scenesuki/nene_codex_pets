@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\项目\\pet_2\\nene_robo\\spritesheet.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -305,45 +305,45 @@
       "row": 4,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 14914,
+      "nontransparent_pixels": 18065,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; original generated alpha preserved"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 14730,
+      "nontransparent_pixels": 17112,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; original generated alpha preserved"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 14532,
+      "nontransparent_pixels": 17085,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; original generated alpha preserved"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 14721,
+      "nontransparent_pixels": 17089,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; original generated alpha preserved"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 14901,
+      "nontransparent_pixels": 18065,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; original generated alpha preserved"
     },
     {
       "state": "jumping",
@@ -804,5 +804,8 @@
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     }
-  ]
+  ],
+  "checked_on": "2026-11-06",
+  "spritesheet_sha256": "ef4a5eba4177e89223016cac11d510385eccfeb4972cdb75d1f05083b8e1ef55",
+  "revision": "jumping slot replaced by open-eye greeting; other cells unchanged"
 }

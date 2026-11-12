@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\\u9879\u76ee\\pet_2\\nene_talisman_qipao\\source\\final\\spritesheet-extended.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -89,72 +89,64 @@
       "row": 1,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 11238,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12958,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 11912,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12172,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 11355,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12715,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 12027,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12738,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 11308,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12958,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 11861,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12172,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 11302,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12715,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 12040,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12738,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
@@ -804,5 +796,8 @@
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     }
-  ]
+  ],
+  "spritesheet_sha256": "e17a07f45795f6ce5d2638044ae21ad61faeaaf1ba5c0955e3722b8da41a877a",
+  "checked_on": "2026-11-08",
+  "revision": "保留四阶段步态与腿环，先匹配待机/左跑线色和粗细，再恢复关键发束、金纹与袖褶。 本轮已按此方向局部修订，待用户验收。"
 }

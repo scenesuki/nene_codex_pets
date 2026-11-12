@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "pet_id": "nene_feather_stage",
+  "checked_on": "2026-11-06",
+  "spritesheet_sha256": "f6e7a9b91ec6b4b4e80886e5865d6628e87b60493a8b90d0efd25e2b7b29cee6",
+  "changed_cells": [
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ]
+  ],
+  "other_80_cells_pixel_identical": true,
+  "other_18_pet_atlas_hashes_unchanged": true,
+  "source_protected_material_hashes_verified": 124,
+  "idle_widths_px": [
+    107,
+    105,
+    106,
+    106,
+    105,
+    107
+  ],
+  "right_widths_px": [
+    110,
+    113,
+    110,
+    112,
+    109,
+    111,
+    112,
+    111
+  ],
+  "old_left_widths_px": [
+    135,
+    129,
+    135,
+    141,
+    133,
+    133,
+    134,
+    138
+  ],
+  "new_left_widths_px": [
+    120,
+    121,
+    120,
+    126,
+    117,
+    119,
+    119,
+    120
+  ],
+  "shoe_baseline_bottom_exclusive": [
+    203,
+    203,
+    203,
+    203,
+    203,
+    203,
+    203,
+    203
+  ],
+  "one_shared_uniform_scale": 0.4714285714285714,
+  "frame_duration_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "native_size_static_review": "Three-quarter left counterpart, slender proportions grounded in idle/right, same-side hair ornament, alternating strides; all 8 frames inspected",
+  "pets_service_preflight": {
+    "valid": true,
+    "file_size_bytes": 2301894,
+    "mime_type": "image/webp",
+    "width": 1536,
+    "height": 2288,
+    "sprite_version": 2,
+    "cell_width": 192,
+    "cell_height": 208,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "errors": []
+  },
+  "auxiliary_chatgpt_validator_ok": false,
+  "auxiliary_chatgpt_validator_baseline_and_current_errors": [
+    "idle row 0 unused column 6 is not transparent (13892 pixels)"
+  ],
+  "local_links_checked": 109,
+  "user_review_status": "awaiting confirmation",
+  "installed_revision": true,
+  "cloud_pet_updated": true,
+  "uploaded_to_github": false,
+  "published": false,
+  "live_gif_playback_verified": false,
+  "application_ui_verified": false,
+  "current_installation_record": "current-installation-validation.json",
+  "historical_records": [
+    "app-loader-validation.json",
+    "rename-validation.json",
+    "visual-qa.json"
+  ],
+  "limitations": [
+    "v2.0.0 Release remains previous revision; actual app playback not tested",
+    "Auxiliary ChatGPT validator flags original extra neutral cell, unchanged; Pets service structural preflight passes"
+  ]
+}

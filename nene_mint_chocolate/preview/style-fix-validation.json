@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "date": "2026-11-07",
+  "pet_id": "nene_mint_chocolate",
+  "description": "必要时只提升眼睛和靴带关键分界，不改变画风。 本轮已按此方向局部修订，待用户验收。",
+  "atlas_sha256": "dc61d2dea4a3985bf86812dbf4dffc5098a74c4f7a040f52d9a6185ea5b36f7a",
+  "changed_cells": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ]
+  ],
+  "unchanged_cells": 72,
+  "source_hashes_preserved": true,
+  "portrait_unchanged": true,
+  "gif_checks": [
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "duration_ms": 1680
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "duration_ms": 1220
+    },
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "duration_ms": 1100
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "duration_ms": 840
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "duration_ms": 3200
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "duration_ms": 1030
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "duration_ms": 820
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "duration_ms": 1010
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "duration_ms": 700
+    }
+  ],
+  "user_review": "pending",
+  "application_playback_verified": false,
+  "installed": false,
+  "cloud_updated": false,
+  "published": false
+}

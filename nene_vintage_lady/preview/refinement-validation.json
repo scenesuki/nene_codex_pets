@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "date": "2026-11-06",
+  "pet_id": "nene_vintage_lady",
+  "description": "跳跃中间帧微调头脸与礼帽比例，保持折扇持握；注视全行统一尺度增加帽顶余量，脚底保持203px。",
+  "atlas_sha256": "638d0ae9155681a479dee4161e3bdbfd6635d1f96de3bf3d0de1e62cdd548920",
+  "changed_cells": [
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      10,
+      7
+    ]
+  ],
+  "unchanged_cells": 69,
+  "source_hashes_preserved": true,
+  "portrait_unchanged": true,
+  "gif_checks": [
+    {
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "duration_ms": 1680
+    },
+    {
+      "file": "failed.gif",
+      "frames": 8,
+      "duration_ms": 1220
+    },
+    {
+      "file": "idle.gif",
+      "frames": 6,
+      "duration_ms": 1100
+    },
+    {
+      "file": "jump-transition.gif",
+      "frames": 5,
+      "duration_ms": 2040
+    },
+    {
+      "file": "jumping.gif",
+      "frames": 5,
+      "duration_ms": 840
+    },
+    {
+      "file": "look-directions.gif",
+      "frames": 16,
+      "duration_ms": 3200
+    },
+    {
+      "file": "review.gif",
+      "frames": 6,
+      "duration_ms": 1030
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "duration_ms": 1060
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "duration_ms": 820
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "duration_ms": 1010
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "duration_ms": 700
+    }
+  ],
+  "user_review": "pending",
+  "application_playback_verified": false,
+  "installed": false,
+  "cloud_updated": false,
+  "published": false
+}

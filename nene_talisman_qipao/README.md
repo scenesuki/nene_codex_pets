@@ -6,6 +6,8 @@
 
 **宁宁 · 符饰旗袍** · ID `nene_talisman_qipao` · 9种动画 · 16个注视方向
 
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
 - **服饰要素**：灰绿双丸子头、细辫与短卷发，深蓝金边发饰，符饰项链；玫红盘扣长上衣配浅绿滚边、白色侧拼片、深蓝领片及紫色荷叶边喇叭袖；藏蓝金边短裤、单侧腿环、紫色鞋帮与金底系带圆头鞋。
 - **画风**：Q版日系插画，紧凑头身、短腿与轻幅动作。
 - **参考卡面**：4星「口には出せないこの気持ち」特训后；原色衣装「躍るは宴者」。
@@ -16,7 +18,13 @@
 
 导入文件：[pet.json](pet.json) · [spritesheet.webp](spritesheet.webp)。
 
-[下载 v2.0.0 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/SHA256SUMS.txt)。本套已收录于该版本；历史名称见[命名对照](../PET_NAMES.md)。
+2026-11-07 全量复审后修订：右跑头发校回待机的浅灰绿，保留四阶段跑步与腿环方向。 本轮修改8格，其余格与待机头像未变。[当前校验](preview/round2-validation.json)。此前 refinement/jump-transition 校验为历史快照；工作区成品已更新，应用内播放尚未实测，待用户确认。
+
+2026-11-06 连续优化：向右跑改为侧向跑步，四个关键姿态组成两次循环，核对单侧腿环对应的左右腿交替；保持左跑及其余动作。 [本轮校验](preview/refinement-validation.json)。工作区成品已更新，待用户验收；该轮修订晚于已发布合集。此前跳跃、安装及更名校验为历史记录，以本轮成品哈希为准。
+
+[下载 v2.0.1 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/SHA256SUMS.txt)。
+
+2026-11-12 已核对本机文件与云端图集均为当前成品，云端保留一条。 [当前安装记录](preview/current-installation-validation.json)
 
 ## 安装
 
@@ -26,6 +34,8 @@
 
 <details>
 <summary>规格与验收</summary>
+
+- 2026-11-07–08画风与精细度修订：右跑减轻外围深描线，恢复发束、袖口金纹及衣褶层次，保留四阶段步态。 [当前修订校验](preview/style-fix-validation.json)记录本轮图集哈希与修改格；旧验收为历史记录。已检查静态帧序列与文件，应用内播放及用户验收待确认。
 
 **验证范围**：文件及预览检查已有记录；Codex 设置识别、桌面浮动显示与应用内动态播放尚未实测。兼容依据和已知限制如下。
 

@@ -1,34 +1,18 @@
 {
   "ok": true,
-  "operation": "install_all_local_and_cloud",
-  "installed": true,
-  "installed_at": "2026-10-22T08:24:59.8469464Z",
-  "checked_at": "2026-10-22T08:31:14.442Z",
+  "checked_on": "2026-11-12",
   "pet_id": "nene_mint_chocolate",
   "display_name": "宁宁 · 薄荷巧克力",
-  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_mint_chocolate",
-  "package_files": [
-    "pet.json",
-    "spritesheet.webp"
-  ],
-  "directory_absent": false,
+  "installed": true,
+  "operation": "reinstalled",
   "source_files_match": true,
-  "sprite_version": 2,
-  "decoded_dimensions": {
-    "width": 1536,
-    "height": 2288
-  },
   "manifest_sha256": "9d8b89ba924dea5ba140522bce80a3dcdaf8c99bb887c6fac7ba18e3e6fd1f80",
-  "spritesheet_sha256": "5db10fe32c45e6e3613e84e3ec190cab19d2924900e476f8b55efbb971d96722",
-  "cloud_pet_id": "pet_6ad9c948c6ec8191b60421991f3eaa91",
-  "cloud_sprite_preflight_valid": true,
-  "cloud_creation_confirmed": true,
-  "cloud_metadata_verified": true,
-  "cloud_collection_nene_count": 18,
+  "spritesheet_sha256": "dc61d2dea4a3985bf86812dbf4dffc5098a74c4f7a040f52d9a6185ea5b36f7a",
+  "cloud_matching_pet_count": 1,
   "cloud_duplicate_names": false,
-  "active_pet_preserved": true,
-  "selection_settings_modified": false,
+  "cloud_rgba_pixels_match_workspace": true,
+  "cloud_download_sha256": "564af4e592433145d29cff69b842b9e64077f8760fb51573d1c0ffcdf84d3f84",
+  "cloud_creation_confirmed": true,
   "application_ui_detection_verified": false,
-  "floating_display_verified": false,
-  "method": "Exact current workspace files copied to local pets directory and SHA-256 verified; exact atlas passed Pets preflight and upload session creation; complete cloud inventory read back."
+  "floating_display_verified": false
 }

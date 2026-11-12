@@ -1,75 +1,44 @@
 {
   "ok": true,
+  "checked_on": "2026-11-06",
+  "spritesheet_sha256": "ef4a5eba4177e89223016cac11d510385eccfeb4972cdb75d1f05083b8e1ef55",
   "files": [
     {
-      "file": "idle.gif",
-      "frames": 6,
-      "durations_ms": [
-        280,
-        110,
-        110,
-        140,
-        140,
-        320
+      "file": "animation-overview.gif",
+      "frames": 17,
+      "size": [
+        576,
+        678
       ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "running-right.gif",
-      "frames": 8,
       "durations_ms": [
+        240,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
         120,
+        60,
+        60,
         120,
+        60,
         120,
+        60,
+        60,
         120,
-        120,
-        120,
-        120,
-        220
+        300
       ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "running-left.gif",
-      "frames": 8,
-      "durations_ms": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        120,
-        120,
-        220
-      ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "waving.gif",
-      "frames": 4,
-      "durations_ms": [
-        140,
-        140,
-        140,
-        280
-      ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "jumping.gif",
-      "frames": 5,
-      "durations_ms": [
-        140,
-        140,
-        140,
-        140,
-        280
-      ],
+      "sha256": "a6501215deb64974a8bee43380d55bfd166940e2854de5effb99d0df9f08dcfa",
       "all_frames_decoded": true
     },
     {
       "file": "failed.gif",
       "frames": 8,
+      "size": [
+        192,
+        208
+      ],
       "durations_ms": [
         140,
         140,
@@ -80,50 +49,51 @@
         140,
         240
       ],
+      "sha256": "80a5d39fc7b57dd43120a3ea1baa76a5425485cf5c83d29bef21759ec1b39019",
       "all_frames_decoded": true
     },
     {
-      "file": "waiting.gif",
+      "file": "idle.gif",
       "frames": 6,
-      "durations_ms": [
-        150,
-        150,
-        150,
-        150,
-        150,
-        260
+      "size": [
+        192,
+        208
       ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "running.gif",
-      "frames": 6,
       "durations_ms": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        220
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
       ],
+      "sha256": "ba26b90781559101cb6256cf357fc2da9bf02dad861b3a54464f9eb160ce070e",
       "all_frames_decoded": true
     },
     {
-      "file": "review.gif",
-      "frames": 6,
+      "file": "jumping.gif",
+      "frames": 5,
+      "size": [
+        192,
+        208
+      ],
       "durations_ms": [
-        150,
-        150,
-        150,
-        150,
-        150,
+        140,
+        140,
+        140,
+        140,
         280
       ],
+      "sha256": "2693d5677f19298d88172d33d7a596bc8b2bd7a483df4792b4d268621e0a8093",
       "all_frames_decoded": true
     },
     {
       "file": "look-directions.gif",
       "frames": 16,
+      "size": [
+        192,
+        208
+      ],
       "durations_ms": [
         200,
         200,
@@ -142,13 +112,120 @@
         200,
         200
       ],
+      "sha256": "c7b246e009d4755357e57ed37cf0e97e01b5e1787bed9fdd09519300216f72a2",
       "all_frames_decoded": true
     },
     {
-      "file": "animation-overview.gif",
-      "frames": 17,
-      "duration_ms": 1680,
+      "file": "review.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "sha256": "8ffab746603580609a3f2c8b06731d8e68be822ffcf37a530143e552303e0256",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "2e47ed6c0ab0a1f1098a292a06df1c98901a6cf64fb01b12bec99266ba1f3a62",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "9490b305c7abde1745a5c3126a0ae53842af6c0bde6cb25dd49ba0384e0678af",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "f41c970c535cd9d7a50dbd7780081aeac7bfdfa85f61486d128bfa35e6471977",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "sha256": "761a41e8eed1177839e473359063da8215937ab1a0be3909bb62bc2b51943d78",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "size": [
+        192,
+        208
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "sha256": "ade6e185e48580e73c28fe6e0fd9eb55247e6dba915ee50ff43af5856a692cd9",
       "all_frames_decoded": true
     }
-  ]
+  ],
+  "live_playback_verified": false,
+  "application_ui_verified": false
 }

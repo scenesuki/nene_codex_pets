@@ -6,6 +6,8 @@
 
 **宁宁 · 青柠休闲装** · ID `nene_kuchipatchi_casual` · 9种动画 · 16个注视方向
 
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
 - **参考卡面**：四星「大特訓大会の成果！」特训后；原色衣装「くちぱっち風ゆったりコーデ」。
 - **服饰要素**：叶饰耳机与灰绿长发、青柠蓬袖短外套、白色花边短裙、蓝挂绳及粉色拓麻歌子挂件；荧绿连袜裤、右腿蓝色饰件、白色堆堆袜和绿绒拖鞋。
 - **画风**：细线与柔和赛璐璐上色的Q版日系插画，脸型、头肩关系和紧凑身体以复古淑女造型的 Q 版比例为基准。
@@ -16,7 +18,9 @@
 
 导入文件：[pet.json](pet.json) · [spritesheet.webp](spritesheet.webp)。
 
-[下载 v2.0.0 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/SHA256SUMS.txt)。本套已收录于该版本；历史名称见[命名对照](../PET_NAMES.md)。
+[下载 v2.0.1 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/SHA256SUMS.txt)。
+
+2026-11-12 已核对本机文件与云端图集均为当前成品，云端保留一条。 [当前安装记录](preview/current-installation-validation.json)
 
 ## 安装
 

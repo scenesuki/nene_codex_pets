@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\项目\\pet_2\\nene_victorian_lolita\\spritesheet.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -665,144 +665,131 @@
       "row": 9,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 13725,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13085,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13454,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13235,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 13446,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13210,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 13525,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13154,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 13418,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13051,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 13404,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13126,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 13349,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13222,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 13147,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13044,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 13395,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12792,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13419,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12839,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 13389,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12886,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 13360,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12826,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 13326,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12789,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 13226,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12793,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 13216,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12792,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 12971,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12719,
+      "opaque_chroma_key_pixels": 0
     }
-  ]
+  ],
+  "spritesheet_sha256": "967751cd6e575ab67d283e1c1adca02cb75780f144273a15d82e356ac476d308",
+  "checked_on": "2026-11-07",
+  "revision": "若优化，优先整理眼睛与胸前结饰轮廓，不以锐化或堆花纹增加精细度。 本轮已按此方向局部修订，待用户验收。"
 }

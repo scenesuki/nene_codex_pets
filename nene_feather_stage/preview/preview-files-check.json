@@ -1,70 +1,31 @@
 {
   "ok": true,
+  "checked_on": "2026-11-06",
+  "spritesheet_sha256": "85beb3b031a47048453ec583882c69d2b76d8ad05ca0606d2b8eeeb9318f1e1d",
   "files": [
     {
-      "file": "idle.gif",
-      "frames": 6,
+      "file": "animation-overview.gif",
+      "frames": 17,
       "durations_ms": [
-        280,
-        110,
-        110,
-        140,
-        140,
-        320
+        240,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        120,
+        60,
+        60,
+        120,
+        60,
+        120,
+        60,
+        60,
+        120,
+        300
       ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "running-right.gif",
-      "frames": 8,
-      "durations_ms": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        120,
-        120,
-        220
-      ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "running-left.gif",
-      "frames": 8,
-      "durations_ms": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        120,
-        120,
-        220
-      ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "waving.gif",
-      "frames": 4,
-      "durations_ms": [
-        140,
-        140,
-        140,
-        280
-      ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "jumping.gif",
-      "frames": 5,
-      "durations_ms": [
-        140,
-        140,
-        140,
-        140,
-        280
-      ],
+      "sha256": "32b25cc50dc76f3bc428bc41f901e717e6ce3643efff3d93b9a0ed26a8109e22",
       "all_frames_decoded": true
     },
     {
@@ -80,45 +41,34 @@
         140,
         240
       ],
+      "sha256": "3c1c756c53974c44df9e6142506f303e56aaff4739edf0a6f374442a22e28a11",
       "all_frames_decoded": true
     },
     {
-      "file": "waiting.gif",
+      "file": "idle.gif",
       "frames": 6,
       "durations_ms": [
-        150,
-        150,
-        150,
-        150,
-        150,
-        260
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
       ],
+      "sha256": "8779a0ab38dbb7b21490844aa14054d642a47070f2e4e8b605fa8787dd518441",
       "all_frames_decoded": true
     },
     {
-      "file": "running.gif",
-      "frames": 6,
+      "file": "jumping.gif",
+      "frames": 5,
       "durations_ms": [
-        120,
-        120,
-        120,
-        120,
-        120,
-        220
-      ],
-      "all_frames_decoded": true
-    },
-    {
-      "file": "review.gif",
-      "frames": 6,
-      "durations_ms": [
-        150,
-        150,
-        150,
-        150,
-        150,
+        140,
+        140,
+        140,
+        140,
         280
       ],
+      "sha256": "46981d3f2795bebdf5ab273ff8b0432173414391bf0daaaceab2673076adb8f5",
       "all_frames_decoded": true
     },
     {
@@ -142,13 +92,96 @@
         200,
         200
       ],
+      "sha256": "dad924746370d4d998e173d004035100d393ac0d111b43b89a17ad4dc687066b",
       "all_frames_decoded": true
     },
     {
-      "file": "animation-overview.gif",
-      "frames": 17,
-      "duration_ms": 1680,
+      "file": "review.gif",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "sha256": "ffd28c12284324ae7ffcc60201e188979a475ff482e45d2b8887c20c8d783352",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "running-left.gif",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "5d3c0a3bbc25213c88d85d11bfe8651c742eebb6ce8d991a48c1bd999d050991",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "running-right.gif",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "1dac01a0aff6e6a5046427823db56c200f10529a4e088d3dd499f6540731c088",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "running.gif",
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "sha256": "036ccedd8a03be28f1c0d0e11e53786ebec3b4e5108a835c62a1d33390ab47ea",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "waiting.gif",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "sha256": "942a5f23f690450177cc1287f8f209f5f03877e5f1320be0cad9da89066c4b3d",
+      "all_frames_decoded": true
+    },
+    {
+      "file": "waving.gif",
+      "frames": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "sha256": "9a9674927e811323a45d13564cb0c5d5568e3135cc1435d76565f362f9d831ed",
       "all_frames_decoded": true
     }
-  ]
+  ],
+  "live_gif_playback_verified": false,
+  "application_ui_verified": false
 }

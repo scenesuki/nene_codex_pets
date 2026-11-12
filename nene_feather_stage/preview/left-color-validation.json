@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "checked_on": "2026-11-06",
+  "pet_id": "nene_feather_stage",
+  "spritesheet_sha256": "85beb3b031a47048453ec583882c69d2b76d8ad05ca0606d2b8eeeb9318f1e1d",
+  "changed_cells": [
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ]
+  ],
+  "rgb_only": true,
+  "all_atlas_alpha_bytes_identical": true,
+  "approved_motion_geometry_preserved": true,
+  "left_frame_bounds_unchanged": true,
+  "other_80_cells_pixel_identical": true,
+  "other_18_pet_atlas_hashes_unchanged": true,
+  "motion_user_review_status": "approved",
+  "motion_user_review_confirmed_on": "2026-11-06",
+  "color_user_review_status": "approved",
+  "overall_user_review_status": "approved",
+  "color_measurements": {
+    "hair": {
+      "before_median_rgb": [
+        187.0,
+        189.0,
+        176.0
+      ],
+      "reference_right_median_rgb": [
+        201.0,
+        209.0,
+        191.0
+      ],
+      "after_median_rgb": [
+        201.0,
+        208.0,
+        190.0
+      ],
+      "requested_rgb_delta": [
+        14.0,
+        20.0,
+        15.0
+      ],
+      "before_sample_distance_rgb": 28.653097563788805,
+      "after_sample_distance_rgb": 1.4142135623730951
+    },
+    "teal": {
+      "before_median_rgb": [
+        39,
+        98,
+        103
+      ],
+      "reference_right_median_rgb": [
+        37.0,
+        115.0,
+        123.0
+      ],
+      "after_median_rgb": [
+        37,
+        115,
+        123
+      ],
+      "requested_rgb_delta": [
+        -2.0,
+        17.0,
+        20.0
+      ],
+      "before_sample_distance_rgb": 26.324893162176366,
+      "after_sample_distance_rgb": 0.0
+    }
+  },
+  "frame_duration_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "pets_service_preflight": {
+    "valid": true,
+    "file_size_bytes": 2304546,
+    "mime_type": "image/webp",
+    "width": 1536,
+    "height": 2288,
+    "sprite_version": 2,
+    "cell_width": 192,
+    "cell_height": 208,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "errors": []
+  },
+  "protected_material_hashes_verified": 168,
+  "local_links_checked": 119,
+  "installed_color_revision": true,
+  "cloud_color_revision_updated": true,
+  "live_gif_playback_verified": false,
+  "application_ui_verified": false,
+  "published": false,
+  "method": "Continuous RGB mapping to measured original right-run hair/teal palette; same transform across 8 frames; no redraw, extraction, resizing or alpha edits",
+  "imagegen_attempt": "Rejected due to invalid output background; not used in final colors or geometry",
+  "limitations": [
+    "User review approved; application playback has not been independently tested by agent",
+    "Inherited extra idle neutral cell retained; v2.0.0 Release still contains the prior published version"
+  ],
+  "color_user_review_confirmed_on": "2026-11-06",
+  "overall_user_review_confirmed_on": "2026-11-06",
+  "current_installation_record": "current-installation-validation.json",
+  "cloud_rgba_pixels_match_workspace": true
+}

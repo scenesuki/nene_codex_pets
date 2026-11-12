@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\项目\\pet_2\\nene_classical_lolita\\spritesheet.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -89,144 +89,128 @@
       "row": 1,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 13909,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13317,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13402,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12807,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 14653,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13968,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 13349,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12843,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 14170,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13571,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 13269,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12799,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 14698,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14001,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-right",
       "row": 1,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 13812,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13177,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 14191,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13614,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13048,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12661,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 14112,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13480,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 13127,
-      "opaque_chroma_key_pixels": 1,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12827,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 14153,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13520,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 12955,
-      "opaque_chroma_key_pixels": 1,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12602,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 14167,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 13560,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 13187,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12685,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "waving",
@@ -665,144 +649,131 @@
       "row": 9,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 15276,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14392,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 15474,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14591,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 15540,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14672,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 15539,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14686,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 15595,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14736,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 15583,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14692,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 15451,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14565,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-000-to-157.5",
       "row": 9,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 15272,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14373,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 16314,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 15341,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 16056,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 15104,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 16067,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 15138,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 16160,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 15202,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 15752,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14805,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 15857,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 14938,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 16063,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 15148,
+      "opaque_chroma_key_pixels": 0
     },
     {
       "state": "look-180-to-337.5",
       "row": 10,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 16062,
-      "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 15158,
+      "opaque_chroma_key_pixels": 0
     }
-  ]
+  ],
+  "spritesheet_sha256": "b82ca1ffc9b5d222e0458ad0ec306b42508d1f09775799bf45aafbd7011038c9",
+  "checked_on": "2026-11-07",
+  "revision": "保留，后续只复核跑动发束阴影与站定帧的协调。 本轮已按此方向局部修订，待用户验收。"
 }

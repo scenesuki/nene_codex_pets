@@ -6,6 +6,8 @@
 
 **宁宁 · 猫耳旅装** · ID `nene_cat_traveler` · 9种动画 · 16个注视方向
 
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
 - **服饰要素**：米黄浅绿猫耳贝雷帽、灰绿长发与肩前短辫、侧发卡；蓝紫领结、奶油衬衫、薄荷青短袖披肩夹克及金扣浅绿翻领；浅柠檬绿七分灯笼裤配奶油弧线滚边与城市剪影纹、橙色结和深蓝格纹荷叶裤口；绿色长袜、橙色鞋结与奶油厚底鞋，单侧挎包。
 - **画风**：Q版日系插画，紧凑头身、短腿与轻幅动作。
 - **参考卡面**：4星「憧れを焼き付けて」特训后；原色衣装「アスピリング・トリッパー」。
@@ -16,7 +18,13 @@
 
 导入文件：[pet.json](pet.json) · [spritesheet.webp](spritesheet.webp)。
 
-[下载 v2.0.0 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/SHA256SUMS.txt)。本套已收录于该版本；历史名称见[命名对照](../PET_NAMES.md)。
+2026-11-07 全量复审后修订：重制左跑四阶段支撑交替，保留猫耳帽、双裤腿纹样、挎包与鞋饰。 本轮修改8格，其余格与待机头像未变。[当前校验](preview/round2-validation.json)。此前 refinement/jump-transition 校验为历史快照；工作区成品已更新，应用内播放尚未实测，待用户确认。
+
+2026-11-06 连续优化：统一16方向注视帧的尺度与脚底锚点，增加猫耳帽顶部余量；步态偏脚候选保留待动态确认，本轮不改跑步。 [本轮校验](preview/refinement-validation.json)。工作区成品已更新，待用户验收；该轮修订晚于已发布合集。此前跳跃、安装及更名校验为历史记录，以本轮成品哈希为准。
+
+[下载 v2.0.1 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/SHA256SUMS.txt)。
+
+2026-11-12 已核对本机文件与云端图集均为当前成品，云端保留一条。 [当前安装记录](preview/current-installation-validation.json)
 
 ## 安装
 
@@ -27,6 +35,8 @@
 <details>
 <summary>规格与验收</summary>
 
+- 2026-11-07–08画风与精细度修订：左跑减轻深灰轮廓及发丝灰褐阴影，细化裤腿印花和挎包，保留两侧支撑交替。 [当前修订校验](preview/style-fix-validation.json)记录本轮图集哈希与修改格；旧验收为历史记录。已检查静态帧序列与文件，应用内播放及用户验收待确认。
+
 **验证范围**：文件及预览检查已有记录；Codex 设置识别、桌面浮动显示与应用内动态播放尚未实测。兼容依据和已知限制如下。
 
 - Codex原生v2，无损RGBA WebP，1536×2288、8列11行、单格192×208，`spriteVersionNumber: 2`。
@@ -35,7 +45,7 @@
 - 各动作从原始生成图一次裁切缩放，每行统一比例，最大人物高度190px、落地基线203px；小跳离地0/4/8/4/0px。见[动作定位记录](preview/standard-registration.json)。左右移动分别生成，保留单侧挎包、侧发卡与衣装细节，不使用镜像替代。
 - 两行注视从000°正上方开始，每22.5°顺时针变化；090°屏幕右、180°下、270°屏幕左。十六方向均通过语义复核。
 - [图集校验](validation.json)、[标准动作验收](preview/standard-visual-qa.json)、[最终视觉验收](preview/final-visual-qa.json)、[方向盲审](preview/direction-blind-validation.json)、[逐方向语义](preview/direction-semantics.json)与[连续性](preview/look-continuity.json)记录实际检查结果。
-- 已接受的细微限制：左跑支撑角色为一帧A、三帧B，接触节奏稍不均匀，但确实交换双脚；跨行注视的帽顶及头发轮廓有高度差，属于局部外观变化；身体与脚锚点保持稳定；部分相邻注视角度差异较细微，仍保持正确方向；少量发丝、衣褶细节变化及GIF调色板边缘颗粒不影响角色辨识。
+- 历史验收记录（左跑已于2026-11-07重制）：原左跑支撑角色为一帧A、三帧B；跨行注视的帽顶及头发轮廓有高度差，属于局部外观变化；身体与脚锚点保持稳定；部分相邻注视角度差异较细微，仍保持正确方向；少量发丝、衣褶细节变化及GIF调色板边缘颗粒不影响角色辨识。
 - [加载算法检查](preview/app-loader-validation.json)重放对应版本应用的图片、版本与路径验证函数；[预览文件检查](preview/preview-files-check.json)逐帧解码全部GIF，静态小图逐像素来自最终待机首帧。
 - [README排版检查](preview/readme-layout-check.json)：首页与本页在1280px桌面和390px窄屏下的静态图、页面宽度及折叠交互已有验证记录；尚未核对GitHub线上渲染。
 

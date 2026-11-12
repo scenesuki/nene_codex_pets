@@ -6,6 +6,8 @@
 
 **宁宁 · 紫夜哥特** · ID `nene_gothic_couture` · 9种动画 · 16个注视方向
 
+> **视线跟随提示（2026-11-06）**：当前已核验的 Codex 官方版本尚未正常支持宠物跟随日常鼠标移动。本项目已提供 16 个注视方向素材，但不代表实际使用时会自动跟随鼠标；该问题位于应用端，并非素材缺失。详见[官方仓库反馈 #33224](https://github.com/openai/codex/issues/33224)。
+
 - **服饰要素**：紫黑荷叶发箍与玫瑰结饰、灰绿长发与系带前发；黑色领饰与手套、紫色泡肩长袖收腰上衣、细腰带与背后蝴蝶结；藏蓝竖纹中央裙片、紫色卷纹侧片、星形垂链、灰色下裙边和黑蕾丝；灰色长袜与紫色T字系带低跟礼鞋。
 - **画风**：Q版日系插画，紧凑头身、短腿比例与轻幅动作。
 - **参考卡面**：4星「ステップに想いをのせて」特训后；原色衣装「シェリール・オートクチュール」。
@@ -16,7 +18,13 @@
 
 导入文件：[pet.json](pet.json) · [spritesheet.webp](spritesheet.webp)。
 
-[下载 v2.0.0 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/nene_codex_pets-v2.0.0.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.0/SHA256SUMS.txt)。本套已收录于该版本；历史名称见[命名对照](../PET_NAMES.md)。
+2026-11-12 整套重绘。以特训后卡面的温柔神态和原色衣装模型为依据，重画角色、九种动作和十六方向注视。站姿恢复睁眼浅笑，收腰与钟形裙层次更清楚。等待用伸掌邀请，专注用指尖轻点手心，审视用扶下巴偏头区分。 [重绘记录](preview/redesign-validation.json)
+
+根据用户反馈，左右走路的全部帧已重绘为小幅步态，双脚靠近身体，脚跟轻抬，手臂在身侧轻摆。当前成品待用户确认。 [步态修订校验](preview/quiet-walk-validation.json)
+
+[下载 v2.0.1 十九套合集](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/nene_codex_pets-v2.0.1.zip) · [SHA-256 校验和](https://github.com/scenesuki/nene_codex_pets/releases/download/v2.0.1/SHA256SUMS.txt)。
+
+2026-11-12 已核对本机文件与云端图集均为当前成品，云端保留一条。 [当前安装记录](preview/current-installation-validation.json)
 
 ## 安装
 
@@ -27,17 +35,17 @@
 <details>
 <summary>规格与验收</summary>
 
+- 重绘校验覆盖全部73个必需格及额外待机参考格。小幅步态重绘后已复核16个替换格、原尺寸留边和12个GIF。此前文件及安装记录对应各自版本。 [当前校验](preview/quiet-walk-validation.json)
+
 **验证范围**：文件及预览检查已有记录；Codex 设置识别、桌面浮动显示与应用内动态播放尚未实测。兼容依据和已知限制如下。
 
 - Codex原生v2，无损RGBA WebP，1536×2288、8列11行、单格192×208，`spriteVersionNumber: 2`。
 - [应用规格依据](preview/app-contract-verification.json)：2026-10-21只读核对Codex 26.1016.6573.0实际安装包的加载与渲染代码。
 - 九状态：待机、向右移动、向左移动、招手、小跳、失落、等待回应、专注处理中、审视；帧数6/8/8/4/5/8/6/6/6。
-- 从各行原始生成图裁切，同行统一缩放、稳定脚底基线；小跳离地0/4/8/4/0px，见[动作定位记录](preview/standard-registration.json)。左右移动分别生成，保留服饰细节与原有位置。
-- 注视从000°正上方开始，每22.5°顺时针变化；090°屏幕右、180°下、270°屏幕左，见[实际映射依据](preview/current-look-runtime-verification.json)。四基准方向、两行逐方向和跨行连续性均经检查。
-- 注视定位直接使用待机首帧几何，保持脚底基线一致，见[配准说明](preview/registration-strategy-resolution.json)。
-- [图集校验](validation.json)、[标准动作验收](preview/standard-visual-qa.json)、[最终视觉验收](preview/final-visual-qa.json)、[方向盲审](preview/direction-blind-validation.json)、[逐方向语义](preview/direction-semantics.json)与[连续性](preview/look-continuity.json)记录实际检查结果。
-- 已接受的细微限制：左移动作为偏侧碎步，实际A／双平／B／双平／B／双平／B／双平，不能描述为均匀交替跑步；接近正上或正下的对角方向水平分量稍强，部分相邻方向变化细微，但全部四正向与对角象限正确；337.5至000的头部转正稍明显，完整循环未出现重大定位或尺度突跳；专注与审视都采用克制站姿，依靠手位和低头区分，实际尺寸下差异较含蓄；细小花边、发丝和链饰在不同姿态略有变化，整体造型与人物比例一致。
-- [加载算法检查](preview/app-loader-validation.json)重放当前应用实际图片、版本及路径验证函数；[预览文件检查](preview/preview-files-check.json)逐帧解码全部GIF，静态小图逐像素来自待机首帧。
+- 按原始素材组等比缩放，站姿鞋底定位在同一高度。左右移动各有四个步态姿势，重复组成八格。小跳首尾复用新待机首帧，最高点鞋底上移8px。 [跳跃衔接](preview/jump-transition.gif)
+- 注视从000°正上方开始，每22.5°顺时针变化，090°屏幕右、180°下、270°屏幕左。正上方单独重绘，正下方保持睁眼。部分相邻方向差异较细，正上方抬眼幅度较明显，衔接观感待确认。 [方向检查图](preview/look-directions.png) · [应用映射依据](preview/current-look-runtime-verification.json)
+- 文件校验与原尺寸静态序列检查已完成。左右移动的循环节奏和注视切换待应用内验收。 [图集校验](validation.json)
+- 重绘前记录包括[左移修订](preview/refinement-validation.json)、[画风修订](preview/style-fix-validation.json)、[原视觉验收](preview/final-visual-qa.json)和[原加载检查](preview/app-loader-validation.json)。
 
 - 制作时的 [README 排版检查](preview/readme-layout-check.json)记录桌面与窄屏检查结果。
 

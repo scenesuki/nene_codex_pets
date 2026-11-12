@@ -1,34 +1,18 @@
 {
   "ok": true,
-  "operation": "install_all_local_and_cloud",
-  "installed": true,
-  "installed_at": "2026-10-22T08:24:59.8469464Z",
-  "checked_at": "2026-10-22T08:31:14.442Z",
+  "checked_on": "2026-11-12",
   "pet_id": "nene_school_uniform",
   "display_name": "宁宁 · 学院制服",
-  "package_directory": "C:\\Users\\tieha\\.codex\\pets\\nene_school_uniform",
-  "package_files": [
-    "pet.json",
-    "spritesheet.webp"
-  ],
-  "directory_absent": false,
+  "installed": true,
+  "operation": "verified_existing",
   "source_files_match": true,
-  "sprite_version": 2,
-  "decoded_dimensions": {
-    "width": 1536,
-    "height": 2288
-  },
   "manifest_sha256": "d8bf58f347943c92eb72d8fca057a71b21379dbe4ad94860a81562088d2edc15",
   "spritesheet_sha256": "ec9c83870d127f707a5223d12067c0ae062fc7ece63b782ac9e0c7e4883d2b46",
-  "cloud_pet_id": "pet_6ad9c966b5188191b3edd20916230401",
-  "cloud_sprite_preflight_valid": true,
-  "cloud_creation_confirmed": true,
-  "cloud_metadata_verified": true,
-  "cloud_collection_nene_count": 18,
+  "cloud_matching_pet_count": 1,
   "cloud_duplicate_names": false,
-  "active_pet_preserved": true,
-  "selection_settings_modified": false,
+  "cloud_rgba_pixels_match_workspace": true,
+  "cloud_download_sha256": "c6ae8efa9dbee658368c7f0c040ebec92c9815d38541819be574946e4097bf60",
+  "cloud_creation_confirmed": false,
   "application_ui_detection_verified": false,
-  "floating_display_verified": false,
-  "method": "Exact current workspace files copied to local pets directory and SHA-256 verified; exact atlas passed Pets preflight and upload session creation; complete cloud inventory read back."
+  "floating_display_verified": false
 }

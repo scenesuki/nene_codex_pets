@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\项目\\pet_2\\nene_circus_stage\\spritesheet.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -305,45 +305,45 @@
       "row": 4,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 8787,
+      "nontransparent_pixels": 12809,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 10366,
-      "opaque_chroma_key_pixels": 1,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 12414,
+      "opaque_chroma_key_pixels": 0,
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 11652,
-      "opaque_chroma_key_pixels": 1,
-      "chroma_fringe_pixels": 0
+      "nontransparent_pixels": 11502,
+      "opaque_chroma_key_pixels": 0,
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 10874,
+      "nontransparent_pixels": 12488,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 9796,
+      "nontransparent_pixels": 12809,
       "opaque_chroma_key_pixels": 0,
-      "chroma_fringe_pixels": 0
+      "alpha_edge_native_size_review": "reviewed; disconnected generation speckles removed"
     },
     {
       "state": "jumping",
@@ -804,5 +804,8 @@
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     }
-  ]
+  ],
+  "checked_on": "2026-11-07",
+  "spritesheet_sha256": "a68a5376c010f97be254a88eac8e8991f56fc37c82a6438d6e7f24f331605287",
+  "revision": "减少重复细卷线，按待机重整胸前装饰与袖口边线，不改手杖和红袜设定。 本轮已按此方向局部修订，待用户验收。"
 }

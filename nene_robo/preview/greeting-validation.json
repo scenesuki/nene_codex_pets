@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "pet_id": "nene_robo",
+  "checked_on": "2026-11-06",
+  "spritesheet_sha256": "ef4a5eba4177e89223016cac11d510385eccfeb4972cdb75d1f05083b8e1ef55",
+  "changed_cells": [
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "other_83_cells_pixel_identical": true,
+  "other_18_pet_atlas_hashes_unchanged": true,
+  "first_last_frames_match_idle_exactly": true,
+  "shoe_baseline_bottom_exclusive": [
+    203,
+    203,
+    203,
+    203,
+    203
+  ],
+  "frame_duration_ms": [
+    140,
+    140,
+    140,
+    140,
+    280
+  ],
+  "greeting_total_duration_ms": 840,
+  "native_size_static_review": "open violet eyes in all five frames; same hand raised; both feet grounded; full silhouette inside cells",
+  "old_protected_material_hashes_verified": 111,
+  "current_material_hashes_verified": 123,
+  "local_links_checked": 106,
+  "user_review_status": "approved",
+  "installed_revision": true,
+  "uploaded_to_pet_cloud": true,
+  "uploaded_to_github": false,
+  "published_revision": false,
+  "application_ui_verified": false,
+  "live_gif_playback_verified": false,
+  "limitations": [
+    "Browser file URL blocked by policy; static frames and decoded GIF timings checked",
+    "Recorded installed app archive not accessible; current app compatibility not reverified",
+    "v2.0.0 Release download remains the previous revision"
+  ],
+  "contract_reference": "app-contract-verification.json",
+  "current_installation_record": "current-installation-validation.json",
+  "historical_records": [
+    "app-loader-validation.json",
+    "rename-validation.json",
+    "visual-qa.json"
+  ],
+  "user_review_confirmed_on": "2026-11-06"
+}

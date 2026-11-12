@@ -9,7 +9,7 @@ class ReleaseDocumentsTest(unittest.TestCase):
         self.root=self.base/('test-'+uuid.uuid4().hex)
         assert self.root.resolve().is_relative_to(self.base.resolve())
         self.root.mkdir()
-        self.names=['README.md','NOTICE.md','AGENTS.md','PET_NAMES.md']+[
+        self.names=['README.md','NOTICE.md','AGENTS.md']+[
             'pet/'+name for name in ['pet.json','spritesheet.webp','README.md','NOTICE.md','validation.json','preview/README.md']]
         for name in self.names:
             file=self.root/name
@@ -29,8 +29,11 @@ class ReleaseDocumentsTest(unittest.TestCase):
     def test_accepts_all_linked_root_documents(self):
         self.assertTrue(verify_release(self.root,self.package(self.names))['ok'])
 
-    def test_rejects_missing_naming_guide(self):
-        with self.assertRaisesRegex(AssertionError,'Missing or unexpected'):
-            verify_release(self.root,self.package([n for n in self.names if n!='PET_NAMES.md']))
+    def test_rejects_local_only_documents(self):
+        for name in ('PET_NAMES.md','REVIEW_PLAN.md'):
+            with self.subTest(name=name):
+                (self.root/name).write_text('local only',encoding='utf-8')
+                with self.assertRaisesRegex(AssertionError,'Missing or unexpected'):
+                    verify_release(self.root,self.package(self.names+[name]))
 
 if __name__=='__main__':unittest.main()

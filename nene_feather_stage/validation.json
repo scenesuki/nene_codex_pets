@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "D:\\项目\\pet_2\\nene_feather_stage\\spritesheet.webp",
+  "file": "spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -161,7 +161,7 @@
       "row": 2,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 15204,
+      "nontransparent_pixels": 13841,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -170,7 +170,7 @@
       "row": 2,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13936,
+      "nontransparent_pixels": 14033,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -179,7 +179,7 @@
       "row": 2,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 14682,
+      "nontransparent_pixels": 13283,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -188,7 +188,7 @@
       "row": 2,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 15917,
+      "nontransparent_pixels": 14001,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -197,7 +197,7 @@
       "row": 2,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 14336,
+      "nontransparent_pixels": 13571,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -206,7 +206,7 @@
       "row": 2,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 14680,
+      "nontransparent_pixels": 13422,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -215,7 +215,7 @@
       "row": 2,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 14809,
+      "nontransparent_pixels": 13356,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -224,7 +224,7 @@
       "row": 2,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 15226,
+      "nontransparent_pixels": 13374,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -804,5 +804,19 @@
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     }
-  ]
+  ],
+  "checked_on": "2026-11-06",
+  "sha256": "85beb3b031a47048453ec583882c69d2b76d8ad05ca0606d2b8eeeb9318f1e1d",
+  "encoded_bytes": 2304546,
+  "scope": "RGB-only hair/teal correction; exact original Alpha, geometry and other 80 cells retained; current Pets service structural preflight valid",
+  "auxiliary_chatgpt_script_passed": false,
+  "auxiliary_chatgpt_script_errors_unchanged_from_baseline": [
+    "idle row 0 unused column 6 is not transparent (13892 pixels)"
+  ],
+  "application_ui_verified": false,
+  "motion_user_review_status": "approved",
+  "motion_user_review_confirmed_on": "2026-11-06",
+  "color_user_review_status": "approved",
+  "user_review_status": "approved",
+  "user_review_confirmed_on": "2026-11-06"
 }
